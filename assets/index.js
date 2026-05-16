@@ -76,12 +76,22 @@
       const offset = index * (imageWidth + gap);
 
       track.style.transform = `translateX(-${offset}px)`;
-      prevButton.disabled = index === 0;
-      nextButton.disabled = index >= maxIndex;
+      const canLoop = images.length > visible;
+      prevButton.disabled = !canLoop;
+      nextButton.disabled = !canLoop;
     }
 
     function goTo(newIndex) {
-      index = Math.max(0, Math.min(newIndex, getMaxIndex()));
+      const maxIndex = getMaxIndex();
+      if (maxIndex <= 0) {
+        index = 0;
+      } else if (newIndex < 0) {
+        index = maxIndex;
+      } else if (newIndex > maxIndex) {
+        index = 0;
+      } else {
+        index = newIndex;
+      }
       updateGallery();
     }
 
@@ -172,13 +182,13 @@
         if (event.key === "ArrowRight") {
           event.preventDefault();
           const nextIndex = (imgIndex + 1) % images.length;
-          goTo(Math.min(nextIndex, getMaxIndex()));
+          goTo(nextIndex > getMaxIndex() ? 0 : nextIndex);
           images[nextIndex].focus();
         }
         if (event.key === "ArrowLeft") {
           event.preventDefault();
           const prevIndex = (imgIndex - 1 + images.length) % images.length;
-          goTo(Math.max(0, Math.min(prevIndex, getMaxIndex())));
+          goTo(prevIndex > getMaxIndex() ? getMaxIndex() : prevIndex);
           images[prevIndex].focus();
         }
         if (event.key === "Home") {
@@ -1529,7 +1539,16 @@
     loadA11yPrefs();
     document.querySelectorAll(".gallery-clean").forEach(initCleanGallery);
 
-    setLanguage(localStorage.getItem("dom_latarnika_lang") || "pl");
+    function getDefaultLanguage() {
+      const saved = localStorage.getItem("dom_latarnika_lang");
+      if (saved) return saved;
+      const browserLang = (navigator.language || navigator.userLanguage).toLowerCase();
+      if (browserLang.startsWith("de")) return "de";
+      if (browserLang.startsWith("pl")) return "pl";
+      return "en";
+    }
+
+    setLanguage(getDefaultLanguage());
     applyA11yPrefs();
     syncMenuState();
     showSlide(0);
