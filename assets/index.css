@@ -881,10 +881,14 @@
       transition:transform .4s ease,box-shadow .4s ease;
     }
     .local-area-action-icon img{
-      width:100%;
-      height:100%;
+      display:block;
+      width:118%;
+      height:118%;
       object-fit:cover;
-      transform:scale(1.02);
+      object-position:center;
+      border-radius:50%;
+      clip-path:circle(50% at 50% 50%);
+      transform:scale(1);
       transition:transform .45s ease;
     }
     .local-area-action-card:hover .local-area-action-icon{
@@ -892,7 +896,7 @@
       box-shadow:0 16px 30px rgba(14,40,64,.16);
     }
     .local-area-action-card:hover .local-area-action-icon img{
-      transform:scale(1.12);
+      transform:scale(1.07);
     }
     .local-area-action-card h3{
       margin:0 0 8px;
