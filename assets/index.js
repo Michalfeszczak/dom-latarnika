@@ -24,8 +24,19 @@
     }
   }
 
+  function shuffleArray(items) {
+    const copy = [...items];
+    for (let i = copy.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+  }
+
   function initCleanGallery(gallery) {
     const track = gallery.querySelector(".gallery-clean-track");
+    const shuffledImages = shuffleArray(Array.from(track.querySelectorAll("img")));
+    track.replaceChildren(...shuffledImages);
     const images = Array.from(track.querySelectorAll("img"));
     const prevButton = gallery.querySelector(".gallery-clean-prev");
     const nextButton = gallery.querySelector(".gallery-clean-next");
