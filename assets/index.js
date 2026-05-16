@@ -1548,6 +1548,58 @@
       return "en";
     }
 
+    function initTestimonialCarousel() {
+      const carousel = document.getElementById("testimonials-carousel");
+      const dotsContainer = document.getElementById("carousel-dots");
+
+      if (!carousel) return;
+
+      const cards = Array.from(carousel.querySelectorAll(".testimonial-card"));
+      let currentIndex = 0;
+      let autoRotateInterval;
+
+      function createDots() {
+        cards.forEach((_, i) => {
+          const dot = document.createElement("button");
+          dot.className = `carousel-dot ${i === 0 ? "active" : ""}`;
+          dot.setAttribute("aria-label", `Opinia ${i + 1}`);
+          dot.onclick = () => {
+            goToSlide(i);
+            resetAutoRotate();
+          };
+          dotsContainer.appendChild(dot);
+        });
+      }
+
+      function goToSlide(index) {
+        currentIndex = index % cards.length;
+        updateCarousel();
+      }
+
+      function updateCarousel() {
+        cards.forEach((card, i) => {
+          card.classList.toggle("active", i === currentIndex);
+        });
+        document.querySelectorAll(".carousel-dot").forEach((dot, i) => {
+          dot.classList.toggle("active", i === currentIndex);
+        });
+      }
+
+      function autoRotate() {
+        goToSlide((currentIndex + 1) % cards.length);
+      }
+
+      function resetAutoRotate() {
+        clearInterval(autoRotateInterval);
+        autoRotateInterval = setInterval(autoRotate, 5000);
+      }
+
+      createDots();
+      updateCarousel();
+      autoRotateInterval = setInterval(autoRotate, 5000);
+    }
+
+    initTestimonialCarousel();
     setLanguage(getDefaultLanguage());
     applyA11yPrefs();
     syncMenuState();

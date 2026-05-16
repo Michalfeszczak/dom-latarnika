@@ -165,14 +165,23 @@
 
         <div class="usp-grid">
           <article class="card usp-card" data-reveal>
+            <span class="usp-icon" aria-hidden="true">
+              <img src="img/usp-family.png" alt="">
+            </span>
             <h3 data-i18n="usp1_title">Rodzinnie</h3>
             <p data-i18n="usp1_text">Komfortowe pokoje i spokojna okolica sprzyjają wypoczynkowi z dziećmi.</p>
           </article>
           <article class="card usp-card" data-reveal>
+            <span class="usp-icon" aria-hidden="true">
+              <img src="img/usp-group.png" alt="">
+            </span>
             <h3 data-i18n="usp2_title">Grupowo</h3>
             <p data-i18n="usp2_text">Dobre rozwiązanie dla grup, wyjazdów integracyjnych i dłuższych pobytów.</p>
           </article>
           <article class="card usp-card" data-reveal>
+            <span class="usp-icon" aria-hidden="true">
+              <img src="img/usp-sea.png" alt="">
+            </span>
             <h3 data-i18n="usp3_title">Nad morzem</h3>
             <p data-i18n="usp3_text">Bliskość plaży i nadmorski klimat tworzą idealne warunki do odpoczynku.</p>
           </article>
@@ -282,16 +291,75 @@
     <!-- Śniadania -->
     <section class="section-soft" id="sniadania">
       <div class="container">
-        <div class="split">
-          <article class="card content-card" data-reveal>
+        <div class="breakfast-layout">
+          <div class="breakfast-content" data-reveal>
             <span class="section-kicker" data-i18n="breakfast_kicker">Śniadania</span>
             <h2 class="section-title" data-i18n="breakfast_title">Dobry początek dnia</h2>
-            <p data-i18n="breakfast_text1">Śniadania serwujemy na miejscu w wygodnej formule — z półmiskami podawanymi do stolika oraz dodatkami w formie stołu szwedzkiego.</p>
-            <p data-i18n="breakfast_text2">W słoneczne poranki goście mogą skorzystać także z tarasu przed budynkiem.</p>
-          </article>
-          <article class="card photo-card" data-reveal>
-            <img src="img/486616818_1181172550679016_6062055738502168075_n.webp" alt="Taras przed Domem Latarnika">
-          </article>
+            <p class="breakfast-lead" data-i18n="breakfast_text1">Śniadania serwujemy na miejscu w wygodnej formule — z półmiskami podawanymi do stolika oraz dodatkami w formie stołu szwedzkiego.</p>
+            <p class="breakfast-sub" data-i18n="breakfast_text2">W słoneczne poranki goście mogą skorzystać także z tarasu przed budynkiem.</p>
+
+            <ul class="breakfast-features">
+              <li class="breakfast-feature">
+                <span class="breakfast-feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M8 22h32v16a4 4 0 0 1-4 4H12a4 4 0 0 1-4-4V22z"/>
+                    <path d="M8 22v-2a8 8 0 0 1 8-8h16a8 8 0 0 1 8 8v2"/>
+                    <line x1="16" y1="28" x2="16" y2="34"/>
+                    <line x1="24" y1="28" x2="24" y2="34"/>
+                    <line x1="32" y1="28" x2="32" y2="34"/>
+                  </svg>
+                </span>
+                <span class="breakfast-feature-label" data-i18n="breakfast_feat1">Stół szwedzki</span>
+              </li>
+
+              <li class="breakfast-feature">
+                <span class="breakfast-feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6 22C12 16 18 14 24 14C30 14 36 16 42 22"/>
+                    <path d="M12 28C16 24 20 22 24 22C28 22 32 24 36 28"/>
+                    <path d="M18 34C20 32 22 31 24 31C26 31 28 32 30 34"/>
+                    <circle cx="24" cy="38" r="1.5" fill="currentColor"/>
+                  </svg>
+                </span>
+                <span class="breakfast-feature-label" data-i18n="breakfast_feat2">Darmowe WiFi</span>
+              </li>
+
+              <li class="breakfast-feature">
+                <span class="breakfast-feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="24" cy="24" r="18"/>
+                    <path d="M20 32V16h6a4 4 0 0 1 0 8h-6"/>
+                  </svg>
+                </span>
+                <span class="breakfast-feature-label" data-i18n="breakfast_feat3">Darmowy parking</span>
+              </li>
+
+              <li class="breakfast-feature">
+                <span class="breakfast-feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M34 18h2a6 6 0 0 1 0 12h-2"/>
+                    <path d="M10 18h24v14a8 8 0 0 1-8 8H18a8 8 0 0 1-8-8V18z"/>
+                    <path d="M16 8c0 2 2 2 2 4s-2 2-2 4"/>
+                    <path d="M22 8c0 2 2 2 2 4s-2 2-2 4"/>
+                    <path d="M28 8c0 2 2 2 2 4s-2 2-2 4"/>
+                  </svg>
+                </span>
+                <span class="breakfast-feature-label" data-i18n="breakfast_feat4">Kawa & Herbata</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="breakfast-gallery" data-reveal>
+            <div class="breakfast-photo breakfast-photo-main">
+              <img src="img/486616818_1181172550679016_6062055738502168075_n.webp" alt="Taras przed Domem Latarnika" loading="lazy">
+            </div>
+            <div class="breakfast-photo breakfast-photo-small">
+              <img src="img/486548234_1181173617345576_6041155705819999559_n.webp" alt="Śniadanie w Domu Latarnika" loading="lazy">
+            </div>
+            <div class="breakfast-photo breakfast-photo-small">
+              <img src="img/486629061_1181173644012240_1149292593972555370_n.webp" alt="Stół szwedzki" loading="lazy">
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -416,6 +484,93 @@
             <p class="review-platform-desc" data-i18n="reviews_google_desc">Goście chętnie wracają za kameralną atmosferę, wygodę i bliskość morza.</p>
             <p class="review-score-action"><a class="button button-secondary" href="https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;url=/travel/search?gsas%3D1%26ts%3DEggKAggDCgIIAxocEhoSFAoHCOoPEAUYBhIHCOoPEAUYCBgCMgIQAA%26qs%3DMhNDZ29JajQ3ejhwYWlsZTFTRUFFOAI%26ap%3DugEHcmV2aWV3cw%26ictx%3D111%26biw%3D1102%26bih%3D559%26hl%3Dpl-DE%26ved%3D1t:203974&amp;ved=2ahUKEwiQq5G1w6SUAxWFRfEDHd9FDDEQxrkMegQIOhAG&amp;opi=89978449&amp;usg=AOvVaw2GDy37VHiZNxSQ_DmkbPm5" target="_blank" rel="noopener" aria-label="Zobacz opinie Google" data-i18n-aria-label="reviews_google_link_aria" data-i18n="reviews_open_button">Sprawdź opinie</a></p>
           </article>
+        </div>
+
+        <!-- Testimonials Carousel - Auto-rotating -->
+        <div class="testimonials-carousel-wrapper" data-reveal>
+          <div class="testimonials-carousel" id="testimonials-carousel">
+            <div class="testimonial-card active">
+              <p class="testimonial-quote">"Przemili właściciele, świetnie się z nimi rozmawiało. Wszystko zostało nam dokładnie wytłumaczone. Czysto, pełne wyposażenie i lokalizacja bardzo blisko morza."</p>
+              <div class="testimonial-meta"><strong>Klaudia</strong> • 10/10 • Booking</div>
+            </div>
+
+            <div class="testimonial-card">
+              <p class="testimonial-quote">"Bardzo miły pensjonat w świętnym punkcie Grzybowa - wszędzie blisko, a jednak w zaciszu. Właściciele przemili, pomocni, tworzą atmosferę tego miejsca."</p>
+              <div class="testimonial-meta"><strong>Jarnutzak</strong> • 10/10 • Booking</div>
+            </div>
+
+            <div class="testimonial-card">
+              <p class="testimonial-quote">"Bardzo mili i pomocni właściciele"</p>
+              <div class="testimonial-meta"><strong>Mateusz</strong> • 10/10 • Booking</div>
+            </div>
+
+            <div class="testimonial-card">
+              <p class="testimonial-quote">"Wszystko w porządku"</p>
+              <div class="testimonial-meta"><strong>Egor</strong> • 10/10 • Booking</div>
+            </div>
+
+            <div class="testimonial-card">
+              <p class="testimonial-quote">"Wszystko było cudownie, właściciele obiektu są przekochani i bardzo pomocni ❤️"</p>
+              <div class="testimonial-meta"><strong>Aniela</strong> • 10/10 • Booking</div>
+            </div>
+
+            <div class="testimonial-card">
+              <p class="testimonial-quote">"Właściciele bardzo mili, o wszystkim opowiedzieli, spokój, czystość, rewelacja, wszędzie bardzo blisko."</p>
+              <div class="testimonial-meta"><strong>Alina</strong> • 10/10 • Booking</div>
+            </div>
+
+            <div class="testimonial-card">
+              <p class="testimonial-quote">"Lokalizacja bardzo dobra, wszędzie blisko. Do plaży nie całe 10 minut spacerkiem. Właściciele mili i pomocni. Polecamy z całego serca."</p>
+              <div class="testimonial-meta"><strong>Wiktorija</strong> • 10/10 • Booking</div>
+            </div>
+
+            <div class="testimonial-card">
+              <p class="testimonial-quote">"Fajne miejsce do odpoczynku, cicha boczna uliczka, blisko plaży, bardzo czyściutko. Bardzo sympatyczni właściciele."</p>
+              <div class="testimonial-meta"><strong>Edyta</strong> • 10/10 • Booking</div>
+            </div>
+
+            <div class="testimonial-card">
+              <p class="testimonial-quote">"Obiekt godny odwiedzenia, bezpieczny. Mili, pomocni właściciele. Polecam ❤️"</p>
+              <div class="testimonial-meta"><strong>Roman</strong> • 10/10 • Booking</div>
+            </div>
+
+            <div class="testimonial-card">
+              <p class="testimonial-quote">"Właściciele są cudowni, zawsze służą pomocą. Wiele udogodnień: koce na plażę, parawany, rowery."</p>
+              <div class="testimonial-meta"><strong>Dominika</strong> • 10/10 • Booking</div>
+            </div>
+
+            <div class="testimonial-card">
+              <p class="testimonial-quote">"Przecudowne miejsce, wspaniali, pomocni i sympatyczni właściciele. Pokoje czyściutkie i śliczne. Z pewnością tu wrócę ❤️"</p>
+              <div class="testimonial-meta"><strong>Magda W.</strong> • ⭐⭐⭐⭐⭐ • Google</div>
+            </div>
+
+            <div class="testimonial-card">
+              <p class="testimonial-quote">"Bardzo mili Państwo. Byliśmy tam drugi raz i na pewno wrócimy. Bardzo czysty i zadbany apartament."</p>
+              <div class="testimonial-meta"><strong>Marcin Kawaler</strong> • ⭐⭐⭐⭐⭐ • Google</div>
+            </div>
+
+            <div class="testimonial-card">
+              <p class="testimonial-quote">"Weekend majowy - jesteśmy bardzo zadowoleni! Pokój przytulny, ładny. Pan właściciel bardzo miły i pomocny. Do dyspozycji koce, rowery!"</p>
+              <div class="testimonial-meta"><strong>Joanna R</strong> • ⭐⭐⭐⭐⭐ • Google</div>
+            </div>
+
+            <div class="testimonial-card">
+              <p class="testimonial-quote">"Bardzo wygodny pokój, duża łazienka, wygodne łóżko. Spokój w okolicy. Bardzo mili i pomocni Gospodarze. Polecam!"</p>
+              <div class="testimonial-meta"><strong>żaneta</strong> • ⭐⭐⭐⭐⭐ • Google</div>
+            </div>
+
+            <div class="testimonial-card">
+              <p class="testimonial-quote">"Dzieci zjadały ze smakiem wszystkie dania. Dania zmieniają się codziennie - świadczy to o świeżości. Domowa atmosfera, profesjonalna obsługa, smaczne dania!"</p>
+              <div class="testimonial-meta"><strong>Piotr Loska</strong> • ⭐⭐⭐⭐⭐ • Google</div>
+            </div>
+
+            <div class="testimonial-card">
+              <p class="testimonial-quote">"Mega miejscówka na odpoczynek. Pokoje czyściutkie, super wyposażone. Możliwość wypożyczenia roweru. Przecudowni Właściciele!"</p>
+              <div class="testimonial-meta"><strong>Uki Szczecin</strong> • ⭐⭐⭐⭐⭐ • Google</div>
+            </div>
+          </div>
+
+          <div class="carousel-dots" id="carousel-dots"></div>
         </div>
       </div>
     </section>
