@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A7D7D2"/>
+<stop offset="1" stop-color="#F0E1B4"/>
+</linearGradient>
+</defs>
+<rect width="1200" height="900" rx="36" fill="url(#bg)"/>
+<circle cx="960" cy="170" r="120" fill="#FFFFFF" fill-opacity="0.32"/>
+<circle cx="210" cy="720" r="180" fill="#FFFFFF" fill-opacity="0.16"/>
+<path d="M0 660C120 622 240 622 360 660C480 698 600 698 720 660C840 622 960 622 1080 660C1140 679 1170 688 1200 692V900H0V660Z" fill="#FFFFFF" fill-opacity="0.42"/>
+<path d="M0 738C120 702 240 702 360 738C480 774 600 774 720 738C840 702 960 702 1080 738C1140 756 1170 764 1200 768" stroke="#FFFFFF" stroke-opacity="0.72" stroke-width="6" stroke-linecap="round"/>
+<g opacity="0.9">
+<circle cx="152" cy="146" r="44" stroke="#173B59" stroke-width="8"/>
+<path d="M152 82V102M208 146H188M116 146H96M192 106L178 120M126 120L112 106" stroke="#173B59" stroke-width="8" stroke-linecap="round"/>
+<path d="M102 228C138 204 174 204 210 228C246 252 282 252 318 228" stroke="#173B59" stroke-width="8" stroke-linecap="round"/>
+<path d="M126 270C154 250 182 250 210 270C238 290 266 290 294 270" stroke="#173B59" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+</g>
+<text x="84" y="560" fill="#173B59" font-family="Georgia, serif" font-size="78" font-weight="700">Rodzinne przejazdzki</text>
+<text x="84" y="640" fill="#425364" font-family="Arial, sans-serif" font-size="42">dobre na krotsze wypady</text>
+</svg>

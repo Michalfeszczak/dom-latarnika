@@ -1,0 +1,1788 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Regulamin - Dom Latarnika w Grzybowie</title>
+  <meta name="description" content="Regulamin pobytu w Domu Latarnika w Grzybowie - zasady rezerwacji, płatności, anulowania.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dom-latarnika.pl/regulamin.html">
+  <meta property="og:title" content="Regulamin - Dom Latarnika">
+  <meta property="og:description" content="Regulamin pobytu - zasady rezerwacji, płatności, anulowania.">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://dom-latarnika.pl/regulamin.html">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <!-- Cookie Consent -->
+  <link rel="stylesheet" href="assets/cookie-consent.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&amp;display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --navy:#153955;
+      --navy-strong:#0e2840;
+      --sand:#f7f3ec;
+      --text:#34424e;
+      --muted:#66717b;
+      --accent:#b76e53;
+      --accent-strong:#9b583f;
+      --accent-dark:#834633;
+      --white:#fff;
+      --line:#d7d2c9;
+      --shadow:0 18px 42px rgba(14,40,64,.12);
+      --shadow-soft:0 10px 26px rgba(14,40,64,.08);
+      --max:1180px;
+      --header:92px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:"Lato",Arial,Helvetica,sans-serif;
+      font-size:16px;
+      line-height:1.65;
+      color:var(--text);
+      background:linear-gradient(180deg,#fbf9f5 0%,#fff 16%,#fff 100%);
+    }
+    img{display:block;max-width:100%}
+    a{text-decoration:none;color:inherit}
+    button{font:inherit}
+    :focus-visible{
+      outline:3px solid #f6c667;
+      outline-offset:3px;
+    }
+    @media (prefers-reduced-motion: reduce){
+      html{scroll-behavior:auto}
+      *,*::before,*::after{
+        animation:none !important;
+        transition:none !important;
+      }
+      [data-reveal]{
+        opacity:1 !important;
+        transform:none !important;
+      }
+    }
+
+    .skip-link{
+      position:absolute;
+      left:-999px;
+      top:12px;
+      z-index:200;
+      background:#fff;
+      color:#111;
+      padding:10px 14px;
+      border:2px solid #111;
+    }
+    .skip-link:focus{left:12px}
+    .sr-only{
+      position:absolute;
+      width:1px;
+      height:1px;
+      padding:0;
+      margin:-1px;
+      overflow:hidden;
+      clip:rect(0,0,0,0);
+      white-space:nowrap;
+      border:0;
+    }
+    .a11y-panel{
+      position:fixed;
+      top:calc(var(--header) + 12px);
+      right:16px;
+      z-index:180;
+      width:min(320px,calc(100% - 24px));
+      padding:16px;
+      border:1px solid rgba(21,57,85,.12);
+      border-radius:20px;
+      background:rgba(255,255,255,.98);
+      box-shadow:var(--shadow-soft);
+    }
+    .a11y-panel[hidden]{
+      display:none;
+    }
+    .a11y-panel-head{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      margin-bottom:12px;
+    }
+    .a11y-panel-head strong{
+      color:var(--navy-strong);
+      font-size:.92rem;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+    }
+    .a11y-panel-close{
+      width:36px;
+      height:36px;
+      border:1px solid rgba(21,57,85,.12);
+      border-radius:999px;
+      background:#fff;
+      color:var(--navy);
+      cursor:pointer;
+    }
+    .a11y-panel-text{
+      margin:0 0 12px;
+      color:var(--muted);
+      font-size:.92rem;
+    }
+    .a11y-panel-actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+    }
+    .a11y-toggle{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:40px;
+      padding:8px 12px;
+      border:1px solid rgba(21,57,85,.12);
+      border-radius:999px;
+      background:#fff;
+      color:var(--navy);
+      font-size:.8rem;
+      font-weight:800;
+      letter-spacing:.04em;
+      cursor:pointer;
+      transition:background .2s ease,border-color .2s ease,transform .2s ease;
+    }
+    .a11y-toggle:hover{
+      background:#f8fbfd;
+      border-color:rgba(21,57,85,.24);
+      transform:translateY(-1px);
+    }
+    .a11y-toggle[aria-pressed="true"]{
+      background:var(--navy);
+      border-color:var(--navy);
+      color:#fff;
+    }
+    body.a11y-large-text{
+      font-size:20px;
+    }
+    body.a11y-large-text .button{
+      font-size:1.06rem;
+      min-height:52px;
+      padding:14px 20px;
+    }
+    body.a11y-large-text h1{
+      font-size:clamp(2.4rem,6vw,5.2rem);
+    }
+    body.a11y-large-text h2{
+      font-size:clamp(1.8rem,3.5vw,3rem);
+    }
+    body.a11y-large-text .a11y-panel{
+      padding:20px;
+      width:min(360px,calc(100% - 24px));
+    }
+    body.a11y-large-text .a11y-panel-head strong{
+      font-size:1rem;
+    }
+    body.a11y-large-text .a11y-panel-text{
+      font-size:1rem;
+    }
+    body.a11y-large-text .a11y-toggle{
+      min-height:48px;
+      padding:10px 14px;
+      font-size:.88rem;
+    }
+    body.a11y-large-text .card{
+      border-radius:28px;
+    }
+    body.a11y-large-text .card h3{
+      font-size:1.1rem;
+    }
+    body.a11y-large-text .hero-panel{
+      padding:28px;
+    }
+    body.a11y-large-text .hero-panel h2{
+      font-size:1.2rem;
+    }
+    body.a11y-high-contrast{
+      --text:#000;
+      --muted:#000;
+      --line:#000;
+      --navy:#000080;
+      --navy-strong:#000080;
+      --accent:#0066ff;
+      --accent-strong:#0033cc;
+      --accent-dark:#000080;
+      background:#fff;
+    }
+    body.a11y-high-contrast .button-secondary,
+    body.a11y-high-contrast .card,
+    body.a11y-high-contrast .google-review-link{
+      border-color:#000;
+      border-width:2px;
+    }
+    body.a11y-high-contrast .button-primary{
+      background:#000080;
+      color:#fff;
+    }
+    body.a11y-high-contrast a{
+      color:#0066ff;
+      text-decoration:underline;
+    }
+    body.a11y-reduce-motion *,
+    body.a11y-reduce-motion *::before,
+    body.a11y-reduce-motion *::after{
+      animation:none !important;
+      transition:none !important;
+    }
+    body.a11y-reduce-motion [data-reveal]{
+      opacity:1 !important;
+      transform:none !important;
+    }
+
+    .container{
+      width:min(calc(100% - 32px),var(--max));
+      margin:0 auto;
+    }
+
+    .site-header{
+      position:sticky;
+      top:0;
+      z-index:100;
+      background:rgba(255,255,255,.94);
+      backdrop-filter:blur(14px);
+      border-bottom:1px solid rgba(21,57,85,.08);
+      box-shadow:0 8px 20px rgba(14,40,64,.05);
+    }
+    .header-inner{
+      min-height:var(--header);
+      display:grid;
+      grid-template-columns:auto 1fr auto auto;
+      align-items:center;
+      gap:18px;
+    }
+    .brand{
+      display:flex;
+      align-items:center;
+      min-width:0;
+    }
+    .brand img{
+      width:190px;
+      height:auto;
+    }
+    .main-nav{
+      justify-self:center;
+    }
+    .main-nav ul{
+      margin:0;
+      padding:0;
+      list-style:none;
+      display:flex;
+      align-items:center;
+      gap:18px;
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+    .main-nav a{
+      position:relative;
+      display:inline-flex;
+      padding:6px 0;
+      color:var(--navy-strong);
+      font-size:.86rem;
+      text-transform:uppercase;
+      letter-spacing:.09em;
+      font-weight:700;
+    }
+    .main-nav a::after{
+      content:"";
+      position:absolute;
+      left:0;
+      bottom:-5px;
+      width:100%;
+      height:2px;
+      background:var(--accent);
+      transform:scaleX(0);
+      transform-origin:left;
+      transition:transform .22s ease;
+    }
+    .main-nav a:hover::after,
+    .main-nav a:focus-visible::after{
+      transform:scaleX(1);
+    }
+    .lang-switcher{
+      display:flex;
+      align-items:center;
+      gap:8px;
+    }
+    .lang-switcher button{
+      min-width:44px;
+      min-height:42px;
+      border:1px solid rgba(21,57,85,.16);
+      background:#fff;
+      color:var(--navy);
+      border-radius:999px;
+      font-size:.8rem;
+      font-weight:900;
+      letter-spacing:.08em;
+      cursor:pointer;
+      transition:background .2s ease,color .2s ease,border-color .2s ease;
+    }
+    .lang-switcher button.is-active{
+      background:var(--navy);
+      color:#fff;
+      border-color:var(--navy);
+    }
+    .header-actions{
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+    .menu-toggle{
+      display:none;
+      width:46px;
+      height:46px;
+      padding:0;
+      border:1px solid rgba(21,57,85,.16);
+      border-radius:14px;
+      background:#fff;
+      cursor:pointer;
+      position:relative;
+    }
+    .menu-toggle span,
+    .menu-toggle::before,
+    .menu-toggle::after{
+      content:"";
+      position:absolute;
+      left:50%;
+      width:20px;
+      height:2px;
+      border-radius:999px;
+      background:var(--navy-strong);
+      transform:translateX(-50%);
+      transition:transform .22s ease,opacity .22s ease;
+    }
+    .menu-toggle span{top:22px}
+    .menu-toggle::before{top:16px}
+    .menu-toggle::after{top:28px}
+    .menu-toggle[aria-expanded="true"] span{opacity:0}
+    .menu-toggle[aria-expanded="true"]::before{transform:translateX(-50%) rotate(45deg);top:22px}
+    .menu-toggle[aria-expanded="true"]::after{transform:translateX(-50%) rotate(-45deg);top:22px}
+
+    .button{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:48px;
+      padding:12px 18px;
+      border-radius:999px;
+      border:1px solid transparent;
+      font-size:.88rem;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      font-weight:800;
+      text-align:center;
+      transition:transform .2s ease,background .2s ease,color .2s ease,border-color .2s ease,box-shadow .2s ease;
+    }
+    .button:hover{transform:translateY(-1px)}
+    .button-primary{
+      background:var(--accent-dark);
+      color:#fff;
+      box-shadow:0 12px 24px rgba(131,70,51,.18);
+    }
+    .button-primary:hover{background:var(--accent-strong)}
+    .button-secondary{
+      background:#fff;
+      color:var(--navy);
+      border-color:rgba(21,57,85,.16);
+    }
+    .button-secondary:hover{
+      background:#f8fbfd;
+      border-color:rgba(21,57,85,.28);
+    }
+    main p a:not(.button),
+    main li a:not(.button),
+    aside a:not(.button),
+    footer .footer-card a{
+      text-decoration:underline;
+      text-decoration-thickness:1.5px;
+      text-underline-offset:.16em;
+    }
+
+    .page-hero{
+      position:relative;
+      overflow:hidden;
+      background:
+        linear-gradient(90deg,rgba(10,28,43,.84) 0%,rgba(10,28,43,.56) 48%,rgba(10,28,43,.30) 100%),
+        url("img/sliderdllow2.jpg") center/cover no-repeat;
+      color:#fff;
+    }
+    .page-hero-inner{
+      min-height:460px;
+      display:grid;
+      grid-template-columns:minmax(0,1.2fr) minmax(300px,.8fr);
+      gap:28px;
+      align-items:end;
+      padding:70px 0 54px;
+    }
+    .hero-copy{
+      max-width:740px;
+    }
+    .hero-kicker{
+      display:inline-block;
+      margin-bottom:16px;
+      font-size:.86rem;
+      text-transform:uppercase;
+      letter-spacing:.18em;
+      color:rgba(255,255,255,.78);
+    }
+    .page-hero h1{
+      margin:0;
+      font-size:clamp(2.3rem,5vw,4.8rem);
+      line-height:1.03;
+      text-transform:uppercase;
+      letter-spacing:.05em;
+      text-shadow:0 10px 24px rgba(0,0,0,.2);
+    }
+    .page-hero p{
+      margin:18px 0 0;
+      max-width:620px;
+      color:rgba(255,255,255,.88);
+      font-size:1.06rem;
+    }
+    .hero-buttons{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-top:28px;
+    }
+    .hero-panel{
+      justify-self:end;
+      width:min(100%,360px);
+      background:rgba(247,243,236,.95);
+      border-radius:28px;
+      padding:24px;
+      box-shadow:var(--shadow);
+      color:var(--text);
+    }
+    .hero-panel h2{
+      margin:0 0 8px;
+      color:var(--navy-strong);
+      text-transform:uppercase;
+      letter-spacing:.07em;
+      font-size:1.08rem;
+    }
+    .hero-panel p{
+      margin:0 0 14px;
+      color:var(--muted);
+      font-size:.95rem;
+    }
+    .hero-list{
+      margin:0;
+      padding:0;
+      list-style:none;
+      display:grid;
+      gap:10px;
+    }
+    .hero-list li{
+      background:#fff;
+      border:1px solid rgba(21,57,85,.08);
+      border-radius:18px;
+      padding:12px 14px;
+    }
+    .hero-list strong{
+      display:block;
+      color:var(--navy-strong);
+      text-transform:uppercase;
+      letter-spacing:.07em;
+      font-size:.78rem;
+      margin-bottom:2px;
+    }
+
+    main section{
+      padding:76px 0;
+      scroll-margin-top:calc(var(--header) + 18px);
+    }
+    .section-soft{background:var(--sand)}
+    .section-head{
+      max-width:760px;
+      margin-bottom:34px;
+    }
+    .section-kicker{
+      display:inline-block;
+      margin-bottom:12px;
+      color:var(--accent-strong);
+      font-size:.82rem;
+      font-weight:800;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+    }
+    .section-title{
+      margin:0;
+      color:var(--navy-strong);
+      font-size:clamp(1.7rem,3vw,2.8rem);
+      line-height:1.1;
+      text-transform:uppercase;
+      letter-spacing:.05em;
+    }
+    .section-text{
+      margin:14px 0 0;
+      color:var(--muted);
+      font-size:1rem;
+    }
+    .lang-content{
+      display:none;
+    }
+    html[lang="pl"] .lang-content[data-lang="pl"],
+    html[lang="de"] .lang-content[data-lang="de"],
+    html[lang="en"] .lang-content[data-lang="en"]{
+      display:block;
+    }
+
+    .card{
+      background:#fff;
+      border:1px solid rgba(21,57,85,.08);
+      border-radius:24px;
+      box-shadow:var(--shadow-soft);
+    }
+    .rules-layout{
+      display:grid;
+      grid-template-columns:minmax(0,1.2fr) minmax(280px,.8fr);
+      gap:24px;
+      align-items:start;
+    }
+    .rules-card{
+      padding:28px;
+    }
+    .rules-stack{
+      display:grid;
+      gap:16px;
+    }
+    .rule-block{
+      padding:20px 22px;
+      border:1px solid rgba(21,57,85,.08);
+      border-radius:20px;
+      background:#fcfcfb;
+    }
+    .rule-block h3{
+      margin:0 0 12px;
+      color:var(--navy-strong);
+      font-size:1.08rem;
+      line-height:1.3;
+      letter-spacing:.01em;
+      text-align:left;
+    }
+    .rule-block p{
+      margin:0;
+      color:var(--text);
+      line-height:1.68;
+    }
+    .rule-block p + p{
+      margin-top:10px;
+    }
+    .rule-sublist{
+      margin:12px 0 0;
+      padding-left:0;
+      list-style:none;
+    }
+    .rule-sublist li{
+      position:relative;
+      padding-left:16px;
+      margin-top:8px;
+      color:var(--text);
+      line-height:1.6;
+    }
+    .rule-sublist li::before{
+      content:"-";
+      position:absolute;
+      left:0;
+      top:0;
+      color:var(--accent-strong);
+      font-weight:800;
+    }
+    .rules-aside{
+      padding:24px;
+    }
+    .rules-aside h3{
+      margin:0 0 10px;
+      color:var(--navy-strong);
+      font-size:1.02rem;
+      letter-spacing:.01em;
+    }
+    .rules-aside p{
+      margin:0 0 14px;
+      color:var(--muted);
+    }
+    .mini-contact{
+      display:grid;
+      gap:14px;
+      margin-top:18px;
+    }
+    .mini-contact .mini-box{
+      padding:16px 18px;
+      border-radius:18px;
+      background:#f8fbfd;
+      border:1px solid rgba(21,57,85,.08);
+    }
+    .mini-contact strong{
+      display:block;
+      margin-bottom:4px;
+      color:var(--navy-strong);
+      letter-spacing:.02em;
+      font-size:.86rem;
+    }
+
+    footer{
+      padding:34px 0 40px;
+      background:var(--navy-strong);
+      color:rgba(255,255,255,.74);
+    }
+    .footer-top{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:18px;
+      margin-bottom:26px;
+    }
+    .footer-card{
+      padding:22px;
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:22px;
+      background:rgba(255,255,255,.04);
+    }
+    .footer-card h3{
+      margin:0 0 10px;
+      color:#fff;
+      font-size:.92rem;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+    }
+    .footer-card p{
+      margin:0 0 8px;
+      color:rgba(255,255,255,.78);
+    }
+    .footer-card a:hover{color:#fff}
+    .footer-inner{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:space-between;
+      gap:20px;
+      align-items:center;
+      padding-top:22px;
+      border-top:1px solid rgba(255,255,255,.08);
+    }
+    .footer-brand{
+      display:flex;
+      align-items:center;
+      gap:14px;
+    }
+    .footer-brand img{
+      width:150px;
+      height:auto;
+    }
+    .footer-links{
+      display:flex;
+      flex-wrap:wrap;
+      gap:14px 18px;
+      align-items:center;
+    }
+    .footer-links a{
+      font-size:.84rem;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+    }
+    .footer-links a:hover{color:#fff}
+    .footer-links a.footer-social{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      width:40px;
+      height:40px;
+      padding:0;
+      border:1px solid rgba(255,255,255,.16);
+      border-radius:999px;
+    }
+    .footer-links a.footer-social:hover{
+      border-color:rgba(255,255,255,.34);
+      background:rgba(255,255,255,.06);
+    }
+    .footer-links a.footer-social svg{
+      width:18px;
+      height:18px;
+      fill:currentColor;
+    }
+
+    [data-reveal]{
+      opacity:0;
+      transform:translateY(20px);
+      transition:opacity .55s ease,transform .55s ease;
+    }
+    [data-reveal].is-visible{
+      opacity:1;
+      transform:none;
+    }
+
+    @media (max-width:1080px){
+      .header-inner{
+        grid-template-columns:auto 1fr auto;
+      }
+      .main-nav{
+        position:fixed;
+        left:16px;
+        right:16px;
+        top:calc(var(--header) - 6px);
+        z-index:90;
+        display:none;
+        background:#fff;
+        border:1px solid rgba(21,57,85,.08);
+        border-radius:22px;
+        box-shadow:var(--shadow-soft);
+        padding:22px;
+      }
+      .main-nav.is-open{display:block}
+      .main-nav ul{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:14px;
+      }
+      .menu-toggle{display:block}
+      .page-hero-inner,
+      .rules-layout{
+        grid-template-columns:1fr;
+      }
+      .hero-panel{
+        justify-self:start;
+      }
+      .footer-top{
+        grid-template-columns:1fr;
+      }
+    }
+
+    @media (max-width:760px){
+      :root{--header:84px}
+      body{font-size:15px}
+      .container{
+        width:min(calc(100% - 24px),var(--max));
+      }
+      .header-inner{
+        grid-template-columns:auto 1fr auto;
+        gap:12px;
+      }
+      .brand img{width:150px}
+      .lang-switcher{
+        justify-self:end;
+      }
+      .lang-switcher button{
+        min-width:38px;
+        min-height:38px;
+        font-size:.74rem;
+      }
+      .header-actions{display:none}
+      .page-hero-inner{
+        min-height:auto;
+        padding:50px 0 36px;
+      }
+      .page-hero h1{
+        font-size:clamp(2rem,10vw,3rem);
+      }
+      .hero-buttons{
+        flex-direction:column;
+        align-items:stretch;
+      }
+      .hero-buttons .button,
+      .button{
+        width:100%;
+      }
+      .rules-card,
+      .rules-aside,
+      .footer-card{
+        padding:20px;
+      }
+      .footer-inner,
+      .footer-brand{
+        align-items:flex-start;
+      }
+      .footer-brand{
+        flex-direction:column;
+      }
+      .footer-brand img{
+        width:136px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Przejdź do treści</a>
+  <aside class="a11y-panel" id="a11y-panel" hidden aria-label="Ułatwienia dostępności" data-i18n-aria-label="a11y_panel_aria">
+    <div class="a11y-panel-head">
+      <strong data-i18n="a11y_title">Ułatwienia</strong>
+      <button class="a11y-panel-close" type="button" aria-label="Zamknij panel ułatwień" data-i18n-aria-label="a11y_close_aria">×</button>
+    </div>
+    <p class="a11y-panel-text" data-i18n="a11y_text">Dodatkowe ustawienia dla wygodniejszego korzystania ze strony.</p>
+    <div class="a11y-panel-actions">
+      <button class="a11y-toggle" type="button" data-a11y-toggle="motion" aria-pressed="false" data-i18n="a11y_motion">Mniej ruchu</button>
+      <button class="a11y-toggle" type="button" data-a11y-toggle="text" aria-pressed="false" data-i18n="a11y_text_size">Większy tekst</button>
+      <button class="a11y-toggle" type="button" data-a11y-toggle="contrast" aria-pressed="false" data-i18n="a11y_contrast">Wyższy kontrast</button>
+    </div>
+  </aside>
+  <p class="sr-only" id="page-status" role="status" aria-live="polite" aria-atomic="true"></p>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Dom Latarnika" data-i18n-aria-label="brand_home_aria">
+        <img src="img/dllogo-min.png" alt="">
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Główna nawigacja" data-i18n-aria-label="nav_main_aria">
+        <ul>
+          <li><a href="index.html#oferta" data-i18n="nav_offer">Oferta</a></li>
+          <li><a href="index.html#pokoje" data-i18n="nav_rooms">Pokoje</a></li>
+          <li><a href="index.html#sniadania" data-i18n="nav_breakfast">Śniadania</a></li>
+          <li><a href="index.html#opinie" data-i18n="nav_reviews">Opinie</a></li>
+          <li><a href="index.html#kontakt" data-i18n="nav_contact">Kontakt</a></li>
+          <li><a href="regulamin.html" aria-current="page" data-i18n="nav_rules">Regulamin</a></li>
+        </ul>
+      </nav>
+
+      <div class="lang-switcher" role="group" aria-label="Wybór języka" data-i18n-aria-label="lang_switcher_aria">
+        <button type="button" class="is-active" data-lang="pl" aria-pressed="true" aria-label="Język polski" data-i18n-aria-label="lang_pl_aria">PL</button>
+        <button type="button" data-lang="de" aria-pressed="false" aria-label="Język niemiecki" data-i18n-aria-label="lang_de_aria">DE</button>
+        <button type="button" data-lang="en" aria-pressed="false" aria-label="Język angielski" data-i18n-aria-label="lang_en_aria">EN</button>
+      </div>
+
+      <div class="header-actions">
+        <a class="button button-secondary" href="index.html" data-i18n="home">Strona główna</a>
+        <a class="button button-primary" href="tel:+48607354555" data-call-link data-i18n="call">Zadzwoń</a>
+      </div>
+
+      <button class="menu-toggle" type="button" id="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Otwórz menu">
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero" aria-label="Regulamin pobytu" data-i18n-aria-label="rules_hero_aria">
+      <div class="container page-hero-inner">
+        <div class="hero-copy" data-reveal>
+          <div class="lang-content" data-lang="pl">
+            <span class="hero-kicker">Dom Latarnika</span>
+            <h1>Regulamin pobytu</h1>
+            <p>Dla komfortu wszystkich Gości prosimy o zapoznanie się z zasadami pobytu w Domu Latarnika. Regulamin pomaga nam zadbać o spokojny wypoczynek, bezpieczeństwo oraz dobrą organizację pobytu.</p>
+            <div class="hero-buttons">
+              <a class="button button-primary" href="index.html#kontakt" data-i18n="nav_contact">Kontakt</a>
+              <a class="button button-secondary" href="https://www.booking.com/hotel/pl/pensjonat-dom-latarnika.pl.html" target="_blank" rel="noopener">Booking.com</a>
+            </div>
+          </div>
+          <div class="lang-content" data-lang="de">
+            <span class="hero-kicker">Dom Latarnika</span>
+            <h1>Hausordnung</h1>
+            <p>Für den Komfort aller Gäste bitten wir Sie, sich mit den Regeln für den Aufenthalt im Dom Latarnika vertraut zu machen. Die Hausordnung hilft uns, für Ruhe, Sicherheit und eine gute Organisation des Aufenthalts zu sorgen.</p>
+            <div class="hero-buttons">
+              <a class="button button-primary" href="index.html#kontakt" data-i18n="nav_contact">Kontakt</a>
+              <a class="button button-secondary" href="https://www.booking.com/hotel/pl/pensjonat-dom-latarnika.pl.html" target="_blank" rel="noopener">Booking.com</a>
+            </div>
+          </div>
+          <div class="lang-content" data-lang="en">
+            <span class="hero-kicker">Dom Latarnika</span>
+            <h1>House rules</h1>
+            <p>For the comfort of all guests, please take a moment to read the stay rules at Dom Latarnika. These guidelines help us create a peaceful atmosphere, ensure safety and keep every stay well organised.</p>
+            <div class="hero-buttons">
+              <a class="button button-primary" href="index.html#kontakt" data-i18n="nav_contact">Contact</a>
+              <a class="button button-secondary" href="https://www.booking.com/hotel/pl/pensjonat-dom-latarnika.pl.html" target="_blank" rel="noopener">Booking.com</a>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-panel" data-reveal>
+          <div class="lang-content" data-lang="pl">
+            <h2>Najważniejsze skróty</h2>
+            <p>Szybkie informacje, które najczęściej są potrzebne przed przyjazdem.</p>
+            <ul class="hero-list">
+              <li>
+                <strong>Doba pobytowa</strong>
+                <span>15:00–10:00</span>
+              </li>
+              <li>
+                <strong>Cisza nocna</strong>
+                <span>22:00–7:00</span>
+              </li>
+              <li>
+                <strong>Zadatek</strong>
+                <span>zwrot przy rezygnacji min. 60 dni przed przyjazdem</span>
+              </li>
+              <li>
+                <strong>Palenie</strong>
+                <span>tylko w wyznaczonych miejscach</span>
+              </li>
+            </ul>
+          </div>
+          <div class="lang-content" data-lang="de">
+            <h2>Wichtige Kürzel</h2>
+            <p>Kurzinformationen, die vor der Anreise am häufigsten gebraucht werden.</p>
+            <ul class="hero-list">
+              <li>
+                <strong>Aufenthaltszeit</strong>
+                <span>15:00–10:00</span>
+              </li>
+              <li>
+                <strong>Nachtruhe</strong>
+                <span>22:00–7:00</span>
+              </li>
+              <li>
+                <strong>Anzahlung</strong>
+                <span>Rückerstattung bei Stornierung mind. 60 Tage vor Anreise</span>
+              </li>
+              <li>
+                <strong>Rauchen</strong>
+                <span>nur in ausgewiesenen Bereichen</span>
+              </li>
+            </ul>
+          </div>
+          <div class="lang-content" data-lang="en">
+            <h2>Key points</h2>
+            <p>Quick details that are most often needed before arrival.</p>
+            <ul class="hero-list">
+              <li>
+                <strong>Stay hours</strong>
+                <span>15:00–10:00</span>
+              </li>
+              <li>
+                <strong>Quiet hours</strong>
+                <span>22:00–7:00</span>
+              </li>
+              <li>
+                <strong>Deposit</strong>
+                <span>refundable if cancelled at least 60 days before arrival</span>
+              </li>
+              <li>
+                <strong>Smoking</strong>
+                <span>only in designated areas</span>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section-soft">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div class="lang-content" data-lang="pl">
+            <span class="section-kicker">Regulamin</span>
+            <h2 class="section-title">Zasady spokojnego pobytu</h2>
+            <p class="section-text">Poniżej znajdziesz najważniejsze zasady pobytu przygotowane w czytelnym i przyjaznym układzie.</p>
+          </div>
+          <div class="lang-content" data-lang="de">
+            <span class="section-kicker">Regeln</span>
+            <h2 class="section-title">Regeln für einen ruhigen Aufenthalt</h2>
+            <p class="section-text">Unten finden Sie die wichtigsten Regeln für den Aufenthalt in einer klaren und freundlichen Form.</p>
+          </div>
+          <div class="lang-content" data-lang="en">
+            <span class="section-kicker">Rules</span>
+            <h2 class="section-title">Guidelines for a peaceful stay</h2>
+            <p class="section-text">Below you will find the key stay rules presented in a clear and guest-friendly format.</p>
+          </div>
+        </div>
+
+        <div class="rules-layout">
+          <article class="card rules-card lang-content" data-lang="pl" data-reveal>
+            <div class="rules-stack">
+              <div class="rule-block">
+                <h3>1. Doba pobytowa</h3>
+                <p>Pokój lub studio wynajmowane jest na doby.</p>
+                <p>Doba pobytowa rozpoczyna się o godzinie 15:00 i kończy o godzinie 10:00 w dniu wyjazdu.</p>
+                <p>Przyjazd lub wyjazd w innych godzinach możliwy jest po wcześniejszym uzgodnieniu z właścicielem obiektu.</p>
+              </div>
+              <div class="rule-block">
+                <h3>2. Komfort i bezpieczeństwo Gości</h3>
+                <p>Dom Latarnika dokłada starań, aby zapewnić Gościom spokojne i komfortowe warunki wypoczynku, bezpieczeństwo podczas pobytu oraz uprzejmą i pomocną obsługę.</p>
+                <p>W przypadku zauważenia awarii, usterki lub innego problemu technicznego prosimy o możliwie szybki kontakt z właścicielem obiektu. Pozwoli nam to sprawnie zareagować i zadbać o komfort pobytu.</p>
+              </div>
+              <div class="rule-block">
+                <h3>3. Pomoc podczas pobytu</h3>
+                <p>W miarę możliwości organizacyjnych pomagamy Gościom w sprawach związanych z pobytem.</p>
+                <ul class="rule-sublist">
+                  <li>udzielenia informacji dotyczących obiektu i okolicy,</li>
+                  <li>ustalenia szczegółów przyjazdu lub wyjazdu,</li>
+                  <li>przechowania bagażu Gości zameldowanych w obiekcie.</li>
+                </ul>
+              </div>
+              <div class="rule-block">
+                <h3>4. Cisza nocna i odwiedziny</h3>
+                <p>W obiekcie obowiązuje cisza nocna w godzinach 22:00–7:00. Prosimy o zachowanie w tym czasie spokoju oraz poszanowanie wypoczynku pozostałych Gości.</p>
+                <p>Osoby niezameldowane mogą przebywać na terenie obiektu w godzinach 7:00–22:00, po wcześniejszym uzgodnieniu z właścicielem.</p>
+                <p>Gość nie może przekazywać pokoju osobom trzecim ani udostępniać go osobom nieobjętym rezerwacją.</p>
+              </div>
+              <div class="rule-block">
+                <h3>5. Korzystanie z pokoju i wyposażenia</h3>
+                <p>Prosimy o korzystanie z pokoju, studia oraz wyposażenia zgodnie z ich przeznaczeniem.</p>
+                <p>Ze względów bezpieczeństwa przeciwpożarowego w pokojach nie wolno używać urządzeń elektrycznych, które nie stanowią wyposażenia obiektu, w szczególności grzałek, kuchenek turystycznych, żelazek oraz innych urządzeń mogących stwarzać ryzyko pożaru lub uszkodzenia instalacji.</p>
+                <p>Zakaz nie dotyczy standardowych ładowarek, laptopów, telefonów ani sprzętów będących wyposażeniem pokoju.</p>
+                <p>Gość proszony jest o zgłoszenie każdej szkody, awarii lub uszkodzenia wyposażenia. Za szkody powstałe z winy Gościa lub osób mu towarzyszących Gość może ponosić odpowiedzialność materialną.</p>
+              </div>
+              <div class="rule-block">
+                <h3>6. Palenie</h3>
+                <p>W pokojach, studiach oraz częściach wspólnych obowiązuje zakaz palenia.</p>
+                <p>Palenie możliwe jest wyłącznie w miejscach do tego wyznaczonych.</p>
+                <p>Prosimy również o nieużywanie papierosów elektronicznych w pokojach i częściach wspólnych, jeśli mogłoby to naruszać komfort innych Gości.</p>
+              </div>
+              <div class="rule-block">
+                <h3>7. Rzeczy osobiste i parking</h3>
+                <p>Prosimy o zachowanie należytej staranności przy przechowywaniu rzeczy osobistych, dokumentów, pieniędzy oraz wartościowego sprzętu.</p>
+                <p>W przypadku rzeczy szczególnie wartościowych prosimy o wcześniejszy kontakt z właścicielem w celu ustalenia możliwości ich bezpiecznego przechowania.</p>
+                <p>Miejsca parkingowe, jeśli są udostępniane Gościom, mają charakter niestrzeżony. Obiekt nie ponosi odpowiedzialności za uszkodzenie lub utratę pojazdu, chyba że odpowiedzialność taka wynika z bezwzględnie obowiązujących przepisów prawa.</p>
+              </div>
+              <div class="rule-block">
+                <h3>8. Zwierzęta</h3>
+                <p>Pobyt ze zwierzęciem możliwy jest wyłącznie po wcześniejszym uzgodnieniu z właścicielem obiektu.</p>
+                <p>Właściciel zwierzęcia odpowiada za jego zachowanie, zachowanie czystości oraz ewentualne szkody spowodowane przez zwierzę.</p>
+                <p>Prosimy, aby zwierzęta nie zakłócały wypoczynku pozostałych Gości.</p>
+              </div>
+              <div class="rule-block">
+                <h3>9. Rezerwacja i zadatek</h3>
+                <p>Rezerwacja bezpośrednia może wymagać wpłaty zadatku w wysokości ustalonej podczas rezerwacji. Wpłata zadatku potwierdza rezerwację pobytu.</p>
+                <p>W przypadku rezygnacji z pobytu najpóźniej 60 dni przed planowanym przyjazdem zadatek podlega zwrotowi.</p>
+                <p>W przypadku rezygnacji po tym terminie zadatek może nie podlegać zwrotowi, chyba że strony ustalą inaczej.</p>
+                <p>Rezygnacja z części pobytu po przyjeździe traktowana jest jako niewykorzystanie zamówionej usługi i nie stanowi podstawy do zwrotu płatności za niewykorzystane dni, chyba że strony indywidualnie ustalą inaczej.</p>
+              </div>
+              <div class="rule-block">
+                <h3>10. Opłata klimatyczna</h3>
+                <p>Opłata klimatyczna, jeśli obowiązuje w danym terminie, nie jest wliczona w cenę pobytu i pobierana jest zgodnie z aktualnymi zasadami obowiązującymi w gminie.</p>
+              </div>
+              <div class="rule-block">
+                <h3>11. Zasady wspólnego wypoczynku</h3>
+                <p>Prosimy Gości o:</p>
+                <ul class="rule-sublist">
+                  <li>poszanowanie wypoczynku innych osób,</li>
+                  <li>dbanie o porządek w pokojach i częściach wspólnych,</li>
+                  <li>korzystanie z wyposażenia zgodnie z przeznaczeniem,</li>
+                  <li>zamykanie pokoju przy opuszczaniu obiektu,</li>
+                  <li>zgłaszanie zauważonych usterek lub problemów.</li>
+                </ul>
+                <p>Dzięki temu każdy pobyt może przebiegać spokojnie i komfortowo.</p>
+              </div>
+              <div class="rule-block">
+                <h3>12. Sprawy nieuregulowane</h3>
+                <p>W sprawach nieuregulowanych niniejszym regulaminem zastosowanie mają powszechnie obowiązujące przepisy prawa polskiego.</p>
+                <p>W przypadku pytań dotyczących regulaminu, rezerwacji lub pobytu prosimy o kontakt z właścicielem obiektu.</p>
+              </div>
+            </div>
+          </article>
+
+          <aside class="card rules-aside lang-content" data-lang="pl" data-reveal>
+            <h3>Kontakt i płatności</h3>
+            <p>Jeśli chcesz doprecyzować zasady pobytu, godziny przyjazdu lub warunki rezerwacji, najlepiej skontaktować się z nami bezpośrednio.</p>
+            <div class="mini-contact">
+              <div class="mini-box">
+                <strong>Kontakt</strong>
+                Dom Latarnika<br>
+                ul. Nadmorska 65A<br>
+                78-132 Grzybowo<br><br>
+                Telefon: <a href="tel:+48607354555" data-call-link>+48 607 35 45 55</a><br>
+                E-mail: <a href="mailto:renata@dom-latarnika.pl">renata@dom-latarnika.pl</a>
+              </div>
+              <div class="mini-box">
+                <strong>Dane do płatności</strong>
+                Bank: PKO BP<br>
+                Numer rachunku: 31 1020 2821 0000 1102 0002 0081<br>
+                Odbiorca: Renata Brączyk / Dom Latarnika<br><br>
+                Tytuł przelewu:<br>
+                Zadatek — imię i nazwisko, termin pobytu<br><br>
+                Przykład:<br>
+                Zadatek — Anna Kowalska, 12–18.07.2026
+              </div>
+            </div>
+          </aside>
+
+          <article class="card rules-card lang-content" data-lang="de" data-reveal>
+            <div class="rules-stack">
+              <div class="rule-block">
+                <h3>1. Aufenthaltszeit</h3>
+                <p>Zimmer und Studios werden tageweise vermietet.</p>
+                <p>Die Aufenthaltszeit beginnt um 15:00 Uhr und endet am Abreisetag um 10:00 Uhr.</p>
+                <p>Anreise oder Abreise zu anderen Zeiten ist nach vorheriger Absprache mit der Eigentümerin möglich.</p>
+              </div>
+              <div class="rule-block">
+                <h3>2. Komfort und Sicherheit der Gäste</h3>
+                <p>Dom Latarnika bemüht sich um ruhige und komfortable Erholungsbedingungen, Sicherheit während des Aufenthalts sowie einen freundlichen und hilfsbereiten Service.</p>
+                <p>Wenn Sie eine Störung, einen Defekt oder ein technisches Problem bemerken, bitten wir um möglichst schnelle Kontaktaufnahme. So können wir rasch reagieren und für den Komfort des Aufenthalts sorgen.</p>
+              </div>
+              <div class="rule-block">
+                <h3>3. Hilfe während des Aufenthalts</h3>
+                <p>Im Rahmen der organisatorischen Möglichkeiten unterstützen wir unsere Gäste in Angelegenheiten rund um den Aufenthalt.</p>
+                <ul class="rule-sublist">
+                  <li>Informationen über das Haus und die Umgebung,</li>
+                  <li>Abstimmung von Anreise- oder Abreisedetails,</li>
+                  <li>Aufbewahrung des Gepäcks von eingecheckten Gästen.</li>
+                </ul>
+              </div>
+              <div class="rule-block">
+                <h3>4. Nachtruhe und Besuche</h3>
+                <p>Im Haus gilt Nachtruhe von 22:00 bis 7:00 Uhr. Bitte achten Sie in dieser Zeit auf Ruhe und den Erholungsbedarf anderer Gäste.</p>
+                <p>Nicht angemeldete Personen dürfen sich zwischen 7:00 und 22:00 Uhr nach vorheriger Absprache mit der Eigentümerin im Objekt aufhalten.</p>
+                <p>Gäste dürfen Zimmer nicht an Dritte weitergeben oder Personen außerhalb der Reservierung zur Nutzung überlassen.</p>
+              </div>
+              <div class="rule-block">
+                <h3>5. Nutzung von Zimmer und Ausstattung</h3>
+                <p>Bitte nutzen Sie Zimmer, Studios und Ausstattung entsprechend ihrer Bestimmung.</p>
+                <p>Aus Brandschutzgründen dürfen in den Zimmern keine elektrischen Geräte verwendet werden, die nicht zur Ausstattung des Hauses gehören, insbesondere Heizplatten, Reisekocher, Bügeleisen oder andere Geräte mit Brand- oder Installationsrisiko.</p>
+                <p>Ausgenommen sind übliche Ladegeräte, Laptops, Telefone sowie Geräte, die zur Zimmerausstattung gehören.</p>
+                <p>Bitte melden Sie jeden Schaden, Defekt oder Ausstattungsfehler. Für Schäden, die durch den Gast oder Begleitpersonen verursacht werden, kann eine materielle Haftung entstehen.</p>
+              </div>
+              <div class="rule-block">
+                <h3>6. Rauchen</h3>
+                <p>In Zimmern, Studios und Gemeinschaftsbereichen ist das Rauchen nicht gestattet.</p>
+                <p>Rauchen ist ausschließlich an dafür vorgesehenen Orten erlaubt.</p>
+                <p>Bitte verwenden Sie auch E-Zigaretten nicht in Zimmern oder Gemeinschaftsbereichen, wenn dadurch der Komfort anderer Gäste beeinträchtigt werden könnte.</p>
+              </div>
+              <div class="rule-block">
+                <h3>7. Persönliche Gegenstände und Parkplatz</h3>
+                <p>Bitte gehen Sie sorgfältig mit persönlichen Gegenständen, Dokumenten, Geld und wertvoller Ausrüstung um.</p>
+                <p>Bei besonders wertvollen Gegenständen bitten wir um vorherige Kontaktaufnahme, um Möglichkeiten einer sicheren Aufbewahrung zu besprechen.</p>
+                <p>Parkplätze, sofern sie Gästen zur Verfügung stehen, sind unbewacht. Das Objekt haftet nicht für Beschädigung oder Verlust eines Fahrzeugs, soweit nicht zwingende gesetzliche Vorschriften etwas anderes vorsehen.</p>
+              </div>
+              <div class="rule-block">
+                <h3>8. Tiere</h3>
+                <p>Ein Aufenthalt mit Tier ist nur nach vorheriger Absprache mit der Eigentümerin möglich.</p>
+                <p>Der Tierhalter ist für das Verhalten des Tieres, die Sauberkeit und eventuelle Schäden verantwortlich.</p>
+                <p>Bitte achten Sie darauf, dass Tiere die Erholung anderer Gäste nicht stören.</p>
+              </div>
+              <div class="rule-block">
+                <h3>9. Reservierung und Anzahlung</h3>
+                <p>Bei Direktbuchungen kann eine Anzahlung in der bei der Reservierung vereinbarten Höhe erforderlich sein. Mit dem Eingang der Anzahlung wird die Reservierung bestätigt.</p>
+                <p>Bei einer Stornierung spätestens 60 Tage vor der geplanten Anreise wird die Anzahlung zurückerstattet.</p>
+                <p>Bei einer späteren Stornierung kann die Anzahlung einbehalten werden, sofern nichts anderes vereinbart wurde.</p>
+                <p>Ein vorzeitiger Abbruch des Aufenthalts gilt als nicht genutzte Leistung und begründet keinen Anspruch auf Rückzahlung für ungenutzte Tage, sofern nicht individuell etwas anderes vereinbart wurde.</p>
+              </div>
+              <div class="rule-block">
+                <h3>10. Kurtaxe</h3>
+                <p>Die Kurtaxe ist, sofern sie im jeweiligen Zeitraum gilt, nicht im Aufenthaltspreis enthalten und wird nach den aktuellen Regeln der Gemeinde erhoben.</p>
+              </div>
+              <div class="rule-block">
+                <h3>11. Regeln für gemeinsames Erholen</h3>
+                <p>Wir bitten unsere Gäste um:</p>
+                <ul class="rule-sublist">
+                  <li>Rücksicht auf die Erholung anderer,</li>
+                  <li>Ordnung in Zimmern und Gemeinschaftsbereichen,</li>
+                  <li>sachgemäße Nutzung der Ausstattung,</li>
+                  <li>Verschließen des Zimmers beim Verlassen des Hauses,</li>
+                  <li>Meldung von festgestellten Defekten oder Problemen.</li>
+                </ul>
+                <p>So kann jeder Aufenthalt ruhig und angenehm verlaufen.</p>
+              </div>
+              <div class="rule-block">
+                <h3>12. Nicht geregelte Angelegenheiten</h3>
+                <p>In Angelegenheiten, die in dieser Hausordnung nicht geregelt sind, gelten die allgemein verbindlichen Vorschriften des polnischen Rechts.</p>
+                <p>Bei Fragen zu Hausordnung, Reservierung oder Aufenthalt bitten wir um direkten Kontakt mit der Eigentümerin.</p>
+              </div>
+            </div>
+          </article>
+
+          <aside class="card rules-aside lang-content" data-lang="de" data-reveal>
+            <h3>Kontakt und Zahlung</h3>
+            <p>Wenn Sie Regeln, Anreisezeiten oder Reservierungsbedingungen vorab klären möchten, kontaktieren Sie uns am besten direkt.</p>
+            <div class="mini-contact">
+              <div class="mini-box">
+                <strong>Kontakt</strong>
+                Dom Latarnika<br>
+                ul. Nadmorska 65A<br>
+                78-132 Grzybowo<br><br>
+                Telefon: <a href="tel:+48607354555" data-call-link>+48 607 35 45 55</a><br>
+                E-Mail: <a href="mailto:renata@dom-latarnika.pl">renata@dom-latarnika.pl</a>
+              </div>
+              <div class="mini-box">
+                <strong>Zahlungsdaten</strong>
+                Bank: PKO BP<br>
+                Kontonummer: 31 1020 2821 0000 1102 0002 0081<br>
+                Empfänger: Renata Brączyk / Dom Latarnika<br><br>
+                Verwendungszweck:<br>
+                Anzahlung — Vor- und Nachname, Aufenthaltsdatum<br><br>
+                Beispiel:<br>
+                Anzahlung — Anna Kowalska, 12.–18.07.2026
+              </div>
+            </div>
+          </aside>
+
+          <article class="card rules-card lang-content" data-lang="en" data-reveal>
+            <div class="rules-stack">
+              <div class="rule-block">
+                <h3>1. Stay hours</h3>
+                <p>Rooms and studios are rented by the day.</p>
+                <p>The stay starts at 3:00 PM and ends at 10:00 AM on the day of departure.</p>
+                <p>Arrival or departure at different times may be possible after prior arrangement with the property owner.</p>
+              </div>
+              <div class="rule-block">
+                <h3>2. Guest comfort and safety</h3>
+                <p>Dom Latarnika does its best to provide calm and comfortable conditions for rest, safety during the stay and a polite, helpful service.</p>
+                <p>If you notice any fault, damage or technical issue, please contact the property owner as soon as possible. This helps us respond quickly and take care of your comfort.</p>
+              </div>
+              <div class="rule-block">
+                <h3>3. Help during your stay</h3>
+                <p>Whenever possible, we help guests with practical matters related to their stay.</p>
+                <ul class="rule-sublist">
+                  <li>information about the property and local area,</li>
+                  <li>arranging arrival or departure details,</li>
+                  <li>storing luggage for guests already checked in.</li>
+                </ul>
+              </div>
+              <div class="rule-block">
+                <h3>4. Quiet hours and visitors</h3>
+                <p>Quiet hours apply from 10:00 PM to 7:00 AM. During that time, we kindly ask all guests to respect the rest of others.</p>
+                <p>Visitors who are not registered at the property may stay on site between 7:00 AM and 10:00 PM after prior arrangement with the owner.</p>
+                <p>Guests may not hand over a room to third parties or allow people outside the booking to use it.</p>
+              </div>
+              <div class="rule-block">
+                <h3>5. Use of the room and equipment</h3>
+                <p>Please use the room, studio and all equipment according to their intended purpose.</p>
+                <p>For fire safety reasons, electrical devices that are not part of the property equipment may not be used in the rooms, especially portable heaters, travel cookers, irons or other devices that could create a fire risk or damage the installation.</p>
+                <p>This does not apply to standard chargers, laptops, phones or devices that are already part of the room equipment.</p>
+                <p>Please report any damage, fault or equipment issue. Guests may be financially responsible for damage caused by themselves or by accompanying persons.</p>
+              </div>
+              <div class="rule-block">
+                <h3>6. Smoking</h3>
+                <p>Smoking is not allowed in rooms, studios or shared areas.</p>
+                <p>Smoking is only permitted in designated places.</p>
+                <p>We also kindly ask guests not to use e-cigarettes in rooms or shared spaces if this could affect the comfort of others.</p>
+              </div>
+              <div class="rule-block">
+                <h3>7. Personal belongings and parking</h3>
+                <p>Please take due care when storing personal belongings, documents, money and valuable equipment.</p>
+                <p>For especially valuable items, please contact the owner in advance to discuss whether safe storage can be arranged.</p>
+                <p>Parking spaces, if provided to guests, are unguarded. The property is not responsible for damage to or loss of a vehicle unless such responsibility results from mandatory legal provisions.</p>
+              </div>
+              <div class="rule-block">
+                <h3>8. Pets</h3>
+                <p>Staying with a pet is only possible after prior arrangement with the property owner.</p>
+                <p>The pet owner is responsible for the animal’s behaviour, cleanliness and any damage caused by the animal.</p>
+                <p>Please make sure pets do not disturb the rest of other guests.</p>
+              </div>
+              <div class="rule-block">
+                <h3>9. Reservation and deposit</h3>
+                <p>A direct booking may require a deposit in the amount agreed during the reservation process. Payment of the deposit confirms the booking.</p>
+                <p>If the stay is cancelled no later than 60 days before the planned arrival, the deposit is refunded.</p>
+                <p>If the cancellation is made later, the deposit may be non-refundable unless agreed otherwise.</p>
+                <p>Leaving earlier than planned is treated as a partially unused service and does not create grounds for a refund for unused days unless individually agreed otherwise.</p>
+              </div>
+              <div class="rule-block">
+                <h3>10. Local tourist tax</h3>
+                <p>If applicable for a given period, the local tourist tax is not included in the stay price and is charged according to the current municipal rules.</p>
+              </div>
+              <div class="rule-block">
+                <h3>11. Shared stay guidelines</h3>
+                <p>We kindly ask guests to:</p>
+                <ul class="rule-sublist">
+                  <li>respect the rest of other guests,</li>
+                  <li>keep rooms and shared areas tidy,</li>
+                  <li>use equipment as intended,</li>
+                  <li>lock the room when leaving the property,</li>
+                  <li>report any noticed faults or problems.</li>
+                </ul>
+                <p>Thanks to this, every stay can remain calm and comfortable.</p>
+              </div>
+              <div class="rule-block">
+                <h3>12. Matters not covered here</h3>
+                <p>In matters not regulated by these house rules, generally applicable provisions of Polish law shall apply.</p>
+                <p>If you have any questions about the rules, your booking or your stay, please contact the property owner directly.</p>
+              </div>
+            </div>
+          </article>
+
+          <aside class="card rules-aside lang-content" data-lang="en" data-reveal>
+            <h3>Contact and payment</h3>
+            <p>If you would like to clarify stay rules, arrival times or booking conditions in advance, the best option is to contact us directly.</p>
+            <div class="mini-contact">
+              <div class="mini-box">
+                <strong>Contact</strong>
+                Dom Latarnika<br>
+                ul. Nadmorska 65A<br>
+                78-132 Grzybowo<br><br>
+                Phone: <a href="tel:+48607354555" data-call-link>+48 607 35 45 55</a><br>
+                E-mail: <a href="mailto:renata@dom-latarnika.pl">renata@dom-latarnika.pl</a>
+              </div>
+              <div class="mini-box">
+                <strong>Payment details</strong>
+                Bank: PKO BP<br>
+                Account number: 31 1020 2821 0000 1102 0002 0081<br>
+                Recipient: Renata Brączyk / Dom Latarnika<br><br>
+                Transfer title:<br>
+                Deposit — first and last name, stay dates<br><br>
+                Example:<br>
+                Deposit — Anna Kowalska, 12–18.07.2026
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <section class="footer-card" aria-labelledby="footer-contact">
+          <h3 id="footer-contact" data-i18n="footer_contact_title">Kontakt</h3>
+          <p>Dom Latarnika</p>
+          <p><span data-i18n="footer_phone_label">Telefon:</span> <a href="tel:+48607354555">+48 607 35 45 55</a></p>
+          <p><span data-i18n="footer_email_label">E-mail:</span> <a href="mailto:renata@dom-latarnika.pl">renata@dom-latarnika.pl</a></p>
+        </section>
+
+        <section class="footer-card" aria-labelledby="footer-address">
+          <h3 id="footer-address" data-i18n="footer_address_title">Dom Latarnika</h3>
+          <p>ul. Nadmorska 65A</p>
+          <p>78-132 Grzybowo</p>
+        </section>
+
+        <section class="footer-card" aria-labelledby="footer-bank">
+          <h3 id="footer-bank" data-i18n="footer_payment_title">Dane do płatności</h3>
+          <p><span data-i18n="footer_bank_name">Bank: PKO BP</span></p>
+          <p><span data-i18n="footer_account_label">Numer rachunku:</span> 31 1020 2821 0000 1102 0002 0081</p>
+          <p><span data-i18n="footer_recipient_label">Odbiorca:</span> Renata Brączyk / Dom Latarnika</p>
+          <p><span data-i18n="footer_transfer_label">Tytuł przelewu:</span><br><span data-i18n="footer_transfer_value">Zadatek — imię i nazwisko, termin pobytu</span></p>
+          <p><span data-i18n="footer_example_label">Przykład:</span><br><span data-i18n="footer_example_value">Zadatek — Anna Kowalska, 12–18.07.2026</span></p>
+        </section>
+      </div>
+
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="img/dllogo-min.png" alt="Dom Latarnika">
+          <div>
+            <strong>Dom Latarnika</strong><br>
+            <span>Grzybowo · ul. Nadmorska 65A</span>
+          </div>
+        </div>
+
+        <nav class="footer-links" aria-label="Stopka" data-i18n-aria-label="footer_nav_aria">
+          <a href="index.html#oferta" data-i18n="nav_offer">Oferta</a>
+          <a href="index.html#pokoje" data-i18n="nav_rooms">Pokoje</a>
+          <a href="index.html#sniadania" data-i18n="nav_breakfast">Śniadania</a>
+          <a href="index.html#opinie" data-i18n="nav_reviews">Opinie</a>
+          <a href="index.html#kontakt" data-i18n="nav_contact">Kontakt</a>
+          <a href="regulamin.html" aria-current="page" data-i18n="nav_rules">Regulamin</a>
+          <a class="footer-social" href="https://www.facebook.com/DomLatarnika/?locale=pl_PL" target="_blank" rel="noopener" aria-label="Facebook Dom Latarnika" data-i18n-aria-label="social_facebook_aria">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.6 1.6-1.6H17V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3h2.8v8h3.2z"></path>
+            </svg>
+          </a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const translations = {
+      pl: {
+        title: "Regulamin - Dom Latarnika",
+        description: "Regulamin pobytu w Domu Latarnika w Grzybowie.",
+        skip: "Przejdź do treści",
+        a11y_panel_aria: "Ułatwienia dostępności",
+        a11y_close_aria: "Zamknij panel ułatwień",
+        a11y_title: "Ułatwienia",
+        a11y_text: "Dodatkowe ustawienia dla wygodniejszego korzystania ze strony.",
+        a11y_motion: "Mniej ruchu",
+        a11y_text_size: "Większy tekst",
+        a11y_contrast: "Wyższy kontrast",
+        a11y_panel_shown: "Pokazano panel ułatwień.",
+        a11y_motion_on: "Włączono ograniczenie ruchu.",
+        a11y_motion_off: "Wyłączono ograniczenie ruchu.",
+        a11y_text_on: "Włączono większy tekst.",
+        a11y_text_off: "Wyłączono większy tekst.",
+        a11y_contrast_on: "Włączono wyższy kontrast.",
+        a11y_contrast_off: "Wyłączono wyższy kontrast.",
+        nav_offer: "Oferta",
+        nav_rooms: "Pokoje",
+        nav_breakfast: "Śniadania",
+        nav_reviews: "Opinie",
+        nav_contact: "Kontakt",
+        nav_rules: "Regulamin",
+        rules_hero_aria: "Regulamin pobytu",
+        brand_home_aria: "Dom Latarnika, wróć na stronę główną",
+        social_facebook_aria: "Facebook Dom Latarnika",
+        nav_main_aria: "Główna nawigacja",
+        lang_switcher_aria: "Wybór języka",
+        lang_pl_aria: "Język polski",
+        lang_de_aria: "Język niemiecki",
+        lang_en_aria: "Język angielski",
+        footer_nav_aria: "Stopka",
+        open_menu_aria: "Otwórz menu",
+        close_menu_aria: "Zamknij menu",
+        language_changed_status: "Włączono język polski.",
+        new_tab_aria: "Otwiera się w nowej karcie",
+        home: "Strona główna",
+        call: "Zadzwoń",
+        footer_contact_title: "Kontakt",
+        footer_address_title: "Dom Latarnika",
+        footer_payment_title: "Dane do płatności",
+        footer_phone_label: "Telefon:",
+        footer_email_label: "E-mail:",
+        footer_bank_name: "Bank: PKO BP",
+        footer_account_label: "Numer rachunku:",
+        footer_recipient_label: "Odbiorca:",
+        footer_transfer_label: "Tytuł przelewu:",
+        footer_transfer_value: "Zadatek — imię i nazwisko, termin pobytu",
+        footer_example_label: "Przykład:",
+        footer_example_value: "Zadatek — Anna Kowalska, 12–18.07.2026"
+      },
+      de: {
+        title: "Hausordnung - Dom Latarnika",
+        description: "Hausordnung für den Aufenthalt im Dom Latarnika in Grzybowo.",
+        skip: "Zum Inhalt",
+        a11y_panel_aria: "Barrierefreiheitshilfen",
+        a11y_close_aria: "Hilfepanel schließen",
+        a11y_title: "Hilfen",
+        a11y_text: "Zusätzliche Einstellungen für eine bequemere Nutzung der Website.",
+        a11y_motion: "Weniger Bewegung",
+        a11y_text_size: "Größerer Text",
+        a11y_contrast: "Höherer Kontrast",
+        a11y_panel_shown: "Hilfepanel wurde eingeblendet.",
+        a11y_motion_on: "Bewegungsreduzierung aktiviert.",
+        a11y_motion_off: "Bewegungsreduzierung deaktiviert.",
+        a11y_text_on: "Größerer Text aktiviert.",
+        a11y_text_off: "Größerer Text deaktiviert.",
+        a11y_contrast_on: "Höherer Kontrast aktiviert.",
+        a11y_contrast_off: "Höherer Kontrast deaktiviert.",
+        nav_offer: "Angebot",
+        nav_rooms: "Zimmer",
+        nav_breakfast: "Frühstück",
+        nav_reviews: "Bewertungen",
+        nav_contact: "Kontakt",
+        nav_rules: "Regeln",
+        rules_hero_aria: "Hausordnung",
+        brand_home_aria: "Dom Latarnika, zurück zur Startseite",
+        social_facebook_aria: "Facebook von Dom Latarnika",
+        nav_main_aria: "Hauptnavigation",
+        lang_switcher_aria: "Sprachauswahl",
+        lang_pl_aria: "Polnische Sprache",
+        lang_de_aria: "Deutsche Sprache",
+        lang_en_aria: "Englische Sprache",
+        footer_nav_aria: "Fußzeile",
+        open_menu_aria: "Menü öffnen",
+        close_menu_aria: "Menü schließen",
+        language_changed_status: "Deutsche Sprache aktiviert.",
+        new_tab_aria: "Wird in einem neuen Tab geöffnet",
+        home: "Startseite",
+        call: "Anrufen",
+        footer_contact_title: "Kontakt",
+        footer_address_title: "Dom Latarnika",
+        footer_payment_title: "Zahlungsdaten",
+        footer_phone_label: "Telefon:",
+        footer_email_label: "E-Mail:",
+        footer_bank_name: "Bank: PKO BP",
+        footer_account_label: "Kontonummer:",
+        footer_recipient_label: "Empfänger:",
+        footer_transfer_label: "Verwendungszweck:",
+        footer_transfer_value: "Anzahlung — Vor- und Nachname, Aufenthaltsdatum",
+        footer_example_label: "Beispiel:",
+        footer_example_value: "Anzahlung — Anna Kowalska, 12.–18.07.2026"
+      },
+      en: {
+        title: "House rules - Dom Latarnika",
+        description: "Stay regulations for Dom Latarnika in Grzybowo.",
+        skip: "Skip to content",
+        a11y_panel_aria: "Accessibility tools",
+        a11y_close_aria: "Close accessibility panel",
+        a11y_title: "Accessibility",
+        a11y_text: "Extra settings for a more comfortable browsing experience.",
+        a11y_motion: "Less motion",
+        a11y_text_size: "Larger text",
+        a11y_contrast: "Higher contrast",
+        a11y_panel_shown: "Accessibility panel shown.",
+        a11y_motion_on: "Reduced motion enabled.",
+        a11y_motion_off: "Reduced motion disabled.",
+        a11y_text_on: "Larger text enabled.",
+        a11y_text_off: "Larger text disabled.",
+        a11y_contrast_on: "Higher contrast enabled.",
+        a11y_contrast_off: "Higher contrast disabled.",
+        nav_offer: "Offer",
+        nav_rooms: "Rooms",
+        nav_breakfast: "Breakfast",
+        nav_reviews: "Reviews",
+        nav_contact: "Contact",
+        nav_rules: "Rules",
+        rules_hero_aria: "House rules",
+        brand_home_aria: "Dom Latarnika, go back to the home page",
+        social_facebook_aria: "Dom Latarnika Facebook",
+        nav_main_aria: "Main navigation",
+        lang_switcher_aria: "Language switcher",
+        lang_pl_aria: "Polish language",
+        lang_de_aria: "German language",
+        lang_en_aria: "English language",
+        footer_nav_aria: "Footer navigation",
+        open_menu_aria: "Open menu",
+        close_menu_aria: "Close menu",
+        language_changed_status: "English language enabled.",
+        new_tab_aria: "Opens in a new tab",
+        home: "Home",
+        call: "Call",
+        footer_contact_title: "Contact",
+        footer_address_title: "Dom Latarnika",
+        footer_payment_title: "Payment details",
+        footer_phone_label: "Phone:",
+        footer_email_label: "E-mail:",
+        footer_bank_name: "Bank: PKO BP",
+        footer_account_label: "Account number:",
+        footer_recipient_label: "Recipient:",
+        footer_transfer_label: "Transfer title:",
+        footer_transfer_value: "Deposit — first and last name, stay dates",
+        footer_example_label: "Example:",
+        footer_example_value: "Deposit — Anna Kowalska, 12–18.07.2026"
+      }
+    };
+
+    const phoneByLang = {
+      pl: "tel:+48607354555",
+      de: "tel:+48607354555",
+      en: "tel:+48607354555"
+    };
+
+    const menuToggle = document.getElementById("menu-toggle");
+    const mainNav = document.getElementById("main-nav");
+    const pageStatus = document.getElementById("page-status");
+    const a11yPanel = document.getElementById("a11y-panel");
+    const a11yClose = a11yPanel.querySelector(".a11y-panel-close");
+    const a11yButtons = Array.from(a11yPanel.querySelectorAll("[data-a11y-toggle]"));
+    const A11Y_STORAGE_KEY = "dom_latarnika_a11y";
+    let hasInitializedLanguage = false;
+    let a11yPanelDismissed = false;
+    let a11yPrefs = { motion: false, text: false, contrast: false };
+
+    function loadA11yPrefs() {
+      try {
+        const stored = JSON.parse(localStorage.getItem(A11Y_STORAGE_KEY) || "{}");
+        a11yPrefs = {
+          motion: Boolean(stored.motion),
+          text: Boolean(stored.text),
+          contrast: Boolean(stored.contrast)
+        };
+      } catch {
+        a11yPrefs = { motion: false, text: false, contrast: false };
+      }
+    }
+
+    function saveA11yPrefs() {
+      localStorage.setItem(A11Y_STORAGE_KEY, JSON.stringify(a11yPrefs));
+    }
+
+    function showA11yPanel({ announce = false } = {}) {
+      if (a11yPanelDismissed) return;
+      if (!a11yPanel.hidden) return;
+      a11yPanel.hidden = false;
+      if (announce) {
+        const dict = translations[document.documentElement.lang || "pl"] || translations.pl;
+        pageStatus.textContent = dict.a11y_panel_shown;
+      }
+    }
+
+    function hideA11yPanel() {
+      a11yPanel.hidden = true;
+      a11yPanelDismissed = true;
+    }
+
+    function applyA11yPrefs({ announceKey = "" } = {}) {
+      document.body.classList.toggle("a11y-reduce-motion", a11yPrefs.motion);
+      document.body.classList.toggle("a11y-large-text", a11yPrefs.text);
+      document.body.classList.toggle("a11y-high-contrast", a11yPrefs.contrast);
+      document.documentElement.style.scrollBehavior = a11yPrefs.motion ? "auto" : "";
+      a11yButtons.forEach((button) => {
+        const key = button.dataset.a11yToggle;
+        button.setAttribute("aria-pressed", String(Boolean(a11yPrefs[key])));
+      });
+      if (announceKey) {
+        const dict = translations[document.documentElement.lang || "pl"] || translations.pl;
+        pageStatus.textContent = dict[announceKey] || "";
+      }
+      saveA11yPrefs();
+    }
+
+    function getFocusableElements(container) {
+      return Array.from(
+        container.querySelectorAll('a[href],button:not([disabled]),[tabindex]:not([tabindex="-1"])')
+      ).filter((element) => !element.hidden && element.offsetParent !== null);
+    }
+
+    function trapFocusIn(container, event) {
+      const focusable = getFocusableElements(container);
+      if (!focusable.length) return;
+
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    }
+
+    function isMobileNavLayout() {
+      return window.innerWidth <= 1080;
+    }
+
+    function syncMenuState() {
+      const isMobile = isMobileNavLayout();
+      const isOpen = mainNav.classList.contains("is-open");
+      if (!isMobile) {
+        mainNav.classList.remove("is-open");
+        menuToggle.setAttribute("aria-expanded", "false");
+      }
+      mainNav.setAttribute("aria-hidden", String(isMobile && !isOpen));
+      if (!isMobile) {
+        mainNav.setAttribute("aria-hidden", "false");
+      }
+      updateMenuToggleLabel(document.documentElement.lang || "pl");
+    }
+
+    function updateMenuToggleLabel(lang) {
+      const dict = translations[lang] || translations.pl;
+      const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
+      menuToggle.setAttribute("aria-label", isOpen ? dict.close_menu_aria : dict.open_menu_aria);
+    }
+
+    function updateExternalLinkLabels(dict) {
+      document.querySelectorAll('a[target="_blank"]').forEach((link) => {
+        const baseLabel = link.hasAttribute("data-i18n-aria-label")
+          ? (link.getAttribute("aria-label") || "")
+          : link.textContent.trim().replace(/\s+/g, " ");
+        link.setAttribute("aria-label", `${baseLabel}. ${dict.new_tab_aria}`);
+      });
+    }
+
+    menuToggle.addEventListener("click", () => {
+      const isOpen = mainNav.classList.toggle("is-open");
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      mainNav.setAttribute("aria-hidden", String(!isOpen));
+      if (isOpen) {
+        const firstLink = getFocusableElements(mainNav)[0];
+        if (firstLink) firstLink.focus();
+      }
+      updateMenuToggleLabel(document.documentElement.lang || "pl");
+    });
+
+    mainNav.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        if (window.innerWidth <= 1080) {
+          mainNav.classList.remove("is-open");
+          menuToggle.setAttribute("aria-expanded", "false");
+          mainNav.setAttribute("aria-hidden", "true");
+          updateMenuToggleLabel(document.documentElement.lang || "pl");
+        }
+      });
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Tab") showA11yPanel({ announce: true });
+      if (!isMobileNavLayout() || !mainNav.classList.contains("is-open")) return;
+      if (event.key === "Escape") {
+        mainNav.classList.remove("is-open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        mainNav.setAttribute("aria-hidden", "true");
+        updateMenuToggleLabel(document.documentElement.lang || "pl");
+        menuToggle.focus();
+      }
+      if (event.key === "Tab") trapFocusIn(mainNav, event);
+    });
+
+    window.addEventListener("resize", syncMenuState);
+
+    a11yButtons.forEach((button) => {
+      const toggleA11yFeature = () => {
+        const key = button.dataset.a11yToggle;
+        a11yPrefs[key] = !a11yPrefs[key];
+        const announceMap = {
+          motion: a11yPrefs[key] ? "a11y_motion_on" : "a11y_motion_off",
+          text: a11yPrefs[key] ? "a11y_text_on" : "a11y_text_off",
+          contrast: a11yPrefs[key] ? "a11y_contrast_on" : "a11y_contrast_off"
+        };
+        applyA11yPrefs({ announceKey: announceMap[key] });
+      };
+
+      button.addEventListener("click", toggleA11yFeature);
+
+      button.addEventListener("keydown", (e) => {
+        if (e.code === "Space" || e.code === "Enter") {
+          e.preventDefault();
+          toggleA11yFeature();
+        }
+      });
+    });
+
+    a11yClose.addEventListener("click", hideA11yPanel);
+
+    function setLanguage(lang) {
+      const dict = translations[lang] || translations.pl;
+      document.documentElement.lang = lang;
+      document.title = dict.title;
+      const description = document.querySelector('meta[name="description"]');
+      if (description) description.setAttribute("content", dict.description);
+      document.querySelectorAll("[data-i18n]").forEach((node) => {
+        const key = node.dataset.i18n;
+        if (dict[key]) node.textContent = dict[key];
+      });
+      document.querySelectorAll("[data-i18n-aria-label]").forEach((node) => {
+        const key = node.dataset.i18nAriaLabel;
+        if (dict[key]) node.setAttribute("aria-label", dict[key]);
+      });
+      document.querySelectorAll("[data-call-link]").forEach((node) => {
+        node.setAttribute("href", phoneByLang[lang] || phoneByLang.pl);
+      });
+      document.querySelectorAll(".lang-switcher button").forEach((button) => {
+        button.classList.toggle("is-active", button.dataset.lang === lang);
+        button.setAttribute("aria-pressed", String(button.dataset.lang === lang));
+      });
+      document.querySelectorAll(".lang-content").forEach((node) => {
+        node.hidden = node.dataset.lang !== lang;
+      });
+      updateExternalLinkLabels(dict);
+      updateMenuToggleLabel(lang);
+      if (hasInitializedLanguage) pageStatus.textContent = dict.language_changed_status;
+      hasInitializedLanguage = true;
+      localStorage.setItem("dom_latarnika_lang", lang);
+    }
+
+    document.querySelectorAll(".lang-switcher button").forEach((button) => {
+      button.addEventListener("click", () => setLanguage(button.dataset.lang));
+    });
+
+    const revealItems = document.querySelectorAll("[data-reveal]");
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.18 });
+
+    revealItems.forEach((item) => observer.observe(item));
+
+    loadA11yPrefs();
+    setLanguage(localStorage.getItem("dom_latarnika_lang") || "pl");
+    applyA11yPrefs();
+    syncMenuState();
+  </script>
+
+  <!-- Cookie Consent -->
+  <aside id="cookie-consent" class="cookie-consent" hidden role="dialog" aria-label="Zgoda na cookies" aria-modal="true">
+    <div class="cookie-consent-inner">
+      <p class="cookie-consent-text">
+        Używamy cookies do analizy ruchu i poprawy doświadczenia.
+        <a href="/privacy-policy.html" target="_blank">Polityka Prywatności</a>
+      </p>
+      <div class="cookie-consent-actions">
+        <button type="button" id="cookie-decline" class="cookie-consent-btn cookie-consent-btn-decline" aria-label="Odrzuć cookies analityczne">
+          Odrzuć
+        </button>
+        <button type="button" id="cookie-accept" class="cookie-consent-btn cookie-consent-btn-accept" aria-label="Zaakceptuj cookies">
+          Zaakceptuj
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <script src="assets/cookie-consent.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /.git/
+Disallow: /.claude/
+Disallow: /.vscode/
+
+Sitemap: https://dom-latarnika.pl/sitemap.xml
+
+# Crawl delay to be respectful
+Crawl-delay: 1
