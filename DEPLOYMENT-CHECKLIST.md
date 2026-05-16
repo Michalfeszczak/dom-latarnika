@@ -1,6 +1,6 @@
 # ✅ Checklist Wdrożenia - Dom Latarnika
 
-## Przed deploymentem na Vercel
+## Przed deploymentem na Cloudflare Pages
 
 ### 📝 Konfiguracja kodu
 - [ ] Zaktualizujesz Google Analytics ID (w index.html)
@@ -13,12 +13,12 @@
 - [ ] Sprawdzisz CSS/JS dla błędów (DevTools → Console)
 - [ ] Zweryfikujesz strukturę: Lighthouse Audit (DevTools → Lighthouse)
 
-### 🚀 Vercel Setup
+### 🚀 Cloudflare Pages Setup
 - [ ] Stworzysz repo na GitHub
-- [ ] Będziesz mieć konto na Vercel
-- [ ] Skonektujesz repo z Vercel
-- [ ] Dodasz domenę (Settings → Domains)
-- [ ] Zmienisz DNS u rejestratora
+- [ ] Będziesz mieć konto na Cloudflare (darmowe)
+- [ ] Skonektujesz repo z Cloudflare Pages (GitHub authorization)
+- [ ] Dodasz domenę w Cloudflare Pages
+- [ ] Zmienisz DNS u rejestratora domeny (na Cloudflare nameservery)
 
 ### 📊 Post-Launch (24h po wdrożeniu)
 
@@ -63,7 +63,8 @@
 - `robots.txt` — instrukcje dla Google Bot
 - `sitemap.xml` — mapa strony dla Google
 - `favicon.svg` — ikona w pasku przeglądarki
-- `vercel.json` — konfiguracja Vercel (cache, headers security)
+- `_redirects` — konfiguracja redirectów dla Cloudflare Pages
+- `_headers` — security headers dla Cloudflare
 - `SETUP-GUIDE.md` — instrukcje setup
 - `DEPLOYMENT-CHECKLIST.md` — ten plik
 
@@ -77,9 +78,9 @@ Jeśli chcesz szybciej (nieobowiązkowe):
 2. Konwertuj JPG na WebP: https://cloudconvert.com
 3. Lazy loading jest już (loading="lazy" w HTML)
 
-### Cache Busting:
-- `assets/index.css` i `assets/index.js` są cachowane na 1 rok
-- Zmieniając CSS/JS, dodaj ?v=1 do nazwy pliku
+### Cache na Cloudflare:
+- Cloudflare cachuje pliki statyczne automatycznie
+- Zmieniając CSS/JS, dodaj ?v=1 do nazwy pliku, aby wymusić refresh
 
 ---
 
@@ -88,13 +89,13 @@ Jeśli chcesz szybciej (nieobowiązkowe):
 - **DNS nie propaguje:** Poczekaj 24-48h (czasem dłużej)
 - **Google nie indeksuje:** Prześlij sitemap w Search Console
 - **Zdjęcia nie ładują się:** Sprawdź ścieżki w src=""
-- **Email na domenie nie działa:** Przydaj MX records u rejestratora
+- **Email na domenie nie działa:** Dodaj MX records u rejestratora (Cloudflare Email Routing - darmowe)
 
 ---
 
 ## 📞 Kontakty do wyników
 
-Po wdrożeniu, gdzie sprawdzać radarami:
+Po wdrożeniu, gdzie sprawdzać wyniki:
 - Google Analytics: https://analytics.google.com
 - Search Console: https://search.google.com/search-console
 - Google My Business: https://business.google.com
@@ -103,4 +104,4 @@ Po wdrożeniu, gdzie sprawdzać radarami:
 
 ---
 
-**Status:** Strona gotowa do wdrożenia ✅
+**Status:** Strona gotowa do wdrożenia na Cloudflare Pages ✅

@@ -52,25 +52,35 @@
 
 ---
 
-## 🔧 Vercel Deployment
+## 🔧 Cloudflare Pages Deployment
 
-### Ustawianie domeny na Vercel:
+### Ustawianie domeny na Cloudflare Pages:
 
 1. **Połącz repozytorium Git:**
    - Stwórz repo na GitHub (https://github.com)
    - Push projekt do repozytorium
-   - Połącz z Vercel
+   - Połącz z Cloudflare Pages
 
 2. **Konfiguracja domeny:**
-   - W Vercel: Settings → Domains
-   - Dodaj `dom-latarnika.pl`
-   - Zmień DNS u rejestratora domeny (np. Namecheap, OVH)
+   - W Cloudflare Pages: Connect Git → Autoryzuj GitHub
+   - Wybierz repo `dom-latarnika`
+   - Cloudflare automatycznie wykryje stronę statyczną
+   - Build command: (puste - strona statyczna)
+   - Build output directory: (puste - domyślnie root)
 
 3. **Automatyczne HTTPS:**
-   - Vercel załatwia automatycznie (Let's Encrypt)
+   - Cloudflare załatwia automatycznie (darmowe SSL)
 
-4. **Environment Variables (jeśli będą potrzebne):**
-   - Settings → Environment Variables
+4. **Zmiana DNS:**
+   - Cloudflare pokaże Ci nameservery
+   - Zmień DNS u rejestratora domeny na:
+     - `ana.ns.cloudflare.com`
+     - `bash.ns.cloudflare.com`
+   - Lub użyj CNAME:
+     - `dom-latarnika.pl` → `dom-latarnika-gh.pages.dev`
+
+5. **Setup domeny w Cloudflare:**
+   - Custom domain → Dodaj `dom-latarnika.pl`
 
 ---
 
@@ -105,7 +115,7 @@
 
 ## 🎯 Kolejne kroki (opcjonalnie):
 
-- [ ] SSL Certificate (Vercel załatwia)
+- [ ] SSL Certificate (Cloudflare załatwia darmowo)
 - [ ] Backup bazy danych (jeśli będzie potrzebna)
 - [ ] Email na domenie (`kontakt@dom-latarnika.pl`)
 - [ ] Mailchimp newsletter (zbieranie maili)
@@ -113,4 +123,4 @@
 
 ---
 
-**Pytania?** Dokumentacja Vercel: https://vercel.com/docs
+**Pytania?** Dokumentacja Cloudflare Pages: https://developers.cloudflare.com/pages/

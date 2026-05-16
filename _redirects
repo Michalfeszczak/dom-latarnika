@@ -1,0 +1,8 @@
+# Cloudflare Pages Redirects
+# For more info: https://developers.cloudflare.com/pages/configuration/redirects/
+
+# Redirect sitemap to avoid 404s if needed
+/sitemap /sitemap.xml 301
+
+# If you need to redirect other pages, add them here
+# Example: /old-page /new-page 301
