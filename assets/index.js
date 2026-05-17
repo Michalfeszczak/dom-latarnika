@@ -1599,6 +1599,25 @@
       autoRotateInterval = setInterval(autoRotate, 5000);
     }
 
+    // Floating booking button scroll visibility
+    const floatingBtn = document.getElementById("floating-booking-btn");
+    if (floatingBtn) {
+      let isVisible = false;
+      const heroSection = document.querySelector(".hero");
+      const showThreshold = heroSection?.offsetHeight || 600;
+
+      window.addEventListener("scroll", () => {
+        const shouldShow = window.scrollY > showThreshold;
+        if (shouldShow && !isVisible) {
+          floatingBtn.hidden = false;
+          isVisible = true;
+        } else if (!shouldShow && isVisible) {
+          floatingBtn.hidden = true;
+          isVisible = false;
+        }
+      }, { passive: true });
+    }
+
     initTestimonialCarousel();
     setLanguage(getDefaultLanguage());
     applyA11yPrefs();

@@ -2101,7 +2101,47 @@
       border-radius:4px;
     }
     @keyframes slideIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+
+    /* Floating Booking Button */
+    .floating-booking-btn{
+      position:fixed;
+      bottom:2rem;
+      right:2rem;
+      z-index:999;
+      padding:1rem 1.5rem;
+      background:var(--accent);
+      color:var(--white);
+      border:none;
+      border-radius:50px;
+      font-weight:700;
+      font-size:0.95rem;
+      cursor:pointer;
+      box-shadow:var(--shadow);
+      transition:all 0.3s ease;
+      opacity:0;
+      transform:translateY(20px);
+      visibility:hidden;
+    }
+    .floating-booking-btn:not([hidden]){
+      opacity:1;
+      transform:translateY(0);
+      visibility:visible;
+    }
+    .floating-booking-btn:hover{
+      background:var(--accent-strong);
+      transform:translateY(-2px);
+      box-shadow:0 24px 48px rgba(14,40,64,.18);
+    }
+    .floating-booking-btn:active{transform:translateY(0)}
+    .floating-booking-btn:focus-visible{outline-offset:2px}
+
     @media (max-width:768px){
+      .floating-booking-btn{
+        bottom:1.5rem;
+        right:1.5rem;
+        padding:0.875rem 1.25rem;
+        font-size:0.9rem;
+      }
       .testimonials-carousel-wrapper{padding:2rem 1.25rem;margin:2rem 0 1rem}
       .testimonials-carousel-wrapper::before{font-size:90px;top:-10px;left:10px}
       .testimonial-quote{font-size:0.95rem}
