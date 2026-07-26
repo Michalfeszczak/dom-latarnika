@@ -38,3 +38,9 @@ yarn-error.log*
 # Cache
 .cache/
 .claude/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
