@@ -3003,7 +3003,7 @@
       justify-content:center;
       gap:12px;
       padding:26px 16px 18px;
-      background:linear-gradient(to top, rgba(9,28,45,.60) 0%, rgba(9,28,45,.28) 55%, transparent 100%);
+      background:rgba(247,243,236,.96);
     }
     .map-action{
       display:inline-flex;
