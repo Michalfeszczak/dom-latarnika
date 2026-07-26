@@ -2289,7 +2289,7 @@
     }
     .rooms-grid{
       display:grid;
-      grid-template-columns:repeat(3,minmax(0,1fr));
+      grid-template-columns:repeat(var(--room-grid-columns, 3),minmax(0,1fr));
       gap:24px;
     }
     .room-card{
@@ -2791,11 +2791,14 @@
 
     /* Pokoje: elastyczna siatka dla 16 kart */
     .rooms-grid{
-      grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
+      grid-template-columns:repeat(var(--room-grid-columns, 3),minmax(0,1fr));
       gap:22px;
     }
-    @media (max-width:1080px){ .rooms-grid{grid-template-columns:repeat(auto-fill,minmax(220px,1fr))} }
-    @media (max-width:520px){ .rooms-grid{grid-template-columns:1fr} }
+    @media (max-width:1080px){
+      .rooms-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .rooms-grid[data-room-count="1"]{grid-template-columns:1fr}
+    }
+    @media (max-width:760px){ .rooms-grid{grid-template-columns:1fr} }
     .room-card-features li{font-size:.88rem}
     .room-card-actions .button{font-size:.76rem;letter-spacing:.04em}
 

@@ -2012,6 +2012,8 @@
       if (!grid) return;
       const dict = translations[lang] || translations.pl;
       const visibleRooms = roomTypes.filter(roomMatchesFilter);
+      grid.dataset.roomCount = String(visibleRooms.length);
+      grid.style.setProperty("--room-grid-columns", String(Math.min(Math.max(visibleRooms.length, 1), 3)));
       updateRoomFilterButtons();
       if (!visibleRooms.length) {
         grid.innerHTML = `<p class="room-empty">${dict.room_no_results || "Brak pokoi dla wybranego filtra."}</p>`;
