@@ -490,15 +490,21 @@
         news_text: "Najnowsze zdjęcia, wolne terminy i promocje publikujemy na naszym Facebooku. Zajrzyj i bądź na bieżąco przed sezonem.",
         news_tag_photo: "Zdjęcia",
         news_tag_offer: "Terminy",
-        news_card1_title: "Nowe zdjęcia z sezonu",
-        news_card1_text: "Zajrzyj na naszą galerię na Facebooku — dodajemy zdjęcia pokoi, plaży i okolicy.",
+        news_card1_title: "Zdjęcia z tego sezonu",
+        news_card1_text: "Kliknij, aby przejrzeć nasze najnowsze zdjęcia pokoi, plaży i okolicy.",
+        news_card1_more: "Przeglądaj galerię →",
+        news_card1_aria: "Zobacz zdjęcia z tego sezonu",
         news_card2_title: "Wolne terminy i promocje",
-        news_card2_text: "O ostatnich wolnych terminach i ofertach specjalnych informujemy na bieżąco w social mediach.",
-        news_card3_title: "Śledź nas na Facebooku",
-        news_card3_text: "Codzienne aktualności, zdjęcia i szybki kontakt przez Messenger.",
-        news_card3_button: "Odwiedź profil",
-        fb_embed_title: "Tablica na Facebooku",
-        fb_embed_text: "Aby wyświetlić naszą tablicę Facebooka bezpośrednio na stronie, zaakceptuj cookies społecznościowe.",
+        news_card2_text: "O ostatnich wolnych terminach i ofertach specjalnych informujemy na bieżąco na Facebooku.",
+        news_card2_more: "Sprawdź na Facebooku →",
+        news_card2_aria: "Wolne terminy — sprawdź na Facebooku",
+        season_modal_aria: "Zdjęcia z sezonu",
+        season_photo_alt: "Zdjęcie z sezonu",
+        fb_embed_title: "Zajrzyj na nasz Facebook",
+        fb_embed_text: "Najnowsze zdjęcia, wolne terminy i wydarzenia publikujemy na bieżąco na naszym profilu.",
+        fb_feed_title: "Najnowsze na Facebooku",
+        fb_feed_follow: "Obserwuj",
+        fb_post_cta: "Zobacz na Facebooku",
         fb_embed_load: "Pokaż tablicę",
         fb_embed_open: "Otwórz w nowej karcie",
         fb_embed_fallback: "Nie widać tablicy? Otwórz nasz profil na Facebooku",
@@ -563,6 +569,20 @@
         footer_title: "Dom Latarnika",
         footer_text: "Grzybowo · ul. Nadmorska 65A",
         footer_seo: "Wakacje nad morzem w Grzybowie – noclegi nad polskim morzem blisko Kołobrzegu, Dźwirzyna i Bałtyku.",
+        faq: "FAQ",
+        faq_kicker: "FAQ",
+        faq_title: "Najczęstsze pytania",
+        faq_text: "Krótkie odpowiedzi na pytania, które goście zadają najczęściej przed przyjazdem.",
+        faq_q1: "Jak daleko jest do plaży?",
+        faq_a1: "Do plaży dojdziesz spacerem w kilka minut — obiekt leży w spokojnej części Grzybowa, blisko morza.",
+        faq_q2: "Czy na miejscu jest parking?",
+        faq_a2: "Tak. Do dyspozycji gości jest bezpłatny, ogrodzony i monitorowany parking na terenie obiektu.",
+        faq_q3: "W jakich godzinach jest zameldowanie i wymeldowanie?",
+        faq_a3: "Zameldowanie od godziny 15:00, wymeldowanie do 10:00. Inne godziny prosimy wcześniej uzgodnić z właścicielem.",
+        faq_q4: "Co jest do dyspozycji gości?",
+        faq_a4: "Wspólna kuchnia, salon z telewizorem i grami planszowymi, taras, rowery i sprzęt plażowy oraz teren zielony dla dzieci.",
+        faq_q5: "Jak zarezerwować pobyt?",
+        faq_a5: "Najwygodniej online przez Booking.com lub telefonicznie. Przy rezerwacji bezpośredniej pobieramy zadatek w wysokości 30% wartości pobytu.",
         rules: "Regulamin"
       },
       de: {
@@ -820,15 +840,21 @@
         news_text: "Die neuesten Fotos, freien Termine und Angebote veröffentlichen wir auf unserem Facebook. Schauen Sie vorbei und bleiben Sie vor der Saison auf dem Laufenden.",
         news_tag_photo: "Fotos",
         news_tag_offer: "Termine",
-        news_card1_title: "Neue Fotos aus der Saison",
-        news_card1_text: "Schauen Sie in unsere Facebook-Galerie — wir fügen Fotos von Zimmern, Strand und Umgebung hinzu.",
+        news_card1_title: "Fotos aus dieser Saison",
+        news_card1_text: "Klicken Sie, um unsere neuesten Fotos von Zimmern, Strand und Umgebung anzusehen.",
+        news_card1_more: "Galerie ansehen →",
+        news_card1_aria: "Fotos aus dieser Saison ansehen",
         news_card2_title: "Freie Termine und Angebote",
-        news_card2_text: "Über die letzten freien Termine und Sonderangebote informieren wir laufend in den sozialen Medien.",
-        news_card3_title: "Folgen Sie uns auf Facebook",
-        news_card3_text: "Tägliche Neuigkeiten, Fotos und schneller Kontakt über Messenger.",
-        news_card3_button: "Profil besuchen",
-        fb_embed_title: "Facebook-Pinnwand",
-        fb_embed_text: "Um unsere Facebook-Pinnwand direkt auf der Seite anzuzeigen, akzeptieren Sie bitte die Social-Media-Cookies.",
+        news_card2_text: "Über die letzten freien Termine und Sonderangebote informieren wir laufend auf Facebook.",
+        news_card2_more: "Auf Facebook ansehen →",
+        news_card2_aria: "Freie Termine — auf Facebook ansehen",
+        season_modal_aria: "Fotos aus der Saison",
+        season_photo_alt: "Foto aus der Saison",
+        fb_embed_title: "Besuchen Sie unser Facebook",
+        fb_embed_text: "Aktuelle Fotos, freie Termine und Veranstaltungen posten wir laufend auf unserem Profil.",
+        fb_feed_title: "Neu auf Facebook",
+        fb_feed_follow: "Folgen",
+        fb_post_cta: "Auf Facebook ansehen",
         fb_embed_load: "Pinnwand anzeigen",
         fb_embed_open: "In neuem Tab öffnen",
         fb_embed_fallback: "Pinnwand nicht sichtbar? Öffnen Sie unser Facebook-Profil",
@@ -893,6 +919,20 @@
         footer_title: "Dom Latarnika",
         footer_text: "Grzybowo · ul. Nadmorska 65A",
         footer_seo: "Urlaub an der Ostsee in Grzybowo – Unterkünfte am polnischen Meer nahe Kolberg (Kołobrzeg), Dźwirzyno und der Ostsee.",
+        faq: "FAQ",
+        faq_kicker: "FAQ",
+        faq_title: "Häufige Fragen",
+        faq_text: "Kurze Antworten auf Fragen, die Gäste vor der Anreise am häufigsten stellen.",
+        faq_q1: "Wie weit ist es zum Strand?",
+        faq_a1: "Zum Strand sind es nur wenige Gehminuten — das Haus liegt in einem ruhigen Teil von Grzybowo, nahe am Meer.",
+        faq_q2: "Gibt es Parkplätze vor Ort?",
+        faq_a2: "Ja. Den Gästen steht ein kostenloser, eingezäunter und videoüberwachter Parkplatz auf dem Gelände zur Verfügung.",
+        faq_q3: "Wann sind Check-in und Check-out?",
+        faq_a3: "Check-in ab 15:00 Uhr, Check-out bis 10:00 Uhr. Andere Zeiten bitte vorab mit dem Gastgeber abstimmen.",
+        faq_q4: "Was steht den Gästen zur Verfügung?",
+        faq_a4: "Gemeinschaftsküche, Wohnzimmer mit Fernseher und Brettspielen, Terrasse, Fahrräder und Strandausrüstung sowie eine Grünfläche für Kinder.",
+        faq_q5: "Wie kann ich buchen?",
+        faq_a5: "Am bequemsten online über Booking.com oder telefonisch. Bei einer Direktbuchung erheben wir eine Anzahlung in Höhe von 30 % des Aufenthaltswertes.",
         rules: "Hausordnung"
       },
       en: {
@@ -1150,15 +1190,21 @@
         news_text: "We post the latest photos, free dates and special offers on our Facebook. Take a look and stay up to date before the season.",
         news_tag_photo: "Photos",
         news_tag_offer: "Dates",
-        news_card1_title: "New photos from the season",
-        news_card1_text: "Browse our Facebook gallery — we keep adding photos of the rooms, beach and surroundings.",
+        news_card1_title: "Photos from this season",
+        news_card1_text: "Click to browse our latest photos of the rooms, beach and surroundings.",
+        news_card1_more: "Browse the gallery →",
+        news_card1_aria: "See photos from this season",
         news_card2_title: "Free dates and offers",
-        news_card2_text: "We share last-minute availability and special offers on our social media.",
-        news_card3_title: "Follow us on Facebook",
-        news_card3_text: "Daily updates, photos and quick contact via Messenger.",
-        news_card3_button: "Visit profile",
-        fb_embed_title: "Facebook feed",
-        fb_embed_text: "To show our Facebook feed directly on the page, please accept social media cookies.",
+        news_card2_text: "We share last-minute availability and special offers on our Facebook.",
+        news_card2_more: "Check on Facebook →",
+        news_card2_aria: "Free dates — check on Facebook",
+        season_modal_aria: "Photos from the season",
+        season_photo_alt: "Season photo",
+        fb_embed_title: "Visit our Facebook",
+        fb_embed_text: "We post the latest photos, free dates and events on our profile.",
+        fb_feed_title: "Latest on Facebook",
+        fb_feed_follow: "Follow",
+        fb_post_cta: "See on Facebook",
         fb_embed_load: "Show feed",
         fb_embed_open: "Open in a new tab",
         fb_embed_fallback: "Can't see the feed? Open our Facebook profile",
@@ -1223,6 +1269,20 @@
         footer_title: "Dom Latarnika",
         footer_text: "Grzybowo · ul. Nadmorska 65A",
         footer_seo: "Seaside holidays in Grzybowo – accommodation on the Polish Baltic coast near Kołobrzeg, Dźwirzyno and the Baltic Sea.",
+        faq: "FAQ",
+        faq_kicker: "FAQ",
+        faq_title: "Frequently asked questions",
+        faq_text: "Short answers to the questions guests ask most often before arrival.",
+        faq_q1: "How far is the beach?",
+        faq_a1: "The beach is just a few minutes' walk away — the property sits in a quiet part of Grzybowo, close to the sea.",
+        faq_q2: "Is there parking on site?",
+        faq_a2: "Yes. Guests can use free, fenced and monitored parking on the property.",
+        faq_q3: "What are the check-in and check-out times?",
+        faq_a3: "Check-in from 15:00, check-out by 10:00. Other times can be arranged with the owner in advance.",
+        faq_q4: "What can guests use?",
+        faq_a4: "A shared kitchen, a lounge with a TV and board games, a terrace, bikes and beach equipment, and a green area for children.",
+        faq_q5: "How do I book a stay?",
+        faq_a5: "Most easily online via Booking.com or by phone. For direct bookings we take a deposit of 30% of the stay value.",
         rules: "Rules"
       }
     };
@@ -1267,7 +1327,7 @@
     const roomGroups = [
       {
         id: "apartament",
-        images: ["img/rooms/apartment-living-01.webp", "img/rooms/apartment-living-02.webp"],
+        images: ["img/rooms/apartment-01.webp", "img/rooms/apartment-02.webp", "img/rooms/apartment-03.webp", "img/rooms/apartment-04.webp", "img/rooms/apartment-05.webp", "img/rooms/apartment-06.webp", "img/rooms/apartment-07.webp", "img/rooms/apartment-08.webp", "img/rooms/apartment-09.webp"],
         names: ["Apartament"],
         tag: { pl: "Apartament", de: "Apartment", en: "Apartment" },
         title: { pl: "Apartament", de: "Apartment", en: "Apartment" },
@@ -1286,7 +1346,7 @@
       },
       {
         id: "pokoj-5",
-        images: ["img/rooms/studio-balcony-01.webp"],
+        images: ["img/rooms/room-5-01.webp", "img/rooms/room-5-02.webp", "img/rooms/room-5-03.webp", "img/rooms/room-5-04.webp"],
         names: ["5"],
         tag: { pl: "Pokój 5 · balkon", de: "Zimmer 5 · Balkon", en: "Room 5 · balcony" },
         title: { pl: "Pokój 5 z balkonem", de: "Zimmer 5 mit Balkon", en: "Room 5 with balcony" },
@@ -1305,7 +1365,7 @@
       },
       {
         id: "pokoj-6",
-        images: ["img/rooms/studio-balcony-02.webp"],
+        images: ["img/rooms/room-6-01.webp", "img/rooms/room-6-02.webp", "img/rooms/room-6-03.webp", "img/rooms/room-6-04.webp", "img/rooms/room-6-05.webp"],
         names: ["6"],
         tag: { pl: "Pokój 6 · balkon", de: "Zimmer 6 · Balkon", en: "Room 6 · balcony" },
         title: { pl: "Pokój 6 z balkonem", de: "Zimmer 6 mit Balkon", en: "Room 6 with balcony" },
@@ -1324,7 +1384,7 @@
       },
       {
         id: "pokoj-1",
-        images: ["img/rooms/room-3h-01.webp"],
+        images: ["img/rooms/room-1-01.webp", "img/rooms/room-1-02.webp", "img/rooms/room-1-03.webp", "img/rooms/room-1-04.webp"],
         names: ["1"],
         tag: { pl: "Pokój 1 · 2-osobowy", de: "Zimmer 1 · 2 Personen", en: "Room 1 · 2-person" },
         title: { pl: "Pokój 1", de: "Zimmer 1", en: "Room 1" },
@@ -1362,7 +1422,7 @@
       },
       {
         id: "pokoj-3",
-        images: ["img/rooms/room-3h-03.webp", "img/rooms/room-3h-04.webp"],
+        images: ["img/rooms/room-3-01.webp", "img/rooms/room-3-02.webp", "img/rooms/room-3-03.webp", "img/rooms/room-3-04.webp"],
         names: ["3"],
         tag: { pl: "Pokój 3 · 2-osobowy", de: "Zimmer 3 · 2 Personen", en: "Room 3 · 2-person" },
         title: { pl: "Pokój 3", de: "Zimmer 3", en: "Room 3" },
@@ -1400,7 +1460,7 @@
       },
       {
         id: "pokoj-7",
-        images: ["img/rooms/attic-skylight.webp", "img/rooms/room-blue-attic.webp"],
+        images: ["img/rooms/room-7-01.webp", "img/rooms/room-7-02.webp", "img/rooms/room-7-03.webp", "img/rooms/room-7-04.webp"],
         names: ["7"],
         tag: { pl: "Pokój 7 · poddasze", de: "Zimmer 7 · Dachgeschoss", en: "Room 7 · attic" },
         title: { pl: "Pokój 7 na poddaszu", de: "Zimmer 7 im Dachgeschoss", en: "Room 7 in the attic" },
@@ -1419,7 +1479,7 @@
       },
       {
         id: "pokoj-8",
-        images: ["img/rooms/attic-studio-dining.webp", "img/rooms/attic-studio.webp"],
+        images: ["img/rooms/room-8-01.webp", "img/rooms/room-8-02.webp", "img/rooms/room-8-03.webp"],
         names: ["8"],
         tag: { pl: "Pokój 8 · poddasze", de: "Zimmer 8 · Dachgeschoss", en: "Room 8 · attic" },
         title: { pl: "Pokój 8 na poddaszu", de: "Zimmer 8 im Dachgeschoss", en: "Room 8 in the attic" },
@@ -1438,7 +1498,7 @@
       },
       {
         id: "dol-ogrod",
-        images: ["img/rooms/double-striped.webp"],
+        images: ["img/rooms/dol-ogrod-01.webp", "img/rooms/dol-ogrod-02.webp", "img/rooms/dol-ogrod-03.webp"],
         names: ["Dół ogród"],
         tag: { pl: "Dół ogród · 2-osobowy", de: "Unten Garten · 2 Personen", en: "Ground garden · 2-person" },
         title: { pl: "Dół ogród", de: "Unten Gartenseite", en: "Ground floor garden side" },
@@ -1457,7 +1517,7 @@
       },
       {
         id: "dol-ulica",
-        images: ["img/rooms/marine.webp"],
+        images: ["img/rooms/dol-ulica-01.webp", "img/rooms/dol-ulica-02.webp", "img/rooms/dol-ulica-03.webp", "img/rooms/dol-ulica-04.webp"],
         names: ["Dół ulica"],
         tag: { pl: "Dół ulica · 2-osobowy", de: "Unten Straße · 2 Personen", en: "Ground street · 2-person" },
         title: { pl: "Dół ulica", de: "Unten Straßenseite", en: "Ground floor street side" },
@@ -1476,7 +1536,7 @@
       },
       {
         id: "pietrus",
-        images: ["img/rooms/blizniak-02.webp"],
+        images: ["img/rooms/pietrus-01.webp", "img/rooms/pietrus-02.webp", "img/rooms/pietrus-03.webp"],
         names: ["Piętrus"],
         tag: { pl: "Piętrus · większy pokój", de: "Piętrus · größeres Zimmer", en: "Pietrus · larger room" },
         title: { pl: "Piętrus", de: "Piętrus", en: "Pietrus" },
@@ -1495,7 +1555,7 @@
       },
       {
         id: "r-ka",
-        images: ["img/rooms/blizniak-01.webp"],
+        images: ["img/rooms/r-ka-01.webp", "img/rooms/r-ka-02.webp"],
         names: ["R-ka"],
         tag: { pl: "R-ka · większy pokój", de: "R-ka · größeres Zimmer", en: "R-ka · larger room" },
         title: { pl: "R-ka", de: "R-ka", en: "R-ka" },
@@ -1514,7 +1574,7 @@
       },
       {
         id: "blizniak",
-        images: ["img/rooms/blizniak-01.webp", "img/rooms/blizniak-02.webp", "img/rooms/blizniak-03.webp"],
+        images: ["img/rooms/blizniak-01.webp", "img/rooms/blizniak-02.webp", "img/rooms/blizniak-03.webp", "img/rooms/blizniak-04.webp", "img/rooms/blizniak-05.webp"],
         names: ["Bliźniak"],
         tag: { pl: "Bliźniak · 4-osobowy", de: "Bliźniak · 4 Personen", en: "Blizniak · 4-person" },
         title: { pl: "Bliźniak", de: "Bliźniak", en: "Blizniak" },
@@ -1533,7 +1593,7 @@
       },
       {
         id: "pokoj-0",
-        images: ["img/rooms/room-geometric.webp"],
+        images: ["img/rooms/room-0-01.webp", "img/rooms/room-0-02.webp", "img/rooms/room-0-03.webp", "img/rooms/room-0-04.webp"],
         names: ["0"],
         tag: { pl: "Pokój 0 · 1-osobowy", de: "Zimmer 0 · 1 Person", en: "Room 0 · single" },
         title: { pl: "Pokój 0", de: "Zimmer 0", en: "Room 0" },
@@ -1561,9 +1621,9 @@
     // Wspólne przestrzenie. Zdjęcia dodasz w img/shared/ (pole image), nagrania w polu video
     // (np. wideo o nazwie kuchnia.mp4 w katalogu img/shared). Pusta wartość = placeholder „Zdjęcia i nagrania wkrótce".
     const sharedSpaces = [
-      { id: "kitchen", icon: "kitchen",  image: "img/shared/kuchnia-01.webp", video: "",                     titleKey: "shared_kitchen_title", textKey: "shared_kitchen_text", tagKey: "shared_kitchen_tag" },
-      { id: "salon",   icon: "games",    image: "img/shared/salon-01.webp",   video: "img/shared/salon.mp4", titleKey: "shared_salon_title",   textKey: "shared_salon_text",   tagKey: "shared_salon_tag" },
-      { id: "terrace", icon: "terrace",  image: "img/shared/taras.webp",      video: "",                     titleKey: "shared_terrace_title", textKey: "shared_terrace_text", tagKey: "shared_terrace_tag" }
+      { id: "kitchen", icon: "kitchen", image: "img/shared/shared-kitchen-01.webp", video: "", titleKey: "shared_kitchen_title", textKey: "shared_kitchen_text", tagKey: "shared_kitchen_tag" },
+      { id: "salon", icon: "games", image: "img/shared/shared-salon-01.webp", video: "", titleKey: "shared_salon_title", textKey: "shared_salon_text", tagKey: "shared_salon_tag" },
+      { id: "terrace", icon: "terrace", image: "img/shared/shared-terrace-01.webp", video: "", titleKey: "shared_terrace_title", textKey: "shared_terrace_text", tagKey: "shared_terrace_tag" }
     ];
 
     const amenityItems = [
@@ -2098,9 +2158,6 @@
               <span class="shared-tag">${tag}</span>
             </div>
             <div class="shared-body">
-              <span class="shared-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${amenityIcons[space.icon] || ""}</svg>
-              </span>
               <div>
                 <h3>${title}</h3>
                 <p>${text}</p>
@@ -2542,84 +2599,135 @@
     }
 
     // ---- Tablica Facebooka: ładowana dopiero po zgodzie (RODO) ----
+    // ---- Aktualności z Facebooka przez Graph API (własne kafelki) ----
+    // Posty pobiera funkcja serwerowa /api/fb-posts (token jest po stronie serwera).
+    // Gdy token nie jest jeszcze ustawiony lub brak sieci — zostaje elegancki fallback (CTA).
     const fbEmbed = document.getElementById("fb-embed");
     if (fbEmbed) {
-      let fbLoaded = false;
+      const pageUrl = fbEmbed.dataset.fbPage || "https://www.facebook.com/DomLatarnika";
+      const endpoint = fbEmbed.dataset.fbEndpoint || "/api/fb-posts";
 
-      function socialConsentGranted() {
-        try {
-          const consent = JSON.parse(localStorage.getItem("domLatarnika_cookieConsent") || "null");
-          return Boolean(consent && (consent.social || consent.analytics));
-        } catch {
-          return false;
+      function fbEscape(str) {
+        return String(str).replace(/[&<>"']/g, (c) => (
+          { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]
+        ));
+      }
+
+      function fbFormatDate(iso, lang) {
+        if (!iso) return "";
+        const d = new Date(iso);
+        if (isNaN(d)) return "";
+        const locale = lang === "de" ? "de-DE" : lang === "en" ? "en-GB" : "pl-PL";
+        return d.toLocaleDateString(locale, { day: "numeric", month: "long", year: "numeric" });
+      }
+
+      function renderFbPosts(posts) {
+        const lang = document.documentElement.lang || "pl";
+        const dict = translations[lang] || translations.pl;
+        const items = posts.map((p) => {
+          const text = (p.text || "").trim();
+          const short = text.length > 150 ? text.slice(0, 150).replace(/\s+\S*$/, "") + "…" : text;
+          const media = p.image
+            ? `<span class="fb-post-media"><img src="${fbEscape(p.image)}" alt="" loading="lazy"></span>`
+            : "";
+          const date = fbFormatDate(p.date, lang);
+          return `
+            <a class="fb-post" href="${fbEscape(p.url)}" target="_blank" rel="noopener">
+              ${media}
+              <span class="fb-post-body">
+                ${date ? `<span class="fb-post-date">${date}</span>` : ""}
+                ${short ? `<span class="fb-post-text">${fbEscape(short)}</span>` : ""}
+                <span class="fb-post-cta">${dict.fb_post_cta || "Zobacz na Facebooku"} →</span>
+              </span>
+            </a>`;
+        }).join("");
+        fbEmbed.classList.add("is-loaded");
+        fbEmbed.innerHTML = `
+          <div class="fb-feed-head">
+            <span class="fb-feed-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.6 1.6-1.6H17V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3h2.8v8h3.2z"/></svg></span>
+            <strong>${dict.fb_feed_title || "Najnowsze na Facebooku"}</strong>
+            <a href="${fbEscape(pageUrl)}/?locale=pl_PL" target="_blank" rel="noopener">${dict.fb_feed_follow || "Obserwuj"}</a>
+          </div>
+          <div class="fb-feed-list">${items}</div>`;
+      }
+
+      function loadFacebookPosts() {
+        fetch(endpoint, { headers: { "Accept": "application/json" } })
+          .then((r) => (r.ok ? r.json() : null))
+          .then((data) => {
+            if (data && Array.isArray(data.posts) && data.posts.length) {
+              renderFbPosts(data.posts);
+            }
+            // brak postów / brak konfiguracji → zostaje placeholder CTA z HTML
+          })
+          .catch(() => { /* offline / brak funkcji — zostaje placeholder CTA */ });
+      }
+
+      loadFacebookPosts();
+    }
+
+    // ---- Galeria „Zdjęcia z tego sezonu” (kafelek w Aktualnościach) ----
+    // Do 5 zdjęć — podmień/dodaj ścieżki poniżej (pliki w img/).
+    const seasonPhotos = [
+      "img/beach/beach-01.webp",
+      "img/beach/beach-03.webp",
+      "img/shared/shared-terrace-01.webp",
+      "img/rooms/room-5-01.webp",
+      "img/shared/shared-exterior-01.webp"
+    ];
+    const seasonModal = document.getElementById("season-modal");
+    if (seasonModal) {
+      const seasonImg = document.getElementById("season-modal-image");
+      const seasonStatus = document.getElementById("season-modal-status");
+      const seasonTrigger = document.querySelector("[data-season-open]");
+      let seasonIndex = 0;
+      let lastSeasonFocus = null;
+
+      const countEl = document.querySelector("[data-season-count]");
+      if (countEl) countEl.textContent = String(seasonPhotos.length);
+
+      function showSeason(i) {
+        seasonIndex = (i + seasonPhotos.length) % seasonPhotos.length;
+        seasonImg.src = seasonPhotos[seasonIndex];
+        const dict = translations[document.documentElement.lang || "pl"] || translations.pl;
+        seasonImg.alt = `${dict.season_photo_alt || "Zdjęcie z sezonu"} ${seasonIndex + 1}`;
+        if (seasonStatus) {
+          seasonStatus.textContent = formatMessage(dict.gallery_modal_status || "{current} / {total}", {
+            current: seasonIndex + 1, total: seasonPhotos.length
+          });
         }
       }
-
-      function loadFacebookEmbed() {
-        if (fbLoaded) return;
-        fbLoaded = true;
-        fbEmbed.classList.add("is-loaded");
-        const pageUrl = fbEmbed.dataset.fbPage || "https://www.facebook.com/DomLatarnika";
-        const dict = translations[document.documentElement.lang || "pl"] || translations.pl;
-        const src = "https://www.facebook.com/plugins/page.php?href=" +
-          encodeURIComponent(pageUrl) +
-          "&tabs=timeline&width=380&height=640&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true";
-        const iframe = document.createElement("iframe");
-        iframe.src = src;
-        iframe.title = "Facebook Dom Latarnika";
-        iframe.width = "100%";
-        iframe.height = "640";
-        iframe.loading = "lazy";
-        iframe.style.border = "0";
-        iframe.setAttribute("scrolling", "no");
-        iframe.setAttribute("frameborder", "0");
-        iframe.allow = "encrypted-media";
-
-        // Jeśli przeglądarka/rozszerzenie zablokuje ramkę Facebooka — wróć do placeholdera z linkiem.
-        iframe.addEventListener("error", showFbFallback);
-
-        fbEmbed.innerHTML = "";
-        fbEmbed.appendChild(iframe);
-
-        // Zawsze widoczny link zapasowy pod tablicą (działa nawet gdy iframe jest pusty/zablokowany).
-        const fallback = document.createElement("a");
-        fallback.className = "fb-embed-fallback";
-        fallback.href = pageUrl.replace(/\/?$/, "/") + "?locale=pl_PL";
-        fallback.target = "_blank";
-        fallback.rel = "noopener";
-        fallback.textContent = dict.fb_embed_fallback || "Nie widać tablicy? Otwórz nasz profil na Facebooku";
-        fbEmbed.appendChild(fallback);
+      function openSeason() {
+        if (!seasonPhotos.length) return;
+        lastSeasonFocus = document.activeElement;
+        showSeason(0);
+        seasonModal.hidden = false;
+        document.body.style.overflow = "hidden";
+        seasonModal.querySelector("[data-season-close]").focus();
+      }
+      function closeSeason() {
+        seasonModal.hidden = true;
+        document.body.style.overflow = "";
+        if (lastSeasonFocus instanceof HTMLElement) lastSeasonFocus.focus();
       }
 
-      function showFbFallback() {
-        const dict = translations[document.documentElement.lang || "pl"] || translations.pl;
-        const pageUrl = fbEmbed.dataset.fbPage || "https://www.facebook.com/DomLatarnika";
-        fbEmbed.classList.remove("is-loaded");
-        fbEmbed.innerHTML = `
-          <div class="fb-embed-placeholder">
-            <div class="fb-embed-fb-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.6 1.6-1.6H17V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3h2.8v8h3.2z"/></svg>
-            </div>
-            <strong>${dict.fb_embed_title || "Tablica na Facebooku"}</strong>
-            <p>${dict.fb_embed_blocked || "Twoja przeglądarka zablokowała osadzoną tablicę. Otwórz nasz profil bezpośrednio na Facebooku."}</p>
-            <div class="fb-embed-actions">
-              <a class="button button-primary" href="${pageUrl.replace(/\/?$/, "/")}?locale=pl_PL" target="_blank" rel="noopener">${dict.fb_embed_open || "Otwórz w nowej karcie"}</a>
-            </div>
-          </div>`;
-      }
-
-      const fbLoadBtn = document.getElementById("fb-embed-load");
-      if (fbLoadBtn) {
-        fbLoadBtn.addEventListener("click", () => {
-          if (window.CookieConsent && typeof window.CookieConsent.grantSocial === "function") {
-            window.CookieConsent.grantSocial();
-          }
-          loadFacebookEmbed();
+      if (seasonTrigger) {
+        seasonTrigger.addEventListener("click", openSeason);
+        seasonTrigger.addEventListener("keydown", (e) => {
+          if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openSeason(); }
         });
       }
-
-      if (socialConsentGranted()) loadFacebookEmbed();
-      window.addEventListener("dl:social-consent", loadFacebookEmbed);
+      seasonModal.querySelector("[data-season-close]").addEventListener("click", closeSeason);
+      seasonModal.querySelector("[data-season-prev]").addEventListener("click", () => showSeason(seasonIndex - 1));
+      seasonModal.querySelector("[data-season-next]").addEventListener("click", () => showSeason(seasonIndex + 1));
+      seasonModal.addEventListener("click", (e) => { if (e.target === seasonModal) closeSeason(); });
+      document.addEventListener("keydown", (e) => {
+        if (seasonModal.hidden) return;
+        if (e.key === "Escape") closeSeason();
+        if (e.key === "ArrowLeft") showSeason(seasonIndex - 1);
+        if (e.key === "ArrowRight") showSeason(seasonIndex + 1);
+        if (e.key === "Tab") trapFocusIn(seasonModal, e);
+      });
     }
 
     initTestimonialCarousel();

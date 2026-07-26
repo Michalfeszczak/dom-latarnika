@@ -49,7 +49,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&amp;family=Fraunces:opsz,wght@9..144,400;9..144,600&amp;display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="img/building/exterior-01.webp?v=20260726">
   <!-- Główne style strony głównej -->
-  <link rel="stylesheet" href="assets/index.css?v=202607270">
+  <link rel="stylesheet" href="assets/index.css?v=202607272">
 </head>
 <body>
   <a class="skip-link" href="#main" data-i18n="skip">Przejdź do treści</a>
@@ -78,8 +78,8 @@
       <nav class="main-nav" id="main-nav" aria-label="Główna nawigacja" data-i18n-aria-label="nav_main_aria">
         <ul>
           <li><a href="#oferta" data-i18n="nav_offer">O obiekcie</a></li>
-          <li><a href="#pokoje" data-i18n="nav_rooms">Pokoje</a></li>
           <li><a href="#przestrzenie" data-i18n="nav_spaces">Przestrzenie</a></li>
+          <li><a href="#pokoje" data-i18n="nav_rooms">Pokoje</a></li>
           <li><a href="#udogodnienia" data-i18n="nav_amenities">Udogodnienia</a></li>
           <li><a href="#okolica" data-i18n="nav_area">Okolica</a></li>
           <li><a href="#aktualnosci" data-i18n="nav_news">Aktualności</a></li>
@@ -278,6 +278,19 @@
     </section>
 
     <!-- Pokoje i galeria -->
+    <!-- Wspólne przestrzenie -->
+    <section id="przestrzenie">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="section-kicker" data-i18n="spaces_kicker">Wspólne przestrzenie</span>
+          <h2 class="section-title" data-i18n="spaces_title">Miejsca, które łączą gości</h2>
+          <p class="section-text" data-i18n="spaces_text">Poza własnym pokojem czekają na Ciebie wspólne przestrzenie — do gotowania, wspólnej gry i odpoczynku na świeżym powietrzu.</p>
+        </div>
+        <!-- Karty renderowane z danych (assets/index.js → sharedSpaces). Zdjęcia i wideo dodasz w img/shared/ -->
+        <div class="shared-grid" id="shared-grid" data-reveal></div>
+      </div>
+    </section>
+
     <section id="pokoje">
       <div class="container">
         <div class="section-head" data-reveal>
@@ -312,22 +325,22 @@
           <div class="gallery-clean-viewport">
             <div class="gallery-clean-track">
               <img src="img/building/exterior-01.webp?v=20260726" alt="Budynek pensjonatu Dom Latarnika od frontu" loading="lazy">
-              <img src="img/rooms/room-3h-01.webp" alt="Pokój z wygodnym łóżkiem i telewizorem" loading="lazy">
+              <img src="img/rooms/room-1-01.webp" alt="Pokój z wygodnym łóżkiem i telewizorem" loading="lazy">
               <img src="img/rooms/room-palm-01.webp" alt="Pokój z tapetą w palmy i podwójnym łóżkiem" loading="lazy">
-              <img src="img/rooms/marine.webp" alt="Pokój w stylu marynistycznym" loading="lazy">
-              <img src="img/shared/salon-01.webp" alt="Wspólny salon z grami planszowymi" loading="lazy">
-              <img src="img/shared/kuchnia-01.webp" alt="Wspólna kuchnia dla gości" loading="lazy">
-              <img src="img/shared/kuchnia-02.webp" alt="Wspólna kuchnia — aneks z wyposażeniem" loading="lazy">
+              <img src="img/rooms/dol-ulica-01.webp" alt="Pokój na dole od strony ulicy" loading="lazy">
+              <img src="img/shared/shared-salon-01.webp" alt="Wspólny salon z grami planszowymi" loading="lazy">
+              <img src="img/shared/shared-kitchen-01.webp" alt="Wspólna kuchnia dla gości" loading="lazy">
+              <img src="img/shared/shared-kitchen-02.webp" alt="Wspólna kuchnia — aneks z wyposażeniem" loading="lazy">
               <img src="img/rooms/blizniak-01.webp" alt="Pokój Bliźniak z aneksem" loading="lazy">
-              <img src="img/rooms/studio-balcony-01.webp" alt="Studio rodzinne z balkonem" loading="lazy">
-              <img src="img/shared/taras.webp" alt="Wspólny taras z widokiem na okolicę" loading="lazy">
-              <img src="img/building/entrance.webp" alt="Wejście i klatka z ozdobną balustradą" loading="lazy">
-              <img src="img/rooms/room-blue-attic.webp" alt="Pokój na poddaszu z granatową tapetą" loading="lazy">
-              <img src="img/rooms/apartment-living-01.webp" alt="Salon z aneksem kuchennym w apartamencie" loading="lazy">
-              <img src="img/building/rowery.webp" alt="Rowery do wypożyczenia przy obiekcie" loading="lazy">
-              <img src="img/rooms/attic-skylight.webp" alt="Sypialnia na poddaszu z oknem dachowym" loading="lazy">
+              <img src="img/rooms/room-5-01.webp" alt="Pokój z balkonem" loading="lazy">
+              <img src="img/shared/shared-terrace-01.webp" alt="Wspólny taras z widokiem na okolicę" loading="lazy">
+              <img src="img/shared/shared-entrance-01.webp" alt="Wejście i klatka z ozdobną balustradą" loading="lazy">
+              <img src="img/rooms/room-7-01.webp" alt="Pokój na poddaszu" loading="lazy">
+              <img src="img/rooms/apartment-01.webp" alt="Salon z aneksem kuchennym w apartamencie" loading="lazy">
+              <img src="img/shared/shared-bikes-01.webp" alt="Rowery do wypożyczenia przy obiekcie" loading="lazy">
+              <img src="img/rooms/room-8-01.webp" alt="Sypialnia na poddaszu z oknem dachowym" loading="lazy">
               <img src="img/building/exterior-02.webp" alt="Pensjonat Dom Latarnika — widok z boku" loading="lazy">
-              <img src="img/rooms/apartment-living-02.webp" alt="Apartament — strefa dzienna" loading="lazy">
+              <img src="img/rooms/apartment-02.webp" alt="Apartament — strefa dzienna" loading="lazy">
             </div>
           </div>
 
@@ -354,19 +367,6 @@
         <div class="room-modal-body" id="room-modal-body"></div>
       </div>
     </div>
-
-    <!-- Wspólne przestrzenie -->
-    <section id="przestrzenie">
-      <div class="container">
-        <div class="section-head" data-reveal>
-          <span class="section-kicker" data-i18n="spaces_kicker">Wspólne przestrzenie</span>
-          <h2 class="section-title" data-i18n="spaces_title">Miejsca, które łączą gości</h2>
-          <p class="section-text" data-i18n="spaces_text">Poza własnym pokojem czekają na Ciebie wspólne przestrzenie — do gotowania, wspólnej gry i odpoczynku na świeżym powietrzu.</p>
-        </div>
-        <!-- Karty renderowane z danych (assets/index.js → sharedSpaces). Zdjęcia i wideo dodasz w img/shared/ -->
-        <div class="shared-grid" id="shared-grid" data-reveal></div>
-      </div>
-    </section>
 
     <!-- Udogodnienia -->
     <section class="section-soft" id="udogodnienia">
@@ -412,18 +412,24 @@
             <!-- Akcje nałożone na mapę -->
             <div class="map-actions">
               <button class="map-action" type="button" data-area-modal-open="beach">
-                <span class="map-action-icon" aria-hidden="true"><img src="img/icons/beach.png?v=20260726" alt="" width="40" height="40" loading="lazy"></span>
+                <span class="map-action-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="17.5" cy="7" r="2.6"/><path d="M2 15c2-1.6 3.6-1.6 5.5 0s3.6 1.6 5.5 0 3.6-1.6 5.5 0"/><path d="M3 19c2-1.6 3.6-1.6 5.5 0s3.6 1.6 5.5 0 3.6-1.6 5.5 0"/></svg>
+                </span>
                 <span class="map-action-label" data-i18n="area_item1_title">Plaża i atrakcje</span>
               </button>
               <a class="map-action" href="https://web.bikemap.net/l/6640020" target="_blank" rel="noopener noreferrer">
-                <span class="map-action-icon" aria-hidden="true"><img src="img/icons/bike.png" alt="" width="40" height="40" loading="lazy"></span>
+                <span class="map-action-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="17" r="3.1"/><circle cx="18" cy="17" r="3.1"/><path d="M6 17l4-7h4l3.2 7M10 10h5M13.6 7.2h3"/></svg>
+                </span>
                 <span class="map-action-label" data-i18n="area_item2_title">Trasy rowerowe</span>
                 <span class="map-action-ext" aria-hidden="true">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
                 </span>
               </a>
               <a class="map-action" href="https://www.google.com/maps/dir/?api=1&amp;destination=Dom+Latarnika,+Nadmorska+65A,+78-132+Grzybowo" target="_blank" rel="noopener noreferrer">
-                <span class="map-action-icon" aria-hidden="true"><img src="img/icons/bus.png" alt="" width="40" height="40" loading="lazy"></span>
+                <span class="map-action-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="12" rx="2.5"/><path d="M4 12h16M9 17v2M15 17v2M8 9h8"/><circle cx="8.5" cy="14" r=".6" fill="currentColor"/><circle cx="15.5" cy="14" r=".6" fill="currentColor"/></svg>
+                </span>
                 <span class="map-action-label" data-i18n="area_item3_button">Sprawdź dojazd</span>
                 <span class="map-action-ext" aria-hidden="true">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
@@ -446,57 +452,62 @@
 
         <div class="news-layout">
           <div class="news-cards" data-reveal>
-            <!-- Karty aktualności — edytuj treść lub podmień zdjęcia w img/ -->
-            <article class="news-card">
+            <!-- Karta 1: klikalna galeria zdjęć z sezonu (do 5 zdjęć — edytuj tablicę seasonPhotos w assets/index.js) -->
+            <article class="news-card news-card-gallery" data-season-open role="button" tabindex="0" aria-label="Zobacz zdjęcia z tego sezonu" data-i18n-aria-label="news_card1_aria">
               <div class="news-card-media">
                 <img src="img/beach/beach-01.webp" alt="Zachód słońca na plaży w Grzybowie" loading="lazy">
                 <span class="news-card-tag" data-i18n="news_tag_photo">Zdjęcia</span>
+                <span class="news-card-count" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="14" rx="2"/><path d="M8 6l1.5-2h5L16 6"/><circle cx="12" cy="13" r="3.2"/></svg>
+                  <span data-season-count>5</span>
+                </span>
               </div>
               <div class="news-card-body">
-                <h3 data-i18n="news_card1_title">Nowe zdjęcia z sezonu</h3>
-                <p data-i18n="news_card1_text">Zajrzyj na naszą galerię na Facebooku — dodajemy zdjęcia pokoi, plaży i okolicy.</p>
+                <h3 data-i18n="news_card1_title">Zdjęcia z tego sezonu</h3>
+                <p data-i18n="news_card1_text">Kliknij, aby przejrzeć nasze najnowsze zdjęcia pokoi, plaży i okolicy.</p>
+                <span class="news-card-more" data-i18n="news_card1_more">Przeglądaj galerię →</span>
               </div>
             </article>
 
-            <article class="news-card">
+            <!-- Karta 2: wolne terminy → Facebook -->
+            <a class="news-card news-card-link" href="https://www.facebook.com/DomLatarnika/?locale=pl_PL" target="_blank" rel="noopener" aria-label="Wolne terminy — sprawdź na Facebooku" data-i18n-aria-label="news_card2_aria">
               <div class="news-card-media">
-                <img src="img/rooms/studio-balcony-01.webp" alt="Studio rodzinne z balkonem" loading="lazy">
+                <img src="img/rooms/room-5-01.webp" alt="Pokój rodzinny z balkonem" loading="lazy">
                 <span class="news-card-tag" data-i18n="news_tag_offer">Terminy</span>
               </div>
               <div class="news-card-body">
                 <h3 data-i18n="news_card2_title">Wolne terminy i promocje</h3>
-                <p data-i18n="news_card2_text">O ostatnich wolnych terminach i ofertach specjalnych informujemy na bieżąco w social mediach.</p>
+                <p data-i18n="news_card2_text">O ostatnich wolnych terminach i ofertach specjalnych informujemy na bieżąco na Facebooku.</p>
+                <span class="news-card-more" data-i18n="news_card2_more">Sprawdź na Facebooku →</span>
               </div>
-            </article>
-
-            <article class="news-card news-card-cta">
-              <div class="news-card-fb">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.6 1.6-1.6H17V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3h2.8v8h3.2z"/></svg>
-              </div>
-              <h3 data-i18n="news_card3_title">Śledź nas na Facebooku</h3>
-              <p data-i18n="news_card3_text">Codzienne aktualności, zdjęcia i szybki kontakt przez Messenger.</p>
-              <a class="button button-primary" href="https://www.facebook.com/DomLatarnika/?locale=pl_PL" target="_blank" rel="noopener" data-i18n="news_card3_button">Odwiedź profil</a>
-            </article>
+            </a>
           </div>
 
-          <!-- Wtyczka Facebooka ładuje się dopiero po zgodzie na cookies (RODO) -->
+          <!-- Najnowsze posty z Facebooka — pobierane przez /api/fb-posts (Graph API).
+               Zanim ustawisz token w Cloudflare, widoczny jest poniższy fallback (CTA). -->
           <aside class="fb-embed" id="fb-embed" data-reveal
-                 data-fb-page="https://www.facebook.com/DomLatarnika">
+                 data-fb-page="https://www.facebook.com/DomLatarnika"
+                 data-fb-endpoint="/api/fb-posts">
             <div class="fb-embed-placeholder" id="fb-embed-placeholder">
               <div class="fb-embed-fb-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24"><path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.6 1.6-1.6H17V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3h2.8v8h3.2z"/></svg>
               </div>
-              <strong data-i18n="fb_embed_title">Tablica na Facebooku</strong>
-              <p data-i18n="fb_embed_text">Aby wyświetlić naszą tablicę Facebooka bezpośrednio na stronie, zaakceptuj cookies społecznościowe.</p>
-              <div class="fb-embed-actions">
-                <button class="button button-primary" type="button" id="fb-embed-load" data-i18n="fb_embed_load">Pokaż tablicę</button>
-                <a class="button button-secondary" href="https://www.facebook.com/DomLatarnika/?locale=pl_PL" target="_blank" rel="noopener" data-i18n="fb_embed_open">Otwórz w nowej karcie</a>
-              </div>
+              <strong data-i18n="fb_embed_title">Zajrzyj na nasz Facebook</strong>
+              <p data-i18n="fb_embed_text">Najnowsze zdjęcia, wolne terminy i wydarzenia publikujemy na bieżąco na naszym profilu.</p>
             </div>
           </aside>
         </div>
       </div>
     </section>
+
+    <!-- Lightbox galerii „Zdjęcia z sezonu” (obsługa: assets/index.js) -->
+    <div class="gallery-modal" id="season-modal" hidden role="dialog" aria-modal="true" aria-label="Zdjęcia z sezonu" data-i18n-aria-label="season_modal_aria">
+      <button class="gallery-modal-close" type="button" data-season-close aria-label="Zamknij" data-i18n-aria-label="gallery_close_aria">×</button>
+      <button class="gallery-modal-nav gallery-modal-prev" type="button" data-season-prev aria-label="Poprzednie zdjęcie" data-i18n-aria-label="gallery_prev_single_aria">‹</button>
+      <img class="gallery-modal-image" id="season-modal-image" src="" alt="">
+      <button class="gallery-modal-nav gallery-modal-next" type="button" data-season-next aria-label="Następne zdjęcie" data-i18n-aria-label="gallery_next_single_aria">›</button>
+      <p class="sr-only" id="season-modal-status" role="status" aria-live="polite" aria-atomic="true"></p>
+    </div>
 
     <!-- Opinie -->
     <section id="opinie">
@@ -623,6 +634,39 @@
           </div>
 
           <div class="carousel-dots" id="carousel-dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ (dane strukturalne FAQPage w JSON-LD na dole strony) -->
+    <section id="faq">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="section-kicker" data-i18n="faq_kicker">FAQ</span>
+          <h2 class="section-title" data-i18n="faq_title">Najczęstsze pytania</h2>
+          <p class="section-text" data-i18n="faq_text">Krótkie odpowiedzi na pytania, które goście zadają najczęściej przed przyjazdem.</p>
+        </div>
+        <div class="faq-list" data-reveal>
+          <details class="faq-item">
+            <summary data-i18n="faq_q1">Jak daleko jest do plaży?</summary>
+            <div class="faq-a"><p data-i18n="faq_a1">Do plaży dojdziesz spacerem w kilka minut — obiekt leży w spokojnej części Grzybowa, blisko morza.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n="faq_q2">Czy na miejscu jest parking?</summary>
+            <div class="faq-a"><p data-i18n="faq_a2">Tak. Do dyspozycji gości jest bezpłatny, ogrodzony i monitorowany parking na terenie obiektu.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n="faq_q3">W jakich godzinach jest zameldowanie i wymeldowanie?</summary>
+            <div class="faq-a"><p data-i18n="faq_a3">Zameldowanie od godziny 15:00, wymeldowanie do 10:00. Inne godziny prosimy wcześniej uzgodnić z właścicielem.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n="faq_q4">Co jest do dyspozycji gości?</summary>
+            <div class="faq-a"><p data-i18n="faq_a4">Wspólna kuchnia, salon z telewizorem i grami planszowymi, taras, rowery i sprzęt plażowy oraz teren zielony dla dzieci.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n="faq_q5">Jak zarezerwować pobyt?</summary>
+            <div class="faq-a"><p data-i18n="faq_a5">Najwygodniej online przez Booking.com lub telefonicznie. Przy rezerwacji bezpośredniej pobieramy zadatek w wysokości 30% wartości pobytu.</p></div>
+          </details>
         </div>
       </div>
     </section>
@@ -755,10 +799,11 @@
       </div>
       <nav class="footer-links" aria-label="Stopka" data-i18n-aria-label="footer_nav_aria">
         <a href="#oferta" data-i18n="nav_offer">O obiekcie</a>
-        <a href="#pokoje" data-i18n="nav_rooms">Pokoje</a>
         <a href="#przestrzenie" data-i18n="nav_spaces">Przestrzenie</a>
+        <a href="#pokoje" data-i18n="nav_rooms">Pokoje</a>
         <a href="#okolica" data-i18n="nav_area">Okolica</a>
         <a href="#aktualnosci" data-i18n="nav_news">Aktualności</a>
+        <a href="#faq" data-i18n="faq">FAQ</a>
         <a href="#kontakt" data-i18n="nav_contact">Kontakt</a>
         <a class="footer-social" href="https://www.facebook.com/DomLatarnika/?locale=pl_PL" target="_blank" rel="noopener" aria-label="Facebook Dom Latarnika" data-i18n-aria-label="social_facebook_aria">
           <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -775,7 +820,7 @@
   </footer>
 
   <!-- Główna logika strony głównej -->
-  <script src="assets/index.js?v=202607270" defer></script>
+  <script src="assets/index.js?v=202607272" defer></script>
 
   <!-- Cookie Consent -->
   <link rel="stylesheet" href="assets/cookie-consent.css?v=20260726">
@@ -828,6 +873,21 @@
       "ratingCount": "39",
       "description": "Średnia ocena na Booking.com"
     }
+  }
+  </script>
+
+  <!-- JSON-LD: FAQ (rich results w wyszukiwarce) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak daleko jest do plaży?", "acceptedAnswer": { "@type": "Answer", "text": "Do plaży dojdziesz spacerem w kilka minut — obiekt leży w spokojnej części Grzybowa, blisko morza." } },
+      { "@type": "Question", "name": "Czy na miejscu jest parking?", "acceptedAnswer": { "@type": "Answer", "text": "Tak. Do dyspozycji gości jest bezpłatny, ogrodzony i monitorowany parking na terenie obiektu." } },
+      { "@type": "Question", "name": "W jakich godzinach jest zameldowanie i wymeldowanie?", "acceptedAnswer": { "@type": "Answer", "text": "Zameldowanie od godziny 15:00, wymeldowanie do 10:00. Inne godziny prosimy wcześniej uzgodnić z właścicielem." } },
+      { "@type": "Question", "name": "Co jest do dyspozycji gości?", "acceptedAnswer": { "@type": "Answer", "text": "Wspólna kuchnia, salon z telewizorem i grami planszowymi, taras, rowery i sprzęt plażowy oraz teren zielony dla dzieci." } },
+      { "@type": "Question", "name": "Jak zarezerwować pobyt?", "acceptedAnswer": { "@type": "Answer", "text": "Najwygodniej online przez Booking.com lub telefonicznie. Przy rezerwacji bezpośredniej pobieramy zadatek w wysokości 30% wartości pobytu." } }
+    ]
   }
   </script>
 
