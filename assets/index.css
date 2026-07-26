@@ -2293,6 +2293,8 @@
       gap:24px;
     }
     .room-card{
+      display:flex;
+      flex-direction:column;
       padding:0;
       overflow:hidden;
       border-radius:22px;
@@ -2338,7 +2340,12 @@
       backdrop-filter:blur(4px);
     }
     .room-card-capacity svg{width:16px;height:16px}
-    .room-body{padding:22px 20px 20px}
+    .room-body{
+      display:flex;
+      flex-direction:column;
+      flex:1;
+      padding:22px 20px 20px;
+    }
     .room-meta{
       margin:16px 0 0;
       display:grid;
@@ -2399,7 +2406,8 @@
     .room-card-actions{
       display:flex;
       gap:10px;
-      margin-top:18px;
+      margin-top:auto;
+      padding-top:18px;
       flex-wrap:wrap;
     }
     .room-card-actions .button{flex:1;min-width:120px;min-height:44px;padding:10px 14px}
