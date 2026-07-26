@@ -4,9 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dom Latarnika – pensjonat nad morzem w Grzybowie</title>
-  <meta name="description" content="Pensjonat Dom Latarnika w Grzybowie – komfortowe pokoje, studia i apartament nad Bałtykiem, wspólna kuchnia, salon i taras, spokojna lokalizacja blisko plaży i wygodna rezerwacja online.">
-  <meta name="keywords" content="pensjonat Grzybowo, noclegi nad morzem, pokoje Grzybowo, apartament Grzybowo, Dom Latarnika, rezerwacja Booking, nocleg Kołobrzeg okolice">
+  <meta name="description" content="Pensjonat Dom Latarnika w Grzybowie – wakacje nad morzem koło Kołobrzegu. Komfortowe pokoje, studia i apartament nad Bałtykiem, wspólna kuchnia, salon i taras, spokojna lokalizacja blisko plaży i wygodna rezerwacja online. Noclegi nad polskim morzem.">
+  <meta name="keywords" content="wakacje nad morzem, polskie morze, wakacje Kołobrzeg, noclegi Kołobrzeg, Grzybowo, pensjonat Grzybowo, noclegi nad morzem, pokoje nad morzem, apartament nad morzem, nocleg Bałtyk, wakacje nad Bałtykiem, pensjonat nad morzem, Dom Latarnika, noclegi Grzybowo, wczasy nad morzem, holidays at the Baltic Sea, seaside holidays Poland, accommodation Kolobrzeg, Urlaub an der Ostsee, Ferienunterkunft Kolberg, Grzybowo Polen">
   <meta name="author" content="Dom Latarnika">
+  <meta name="geo.region" content="PL-ZP">
+  <meta name="geo.placename" content="Grzybowo, Kołobrzeg">
+  <meta name="geo.position" content="54.1758;15.5069">
+  <meta name="ICBM" content="54.1758, 15.5069">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="theme-color" content="#153955">
 
@@ -45,7 +49,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&amp;family=Fraunces:opsz,wght@9..144,400;9..144,600&amp;display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="img/building/exterior-01.webp?v=20260726">
   <!-- Główne style strony głównej -->
-  <link rel="stylesheet" href="assets/index.css?v=202607265">
+  <link rel="stylesheet" href="assets/index.css?v=202607266">
 </head>
 <body>
   <a class="skip-link" href="#main" data-i18n="skip">Przejdź do treści</a>
@@ -185,6 +189,36 @@
       </a>
     </section>
 
+    <!-- Pasek „W liczbach” -->
+    <section class="stats-band" aria-label="Dom Latarnika w liczbach" data-i18n-aria-label="stats_aria">
+      <div class="stats-wave" aria-hidden="true">
+        <svg viewBox="0 0 1200 40" preserveAspectRatio="none">
+          <path d="M0,40 L0,18 C150,-4 320,34 480,20 C640,6 760,30 900,22 C1040,14 1140,28 1200,20 L1200,40 Z"></path>
+        </svg>
+      </div>
+      <div class="container stats-grid">
+        <a class="stat" href="https://www.booking.com/hotel/pl/pensjonat-dom-latarnika.pl.html" target="_blank" rel="noopener">
+          <span class="stat-num">9,7</span>
+          <span class="stat-label">Booking.com</span>
+        </a>
+        <span class="stat-sep" aria-hidden="true"></span>
+        <a class="stat" href="https://www.google.com/maps/search/Dom+Latarnika+Grzybowo+opinie" target="_blank" rel="noopener">
+          <span class="stat-num">4,5</span>
+          <span class="stat-label">Google</span>
+        </a>
+        <span class="stat-sep" aria-hidden="true"></span>
+        <div class="stat">
+          <span class="stat-num">15</span>
+          <span class="stat-label" data-i18n="stats_rooms">pokoi i studiów</span>
+        </div>
+        <span class="stat-sep" aria-hidden="true"></span>
+        <div class="stat">
+          <span class="stat-num" data-i18n="stats_beach_num">5 min</span>
+          <span class="stat-label" data-i18n="stats_beach">do plaży</span>
+        </div>
+      </div>
+    </section>
+
     <!-- Atuty obiektu -->
     <section id="atuty">
       <div class="container">
@@ -250,6 +284,15 @@
           <span class="section-kicker" data-i18n="rooms_kicker">Pokoje</span>
           <h2 class="section-title" data-i18n="rooms_title">Znajdź swój ulubiony pokój</h2>
           <p class="section-text" data-i18n="rooms_text">Nasze pokoje pogrupowaliśmy w kilka kategorii z charakterem — od prywatnego zacisza, przez pokoje na poddaszu, po łączonego „Bliźniaka” i apartament. Kliknij kategorię, aby zobaczyć zdjęcia i wyposażenie.</p>
+        </div>
+
+        <div class="room-filters" id="room-filters" role="group" aria-label="Filtry pokoi" data-i18n-aria-label="room_filters_aria" data-reveal>
+          <button class="room-filter is-active" type="button" data-room-filter="all" aria-pressed="true" data-i18n="room_filter_all">Wszystkie</button>
+          <button class="room-filter" type="button" data-room-filter="two" aria-pressed="false" data-i18n="room_filter_two">2 osoby</button>
+          <button class="room-filter" type="button" data-room-filter="family" aria-pressed="false" data-i18n="room_filter_family">Rodzina</button>
+          <button class="room-filter" type="button" data-room-filter="attic" aria-pressed="false" data-i18n="room_filter_attic">Poddasze</button>
+          <button class="room-filter" type="button" data-room-filter="balcony" aria-pressed="false" data-i18n="room_filter_balcony">Balkon</button>
+          <button class="room-filter" type="button" data-room-filter="kitchenette" aria-pressed="false" data-i18n="room_filter_kitchenette">Aneks</button>
         </div>
 
         <!-- Karty pokoi renderowane z danych (assets/index.js) -->
@@ -356,7 +399,7 @@
             <img class="local-area-map-image" src="img/area/map.png" alt="Stylizowana mapa Grzybowa, Dźwirzyna i Kołobrzegu" data-i18n-alt="area_map_alt" loading="lazy">
             <button class="local-area-score-trigger" type="button" data-area-modal-open="score" data-i18n-aria-label="area_score_button_aria">
               <span class="local-area-score-ring">
-                <span class="local-area-score-value" data-i18n="area_badge_score">4,6</span>
+                <span class="local-area-score-value" data-i18n="area_badge_score">4,6/5</span>
                 <svg class="local-area-score-wave" viewBox="0 0 48 18" fill="none" aria-hidden="true">
                   <path d="M2 8.5C6.5 5.5 10.5 5.5 15 8.5C19.5 11.5 23.5 11.5 28 8.5C32.5 5.5 36.5 5.5 41 8.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
                   <path d="M7 14C11 11.5 15 11.5 19 14C23 16.5 27 16.5 31 14C35 11.5 39 11.5 43 14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".8"/>
@@ -692,6 +735,13 @@
     <span class="floating-booking-btn-text" data-i18n="check_availability">Sprawdź dostępność</span>
   </button>
 
+  <!-- Falowany dzielnik przed stopką -->
+  <div class="wave-divider" aria-hidden="true">
+    <svg viewBox="0 0 1200 70" preserveAspectRatio="none">
+      <path d="M0,38 C150,72 300,6 450,32 C600,58 750,8 900,34 C1050,60 1150,26 1200,36 L1200,70 L0,70 Z"></path>
+    </svg>
+  </div>
+
   <!-- Stopka -->
   <footer>
     <div class="container footer-inner">
@@ -718,10 +768,13 @@
         <a href="privacy-policy.html" data-i18n="privacy">Polityka prywatności</a>
       </nav>
     </div>
+    <div class="container footer-seo">
+      <p data-i18n="footer_seo">Wakacje nad morzem w Grzybowie – noclegi nad polskim morzem blisko Kołobrzegu, Dźwirzyna i Bałtyku.</p>
+    </div>
   </footer>
 
   <!-- Główna logika strony głównej -->
-  <script src="assets/index.js?v=202607265" defer></script>
+  <script src="assets/index.js?v=202607266" defer></script>
 
   <!-- Cookie Consent -->
   <link rel="stylesheet" href="assets/cookie-consent.css?v=20260726">
@@ -734,7 +787,10 @@
     "@type": "LodgingBusiness",
     "name": "Dom Latarnika",
     "image": "https://dom-latarnika.pl/img/og-image.webp",
-    "description": "Pensjonat Dom Latarnika w Grzybowie – komfortowe pokoje, studia i apartament nad Bałtykiem, wspólna kuchnia, salon i taras, spokojna lokalizacja blisko plaży.",
+    "description": "Pensjonat Dom Latarnika w Grzybowie – wakacje nad morzem koło Kołobrzegu. Komfortowe pokoje, studia i apartament nad Bałtykiem, wspólna kuchnia, salon i taras, spokojna lokalizacja blisko plaży.",
+    "keywords": "wakacje nad morzem, polskie morze, wakacje Kołobrzeg, noclegi Kołobrzeg, Grzybowo, pensjonat nad morzem, apartament nad morzem, wakacje nad Bałtykiem, Urlaub an der Ostsee, seaside holidays Poland",
+    "slogan": "Udane wakacje nad Bałtykiem",
+    "areaServed": ["Grzybowo", "Kołobrzeg", "Dźwirzyno", "województwo zachodniopomorskie"],
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "ul. Nadmorska 65A",

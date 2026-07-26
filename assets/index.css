@@ -2249,6 +2249,44 @@
     @media (max-width:760px){.hero-scroll{display:none}}
 
     /* ---- Pokoje: nowe karty ---- */
+    .room-filters{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:6px;
+      width:max-content;
+      max-width:100%;
+      margin:0 auto 24px;
+      padding:6px;
+      border:1px solid rgba(21,57,85,.1);
+      border-radius:16px;
+      background:#fff;
+      box-shadow:0 10px 24px rgba(14,40,64,.06);
+    }
+    .room-filter{
+      min-height:40px;
+      padding:9px 14px;
+      border:0;
+      border-radius:12px;
+      background:transparent;
+      color:var(--navy);
+      font-size:.86rem;
+      font-weight:900;
+      letter-spacing:.02em;
+      cursor:pointer;
+      transition:background .2s ease,color .2s ease,transform .2s ease;
+      white-space:nowrap;
+    }
+    .room-filter:hover,
+    .room-filter:focus-visible{
+      background:rgba(21,57,85,.08);
+      transform:translateY(-1px);
+    }
+    .room-filter.is-active{
+      background:var(--navy);
+      color:#fff;
+    }
     .rooms-grid{
       display:grid;
       grid-template-columns:repeat(3,minmax(0,1fr));
@@ -2301,6 +2339,39 @@
     }
     .room-card-capacity svg{width:16px;height:16px}
     .room-body{padding:22px 20px 20px}
+    .room-meta{
+      margin:16px 0 0;
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:8px;
+    }
+    .room-meta-item{
+      min-width:0;
+      padding:9px 10px;
+      border:1px solid rgba(21,57,85,.08);
+      border-radius:12px;
+      background:#fbfaf7;
+    }
+    .room-meta-item dt{
+      margin:0 0 2px;
+      color:var(--muted);
+      font-size:.68rem;
+      line-height:1.2;
+      font-weight:900;
+      text-transform:uppercase;
+      letter-spacing:.06em;
+    }
+    .room-meta-item dd{
+      margin:0;
+      color:var(--navy-strong);
+      font-size:.86rem;
+      font-weight:800;
+      line-height:1.28;
+      overflow-wrap:anywhere;
+    }
+    .room-card-meta .room-meta-item:last-child{
+      grid-column:1 / -1;
+    }
     .room-card-features{
       list-style:none;
       margin:14px 0 0;
@@ -2346,6 +2417,17 @@
       text-align:center;
     }
     .rooms-note span{font-weight:700;color:var(--navy-strong)}
+    .room-empty{
+      grid-column:1 / -1;
+      margin:0;
+      padding:26px;
+      border:1px dashed rgba(21,57,85,.22);
+      border-radius:18px;
+      background:#fff;
+      color:var(--muted);
+      text-align:center;
+      font-weight:800;
+    }
 
     /* ---- Modal pojedynczego pokoju ---- */
     .room-modal{
@@ -2448,6 +2530,9 @@
       line-height:1.1;
     }
     .room-modal-desc{margin:0 0 18px;color:var(--muted);line-height:1.6}
+    .room-modal-meta{
+      margin:0 0 22px;
+    }
     .room-modal-subtitle{
       display:block;
       color:var(--navy-strong);
@@ -2491,6 +2576,7 @@
       .room-modal-body{grid-template-columns:1fr}
       .room-modal-info{padding:24px 22px 26px}
       .room-modal-features{grid-template-columns:1fr}
+      .room-modal-meta{grid-template-columns:1fr}
     }
 
     /* ---- Udogodnienia ---- */
@@ -3051,4 +3137,118 @@
       .map-action{padding:7px 13px 7px 8px;font-size:.8rem;gap:8px}
       .map-action-icon{flex-basis:28px;width:28px;height:28px}
       .local-area-score-ring{width:112px;min-height:112px}
+    }
+
+    /* =====================================================================
+       Pasek „W liczbach”, falowane dzielniki, fallback Facebooka, ocena 4,6/5
+       ===================================================================== */
+
+    /* Ocena okolicy — mieści „4,6/5” w ringu */
+    .local-area-score-value{font-size:2.25rem;letter-spacing:-.02em}
+    @media (max-width:760px){ .local-area-score-value{font-size:1.7rem} }
+
+    /* Pasek „W liczbach” */
+    .stats-band{
+      position:relative;
+      padding:30px 0 32px;
+      background:linear-gradient(135deg,var(--navy-strong) 0%,var(--navy) 100%);
+      color:#fff;
+      overflow:hidden;
+    }
+    .stats-wave{
+      position:absolute;
+      left:0;right:0;
+      top:0;
+      height:40px;
+      transform:translateY(-99%);
+      pointer-events:none;
+    }
+    .stats-wave svg{display:block;width:100%;height:40px}
+    .stats-wave path{fill:var(--navy-strong)}
+    .stats-grid{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:6px 4px;
+    }
+    .stat{
+      flex:1 1 0;
+      min-width:120px;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      text-align:center;
+      padding:6px 10px;
+      color:#fff;
+      text-decoration:none;
+      transition:transform .2s ease;
+    }
+    a.stat:hover{transform:translateY(-2px)}
+    .stat-num{
+      font-family:"Fraunces",Georgia,serif;
+      font-weight:600;
+      font-size:2.2rem;
+      line-height:1;
+      letter-spacing:.01em;
+    }
+    a.stat .stat-num{color:#fff}
+    .stat-label{
+      margin-top:8px;
+      font-size:.74rem;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+      color:rgba(255,255,255,.7);
+      font-weight:700;
+    }
+    .stat-sep{
+      width:1px;
+      align-self:stretch;
+      margin:6px 0;
+      background:rgba(255,255,255,.16);
+      flex:0 0 1px;
+    }
+    @media (max-width:640px){
+      .stats-grid{gap:14px 0}
+      .stat{flex:1 1 44%;min-width:44%}
+      .stat-sep{display:none}
+      .stat-num{font-size:1.9rem}
+    }
+
+    /* Falowany dzielnik przed stopką */
+    .wave-divider{
+      background:var(--sand);
+      line-height:0;
+      margin-bottom:-1px;
+    }
+    .wave-divider svg{display:block;width:100%;height:70px}
+    .wave-divider path{fill:var(--navy-strong)}
+    @media (max-width:760px){ .wave-divider svg{height:48px} }
+
+    /* Link zapasowy pod tablicą Facebooka */
+    .fb-embed-fallback{
+      display:block;
+      padding:12px 16px;
+      text-align:center;
+      font-size:.86rem;
+      font-weight:700;
+      color:var(--navy-strong);
+      background:#eef3f9;
+      border-top:1px solid rgba(21,57,85,.08);
+      text-decoration:none;
+    }
+    .fb-embed-fallback:hover{background:#e4ecf6;text-decoration:underline}
+
+    /* Wiersz SEO w stopce */
+    .footer-seo{
+      margin-top:18px;
+      padding-top:16px;
+      border-top:1px solid rgba(255,255,255,.1);
+    }
+    .footer-seo p{
+      margin:0;
+      color:rgba(255,255,255,.5);
+      font-size:.82rem;
+      line-height:1.5;
+      max-width:60ch;
     }

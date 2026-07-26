@@ -237,7 +237,7 @@
     const translations = {
       pl: {
         title: "Dom Latarnika – pensjonat nad morzem w Grzybowie",
-        description: "Pensjonat Dom Latarnika w Grzybowie – komfortowe pokoje, studia i apartament nad Bałtykiem, wspólna kuchnia, salon i taras, spokojna lokalizacja blisko plaży i wygodna rezerwacja online.",
+        description: "Pensjonat Dom Latarnika w Grzybowie – wakacje nad morzem koło Kołobrzegu. Komfortowe pokoje, studia i apartament nad Bałtykiem, wspólna kuchnia, salon i taras, spokojna lokalizacja blisko plaży i wygodna rezerwacja online.",
         skip: "Przejdź do treści",
         a11y_btn_aria: "Ułatwienia dostępności",
         a11y_panel_aria: "Ułatwienia dostępności",
@@ -328,7 +328,7 @@
         area_title: "Grzybowo i dojazd",
         area_text: "Grzybowo to spokojna nadmorska miejscowość, idealna na plażowanie, spacery i rodzinne wycieczki rowerowe. Dom Latarnika znajduje się blisko plaży, a okolica pozwala wygodnie odpoczywać i odkrywać wybrzeże w spokojnym tempie.",
         area_map_alt: "Stylizowana mapa Grzybowa, Dźwirzyna i Kołobrzegu",
-        area_badge_score: "4,6",
+        area_badge_score: "4,6/5",
         area_badge_label: "Spokojna okolica",
         area_score_button_aria: "Pokaż informacje o spokojnej okolicy",
         area_item1_title: "Plaża i atrakcje",
@@ -371,6 +371,46 @@
         room_modal_close_aria: "Zamknij okno pokoju",
         room_photos_soon: "Zdjęcia wkrótce",
         room_names_label: "Pokoje w tej kategorii",
+        room_filters_aria: "Filtry pokoi",
+        room_filter_all: "Wszystkie",
+        room_filter_two: "2 osoby",
+        room_filter_family: "Rodzina",
+        room_filter_attic: "Poddasze",
+        room_filter_balcony: "Balkon",
+        room_filter_kitchenette: "Aneks",
+        room_no_results: "Brak pokoi dla wybranego filtra.",
+        room_meta_capacity: "Liczba osób",
+        room_meta_beds: "Łóżka",
+        room_meta_floor: "Poziom",
+        room_meta_layout: "Balkon / aneks",
+        room_meta_best_for: "Najlepiej dla",
+        room_capacity_solo: "1 osoba",
+        room_capacity_one_two: "1-2 osoby",
+        room_capacity_two_four: "2-4 osoby",
+        room_capacity_two: "2 osoby",
+        room_capacity_three_five: "3-5 osób",
+        room_capacity_four_six: "4-6 osób",
+        room_beds_single: "pojedyncze łóżko",
+        room_beds_double: "łóżko podwójne",
+        room_beds_flexible: "układ zależny od pokoju",
+        room_beds_two_rooms: "dwa oddzielne pokoje",
+        room_beds_two_bedrooms: "dwie sypialnie + salon",
+        room_floor_separate: "osobna, spokojna część",
+        room_floor_few_steps: "kilka schodków wyżej",
+        room_floor_main: "główna część obiektu",
+        room_floor_attic: "poddasze",
+        room_floor_connected: "część łączona",
+        room_floor_private: "osobne wejście",
+        room_layout_basic: "bez aneksu i balkonu",
+        room_layout_balcony: "balkon",
+        room_layout_kitchenette: "aneks kuchenny",
+        room_layout_full_kitchen: "salon z aneksem",
+        room_best_solo: "solo i spokojnego pobytu",
+        room_best_couples: "par i krótszych pobytów",
+        room_best_couples_family: "par i rodzin",
+        room_best_attic: "par lub spokojnego wypoczynku",
+        room_best_large_family: "większej rodziny",
+        room_best_long_family: "rodzin i dłuższych pobytów",
         rg_priv_tag: "Prywatny · 1 osoba",
         rg_priv_title: "Pokój „0” — prywatne zacisze",
         rg_priv_desc: "W pełni prywatny pokój, oddzielony od reszty obiektu, z myślą o jednej osobie. Maksimum spokoju i niezależności.",
@@ -446,11 +486,17 @@
         fb_embed_text: "Aby wyświetlić naszą tablicę Facebooka bezpośrednio na stronie, zaakceptuj cookies społecznościowe.",
         fb_embed_load: "Pokaż tablicę",
         fb_embed_open: "Otwórz w nowej karcie",
+        fb_embed_fallback: "Nie widać tablicy? Otwórz nasz profil na Facebooku",
+        fb_embed_blocked: "Twoja przeglądarka lub rozszerzenie zablokowały osadzoną tablicę. Otwórz nasz profil bezpośrednio na Facebooku.",
         nav_spaces: "Przestrzenie",
         nav_amenities: "Udogodnienia",
         nav_news: "Aktualności",
         hero_rooms_btn: "Zobacz pokoje",
         hero_scroll_aria: "Przewiń w dół",
+        stats_aria: "Dom Latarnika w liczbach",
+        stats_rooms: "pokoi i studiów",
+        stats_beach_num: "5 min",
+        stats_beach: "do plaży",
         privacy: "Polityka prywatności",
         cookie_text: "Używamy cookies do analizy ruchu i treści społecznościowych (np. tablica Facebooka).",
         cookie_decline: "Odrzuć",
@@ -501,11 +547,12 @@
         payment_example_value: "Zadatek — Anna Kowalska, 12–18.07.2026",
         footer_title: "Dom Latarnika",
         footer_text: "Grzybowo · ul. Nadmorska 65A",
+        footer_seo: "Wakacje nad morzem w Grzybowie – noclegi nad polskim morzem blisko Kołobrzegu, Dźwirzyna i Bałtyku.",
         rules: "Regulamin"
       },
       de: {
         title: "Dom Latarnika - ruhiger Aufenthalt am Meer in Grzybowo",
-        description: "Dom Latarnika in Grzybowo – komfortable Zimmer, Studios und Apartment, Gemeinschaftsküche, Wohnzimmer und Terrasse, ruhige Lage nahe am Meer und bequeme Online-Buchung.",
+        description: "Dom Latarnika in Grzybowo – Urlaub an der Ostsee nahe Kolberg (Kołobrzeg). Komfortable Zimmer, Studios und Apartment, Gemeinschaftsküche, Wohnzimmer und Terrasse, ruhige Lage nahe am Meer und bequeme Online-Buchung.",
         skip: "Zum Inhalt",
         a11y_btn_aria: "Barrierefreiheit",
         a11y_panel_aria: "Barrierefreiheitshilfen",
@@ -596,7 +643,7 @@
         area_title: "Grzybowo und Anreise",
         area_text: "Grzybowo ist ein ruhiger Küstenort, ideal für Strand, Spaziergänge und Fahrradausflüge mit der Familie. Dom Latarnika liegt nah am Strand und die Umgebung lädt dazu ein, die Küste entspannt zu entdecken.",
         area_map_alt: "Stilisierte Karte von Grzybowo, Dźwirzyno und Kołobrzeg",
-        area_badge_score: "4,6",
+        area_badge_score: "4,6/5",
         area_badge_label: "Ruhige Umgebung",
         area_score_button_aria: "Informationen zur ruhigen Umgebung anzeigen",
         area_item1_title: "Strand und Attraktionen",
@@ -639,6 +686,46 @@
         room_modal_close_aria: "Zimmerfenster schließen",
         room_photos_soon: "Fotos folgen in Kürze",
         room_names_label: "Zimmer in dieser Kategorie",
+        room_filters_aria: "Zimmerfilter",
+        room_filter_all: "Alle",
+        room_filter_two: "2 Personen",
+        room_filter_family: "Familie",
+        room_filter_attic: "Dachgeschoss",
+        room_filter_balcony: "Balkon",
+        room_filter_kitchenette: "Küchenzeile",
+        room_no_results: "Keine Zimmer für diesen Filter.",
+        room_meta_capacity: "Personen",
+        room_meta_beds: "Betten",
+        room_meta_floor: "Etage",
+        room_meta_layout: "Balkon / Küche",
+        room_meta_best_for: "Am besten für",
+        room_capacity_solo: "1 Person",
+        room_capacity_one_two: "1-2 Personen",
+        room_capacity_two_four: "2-4 Personen",
+        room_capacity_two: "2 Personen",
+        room_capacity_three_five: "3-5 Personen",
+        room_capacity_four_six: "4-6 Personen",
+        room_beds_single: "Einzelbett",
+        room_beds_double: "Doppelbett",
+        room_beds_flexible: "je nach Zimmer",
+        room_beds_two_rooms: "zwei separate Zimmer",
+        room_beds_two_bedrooms: "zwei Schlafzimmer + Wohnzimmer",
+        room_floor_separate: "separater ruhiger Bereich",
+        room_floor_few_steps: "ein paar Stufen höher",
+        room_floor_main: "Hauptteil des Hauses",
+        room_floor_attic: "Dachgeschoss",
+        room_floor_connected: "verbundener Bereich",
+        room_floor_private: "separater Eingang",
+        room_layout_basic: "ohne Küchenzeile und Balkon",
+        room_layout_balcony: "Balkon",
+        room_layout_kitchenette: "Küchenzeile",
+        room_layout_full_kitchen: "Wohnzimmer mit Küchenzeile",
+        room_best_solo: "Alleinreisende und ruhige Aufenthalte",
+        room_best_couples: "Paare und kurze Aufenthalte",
+        room_best_couples_family: "Paare und Familien",
+        room_best_attic: "Paare oder ruhige Erholung",
+        room_best_large_family: "größere Familien",
+        room_best_long_family: "Familien und längere Aufenthalte",
         rg_priv_tag: "Privat · 1 Person",
         rg_priv_title: "Zimmer „0” — privater Rückzugsort",
         rg_priv_desc: "Ein komplett privates Zimmer, getrennt vom Rest des Hauses, für eine Person. Maximale Ruhe und Unabhängigkeit.",
@@ -714,11 +801,17 @@
         fb_embed_text: "Um unsere Facebook-Pinnwand direkt auf der Seite anzuzeigen, akzeptieren Sie bitte die Social-Media-Cookies.",
         fb_embed_load: "Pinnwand anzeigen",
         fb_embed_open: "In neuem Tab öffnen",
+        fb_embed_fallback: "Pinnwand nicht sichtbar? Öffnen Sie unser Facebook-Profil",
+        fb_embed_blocked: "Ihr Browser oder eine Erweiterung hat die eingebettete Pinnwand blockiert. Öffnen Sie unser Profil direkt auf Facebook.",
         nav_spaces: "Bereiche",
         nav_amenities: "Ausstattung",
         nav_news: "Aktuelles",
         hero_rooms_btn: "Zimmer ansehen",
         hero_scroll_aria: "Nach unten scrollen",
+        stats_aria: "Dom Latarnika in Zahlen",
+        stats_rooms: "Zimmer & Studios",
+        stats_beach_num: "5 Min.",
+        stats_beach: "zum Strand",
         privacy: "Datenschutz",
         cookie_text: "Wir verwenden Cookies zur Verkehrsanalyse und für Social-Media-Inhalte (z. B. Facebook-Pinnwand).",
         cookie_decline: "Ablehnen",
@@ -769,11 +862,12 @@
         payment_example_value: "Anzahlung — Anna Kowalska, 12.–18.07.2026",
         footer_title: "Dom Latarnika",
         footer_text: "Grzybowo · ul. Nadmorska 65A",
+        footer_seo: "Urlaub an der Ostsee in Grzybowo – Unterkünfte am polnischen Meer nahe Kolberg (Kołobrzeg), Dźwirzyno und der Ostsee.",
         rules: "Hausordnung"
       },
       en: {
         title: "Dom Latarnika - peaceful seaside stay in Grzybowo",
-        description: "Dom Latarnika in Grzybowo – comfortable rooms, studios and an apartment, a shared kitchen, lounge and terrace, a peaceful location near the sea and convenient online booking.",
+        description: "Dom Latarnika in Grzybowo – seaside holidays on the Polish Baltic coast near Kołobrzeg. Comfortable rooms, studios and an apartment, a shared kitchen, lounge and terrace, a peaceful location near the sea and convenient online booking.",
         skip: "Skip to content",
         a11y_btn_aria: "Accessibility options",
         a11y_panel_aria: "Accessibility tools",
@@ -864,7 +958,7 @@
         area_title: "Grzybowo and access",
         area_text: "Grzybowo is a peaceful seaside village, ideal for beach time, walks and family cycling trips. Dom Latarnika is close to the beach and the area makes it easy to relax and explore the coast at a calm pace.",
         area_map_alt: "Illustrated map of Grzybowo, Dźwirzyno and Kołobrzeg",
-        area_badge_score: "4.6",
+        area_badge_score: "4.6/5",
         area_badge_label: "Peaceful area",
         area_score_button_aria: "Show details about the peaceful area",
         area_item1_title: "Beach and attractions",
@@ -907,6 +1001,46 @@
         room_modal_close_aria: "Close room dialog",
         room_photos_soon: "Photos coming soon",
         room_names_label: "Rooms in this category",
+        room_filters_aria: "Room filters",
+        room_filter_all: "All",
+        room_filter_two: "2 people",
+        room_filter_family: "Family",
+        room_filter_attic: "Attic",
+        room_filter_balcony: "Balcony",
+        room_filter_kitchenette: "Kitchenette",
+        room_no_results: "No rooms match this filter.",
+        room_meta_capacity: "Capacity",
+        room_meta_beds: "Beds",
+        room_meta_floor: "Level",
+        room_meta_layout: "Balcony / kitchenette",
+        room_meta_best_for: "Best for",
+        room_capacity_solo: "1 person",
+        room_capacity_one_two: "1-2 people",
+        room_capacity_two_four: "2-4 people",
+        room_capacity_two: "2 people",
+        room_capacity_three_five: "3-5 people",
+        room_capacity_four_six: "4-6 people",
+        room_beds_single: "single bed",
+        room_beds_double: "double bed",
+        room_beds_flexible: "layout depends on the room",
+        room_beds_two_rooms: "two separate rooms",
+        room_beds_two_bedrooms: "two bedrooms + living room",
+        room_floor_separate: "separate quiet area",
+        room_floor_few_steps: "a few steps up",
+        room_floor_main: "main part of the house",
+        room_floor_attic: "attic",
+        room_floor_connected: "connected section",
+        room_floor_private: "private entrance",
+        room_layout_basic: "no kitchenette or balcony",
+        room_layout_balcony: "balcony",
+        room_layout_kitchenette: "kitchenette",
+        room_layout_full_kitchen: "living room with kitchenette",
+        room_best_solo: "solo and quiet stays",
+        room_best_couples: "couples and shorter stays",
+        room_best_couples_family: "couples and families",
+        room_best_attic: "couples or quiet breaks",
+        room_best_large_family: "larger families",
+        room_best_long_family: "families and longer stays",
         rg_priv_tag: "Private · 1 person",
         rg_priv_title: "Room “0” — a private retreat",
         rg_priv_desc: "A fully private room, separated from the rest of the house, designed for one person. Maximum peace and independence.",
@@ -982,11 +1116,17 @@
         fb_embed_text: "To show our Facebook feed directly on the page, please accept social media cookies.",
         fb_embed_load: "Show feed",
         fb_embed_open: "Open in a new tab",
+        fb_embed_fallback: "Can't see the feed? Open our Facebook profile",
+        fb_embed_blocked: "Your browser or an extension blocked the embedded feed. Open our profile directly on Facebook.",
         nav_spaces: "Spaces",
         nav_amenities: "Amenities",
         nav_news: "News",
         hero_rooms_btn: "See rooms",
         hero_scroll_aria: "Scroll down",
+        stats_aria: "Dom Latarnika in numbers",
+        stats_rooms: "rooms & studios",
+        stats_beach_num: "5 min",
+        stats_beach: "to the beach",
         privacy: "Privacy policy",
         cookie_text: "We use cookies for traffic analysis and social media content (e.g. the Facebook feed).",
         cookie_decline: "Decline",
@@ -1037,6 +1177,7 @@
         payment_example_value: "Deposit — Anna Kowalska, 12–18.07.2026",
         footer_title: "Dom Latarnika",
         footer_text: "Grzybowo · ul. Nadmorska 65A",
+        footer_seo: "Seaside holidays in Grzybowo – accommodation on the Polish Baltic coast near Kołobrzeg, Dźwirzyno and the Baltic Sea.",
         rules: "Rules"
       }
     };
@@ -1076,7 +1217,7 @@
     ];
 
     // Kolekcje pokoi — pogrupowane, aby nie zasypywać gościa listą kilkunastu pokoi.
-    // Każda grupa: nazwy pokoi (names), zdjęcia (images — puste = placeholder), wyposażenie.
+    // Każda grupa: nazwy pokoi (names), zdjęcia, metadane decyzyjne i wyposażenie.
     // Aby dodać zdjęcia: wrzuć pliki do img/rooms/ i wpisz ich ścieżki w "images".
     const roomGroups = [
       {
@@ -1086,6 +1227,12 @@
         tagKey: "rg_priv_tag",
         titleKey: "rg_priv_title",
         descKey: "rg_priv_desc",
+        capacityKey: "room_capacity_solo",
+        bedsKey: "room_beds_single",
+        floorKey: "room_floor_separate",
+        layoutKey: "room_layout_basic",
+        bestForKey: "room_best_solo",
+        filterTags: ["solo"],
         featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_wifi"]
       },
       {
@@ -1095,6 +1242,12 @@
         tagKey: "rg_stairs_tag",
         titleKey: "rg_stairs_title",
         descKey: "rg_stairs_desc",
+        capacityKey: "room_capacity_one_two",
+        bedsKey: "room_beds_double",
+        floorKey: "room_floor_few_steps",
+        layoutKey: "room_layout_basic",
+        bestForKey: "room_best_couples",
+        filterTags: ["two"],
         featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
       },
       {
@@ -1104,6 +1257,12 @@
         tagKey: "rg_std_tag",
         titleKey: "rg_std_title",
         descKey: "rg_std_desc",
+        capacityKey: "room_capacity_two_four",
+        bedsKey: "room_beds_flexible",
+        floorKey: "room_floor_main",
+        layoutKey: "room_layout_basic",
+        bestForKey: "room_best_couples_family",
+        filterTags: ["two", "family"],
         featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_safe", "feat_wifi"]
       },
       {
@@ -1113,6 +1272,12 @@
         tagKey: "rg_attic_tag",
         titleKey: "rg_attic_title",
         descKey: "rg_attic_desc",
+        capacityKey: "room_capacity_two",
+        bedsKey: "room_beds_double",
+        floorKey: "room_floor_attic",
+        layoutKey: "room_layout_basic",
+        bestForKey: "room_best_attic",
+        filterTags: ["two", "attic"],
         featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
       },
       {
@@ -1122,6 +1287,12 @@
         tagKey: "rg_join_tag",
         titleKey: "rg_join_title",
         descKey: "rg_join_desc",
+        capacityKey: "room_capacity_three_five",
+        bedsKey: "room_beds_two_rooms",
+        floorKey: "room_floor_connected",
+        layoutKey: "room_layout_balcony",
+        bestForKey: "room_best_large_family",
+        filterTags: ["family", "balcony"],
         featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_balcony", "feat_wifi"]
       },
       {
@@ -1131,12 +1302,19 @@
         tagKey: "rg_apart_tag",
         titleKey: "rg_apart_title",
         descKey: "rg_apart_desc",
+        capacityKey: "room_capacity_four_six",
+        bedsKey: "room_beds_two_bedrooms",
+        floorKey: "room_floor_private",
+        layoutKey: "room_layout_full_kitchen",
+        bestForKey: "room_best_long_family",
+        filterTags: ["family", "kitchenette"],
         featureKeys: ["feat_two_bedrooms", "feat_kitchen_full", "feat_living", "feat_private_entrance", "feat_bath", "feat_wifi"]
       }
     ];
 
-    const roomTypes = roomGroups.map((group) => ({
+    const roomTypes = roomGroups.map((group, index) => ({
       ...group,
+      index,
       cover: group.images[0] || ""
     }));
 
@@ -1546,29 +1724,78 @@
       return group.names.map((n) => `<span class="room-name-chip">${n}</span>`).join("");
     }
 
+    let activeRoomFilter = "all";
+
+    function roomMetaItems(group, dict) {
+      return [
+        { label: dict.room_meta_capacity, value: dict[group.capacityKey] },
+        { label: dict.room_meta_beds, value: dict[group.bedsKey] },
+        { label: dict.room_meta_floor, value: dict[group.floorKey] },
+        { label: dict.room_meta_layout, value: dict[group.layoutKey] },
+        { label: dict.room_meta_best_for, value: dict[group.bestForKey] }
+      ].filter((item) => item.label && item.value);
+    }
+
+    function roomMetaMarkup(group, dict, className) {
+      return `
+        <dl class="room-meta ${className || ""}">
+          ${roomMetaItems(group, dict).map((item) => `
+            <div class="room-meta-item">
+              <dt>${item.label}</dt>
+              <dd>${item.value}</dd>
+            </div>
+          `).join("")}
+        </dl>
+      `;
+    }
+
+    function roomMatchesFilter(group) {
+      return activeRoomFilter === "all" || (group.filterTags || []).includes(activeRoomFilter);
+    }
+
+    function updateRoomFilterButtons() {
+      document.querySelectorAll("[data-room-filter]").forEach((button) => {
+        const isActive = button.dataset.roomFilter === activeRoomFilter;
+        button.classList.toggle("is-active", isActive);
+        button.setAttribute("aria-pressed", String(isActive));
+      });
+    }
+
     function renderRooms(lang) {
       const grid = document.getElementById("rooms-grid");
       if (!grid) return;
       const dict = translations[lang] || translations.pl;
-      grid.innerHTML = roomTypes.map((group, index) => {
+      const visibleRooms = roomTypes.filter(roomMatchesFilter);
+      updateRoomFilterButtons();
+      if (!visibleRooms.length) {
+        grid.innerHTML = `<p class="room-empty">${dict.room_no_results || "Brak pokoi dla wybranego filtra."}</p>`;
+        return;
+      }
+      grid.innerHTML = visibleRooms.map((group) => {
         const title = dict[group.titleKey] || "";
         const desc = dict[group.descKey] || "";
         const tag = dict[group.tagKey] || "";
+        const capacity = dict[group.capacityKey] || "";
         const media = group.cover
           ? `<img src="${group.cover}" alt="${title}" loading="lazy">`
           : `<div class="room-card-placeholder"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 44V20l4-6 4 6v24"/><path d="M20 26h8M20 32h8M20 38h8"/><path d="M14 22l-4 3M34 22l4 3M16 44H8M40 44h-8"/></svg><span>${dict.room_photos_soon || "Zdjęcia wkrótce"}</span></div>`;
         return `
-          <article class="card room-card${group.cover ? "" : " room-card--placeholder"}" data-room-index="${index}" data-reveal>
+          <article class="card room-card${group.cover ? "" : " room-card--placeholder"}" data-room-index="${group.index}" data-reveal>
             <div class="room-card-media">
               ${media}
               <span class="room-card-badge">${tag}</span>
+              <span class="room-card-capacity" aria-label="${dict.room_meta_capacity || "Liczba osób"}: ${capacity}">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                ${capacity}
+              </span>
             </div>
             <div class="room-body">
               <h3>${title}</h3>
               <p>${desc}</p>
+              ${roomMetaMarkup(group, dict, "room-card-meta")}
               <div class="room-names" aria-label="${dict.room_names_label || "Pokoje w tej kategorii"}">${roomNamesChips(group)}</div>
               <div class="room-card-actions">
-                <button class="button button-secondary" type="button" data-room-open="${index}">${dict.room_details || "Szczegóły"}</button>
+                <button class="button button-secondary" type="button" data-room-open="${group.index}">${dict.room_details || "Szczegóły"}</button>
                 <a class="button button-primary" href="${BOOKING_URL}" target="_blank" rel="noopener">${dict.book_online || "Rezerwuj"}</a>
               </div>
             </div>
@@ -1576,6 +1803,16 @@
         `;
       }).join("");
       grid.querySelectorAll("[data-reveal]").forEach((item) => revealObserver.observe(item));
+    }
+
+    const roomFilters = document.getElementById("room-filters");
+    if (roomFilters) {
+      roomFilters.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-room-filter]");
+        if (!button || !roomFilters.contains(button)) return;
+        activeRoomFilter = button.dataset.roomFilter || "all";
+        renderRooms(document.documentElement.lang || "pl");
+      });
     }
 
     function renderAmenities(lang) {
@@ -1672,6 +1909,7 @@
           <span class="section-kicker">${dict.rooms_kicker || ""}</span>
           <h3 id="room-modal-title">${title}</h3>
           <p class="room-modal-desc">${desc}</p>
+          ${roomMetaMarkup(group, dict, "room-modal-meta")}
           <strong class="room-modal-subtitle">${dict.room_names_label || "Pokoje w tej kategorii"}</strong>
           <div class="room-modal-names">${nameChips}</div>
           <strong class="room-modal-subtitle">${dict.room_equipment || "Wyposażenie"}</strong>
@@ -2084,22 +2322,52 @@
         fbLoaded = true;
         fbEmbed.classList.add("is-loaded");
         const pageUrl = fbEmbed.dataset.fbPage || "https://www.facebook.com/DomLatarnika";
+        const dict = translations[document.documentElement.lang || "pl"] || translations.pl;
         const src = "https://www.facebook.com/plugins/page.php?href=" +
           encodeURIComponent(pageUrl) +
-          "&tabs=timeline&width=380&height=560&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true";
+          "&tabs=timeline&width=380&height=640&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true";
         const iframe = document.createElement("iframe");
         iframe.src = src;
         iframe.title = "Facebook Dom Latarnika";
         iframe.width = "100%";
-        iframe.height = "560";
+        iframe.height = "640";
         iframe.loading = "lazy";
         iframe.style.border = "0";
         iframe.setAttribute("scrolling", "no");
         iframe.setAttribute("frameborder", "0");
         iframe.allow = "encrypted-media";
-        const placeholder = document.getElementById("fb-embed-placeholder");
+
+        // Jeśli przeglądarka/rozszerzenie zablokuje ramkę Facebooka — wróć do placeholdera z linkiem.
+        iframe.addEventListener("error", showFbFallback);
+
         fbEmbed.innerHTML = "";
         fbEmbed.appendChild(iframe);
+
+        // Zawsze widoczny link zapasowy pod tablicą (działa nawet gdy iframe jest pusty/zablokowany).
+        const fallback = document.createElement("a");
+        fallback.className = "fb-embed-fallback";
+        fallback.href = pageUrl.replace(/\/?$/, "/") + "?locale=pl_PL";
+        fallback.target = "_blank";
+        fallback.rel = "noopener";
+        fallback.textContent = dict.fb_embed_fallback || "Nie widać tablicy? Otwórz nasz profil na Facebooku";
+        fbEmbed.appendChild(fallback);
+      }
+
+      function showFbFallback() {
+        const dict = translations[document.documentElement.lang || "pl"] || translations.pl;
+        const pageUrl = fbEmbed.dataset.fbPage || "https://www.facebook.com/DomLatarnika";
+        fbEmbed.classList.remove("is-loaded");
+        fbEmbed.innerHTML = `
+          <div class="fb-embed-placeholder">
+            <div class="fb-embed-fb-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.6 1.6-1.6H17V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3h2.8v8h3.2z"/></svg>
+            </div>
+            <strong>${dict.fb_embed_title || "Tablica na Facebooku"}</strong>
+            <p>${dict.fb_embed_blocked || "Twoja przeglądarka zablokowała osadzoną tablicę. Otwórz nasz profil bezpośrednio na Facebooku."}</p>
+            <div class="fb-embed-actions">
+              <a class="button button-primary" href="${pageUrl.replace(/\/?$/, "/")}?locale=pl_PL" target="_blank" rel="noopener">${dict.fb_embed_open || "Otwórz w nowej karcie"}</a>
+            </div>
+          </div>`;
       }
 
       const fbLoadBtn = document.getElementById("fb-embed-load");
