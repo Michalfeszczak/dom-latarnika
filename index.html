@@ -3,26 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dom Latarnika - spokojny pobyt nad morzem w Grzybowie</title>
-  <meta name="description" content="Dom Latarnika w Grzybowie - komfortowe pokoje i studia, śniadania na miejscu, spokojna lokalizacja blisko morza i wygodna rezerwacja online.">
-  <meta name="keywords" content="pensjonat Grzybowo, noclegi nad morzem, hotel Bałtyk, pokoje Grzybowo, rezerwacja Booking">
+  <title>Dom Latarnika – pensjonat nad morzem w Grzybowie</title>
+  <meta name="description" content="Pensjonat Dom Latarnika w Grzybowie – komfortowe pokoje, studia i apartament nad Bałtykiem, wspólna kuchnia, salon i taras, spokojna lokalizacja blisko plaży i wygodna rezerwacja online.">
+  <meta name="keywords" content="pensjonat Grzybowo, noclegi nad morzem, pokoje Grzybowo, apartament Grzybowo, Dom Latarnika, rezerwacja Booking, nocleg Kołobrzeg okolice">
   <meta name="author" content="Dom Latarnika">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="theme-color" content="#153955">
 
   <!-- Open Graph / Social Media -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://dom-latarnika.pl/">
-  <meta property="og:title" content="Dom Latarnika - spokojny pobyt nad morzem w Grzybowie">
-  <meta property="og:description" content="Komfortowe pokoje i studia, śniadania na miejscu i spokojna lokalizacja blisko plaży.">
+  <meta property="og:site_name" content="Dom Latarnika">
+  <meta property="og:title" content="Dom Latarnika – pensjonat nad morzem w Grzybowie">
+  <meta property="og:description" content="Komfortowe pokoje, studia i apartament, wspólna kuchnia, salon i taras oraz spokojna lokalizacja blisko plaży.">
   <meta property="og:image" content="https://dom-latarnika.pl/img/og-image.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:locale" content="pl_PL">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="en_GB">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Dom Latarnika - spokojny pobyt w Grzybowie">
-  <meta name="twitter:description" content="Komfortowe pokoje i studia, śniadania i spokojna lokalizacja blisko morza.">
+  <meta name="twitter:title" content="Dom Latarnika – pensjonat nad morzem w Grzybowie">
+  <meta name="twitter:description" content="Komfortowe pokoje, studia i apartament, wspólna kuchnia, salon i taras blisko morza.">
   <meta name="twitter:image" content="https://dom-latarnika.pl/img/og-image.webp">
 
   <!-- Canonical & Links -->
@@ -30,6 +34,7 @@
   <link rel="alternate" hreflang="pl" href="https://dom-latarnika.pl/">
   <link rel="alternate" hreflang="de" href="https://dom-latarnika.pl/?lang=de">
   <link rel="alternate" hreflang="en" href="https://dom-latarnika.pl/?lang=en">
+  <link rel="alternate" hreflang="x-default" href="https://dom-latarnika.pl/">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -37,9 +42,10 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&amp;family=Fraunces:opsz,wght@9..144,400;9..144,600&amp;display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="img/hero/panorama.webp">
   <!-- Główne style strony głównej -->
-  <link rel="stylesheet" href="assets/index.css?v=202605162352">
+  <link rel="stylesheet" href="assets/index.css?v=202607265">
 </head>
 <body>
   <a class="skip-link" href="#main" data-i18n="skip">Przejdź do treści</a>
@@ -59,18 +65,20 @@
   <p class="sr-only" id="page-status" role="status" aria-live="polite" aria-atomic="true"></p>
 
   <!-- Nagłówek -->
-  <header class="site-header">
+  <header class="site-header" id="site-header">
     <div class="container header-inner">
       <a class="brand" href="#start" aria-label="Dom Latarnika" data-i18n-aria-label="brand_home_aria">
-        <img src="img/dllogo-min.png" alt="Dom Latarnika">
+        <img src="img/brand/logo-dark.png" alt="Dom Latarnika" width="190" height="98">
       </a>
 
       <nav class="main-nav" id="main-nav" aria-label="Główna nawigacja" data-i18n-aria-label="nav_main_aria">
         <ul>
           <li><a href="#oferta" data-i18n="nav_offer">O obiekcie</a></li>
           <li><a href="#pokoje" data-i18n="nav_rooms">Pokoje</a></li>
-          <li><a href="#sniadania" data-i18n="nav_breakfast">Śniadania</a></li>
-          <li><a href="#okolica" data-i18n="nav_area">Grzybowo i okolice</a></li>
+          <li><a href="#przestrzenie" data-i18n="nav_spaces">Przestrzenie</a></li>
+          <li><a href="#udogodnienia" data-i18n="nav_amenities">Udogodnienia</a></li>
+          <li><a href="#okolica" data-i18n="nav_area">Okolica</a></li>
+          <li><a href="#aktualnosci" data-i18n="nav_news">Aktualności</a></li>
           <li><a href="#opinie" data-i18n="nav_reviews">Opinie</a></li>
           <li><a href="#kontakt" data-i18n="nav_contact">Kontakt</a></li>
         </ul>
@@ -101,22 +109,22 @@
     <!-- Hero -->
     <section class="hero" id="start" aria-label="Zdjęcia pensjonatu" data-i18n-aria-label="hero_section_aria">
       <div class="hero-slides" id="hero-slider" aria-hidden="true">
-        <div class="hero-slide is-active" style="background-image:url('img/sliderdllow2.jpg')"></div>
-        <div class="hero-slide" style="background-image:url('img/486616818_1181172550679016_6062055738502168075_n.jpg')"></div>
-        <div class="hero-slide" style="background-image:url('img/486548234_1181173617345576_6041155705819999559_n.jpg')"></div>
-        <div class="hero-slide" style="background-image:url('img/486839135_1181173624012242_1174403808440678650_n.jpg')"></div>
+        <div class="hero-slide is-active" style="background-image:url('img/hero/panorama.webp')"></div>
+        <div class="hero-slide" style="background-image:url('img/building/terrace.webp')"></div>
+        <div class="hero-slide" style="background-image:url('img/rooms/marine.webp')"></div>
+        <div class="hero-slide" style="background-image:url('img/beach/beach-03.webp')"></div>
       </div>
       <div class="hero-overlay"></div>
 
       <div class="container hero-inner">
         <div class="hero-copy">
-          <span class="hero-kicker" data-i18n="hero_kicker">Pensjonat Dom Latarnika</span>
+          <span class="hero-kicker" data-i18n="hero_kicker">Pensjonat Dom Latarnika · Grzybowo</span>
           <h1 data-i18n="hero_title">Udane wakacje nad Bałtykiem</h1>
-          <p data-i18n="hero_text">Spokojny wypoczynek w Grzybowie, blisko morza, z komfortowymi pokojami, śniadaniami i wygodną rezerwacją online.</p>
+          <p data-i18n="hero_text">Spokojny wypoczynek w Grzybowie, blisko morza, z komfortowymi pokojami, studiami i apartamentem oraz wygodną rezerwacją online.</p>
           <div class="hero-buttons">
             <a class="button button-primary" href="https://www.booking.com/hotel/pl/pensjonat-dom-latarnika.pl.html" target="_blank" rel="noopener" data-i18n="check_availability">Sprawdź dostępność</a>
-            <a class="button button-secondary" href="tel:+48607354555" data-call-link data-i18n="call">Zadzwoń</a>
-            <a class="button button-secondary" href="https://www.google.com/maps/search/?api=1&amp;query=Dom%20Latarnika%20Nadmorska%2065A%2078-132%20Grzybowo" target="_blank" rel="noopener" data-i18n="navigate">Nawiguj</a>
+            <a class="button button-glass" href="#pokoje" data-i18n="hero_rooms_btn">Zobacz pokoje</a>
+            <a class="button button-glass" href="https://www.google.com/maps/search/?api=1&amp;query=Dom%20Latarnika%20Nadmorska%2065A%2078-132%20Grzybowo" target="_blank" rel="noopener" data-i18n="navigate">Nawiguj</a>
           </div>
           <div class="hero-dots" aria-label="Wybór slajdu" data-i18n-aria-label="hero_dots_aria">
             <button type="button" class="is-active" data-slide="0" aria-label="Slajd 1" aria-pressed="true" data-i18n-aria-label="slide_1_aria"></button>
@@ -132,30 +140,53 @@
           <p data-i18n="panel_text">Najważniejsze rzeczy w jednym miejscu, przed planowaniem pobytu.</p>
           <ul class="hero-list">
             <li>
-              <strong data-i18n="panel_location_label">Lokalizacja</strong>
-              <span data-i18n="panel_location_value">Grzybowo, ul. Nadmorska 65A</span>
+              <span class="hero-list-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              </span>
+              <span class="hero-list-body">
+                <strong data-i18n="panel_location_label">Lokalizacja</strong>
+                <span data-i18n="panel_location_value">Grzybowo, ul. Nadmorska 65A</span>
+              </span>
             </li>
             <li>
-              <strong data-i18n="panel_sea_label">Odległość od morza</strong>
-              <span data-i18n="panel_sea_value">Około 500 metrów od plaży.</span>
+              <span class="hero-list-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 16c2-1.5 3.5-1.5 5.5 0S12 17.5 14 16s3.5-1.5 5.5 0"/><path d="M2 20c2-1.5 3.5-1.5 5.5 0S12 21.5 14 20s3.5-1.5 5.5 0"/><path d="M12 12V5l6 2"/></svg>
+              </span>
+              <span class="hero-list-body">
+                <strong data-i18n="panel_sea_label">Odległość od morza</strong>
+                <span data-i18n="panel_sea_value">Kilka minut spacerem do plaży.</span>
+              </span>
             </li>
             <li>
-              <strong data-i18n="panel_breakfast_label">Śniadania</strong>
-              <span data-i18n="panel_breakfast_value">śniadania serwowane na miejscu</span>
+              <span class="hero-list-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 16V8h3.5a2.5 2.5 0 0 1 0 5H9"/></svg>
+              </span>
+              <span class="hero-list-body">
+                <strong data-i18n="panel_parking_label">Parking</strong>
+                <span data-i18n="panel_parking_value">bezpłatny, na miejscu</span>
+              </span>
             </li>
             <li class="hero-list-item-action">
               <button class="hero-list-trigger" type="button" data-booking-modal-open aria-haspopup="dialog">
-                <strong data-i18n="panel_booking_label">Rezerwacja</strong>
-                <span data-i18n="panel_booking_value">online lub telefonicznie</span>
+                <span class="hero-list-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/><path d="m9 15 2 2 4-4"/></svg>
+                </span>
+                <span class="hero-list-body">
+                  <strong data-i18n="panel_booking_label">Rezerwacja</strong>
+                  <span data-i18n="panel_booking_value">online lub telefonicznie</span>
+                </span>
               </button>
             </li>
           </ul>
         </aside>
       </div>
+      <a class="hero-scroll" href="#atuty" aria-label="Przewiń w dół" data-i18n-aria-label="hero_scroll_aria">
+        <span aria-hidden="true"></span>
+      </a>
     </section>
 
     <!-- Atuty obiektu -->
-    <section>
+    <section id="atuty">
       <div class="container">
         <div class="section-head" data-reveal>
           <span class="section-kicker" data-i18n="usp_kicker">Dlaczego warto</span>
@@ -166,21 +197,21 @@
         <div class="usp-grid">
           <article class="card usp-card" data-reveal>
             <span class="usp-icon" aria-hidden="true">
-              <img src="img/usp-family-v2.png" alt="">
+              <img src="img/icons/family.png" alt="" width="96" height="96" loading="lazy">
             </span>
             <h3 data-i18n="usp1_title">Rodzinnie</h3>
             <p data-i18n="usp1_text">Komfortowe pokoje i spokojna okolica sprzyjają wypoczynkowi z dziećmi.</p>
           </article>
           <article class="card usp-card" data-reveal>
             <span class="usp-icon" aria-hidden="true">
-              <img src="img/usp-group-v2.png" alt="">
+              <img src="img/icons/group.png" alt="" width="96" height="96" loading="lazy">
             </span>
             <h3 data-i18n="usp2_title">Grupowo</h3>
             <p data-i18n="usp2_text">Dobre rozwiązanie dla grup, wyjazdów integracyjnych i dłuższych pobytów.</p>
           </article>
           <article class="card usp-card" data-reveal>
             <span class="usp-icon" aria-hidden="true">
-              <img src="img/usp-sea-v2.png" alt="">
+              <img src="img/icons/waves.png" alt="" width="96" height="96" loading="lazy">
             </span>
             <h3 data-i18n="usp3_title">Nad morzem</h3>
             <p data-i18n="usp3_text">Bliskość plaży i nadmorski klimat tworzą idealne warunki do odpoczynku.</p>
@@ -194,18 +225,18 @@
       <div class="container">
         <div class="split">
           <article class="card photo-card" data-reveal>
-            <img src="img/Odległość.png" alt="Wejście i taras pensjonatu Dom Latarnika">
+            <img src="img/building/exterior-01.webp" alt="Budynek pensjonatu Dom Latarnika w Grzybowie" loading="lazy">
           </article>
           <article class="card content-card" data-reveal>
             <span class="section-kicker" data-i18n="offer_kicker">O obiekcie</span>
             <h2 class="section-title" data-i18n="offer_title">Wygodnie, spokojnie, blisko morza</h2>
-            <p data-i18n="offer_text1">Kameralny obiekt w spokojnej części Grzybowa, około 500 metrów od plaży i blisko głównego deptaka.</p>
-            <p data-i18n="offer_text2">Na gości czekają pokoje i studia z łazienkami, praktyczne wyposażenie oraz udogodnienia przydatne podczas dłuższego pobytu.</p>
+            <p data-i18n="offer_text1">Kameralny obiekt w spokojnej części Grzybowa, w bliskim sąsiedztwie plaży i tras spacerowych, a jednocześnie z dala od zgiełku.</p>
+            <p data-i18n="offer_text2">Na gości czekają pokoje, studia i apartament z własnymi łazienkami, praktyczne wyposażenie oraz udogodnienia przydatne podczas dłuższego pobytu.</p>
             <ul class="list">
-              <li data-i18n="offer_item1">500 m od plaży</li>
-              <li data-i18n="offer_item2">Pokoje i studia z łazienkami</li>
-              <li data-i18n="offer_item3">Kuchnia, leżaki, parawany i pralka</li>
-              <li data-i18n="offer_item4">Spokojna okolica blisko centrum Grzybowa</li>
+              <li data-i18n="offer_item1">Kilka minut spacerem do plaży</li>
+              <li data-i18n="offer_item2">Pokoje, studia i apartament z łazienkami</li>
+              <li data-i18n="offer_item3">Aneks kuchenny, sprzęt plażowy, rowery i pralnia</li>
+              <li data-i18n="offer_item4">Zamknięty, monitorowany parking na miejscu</li>
             </ul>
           </article>
         </div>
@@ -216,59 +247,43 @@
     <section id="pokoje">
       <div class="container">
         <div class="section-head" data-reveal>
-          <span class="section-kicker" data-i18n="rooms_kicker">Pokoje i studia</span>
-          <h2 class="section-title" data-i18n="rooms_title">Wnętrza stworzone do spokojnego wypoczynku</h2>
-          <p class="section-text" data-i18n="rooms_text">Jasne, przytulne pokoje i studia w nadmorskim stylu — idealne na komfortowy pobyt we dwoje, z rodziną lub na dłuższy urlop.</p>
+          <span class="section-kicker" data-i18n="rooms_kicker">Pokoje</span>
+          <h2 class="section-title" data-i18n="rooms_title">Znajdź swój ulubiony pokój</h2>
+          <p class="section-text" data-i18n="rooms_text">Nasze pokoje pogrupowaliśmy w kilka kategorii z charakterem — od prywatnego zacisza, przez pokoje na poddaszu, po łączonego „Bliźniaka” i apartament. Kliknij kategorię, aby zobaczyć zdjęcia i wyposażenie.</p>
         </div>
 
-        <div class="rooms-grid">
-          <article class="card room-card" data-reveal>
-            <img src="img/486145598_1181172767345661_8466281319809187499_n.webp" alt="Pokój dwuosobowy z paskowaną ścianą">
-            <div class="room-body">
-              <h3 data-i18n="room1_title">Pokój dwuosobowy</h3>
-              <p data-i18n="room1_text">Przytulna przestrzeń dla dwóch osób, urządzona z myślą o spokojnym wypoczynku blisko morza.</p>
-              <a class="button button-secondary" href="https://www.booking.com/hotel/pl/pensjonat-dom-latarnika.pl.html" target="_blank" rel="noopener" data-i18n="check_availability">Sprawdź dostępność</a>
-            </div>
-          </article>
+        <!-- Karty pokoi renderowane z danych (assets/index.js) -->
+        <div class="rooms-grid" id="rooms-grid" aria-live="polite"></div>
 
-          <article class="card room-card" data-reveal>
-            <img src="img/486406151_1181172640679007_2397937089487304509_n.webp" alt="Pokój marynistyczny">
-            <div class="room-body">
-              <h3 data-i18n="room2_title">Pokój marynistyczny</h3>
-              <p data-i18n="room2_text">Jasne wnętrze z subtelnym morskim charakterem, wygodnym układem i kameralną atmosferą.</p>
-              <a class="button button-secondary" href="https://www.booking.com/hotel/pl/pensjonat-dom-latarnika.pl.html" target="_blank" rel="noopener" data-i18n="check_availability">Sprawdź dostępność</a>
-            </div>
-          </article>
+        <p class="rooms-note" data-reveal>
+          <span data-i18n="rooms_note">Dostępność i aktualne ceny wszystkich pokoi znajdziesz na Booking.com.</span>
+          <a class="button button-secondary" href="https://www.booking.com/hotel/pl/pensjonat-dom-latarnika.pl.html" target="_blank" rel="noopener" data-i18n="rooms_note_button">Zobacz dostępność</a>
+        </p>
 
-          <article class="card room-card" data-reveal>
-            <img src="img/r5_IMG_7387.webp" alt="Studio rodzinne na poddaszu">
-            <div class="room-body">
-              <h3 data-i18n="room3_title">Studio rodzinne</h3>
-              <p data-i18n="room3_text">Więcej przestrzeni i swobody — idealne rozwiązanie dla rodzin oraz osób planujących dłuższy pobyt.</p>
-              <a class="button button-secondary" href="https://www.booking.com/hotel/pl/pensjonat-dom-latarnika.pl.html" target="_blank" rel="noopener" data-i18n="check_availability">Sprawdź dostępność</a>
-            </div>
-          </article>
-        </div>
-
-        <div class="gallery-clean" data-reveal>
+        <div class="gallery-clean" data-reveal aria-label="Galeria zdjęć" data-i18n-aria-label="gallery_section_aria">
           <button class="gallery-clean-arrow gallery-clean-prev" type="button" aria-label="Poprzednie zdjęcia" data-i18n-aria-label="gallery_prev_aria">
             <span aria-hidden="true">‹</span>
           </button>
 
           <div class="gallery-clean-viewport">
             <div class="gallery-clean-track">
-              <img src="img/05cf0e25-7a78-4202-850e-080bd83beefd.webp" alt="Galeria Dom Latarnika 01">
-              <img src="img/5d07c4d4-c845-45b8-924e-7e91ae5281a7.webp" alt="Galeria Dom Latarnika 02">
-              <img src="img/46c3c682-ea1d-4abd-8f60-ce18390ffdb9.webp" alt="Galeria Dom Latarnika 03">
-              <img src="img/787ea6e7-efcb-44d3-b836-27c2d3006fe1.webp" alt="Galeria Dom Latarnika 04">
-              <img src="img/453013477.webp" alt="Galeria Dom Latarnika 05">
-              <img src="img/453013485-kopia.webp" alt="Galeria Dom Latarnika 06">
-              <img src="img/486178835_1181172547345683_2127524865994139552_n.webp" alt="Galeria Dom Latarnika 07">
-              <img src="img/486548234_1181173617345576_6041155705819999559_n.webp" alt="Galeria Dom Latarnika 08">
-              <img src="img/486629061_1181173644012240_1149292593972555370_n.webp" alt="Galeria Dom Latarnika 09">
-              <img src="img/1000015778.webp" alt="Galeria Dom Latarnika 10">
-              <img src="img/r5_IMG_7389.webp" alt="Galeria Dom Latarnika 11">
-              <img src="img/r56_IMG_7438.webp" alt="Galeria Dom Latarnika 12">
+              <img src="img/building/exterior-01.webp" alt="Budynek pensjonatu Dom Latarnika od frontu" loading="lazy">
+              <img src="img/rooms/room-3h-01.webp" alt="Pokój z wygodnym łóżkiem i telewizorem" loading="lazy">
+              <img src="img/rooms/room-palm-01.webp" alt="Pokój z tapetą w palmy i podwójnym łóżkiem" loading="lazy">
+              <img src="img/rooms/marine.webp" alt="Pokój w stylu marynistycznym" loading="lazy">
+              <img src="img/shared/salon-01.webp" alt="Wspólny salon z grami planszowymi" loading="lazy">
+              <img src="img/shared/kuchnia-01.webp" alt="Wspólna kuchnia dla gości" loading="lazy">
+              <img src="img/shared/kuchnia-02.webp" alt="Wspólna kuchnia — aneks z wyposażeniem" loading="lazy">
+              <img src="img/rooms/blizniak-01.webp" alt="Pokój Bliźniak z aneksem" loading="lazy">
+              <img src="img/rooms/studio-balcony-01.webp" alt="Studio rodzinne z balkonem" loading="lazy">
+              <img src="img/shared/taras.webp" alt="Wspólny taras z widokiem na okolicę" loading="lazy">
+              <img src="img/building/entrance.webp" alt="Wejście i klatka z ozdobną balustradą" loading="lazy">
+              <img src="img/rooms/room-blue-attic.webp" alt="Pokój na poddaszu z granatową tapetą" loading="lazy">
+              <img src="img/rooms/apartment-living-01.webp" alt="Salon z aneksem kuchennym w apartamencie" loading="lazy">
+              <img src="img/building/rowery.webp" alt="Rowery do wypożyczenia przy obiekcie" loading="lazy">
+              <img src="img/rooms/attic-skylight.webp" alt="Sypialnia na poddaszu z oknem dachowym" loading="lazy">
+              <img src="img/building/exterior-02.webp" alt="Pensjonat Dom Latarnika — widok z boku" loading="lazy">
+              <img src="img/rooms/apartment-living-02.webp" alt="Apartament — strefa dzienna" loading="lazy">
             </div>
           </div>
 
@@ -288,78 +303,40 @@
       <p class="sr-only" id="gallery-modal-status" role="status" aria-live="polite" aria-atomic="true"></p>
     </div>
 
-    <!-- Śniadania -->
-    <section class="section-soft" id="sniadania">
+    <!-- Modal pojedynczego pokoju (treść renderowana z danych) -->
+    <div class="room-modal" id="room-modal" hidden role="dialog" aria-modal="true" aria-labelledby="room-modal-title" data-i18n-aria-label="room_modal_aria">
+      <div class="room-modal-dialog">
+        <button class="room-modal-close" type="button" data-room-modal-close aria-label="Zamknij okno pokoju" data-i18n-aria-label="room_modal_close_aria">×</button>
+        <div class="room-modal-body" id="room-modal-body"></div>
+      </div>
+    </div>
+
+    <!-- Wspólne przestrzenie -->
+    <section id="przestrzenie">
       <div class="container">
-        <div class="breakfast-layout">
-          <div class="breakfast-content" data-reveal>
-            <span class="section-kicker" data-i18n="breakfast_kicker">Śniadania</span>
-            <h2 class="section-title" data-i18n="breakfast_title">Dobry początek dnia</h2>
-            <p class="breakfast-lead" data-i18n="breakfast_text1">Śniadania serwujemy na miejscu w wygodnej formule — z półmiskami podawanymi do stolika oraz dodatkami w formie stołu szwedzkiego.</p>
-            <p class="breakfast-sub" data-i18n="breakfast_text2">W słoneczne poranki goście mogą skorzystać także z tarasu przed budynkiem.</p>
+        <div class="section-head" data-reveal>
+          <span class="section-kicker" data-i18n="spaces_kicker">Wspólne przestrzenie</span>
+          <h2 class="section-title" data-i18n="spaces_title">Miejsca, które łączą gości</h2>
+          <p class="section-text" data-i18n="spaces_text">Poza własnym pokojem czekają na Ciebie wspólne przestrzenie — do gotowania, wspólnej gry i odpoczynku na świeżym powietrzu.</p>
+        </div>
+        <!-- Karty renderowane z danych (assets/index.js → sharedSpaces). Zdjęcia i wideo dodasz w img/shared/ -->
+        <div class="shared-grid" id="shared-grid" data-reveal></div>
+      </div>
+    </section>
 
-            <ul class="breakfast-features">
-              <li class="breakfast-feature">
-                <span class="breakfast-feature-icon" aria-hidden="true">
-                  <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M8 22h32v16a4 4 0 0 1-4 4H12a4 4 0 0 1-4-4V22z"/>
-                    <path d="M8 22v-2a8 8 0 0 1 8-8h16a8 8 0 0 1 8 8v2"/>
-                    <line x1="16" y1="28" x2="16" y2="34"/>
-                    <line x1="24" y1="28" x2="24" y2="34"/>
-                    <line x1="32" y1="28" x2="32" y2="34"/>
-                  </svg>
-                </span>
-                <span class="breakfast-feature-label" data-i18n="breakfast_feat1">Stół szwedzki</span>
-              </li>
-
-              <li class="breakfast-feature">
-                <span class="breakfast-feature-icon" aria-hidden="true">
-                  <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M6 22C12 16 18 14 24 14C30 14 36 16 42 22"/>
-                    <path d="M12 28C16 24 20 22 24 22C28 22 32 24 36 28"/>
-                    <path d="M18 34C20 32 22 31 24 31C26 31 28 32 30 34"/>
-                    <circle cx="24" cy="38" r="1.5" fill="currentColor"/>
-                  </svg>
-                </span>
-                <span class="breakfast-feature-label" data-i18n="breakfast_feat2">Darmowe WiFi</span>
-              </li>
-
-              <li class="breakfast-feature">
-                <span class="breakfast-feature-icon" aria-hidden="true">
-                  <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="24" cy="24" r="18"/>
-                    <path d="M20 32V16h6a4 4 0 0 1 0 8h-6"/>
-                  </svg>
-                </span>
-                <span class="breakfast-feature-label" data-i18n="breakfast_feat3">Darmowy parking</span>
-              </li>
-
-              <li class="breakfast-feature">
-                <span class="breakfast-feature-icon" aria-hidden="true">
-                  <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M34 18h2a6 6 0 0 1 0 12h-2"/>
-                    <path d="M10 18h24v14a8 8 0 0 1-8 8H18a8 8 0 0 1-8-8V18z"/>
-                    <path d="M16 8c0 2 2 2 2 4s-2 2-2 4"/>
-                    <path d="M22 8c0 2 2 2 2 4s-2 2-2 4"/>
-                    <path d="M28 8c0 2 2 2 2 4s-2 2-2 4"/>
-                  </svg>
-                </span>
-                <span class="breakfast-feature-label" data-i18n="breakfast_feat4">Kawa & Herbata</span>
-              </li>
-            </ul>
+    <!-- Udogodnienia -->
+    <section class="section-soft" id="udogodnienia">
+      <div class="container">
+        <div class="amenities-band" data-reveal>
+          <div class="amenities-lead">
+            <span class="section-kicker" data-i18n="amenities_kicker">Udogodnienia</span>
+            <h2 class="section-title" data-i18n="amenities_title">Wygody w cenie pobytu</h2>
+            <p class="amenities-bath" data-i18n="amenities_bath">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4v-3z"/><path d="M6 12V6a2 2 0 0 1 2-2c1 0 1.5.5 2 1"/><path d="M18 19l1 2M6 19l-1 2"/></svg>
+              W&nbsp;każdym pokoju własna łazienka
+            </p>
           </div>
-
-          <div class="breakfast-gallery" data-reveal>
-            <div class="breakfast-photo breakfast-photo-main">
-              <img src="img/486616818_1181172550679016_6062055738502168075_n.webp" alt="Taras przed Domem Latarnika" loading="lazy">
-            </div>
-            <div class="breakfast-photo breakfast-photo-small">
-              <img src="img/486548234_1181173617345576_6041155705819999559_n.webp" alt="Śniadanie w Domu Latarnika" loading="lazy">
-            </div>
-            <div class="breakfast-photo breakfast-photo-small">
-              <img src="img/486629061_1181173644012240_1149292593972555370_n.webp" alt="Stół szwedzki" loading="lazy">
-            </div>
-          </div>
+          <div class="amenities-chips" id="amenities-grid"></div>
         </div>
       </div>
     </section>
@@ -376,7 +353,7 @@
           </div>
 
           <div class="local-area-map-block">
-            <img class="local-area-map-image" src="img/local-area/grzybowo-map.png" alt="Stylizowana mapa Grzybowa, Dźwirzyna i Kołobrzegu" data-i18n-alt="area_map_alt">
+            <img class="local-area-map-image" src="img/area/map.png" alt="Stylizowana mapa Grzybowa, Dźwirzyna i Kołobrzegu" data-i18n-alt="area_map_alt" loading="lazy">
             <button class="local-area-score-trigger" type="button" data-area-modal-open="score" data-i18n-aria-label="area_score_button_aria">
               <span class="local-area-score-ring">
                 <span class="local-area-score-value" data-i18n="area_badge_score">4,6</span>
@@ -387,37 +364,93 @@
                 <span class="local-area-score-label" data-i18n="area_badge_label">Spokojna okolica</span>
               </span>
             </button>
-          </div>
 
-          <div class="local-area-actions">
-            <article class="local-area-action-card">
-              <div class="local-area-action-icon" aria-hidden="true">
-                <img src="img/sea.png" alt="">
-              </div>
-              <h3 data-i18n="area_item1_title">Plaża i atrakcje</h3>
-              <p data-i18n="area_item1_text">Szeroka plaża, spacery i nadmorskie atrakcje w okolicy.</p>
-              <button class="button button-secondary" type="button" data-area-modal-open="beach" data-i18n="area_item1_button">Zobacz atrakcje</button>
-            </article>
-
-            <article class="local-area-action-card">
-              <div class="local-area-action-icon" aria-hidden="true">
-                <img src="img/bike.png" alt="">
-              </div>
-              <h3 data-i18n="area_item2_title">Trasy rowerowe</h3>
-              <p data-i18n="area_item2_text">Rodzinne przejażdżki i ciekawe trasy w stronę Kołobrzegu oraz Dźwirzyna.</p>
-              <button class="button button-secondary" type="button" data-area-modal-open="cycling" data-i18n="area_item2_button">Zobacz trasy</button>
-            </article>
-
-            <article class="local-area-action-card">
-              <div class="local-area-action-icon" aria-hidden="true">
-                <img src="img/bus.png" alt="">
-              </div>
-              <h3 data-i18n="area_item3_title">Transport</h3>
-              <p data-i18n="area_item3_text">Sprawdź trasę do Domu Latarnika i wygodnie zaplanuj dojazd.</p>
-              <a class="button button-secondary" href="https://www.google.com/maps/dir/?api=1&amp;destination=Dom+Latarnika,+Nadmorska+65A,+78-132+Grzybowo" target="_blank" rel="noopener noreferrer" data-i18n="area_item3_button">Sprawdź dojazd</a>
-            </article>
+            <!-- Akcje nałożone na mapę -->
+            <div class="map-actions">
+              <button class="map-action" type="button" data-area-modal-open="beach">
+                <span class="map-action-icon" aria-hidden="true"><img src="img/icons/beach.png" alt="" width="40" height="40" loading="lazy"></span>
+                <span class="map-action-label" data-i18n="area_item1_title">Plaża i atrakcje</span>
+              </button>
+              <a class="map-action" href="https://web.bikemap.net/l/6640020" target="_blank" rel="noopener noreferrer">
+                <span class="map-action-icon" aria-hidden="true"><img src="img/icons/bike.png" alt="" width="40" height="40" loading="lazy"></span>
+                <span class="map-action-label" data-i18n="area_item2_title">Trasy rowerowe</span>
+                <span class="map-action-ext" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+                </span>
+              </a>
+              <a class="map-action" href="https://www.google.com/maps/dir/?api=1&amp;destination=Dom+Latarnika,+Nadmorska+65A,+78-132+Grzybowo" target="_blank" rel="noopener noreferrer">
+                <span class="map-action-icon" aria-hidden="true"><img src="img/icons/bus.png" alt="" width="40" height="40" loading="lazy"></span>
+                <span class="map-action-label" data-i18n="area_item3_button">Sprawdź dojazd</span>
+                <span class="map-action-ext" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+                </span>
+              </a>
+            </div>
           </div>
         </article>
+      </div>
+    </section>
+
+    <!-- Aktualności / Facebook -->
+    <section id="aktualnosci">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="section-kicker" data-i18n="news_kicker">Aktualności</span>
+          <h2 class="section-title" data-i18n="news_title">Co słychać w Domu Latarnika</h2>
+          <p class="section-text" data-i18n="news_text">Najnowsze zdjęcia, wolne terminy i promocje publikujemy na naszym Facebooku. Zajrzyj i bądź na bieżąco przed sezonem.</p>
+        </div>
+
+        <div class="news-layout">
+          <div class="news-cards" data-reveal>
+            <!-- Karty aktualności — edytuj treść lub podmień zdjęcia w img/ -->
+            <article class="news-card">
+              <div class="news-card-media">
+                <img src="img/beach/beach-01.webp" alt="Zachód słońca na plaży w Grzybowie" loading="lazy">
+                <span class="news-card-tag" data-i18n="news_tag_photo">Zdjęcia</span>
+              </div>
+              <div class="news-card-body">
+                <h3 data-i18n="news_card1_title">Nowe zdjęcia z sezonu</h3>
+                <p data-i18n="news_card1_text">Zajrzyj na naszą galerię na Facebooku — dodajemy zdjęcia pokoi, plaży i okolicy.</p>
+              </div>
+            </article>
+
+            <article class="news-card">
+              <div class="news-card-media">
+                <img src="img/rooms/studio-balcony-01.webp" alt="Studio rodzinne z balkonem" loading="lazy">
+                <span class="news-card-tag" data-i18n="news_tag_offer">Terminy</span>
+              </div>
+              <div class="news-card-body">
+                <h3 data-i18n="news_card2_title">Wolne terminy i promocje</h3>
+                <p data-i18n="news_card2_text">O ostatnich wolnych terminach i ofertach specjalnych informujemy na bieżąco w social mediach.</p>
+              </div>
+            </article>
+
+            <article class="news-card news-card-cta">
+              <div class="news-card-fb">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.6 1.6-1.6H17V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3h2.8v8h3.2z"/></svg>
+              </div>
+              <h3 data-i18n="news_card3_title">Śledź nas na Facebooku</h3>
+              <p data-i18n="news_card3_text">Codzienne aktualności, zdjęcia i szybki kontakt przez Messenger.</p>
+              <a class="button button-primary" href="https://www.facebook.com/DomLatarnika/?locale=pl_PL" target="_blank" rel="noopener" data-i18n="news_card3_button">Odwiedź profil</a>
+            </article>
+          </div>
+
+          <!-- Wtyczka Facebooka ładuje się dopiero po zgodzie na cookies (RODO) -->
+          <aside class="fb-embed" id="fb-embed" data-reveal
+                 data-fb-page="https://www.facebook.com/DomLatarnika">
+            <div class="fb-embed-placeholder" id="fb-embed-placeholder">
+              <div class="fb-embed-fb-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.6 1.6-1.6H17V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3h2.8v8h3.2z"/></svg>
+              </div>
+              <strong data-i18n="fb_embed_title">Tablica na Facebooku</strong>
+              <p data-i18n="fb_embed_text">Aby wyświetlić naszą tablicę Facebooka bezpośrednio na stronie, zaakceptuj cookies społecznościowe.</p>
+              <div class="fb-embed-actions">
+                <button class="button button-primary" type="button" id="fb-embed-load" data-i18n="fb_embed_load">Pokaż tablicę</button>
+                <a class="button button-secondary" href="https://www.facebook.com/DomLatarnika/?locale=pl_PL" target="_blank" rel="noopener" data-i18n="fb_embed_open">Otwórz w nowej karcie</a>
+              </div>
+            </div>
+          </aside>
+        </div>
       </div>
     </section>
 
@@ -467,7 +500,7 @@
               <p data-i18n="reviews_google_count">177 opinii</p>
             </div>
             <p class="review-platform-desc" data-i18n="reviews_google_desc">Goście chętnie wracają za kameralną atmosferę, wygodę i bliskość morza.</p>
-            <p class="review-score-action"><a class="button button-secondary" href="https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;url=/travel/search?gsas%3D1%26ts%3DEggKAggDCgIIAxocEhoSFAoHCOoPEAUYBhIHCOoPEAUYCBgCMgIQAA%26qs%3DMhNDZ29JajQ3ejhwYWlsZTFTRUFFOAI%26ap%3DugEHcmV2aWV3cw%26ictx%3D111%26biw%3D1102%26bih%3D559%26hl%3Dpl-DE%26ved%3D1t:203974&amp;ved=2ahUKEwiQq5G1w6SUAxWFRfEDHd9FDDEQxrkMegQIOhAG&amp;opi=89978449&amp;usg=AOvVaw2GDy37VHiZNxSQ_DmkbPm5" target="_blank" rel="noopener" aria-label="Zobacz opinie Google" data-i18n-aria-label="reviews_google_link_aria" data-i18n="reviews_open_button">Sprawdź opinie</a></p>
+            <p class="review-score-action"><a class="button button-secondary" href="https://www.google.com/maps/search/Dom+Latarnika+Grzybowo+opinie" target="_blank" rel="noopener" aria-label="Zobacz opinie Google" data-i18n-aria-label="reviews_google_link_aria" data-i18n="reviews_open_button">Sprawdź opinie</a></p>
           </article>
         </div>
 
@@ -475,83 +508,73 @@
         <div class="testimonials-carousel-wrapper" data-reveal>
           <div class="testimonials-carousel" id="testimonials-carousel">
             <div class="testimonial-card active">
-              <p class="testimonial-quote">"Przemili właściciele, świetnie się z nimi rozmawiało. Wszystko zostało nam dokładnie wytłumaczone. Czysto, pełne wyposażenie i lokalizacja bardzo blisko morza."</p>
+              <p class="testimonial-quote">„Przemili właściciele, świetnie się z nimi rozmawiało. Wszystko zostało nam dokładnie wytłumaczone. Czysto, pełne wyposażenie i lokalizacja bardzo blisko morza."</p>
               <div class="testimonial-meta"><strong>Klaudia</strong> • 10/10 • Booking</div>
             </div>
 
             <div class="testimonial-card">
-              <p class="testimonial-quote">"Bardzo miły pensjonat w świętnym punkcie Grzybowa - wszędzie blisko, a jednak w zaciszu. Właściciele przemili, pomocni, tworzą atmosferę tego miejsca."</p>
+              <p class="testimonial-quote">„Bardzo miły pensjonat w świetnym punkcie Grzybowa – wszędzie blisko, a jednak w zaciszu. Właściciele przemili, pomocni, tworzą atmosferę tego miejsca."</p>
               <div class="testimonial-meta"><strong>Jarnutzak</strong> • 10/10 • Booking</div>
             </div>
 
             <div class="testimonial-card">
-              <p class="testimonial-quote">"Bardzo mili i pomocni właściciele"</p>
+              <p class="testimonial-quote">„Bardzo mili i pomocni właściciele."</p>
               <div class="testimonial-meta"><strong>Mateusz</strong> • 10/10 • Booking</div>
             </div>
 
             <div class="testimonial-card">
-              <p class="testimonial-quote">"Wszystko w porządku"</p>
-              <div class="testimonial-meta"><strong>Egor</strong> • 10/10 • Booking</div>
-            </div>
-
-            <div class="testimonial-card">
-              <p class="testimonial-quote">"Wszystko było cudownie, właściciele obiektu są przekochani i bardzo pomocni ❤️"</p>
+              <p class="testimonial-quote">„Wszystko było cudownie, właściciele obiektu są przekochani i bardzo pomocni ❤️"</p>
               <div class="testimonial-meta"><strong>Aniela</strong> • 10/10 • Booking</div>
             </div>
 
             <div class="testimonial-card">
-              <p class="testimonial-quote">"Właściciele bardzo mili, o wszystkim opowiedzieli, spokój, czystość, rewelacja, wszędzie bardzo blisko."</p>
+              <p class="testimonial-quote">„Właściciele bardzo mili, o wszystkim opowiedzieli, spokój, czystość, rewelacja, wszędzie bardzo blisko."</p>
               <div class="testimonial-meta"><strong>Alina</strong> • 10/10 • Booking</div>
             </div>
 
             <div class="testimonial-card">
-              <p class="testimonial-quote">"Lokalizacja bardzo dobra, wszędzie blisko. Do plaży nie całe 10 minut spacerkiem. Właściciele mili i pomocni. Polecamy z całego serca."</p>
+              <p class="testimonial-quote">„Lokalizacja bardzo dobra, wszędzie blisko. Do plaży nie całe 10 minut spacerkiem. Właściciele mili i pomocni. Polecamy z całego serca."</p>
               <div class="testimonial-meta"><strong>Wiktorija</strong> • 10/10 • Booking</div>
             </div>
 
             <div class="testimonial-card">
-              <p class="testimonial-quote">"Fajne miejsce do odpoczynku, cicha boczna uliczka, blisko plaży, bardzo czyściutko. Bardzo sympatyczni właściciele."</p>
+              <p class="testimonial-quote">„Fajne miejsce do odpoczynku, cicha boczna uliczka, blisko plaży, bardzo czyściutko. Bardzo sympatyczni właściciele."</p>
               <div class="testimonial-meta"><strong>Edyta</strong> • 10/10 • Booking</div>
             </div>
 
             <div class="testimonial-card">
-              <p class="testimonial-quote">"Obiekt godny odwiedzenia, bezpieczny. Mili, pomocni właściciele. Polecam ❤️"</p>
+              <p class="testimonial-quote">„Obiekt godny odwiedzenia, bezpieczny. Mili, pomocni właściciele. Polecam ❤️"</p>
               <div class="testimonial-meta"><strong>Roman</strong> • 10/10 • Booking</div>
             </div>
 
             <div class="testimonial-card">
-              <p class="testimonial-quote">"Właściciele są cudowni, zawsze służą pomocą. Wiele udogodnień: koce na plażę, parawany, rowery."</p>
+              <p class="testimonial-quote">„Właściciele są cudowni, zawsze służą pomocą. Wiele udogodnień: koce na plażę, parawany, rowery."</p>
               <div class="testimonial-meta"><strong>Dominika</strong> • 10/10 • Booking</div>
             </div>
 
             <div class="testimonial-card">
-              <p class="testimonial-quote">"Przecudowne miejsce, wspaniali, pomocni i sympatyczni właściciele. Pokoje czyściutkie i śliczne. Z pewnością tu wrócę ❤️"</p>
-              <div class="testimonial-meta"><strong>Magda W.</strong> • ⭐⭐⭐⭐⭐ • Google</div>
+              <p class="testimonial-quote">„Przecudowne miejsce, wspaniali, pomocni i sympatyczni właściciele. Pokoje czyściutkie i śliczne. Z pewnością tu wrócę ❤️"</p>
+              <div class="testimonial-meta"><strong>Magda W.</strong> • ★★★★★ • Google</div>
             </div>
 
             <div class="testimonial-card">
-              <p class="testimonial-quote">"Bardzo mili Państwo. Byliśmy tam drugi raz i na pewno wrócimy. Bardzo czysty i zadbany apartament."</p>
-              <div class="testimonial-meta"><strong>Marcin Kawaler</strong> • ⭐⭐⭐⭐⭐ • Google</div>
+              <p class="testimonial-quote">„Bardzo mili Państwo. Byliśmy tam drugi raz i na pewno wrócimy. Bardzo czysty i zadbany apartament."</p>
+              <div class="testimonial-meta"><strong>Marcin Kawaler</strong> • ★★★★★ • Google</div>
             </div>
 
             <div class="testimonial-card">
-              <p class="testimonial-quote">"Weekend majowy - jesteśmy bardzo zadowoleni! Pokój przytulny, ładny. Pan właściciel bardzo miły i pomocny. Do dyspozycji koce, rowery!"</p>
-              <div class="testimonial-meta"><strong>Joanna R</strong> • ⭐⭐⭐⭐⭐ • Google</div>
+              <p class="testimonial-quote">„Weekend majowy – jesteśmy bardzo zadowoleni! Pokój przytulny, ładny. Pan właściciel bardzo miły i pomocny. Do dyspozycji koce, rowery!"</p>
+              <div class="testimonial-meta"><strong>Joanna R</strong> • ★★★★★ • Google</div>
             </div>
 
             <div class="testimonial-card">
-              <p class="testimonial-quote">"Bardzo wygodny pokój, duża łazienka, wygodne łóżko. Spokój w okolicy. Bardzo mili i pomocni Gospodarze. Polecam!"</p>
-              <div class="testimonial-meta"><strong>żaneta</strong> • ⭐⭐⭐⭐⭐ • Google</div>
+              <p class="testimonial-quote">„Bardzo wygodny pokój, duża łazienka, wygodne łóżko. Spokój w okolicy. Bardzo mili i pomocni Gospodarze. Polecam!"</p>
+              <div class="testimonial-meta"><strong>Żaneta</strong> • ★★★★★ • Google</div>
             </div>
 
             <div class="testimonial-card">
-              <p class="testimonial-quote">"Dzieci zjadały ze smakiem wszystkie dania. Dania zmieniają się codziennie - świadczy to o świeżości. Domowa atmosfera, profesjonalna obsługa, smaczne dania!"</p>
-              <div class="testimonial-meta"><strong>Piotr Loska</strong> • ⭐⭐⭐⭐⭐ • Google</div>
-            </div>
-
-            <div class="testimonial-card">
-              <p class="testimonial-quote">"Mega miejscówka na odpoczynek. Pokoje czyściutkie, super wyposażone. Możliwość wypożyczenia roweru. Przecudowni Właściciele!"</p>
-              <div class="testimonial-meta"><strong>Uki Szczecin</strong> • ⭐⭐⭐⭐⭐ • Google</div>
+              <p class="testimonial-quote">„Mega miejscówka na odpoczynek. Pokoje czyściutkie, super wyposażone. Możliwość wypożyczenia roweru. Przecudowni Właściciele!"</p>
+              <div class="testimonial-meta"><strong>Uki Szczecin</strong> • ★★★★★ • Google</div>
             </div>
           </div>
 
@@ -617,30 +640,6 @@
     </div>
   </div>
 
-  <div class="area-modal" id="area-cycling-modal" hidden role="dialog" aria-modal="true" aria-label="Trasy rowerowe" data-i18n-aria-label="area_cycling_modal_aria">
-    <div class="area-modal-dialog area-cycling-modal-dialog">
-      <button class="area-modal-close" type="button" data-area-modal-close aria-label="Zamknij okno tras rowerowych" data-i18n-aria-label="area_modal_close_aria">×</button>
-      <div class="area-modal-head">
-        <h3 class="area-modal-title" data-i18n="area_cycling_modal_title">Trasy rowerowe</h3>
-        <p class="area-modal-text" data-i18n="area_cycling_modal_text">Okolica sprzyja spokojnym wycieczkom rowerowym — także z rodziną.</p>
-      </div>
-      <div class="area-modal-grid" data-area-grid="cycling"></div>
-      <div class="area-modal-note">
-        <div class="area-modal-note-icon" aria-hidden="true">
-          <svg viewBox="0 0 48 48" fill="none">
-            <circle cx="15.5" cy="31.5" r="6.5" stroke="currentColor" stroke-width="1.8"/>
-            <circle cx="32.5" cy="31.5" r="6.5" stroke="currentColor" stroke-width="1.8"/>
-            <path d="M15.5 31.5L23 18H28.5L32.5 31.5M23 18L30 31.5M19.5 18H12.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M29.5 13.5H34.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-          </svg>
-        </div>
-        <div>
-          <strong data-i18n="area_cycling_modal_note_title">Rowery dostępne na miejscu</strong>
-          <p data-i18n="area_cycling_modal_note_text">Wygodnie zaplanuj wycieczkę i ruszaj prosto z Domu Latarnika.</p>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <div class="area-modal" id="area-score-modal" hidden role="dialog" aria-modal="true" aria-label="Spokojna okolica" data-i18n-aria-label="area_score_modal_aria">
     <div class="area-modal-dialog area-score-modal-dialog">
@@ -651,7 +650,7 @@
       </div>
       <ul class="area-score-points">
         <li data-i18n="area_score_point1">spokojna część Grzybowa,</li>
-        <li data-i18n="area_score_point2">około 500 m do plaży,</li>
+        <li data-i18n="area_score_point2">blisko do plaży,</li>
         <li data-i18n="area_score_point3">trasy spacerowe i rowerowe w okolicy,</li>
         <li data-i18n="area_score_point4">wygodny dojazd do Kołobrzegu,</li>
         <li data-i18n="area_score_point5">dobra lokalizacja na rodzinny wypoczynek.</li>
@@ -665,7 +664,7 @@
       <p class="payment-box-title" data-i18n="contact_booking_title">Kontakt i rezerwacja</p>
       <p class="booking-modal-text" data-i18n="contact_booking_text">Zadzwoń do nas lub sprawdź dostępność online. Chętnie odpowiemy na pytania dotyczące pobytu i rezerwacji.</p>
       <div class="booking-modal-actions">
-        <a class="button button-primary phone-label" href="tel:+48607354555" data-i18n="call">Zadzwoń</a>
+        <a class="button button-primary phone-label" href="tel:+48607354555" data-call-link data-i18n="call">Zadzwoń</a>
         <a class="button button-secondary" href="https://www.booking.com/hotel/pl/pensjonat-dom-latarnika.pl.html" target="_blank" rel="noopener" data-i18n="book_online">Zarezerwuj online</a>
       </div>
     </div>
@@ -677,6 +676,7 @@
       <p class="payment-box-title" data-i18n="payment_modal_title">Dane do przelewu</p>
       <div class="payment-box" id="payment-modal-copy">
         <p><strong data-i18n="payment_recipient_label">Odbiorca:</strong> <span data-i18n="payment_recipient_value">Dom Latarnika</span></p>
+        <p><strong data-i18n="payment_bank_label">Bank:</strong> <span>PKO BP</span></p>
         <p><strong data-i18n="payment_account_label">Numer rachunku:</strong> <span class="payment-account">31 1020 2821 0000 1102 0002 0081</span></p>
         <p><strong data-i18n="payment_transfer_label">Tytuł przelewu:</strong> <span data-i18n="payment_transfer_value">Zadatek — imię i nazwisko, termin pobytu</span></p>
         <p class="payment-example"><strong data-i18n="payment_example_label">Przykład:</strong> <span data-i18n="payment_example_value">Zadatek — Anna Kowalska, 12–18.07.2026</span></p>
@@ -686,6 +686,9 @@
 
   <!-- Floating booking button (bottom-right) -->
   <button class="floating-booking-btn" id="floating-booking-btn" type="button" data-booking-modal-open aria-label="Zarezerwuj pobyt" data-i18n-aria-label="floating_booking_btn_aria" hidden>
+    <span class="floating-booking-btn-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg>
+    </span>
     <span class="floating-booking-btn-text" data-i18n="check_availability">Sprawdź dostępność</span>
   </button>
 
@@ -693,7 +696,7 @@
   <footer>
     <div class="container footer-inner">
       <div class="footer-brand">
-        <img src="img/DomLatarnika.png" alt="Dom Latarnika">
+        <img src="img/brand/logo-light.png" alt="Dom Latarnika" width="150" height="78">
         <div>
           <strong data-i18n="footer_title">Dom Latarnika</strong><br>
           <span data-i18n="footer_text">Grzybowo · ul. Nadmorska 65A</span>
@@ -702,9 +705,9 @@
       <nav class="footer-links" aria-label="Stopka" data-i18n-aria-label="footer_nav_aria">
         <a href="#oferta" data-i18n="nav_offer">O obiekcie</a>
         <a href="#pokoje" data-i18n="nav_rooms">Pokoje</a>
-        <a href="#sniadania" data-i18n="nav_breakfast">Śniadania</a>
-        <a href="#okolica" data-i18n="nav_area">Grzybowo i okolice</a>
-        <a href="#opinie" data-i18n="nav_reviews">Opinie</a>
+        <a href="#przestrzenie" data-i18n="nav_spaces">Przestrzenie</a>
+        <a href="#okolica" data-i18n="nav_area">Okolica</a>
+        <a href="#aktualnosci" data-i18n="nav_news">Aktualności</a>
         <a href="#kontakt" data-i18n="nav_contact">Kontakt</a>
         <a class="footer-social" href="https://www.facebook.com/DomLatarnika/?locale=pl_PL" target="_blank" rel="noopener" aria-label="Facebook Dom Latarnika" data-i18n-aria-label="social_facebook_aria">
           <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -712,26 +715,26 @@
           </svg>
         </a>
         <a href="regulamin.html" data-i18n="rules">Regulamin</a>
-        <a href="privacy-policy.html">Polityka Prywatności</a>
+        <a href="privacy-policy.html" data-i18n="privacy">Polityka prywatności</a>
       </nav>
     </div>
   </footer>
 
   <!-- Główna logika strony głównej -->
-  <script src="assets/index.js?v=202605162352" defer></script>
+  <script src="assets/index.js?v=202607265" defer></script>
 
   <!-- Cookie Consent -->
-  <link rel="stylesheet" href="assets/cookie-consent.css?v=20260516">
-  <script src="assets/cookie-consent.js?v=20260516" defer></script>
+  <link rel="stylesheet" href="assets/cookie-consent.css?v=20260726">
+  <script src="assets/cookie-consent.js?v=20260726" defer></script>
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "LodgingBusiness",
     "name": "Dom Latarnika",
-    "image": "https://dom-latarnika.pl/img/dllogo-min.png",
-    "description": "Pensjonat Dom Latarnika w Grzybowie - komfortowe pokoje i studia nad Bałtykiem, śniadania, spokojna lokalizacja.",
+    "image": "https://dom-latarnika.pl/img/og-image.webp",
+    "description": "Pensjonat Dom Latarnika w Grzybowie – komfortowe pokoje, studia i apartament nad Bałtykiem, wspólna kuchnia, salon i taras, spokojna lokalizacja blisko plaży.",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "ul. Nadmorska 65A",
@@ -739,10 +742,27 @@
       "postalCode": "78-132",
       "addressCountry": "PL"
     },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 54.1758,
+      "longitude": 15.5069
+    },
     "telephone": "+48607354555",
-    "email": "kontakt@dom-latarnika.pl",
     "url": "https://dom-latarnika.pl/",
-    "sameAs": "https://www.facebook.com/DomLatarnika/",
+    "sameAs": ["https://www.facebook.com/DomLatarnika/"],
+    "checkinTime": "15:00",
+    "checkoutTime": "10:00",
+    "petsAllowed": false,
+    "smokingAllowed": false,
+    "currenciesAccepted": "PLN",
+    "priceRange": "$$",
+    "amenityFeature": [
+      { "@type": "LocationFeatureSpecification", "name": "Bezpłatne WiFi", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Bezpłatny parking", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Wspólna kuchnia", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Monitoring", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Wypożyczalnia rowerów", "value": true }
+    ],
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "9.7",
@@ -750,13 +770,6 @@
       "worstRating": "1",
       "ratingCount": "39",
       "description": "Średnia ocena na Booking.com"
-    },
-    "priceRange": "PLN",
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-      "opens": "15:00",
-      "closes": "10:00"
     }
   }
   </script>
@@ -764,15 +777,15 @@
   <!-- Cookie Consent Banner -->
   <aside id="cookie-consent" class="cookie-consent" hidden role="dialog" aria-label="Zgoda na cookies" aria-modal="true">
     <div class="cookie-consent-inner">
-      <p class="cookie-consent-text">
-        Używamy cookies do analizy ruchu i poprawy doświadczenia.
-        <a href="/privacy-policy.html" target="_blank">Polityka Prywatności</a>
+      <p class="cookie-consent-text" data-i18n="cookie_text">
+        Używamy cookies do analizy ruchu i treści społecznościowych (np. tablica Facebooka).
+        <a href="/privacy-policy.html" target="_blank" data-i18n="privacy">Polityka prywatności</a>
       </p>
       <div class="cookie-consent-actions">
-        <button type="button" id="cookie-decline" class="cookie-consent-btn cookie-consent-btn-decline" aria-label="Odrzuć cookies analityczne">
+        <button type="button" id="cookie-decline" class="cookie-consent-btn cookie-consent-btn-decline" aria-label="Odrzuć cookies analityczne" data-i18n="cookie_decline">
           Odrzuć
         </button>
-        <button type="button" id="cookie-accept" class="cookie-consent-btn cookie-consent-btn-accept" aria-label="Zaakceptuj cookies">
+        <button type="button" id="cookie-accept" class="cookie-consent-btn cookie-consent-btn-accept" aria-label="Zaakceptuj cookies" data-i18n="cookie_accept">
           Zaakceptuj
         </button>
       </div>

@@ -3,44 +3,24 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://dom-latarnika.pl/</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://dom-latarnika.pl/#oferta</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://dom-latarnika.pl/#pokoje</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://dom-latarnika.pl/#sniadania</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dom-latarnika.pl/#opinie</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dom-latarnika.pl/#kontakt</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://dom-latarnika.pl/img/og-image.webp</image:loc>
+      <image:title>Dom Latarnika – pensjonat w Grzybowie</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://dom-latarnika.pl/regulamin.html</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dom-latarnika.pl/privacy-policy.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

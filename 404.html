@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Strona nie znaleziona – Dom Latarnika</title>
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&amp;family=Fraunces:opsz,wght@9..144,600&amp;display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#153955;--navy-strong:#0e2840;--sand:#f7f3ec;--accent-dark:#834633;--accent-strong:#9b583f;--muted:#5c6872}
+    *{box-sizing:border-box}
+    body{
+      margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+      font-family:"Lato",Arial,sans-serif;color:#34424e;
+      background:linear-gradient(180deg,#fbf9f5,#fff);
+      padding:24px;text-align:center;
+    }
+    .box{max-width:560px}
+    .code{
+      font-family:"Fraunces",Georgia,serif;font-weight:600;
+      font-size:clamp(5rem,18vw,9rem);line-height:1;color:var(--navy-strong);margin:0;
+    }
+    h1{font-family:"Fraunces",Georgia,serif;font-weight:600;color:var(--navy-strong);font-size:clamp(1.5rem,4vw,2.2rem);margin:8px 0 12px}
+    p{color:var(--muted);font-size:1.05rem;line-height:1.6;margin:0 0 28px}
+    .actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;min-height:48px;
+      padding:12px 22px;border-radius:16px;font-weight:800;text-transform:uppercase;
+      letter-spacing:.06em;font-size:.85rem;text-decoration:none;border:1px solid transparent;
+    }
+    .btn-primary{background:var(--accent-dark);color:#fff}
+    .btn-primary:hover{background:var(--accent-strong)}
+    .btn-secondary{background:#fff;color:var(--navy);border-color:rgba(21,57,85,.16)}
+    .btn-secondary:hover{background:var(--sand)}
+    img{width:170px;height:auto;margin-bottom:18px}
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img src="/img/brand/logo-dark.png" alt="Dom Latarnika">
+    <p class="code">404</p>
+    <h1>Nie znaleźliśmy tej strony</h1>
+    <p>Strona mogła zostać przeniesiona lub nie istnieje. Wróć na stronę główną albo sprawdź dostępność pobytu.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="/">Strona główna</a>
+      <a class="btn btn-secondary" href="https://www.booking.com/hotel/pl/pensjonat-dom-latarnika.pl.html" target="_blank" rel="noopener">Sprawdź dostępność</a>
+    </div>
+  </div>
+</body>
+</html>

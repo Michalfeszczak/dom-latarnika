@@ -236,8 +236,8 @@
 
     const translations = {
       pl: {
-        title: "Dom Latarnika - spokojny pobyt nad morzem w Grzybowie",
-        description: "Dom Latarnika w Grzybowie - komfortowe pokoje i studia, śniadania na miejscu, spokojna lokalizacja blisko morza i wygodna rezerwacja online.",
+        title: "Dom Latarnika – pensjonat nad morzem w Grzybowie",
+        description: "Pensjonat Dom Latarnika w Grzybowie – komfortowe pokoje, studia i apartament nad Bałtykiem, wspólna kuchnia, salon i taras, spokojna lokalizacja blisko plaży i wygodna rezerwacja online.",
         skip: "Przejdź do treści",
         a11y_btn_aria: "Ułatwienia dostępności",
         a11y_panel_aria: "Ułatwienia dostępności",
@@ -256,8 +256,7 @@
         a11y_contrast_off: "Wyłączono wyższy kontrast.",
         nav_offer: "O obiekcie",
         nav_rooms: "Pokoje",
-        nav_breakfast: "Śniadania",
-        nav_area: "Grzybowo i okolice",
+        nav_area: "Okolica",
         nav_reviews: "Opinie",
         nav_contact: "Kontakt",
         hero_section_aria: "Zdjęcia pensjonatu",
@@ -295,17 +294,17 @@
         booking: "Booking.com",
         check_availability: "Sprawdź dostępność",
         navigate: "Nawiguj",
-        hero_kicker: "Pensjonat Dom Latarnika",
+        hero_kicker: "Pensjonat Dom Latarnika · Grzybowo",
         hero_title: "Udane wakacje nad Bałtykiem",
-        hero_text: "Spokojny wypoczynek w Grzybowie, blisko morza, z komfortowymi pokojami, śniadaniami i wygodną rezerwacją online.",
+        hero_text: "Spokojny wypoczynek w Grzybowie, blisko morza, z komfortowymi pokojami, studiami i apartamentem oraz wygodną rezerwacją online.",
         panel_title: "Najważniejsze informacje",
         panel_text: "Najważniejsze rzeczy w jednym miejscu, przed planowaniem pobytu.",
         panel_location_label: "Lokalizacja",
         panel_location_value: "Grzybowo, ul. Nadmorska 65A",
         panel_sea_label: "Odległość od morza",
-        panel_sea_value: "Około 500 metrów od plaży.",
-        panel_breakfast_label: "Śniadania",
-        panel_breakfast_value: "śniadania serwowane na miejscu",
+        panel_sea_value: "Kilka minut spacerem do plaży.",
+        panel_parking_label: "Parking",
+        panel_parking_value: "bezpłatny, na miejscu",
         panel_booking_label: "Rezerwacja",
         panel_booking_value: "online lub telefonicznie",
         usp_kicker: "Dlaczego warto",
@@ -319,12 +318,12 @@
         usp3_text: "Bliskość plaży i nadmorski klimat tworzą idealne warunki do odpoczynku.",
         offer_kicker: "O obiekcie",
         offer_title: "Wygodnie, spokojnie, blisko morza",
-        offer_text1: "Kameralny obiekt w spokojnej części Grzybowa, około 500 metrów od plaży i blisko głównego deptaka.",
-        offer_text2: "Na gości czekają pokoje i studia z łazienkami, praktyczne wyposażenie oraz udogodnienia przydatne podczas dłuższego pobytu.",
-        offer_item1: "500 m od plaży",
-        offer_item2: "Pokoje i studia z łazienkami",
-        offer_item3: "Kuchnia, leżaki, parawany i pralka",
-        offer_item4: "Spokojna okolica blisko centrum Grzybowa",
+        offer_text1: "Kameralny obiekt w spokojnej części Grzybowa, w bliskim sąsiedztwie plaży i tras spacerowych, a jednocześnie z dala od zgiełku.",
+        offer_text2: "Na gości czekają pokoje, studia i apartament z własnymi łazienkami, praktyczne wyposażenie oraz udogodnienia przydatne podczas dłuższego pobytu.",
+        offer_item1: "Kilka minut spacerem do plaży",
+        offer_item2: "Pokoje, studia i apartament z łazienkami",
+        offer_item3: "Aneks kuchenny, sprzęt plażowy, rowery i pralnia",
+        offer_item4: "Zamknięty, monitorowany parking na miejscu",
         area_kicker: "Okolica",
         area_title: "Grzybowo i dojazd",
         area_text: "Grzybowo to spokojna nadmorska miejscowość, idealna na plażowanie, spacery i rodzinne wycieczki rowerowe. Dom Latarnika znajduje się blisko plaży, a okolica pozwala wygodnie odpoczywać i odkrywać wybrzeże w spokojnym tempie.",
@@ -338,7 +337,7 @@
         area_item2_title: "Trasy rowerowe",
         area_item2_text: "Rodzinne przejażdżki i ciekawe trasy w stronę Kołobrzegu oraz Dźwirzyna.",
         area_item2_button: "Zobacz trasy",
-        area_item3_title: "Transport",
+        area_item3_title: "Transport i dojazd",
         area_item3_text: "Sprawdź trasę do Domu Latarnika i wygodnie zaplanuj dojazd.",
         area_item3_button: "Sprawdź dojazd",
         area_modal_close_aria: "Zamknij okno sekcji okolicy",
@@ -346,7 +345,7 @@
         area_score_modal_title: "Spokojna okolica",
         area_score_modal_text: "Ocena lokalizacji 4,6 podkreśla spokojny charakter Grzybowa i wygodne położenie Domu Latarnika. Obiekt znajduje się w cichej części miejscowości, blisko plaży, tras spacerowych i rowerowych, a jednocześnie z dogodnym dojazdem do Kołobrzegu.",
         area_score_point1: "spokojna część Grzybowa,",
-        area_score_point2: "około 500 m do plaży,",
+        area_score_point2: "blisko do plaży,",
         area_score_point3: "trasy spacerowe i rowerowe w okolicy,",
         area_score_point4: "wygodny dojazd do Kołobrzegu,",
         area_score_point5: "dobra lokalizacja na rodzinny wypoczynek.",
@@ -360,40 +359,102 @@
         area_beach_card2_subtitle: "spokojne trasy przy plaży",
         area_beach_card3_title: "Kołobrzeg i okolica",
         area_beach_card3_subtitle: "atrakcje kilka minut dalej",
-        area_cycling_modal_aria: "Trasy rowerowe",
-        area_cycling_modal_title: "Trasy rowerowe",
-        area_cycling_modal_text: "Okolica Grzybowa sprzyja spokojnym wycieczkom rowerowym — od krótkich rodzinnych przejażdżek po dłuższe trasy krajoznawcze.",
-        area_cycling_modal_note_title: "Rowery dostępne na miejscu",
-        area_cycling_modal_note_text: "Wygodnie zaplanuj trasę i ruszaj prosto z Domu Latarnika.",
-        area_route_button: "Sprawdź trasę",
-        area_route1_title: "Velo Baltica (R10)",
-        area_route1_text: "Nadmorski szlak prowadzący przez Grzybowo. W stronę wschodnią dojedziesz do Kołobrzegu, a na zachód do Dźwirzyna i Rogowa. Trasa jest bezpieczna, utwardzona i prowadzi częściowo przez lasy.",
-        area_route1_tag1: "nadmorska",
-        area_route1_tag2: "utwardzona",
-        area_route1_tag3: "rodzinna",
-        area_route2_title: "Trasa „Ku Słońcu”",
-        area_route2_text: "Licząca około 30 km pętla: Kołobrzeg – Grzybowo – Dźwirzyno – Karcino – Sarbia – Drzonowo – Nowogardek – Stary Borek – Kołobrzeg. Dobra propozycja na dłuższą, krajoznawczą wycieczkę rowerową.",
-        area_route2_tag1: "około 30 km",
-        area_route2_tag2: "pętla",
-        area_route2_tag3: "krajoznawcza",
-        area_route3_title: "Kołobrzeg – Grzybowo – Dźwirzyno",
-        area_route3_text: "Popularny, utwardzony odcinek wzdłuż drogi wojewódzkiej nr 102. Zapewnia szybkie i wygodne połączenie między miejscowościami, dobre także na krótszą rodzinną przejażdżkę.",
-        area_route3_tag1: "popularna",
-        area_route3_tag2: "utwardzona",
-        area_route3_tag3: "szybkie połączenie",
-        rooms_kicker: "Pokoje i studia",
-        rooms_title: "Wnętrza stworzone do spokojnego wypoczynku",
-        rooms_text: "Jasne, przytulne pokoje i studia w nadmorskim stylu — idealne na komfortowy pobyt we dwoje, z rodziną lub na dłuższy urlop.",
-        room1_title: "Pokój dwuosobowy",
-        room1_text: "Przytulna przestrzeń dla dwóch osób, urządzona z myślą o spokojnym wypoczynku blisko morza.",
-        room2_title: "Pokój marynistyczny",
-        room2_text: "Jasne wnętrze z subtelnym morskim charakterem, wygodnym układem i kameralną atmosferą.",
-        room3_title: "Studio rodzinne",
-        room3_text: "Więcej przestrzeni i swobody — idealne rozwiązanie dla rodzin oraz osób planujących dłuższy pobyt.",
-        breakfast_kicker: "Śniadania",
-        breakfast_title: "Dobry początek dnia",
-        breakfast_text1: "Śniadania serwujemy na miejscu w wygodnej formule — z półmiskami podawanymi do stolika oraz dodatkami w formie stołu szwedzkiego.",
-        breakfast_text2: "W słoneczne poranki goście mogą skorzystać także z tarasu przed budynkiem.",
+        rooms_kicker: "Pokoje",
+        rooms_title: "Znajdź swój ulubiony pokój",
+        rooms_text: "Nasze pokoje pogrupowaliśmy w kilka kategorii z charakterem — od prywatnego zacisza, przez pokoje na poddaszu, po łączonego „Bliźniaka” i apartament. Kliknij kategorię, aby zobaczyć zdjęcia i wyposażenie.",
+        rooms_note: "Dostępność i aktualne ceny wszystkich pokoi znajdziesz na Booking.com.",
+        rooms_note_button: "Zobacz dostępność",
+        room_details: "Szczegóły",
+        room_equipment: "Wyposażenie",
+        gallery_section_aria: "Galeria zdjęć obiektu",
+        room_modal_aria: "Szczegóły pokoju",
+        room_modal_close_aria: "Zamknij okno pokoju",
+        room_photos_soon: "Zdjęcia wkrótce",
+        room_names_label: "Pokoje w tej kategorii",
+        rg_priv_tag: "Prywatny · 1 osoba",
+        rg_priv_title: "Pokój „0” — prywatne zacisze",
+        rg_priv_desc: "W pełni prywatny pokój, oddzielony od reszty obiektu, z myślą o jednej osobie. Maksimum spokoju i niezależności.",
+        rg_stairs_tag: "2 pokoje · kilka schodków",
+        rg_stairs_title: "Pokoje „DO” i „DU”",
+        rg_stairs_desc: "Do tych dwóch pokoi wchodzi się kilka (5) schodków wyżej — dzięki temu dają miłe poczucie odosobnienia.",
+        rg_std_tag: "6 pokoi",
+        rg_std_title: "Pokoje 1h–6h",
+        rg_std_desc: "Wygodne, jasne pokoje z własną łazienką — sprawdzą się dla par i rodzin. Do wyboru sześć numerów.",
+        rg_attic_tag: "2 pokoje · poddasze",
+        rg_attic_title: "Na poddaszu — 7h i 8h",
+        rg_attic_desc: "Kameralne pokoje pod skosami, na poddaszu — z przytulnym, wakacyjnym klimatem.",
+        rg_join_tag: "Łączone · Bliźniak",
+        rg_join_title: "„R”, „Piętrus” i „Bliźniak”",
+        rg_join_desc: "„R” to ulubiony pokój właściciela — o powód dopytaj na miejscu 😉. Razem z „Piętrusem” tworzą „Bliźniaka”: dwa oddzielne pokoje połączone w jeden, idealne dla większej rodziny.",
+        rg_apart_tag: "Apartament",
+        rg_apart_title: "Apartament",
+        rg_apart_desc: "Najwięcej przestrzeni: osobne sypialnie, salon z aneksem kuchennym i własne wejście.",
+        feat_bath: "Własna łazienka (prysznic, WC)",
+        feat_tv: "Telewizor",
+        feat_fridge: "Lodówka",
+        feat_kettle: "Czajnik",
+        feat_safe: "Szafa z sejfem",
+        feat_wifi: "Bezpłatne WiFi",
+        feat_kitchenette: "Aneks kuchenny",
+        feat_balcony: "Balkon",
+        feat_premium: "Podwyższony standard",
+        feat_two_bedrooms: "Dwie sypialnie",
+        feat_kitchen_full: "Pełny aneks kuchenny z AGD",
+        feat_living: "Oddzielny salon",
+        feat_private_entrance: "Osobne wejście",
+        amenities_kicker: "Udogodnienia",
+        amenities_title: "Wygody w cenie pobytu",
+        amenities_bath: "W każdym pokoju własna łazienka",
+        spaces_kicker: "Wspólne przestrzenie",
+        spaces_title: "Miejsca, które łączą gości",
+        spaces_text: "Poza własnym pokojem czekają na Ciebie wspólne przestrzenie — do gotowania, wspólnej gry i odpoczynku na świeżym powietrzu.",
+        shared_media_soon: "Zdjęcia i nagrania wkrótce",
+        shared_kitchen_title: "Wspólna kuchnia",
+        shared_kitchen_text: "W pełni wyposażona, dodatkowa kuchnia dostępna dla gości — wygodna zwłaszcza przy dłuższych pobytach.",
+        shared_kitchen_tag: "Do dyspozycji gości",
+        shared_salon_title: "Salon z grami",
+        shared_salon_text: "Przytulny salon z dodatkowym telewizorem i pokaźnym wyborem gier planszowych — idealny na wieczory z rodziną i znajomymi.",
+        shared_salon_tag: "TV i gry planszowe",
+        shared_terrace_title: "Wspólny taras",
+        shared_terrace_text: "Zaciszny taras przy budynku — dobre miejsce na poranną kawę i wieczorny relaks po dniu na plaży.",
+        shared_terrace_tag: "Strefa relaksu",
+        am_wifi: "Bezpłatne WiFi",
+        am_parking: "Zamknięty parking",
+        am_monitoring: "Monitoring całodobowy",
+        am_bikes: "Wypożyczalnia rowerów",
+        am_beach_gear: "Sprzęt plażowy",
+        am_laundry: "Pralnia",
+        am_grill: "Grill i miejsce na ognisko",
+        am_kitchenette: "Dostęp do kuchni",
+        am_terrace: "Taras",
+        am_playground: "Teren zielony dla dzieci",
+        am_linen: "Pościel i ręczniki",
+        am_safe: "Sejf w pokoju",
+        news_kicker: "Aktualności",
+        news_title: "Co słychać w Domu Latarnika",
+        news_text: "Najnowsze zdjęcia, wolne terminy i promocje publikujemy na naszym Facebooku. Zajrzyj i bądź na bieżąco przed sezonem.",
+        news_tag_photo: "Zdjęcia",
+        news_tag_offer: "Terminy",
+        news_card1_title: "Nowe zdjęcia z sezonu",
+        news_card1_text: "Zajrzyj na naszą galerię na Facebooku — dodajemy zdjęcia pokoi, plaży i okolicy.",
+        news_card2_title: "Wolne terminy i promocje",
+        news_card2_text: "O ostatnich wolnych terminach i ofertach specjalnych informujemy na bieżąco w social mediach.",
+        news_card3_title: "Śledź nas na Facebooku",
+        news_card3_text: "Codzienne aktualności, zdjęcia i szybki kontakt przez Messenger.",
+        news_card3_button: "Odwiedź profil",
+        fb_embed_title: "Tablica na Facebooku",
+        fb_embed_text: "Aby wyświetlić naszą tablicę Facebooka bezpośrednio na stronie, zaakceptuj cookies społecznościowe.",
+        fb_embed_load: "Pokaż tablicę",
+        fb_embed_open: "Otwórz w nowej karcie",
+        nav_spaces: "Przestrzenie",
+        nav_amenities: "Udogodnienia",
+        nav_news: "Aktualności",
+        hero_rooms_btn: "Zobacz pokoje",
+        hero_scroll_aria: "Przewiń w dół",
+        privacy: "Polityka prywatności",
+        cookie_text: "Używamy cookies do analizy ruchu i treści społecznościowych (np. tablica Facebooka).",
+        cookie_decline: "Odrzuć",
+        cookie_accept: "Zaakceptuj",
         reviews_kicker: "Opinie",
         reviews_title: "Opinie, które budują zaufanie",
         reviews_text: "Wysokie oceny w Booking.com i dobre opinie w Google potwierdzają spokojny charakter pobytu oraz jakość obsługi.",
@@ -444,7 +505,7 @@
       },
       de: {
         title: "Dom Latarnika - ruhiger Aufenthalt am Meer in Grzybowo",
-        description: "Dom Latarnika in Grzybowo - komfortable Zimmer und Studios, Frühstück vor Ort, ruhige Lage nahe am Meer und bequeme Online-Buchung.",
+        description: "Dom Latarnika in Grzybowo – komfortable Zimmer, Studios und Apartment, Gemeinschaftsküche, Wohnzimmer und Terrasse, ruhige Lage nahe am Meer und bequeme Online-Buchung.",
         skip: "Zum Inhalt",
         a11y_btn_aria: "Barrierefreiheit",
         a11y_panel_aria: "Barrierefreiheitshilfen",
@@ -463,8 +524,7 @@
         a11y_contrast_off: "Höherer Kontrast deaktiviert.",
         nav_offer: "Über das Haus",
         nav_rooms: "Zimmer",
-        nav_breakfast: "Frühstück",
-        nav_area: "Grzybowo und Umgebung",
+        nav_area: "Umgebung",
         nav_reviews: "Bewertungen",
         nav_contact: "Kontakt",
         hero_section_aria: "Fotos der Pension",
@@ -502,17 +562,17 @@
         booking: "Booking.com",
         check_availability: "Verfügbarkeit prüfen",
         navigate: "Navigation",
-        hero_kicker: "Pension Dom Latarnika",
+        hero_kicker: "Pension Dom Latarnika · Grzybowo",
         hero_title: "Gelungener Urlaub an der Ostsee",
-        hero_text: "Erholsame Tage in Grzybowo, nahe am Meer, mit komfortablen Zimmern, Frühstück und einer bequemen Online-Buchung.",
+        hero_text: "Erholsame Tage in Grzybowo, nahe am Meer, mit komfortablen Zimmern, Studios und einem Apartment sowie bequemer Online-Buchung.",
         panel_title: "Wichtige Informationen",
         panel_text: "Die wichtigsten Punkte an einem Ort, noch vor der Planung des Aufenthalts.",
         panel_location_label: "Lage",
         panel_location_value: "Grzybowo, ul. Nadmorska 65A",
         panel_sea_label: "Entfernung zum Meer",
-        panel_sea_value: "Ca. 500 Meter vom Strand entfernt.",
-        panel_breakfast_label: "Frühstück",
-        panel_breakfast_value: "Frühstück direkt im Haus",
+        panel_sea_value: "Wenige Gehminuten zum Strand.",
+        panel_parking_label: "Parkplatz",
+        panel_parking_value: "kostenlos, vor Ort",
         panel_booking_label: "Buchung",
         panel_booking_value: "online oder telefonisch",
         usp_kicker: "Warum es sich lohnt",
@@ -526,12 +586,12 @@
         usp3_text: "Die Nähe zum Strand und das Küstenklima schaffen ideale Bedingungen für Erholung.",
         offer_kicker: "Über das Haus",
         offer_title: "Komfortabel, ruhig, nah am Meer",
-        offer_text1: "Ein kleines Haus in einem ruhigen Teil von Grzybowo, etwa 500 Meter vom Strand und nahe der Hauptpromenade gelegen.",
-        offer_text2: "Auf die Gäste warten Zimmer und Studios mit Bad, praktische Ausstattung und Annehmlichkeiten, die bei längeren Aufenthalten besonders nützlich sind.",
-        offer_item1: "500 m vom Strand",
-        offer_item2: "Zimmer und Studios mit Bad",
-        offer_item3: "Küche, Liegestühle, Windschutz und Waschmaschine",
-        offer_item4: "Ruhige Lage nahe dem Zentrum von Grzybowo",
+        offer_text1: "Ein kleines Haus in einem ruhigen Teil von Grzybowo, in der Nähe von Strand und Spazierwegen und zugleich abseits des Trubels.",
+        offer_text2: "Auf die Gäste warten Zimmer, Studios und ein Apartment mit eigenem Bad, praktische Ausstattung und Annehmlichkeiten, die bei längeren Aufenthalten besonders nützlich sind.",
+        offer_item1: "Wenige Gehminuten zum Strand",
+        offer_item2: "Zimmer, Studios und Apartment mit Bad",
+        offer_item3: "Küchenzeile, Strandausrüstung, Fahrräder und Waschraum",
+        offer_item4: "Abgeschlossener, überwachter Parkplatz vor Ort",
         area_kicker: "Umgebung",
         area_title: "Grzybowo und Anreise",
         area_text: "Grzybowo ist ein ruhiger Küstenort, ideal für Strand, Spaziergänge und Fahrradausflüge mit der Familie. Dom Latarnika liegt nah am Strand und die Umgebung lädt dazu ein, die Küste entspannt zu entdecken.",
@@ -545,7 +605,7 @@
         area_item2_title: "Radwege",
         area_item2_text: "Familienfahrten und schöne Routen in Richtung Kołobrzeg und Dźwirzyno.",
         area_item2_button: "Radwege ansehen",
-        area_item3_title: "Transport",
+        area_item3_title: "Transport und Anreise",
         area_item3_text: "Prüfen Sie die Route zum Dom Latarnika und planen Sie die Anreise bequem.",
         area_item3_button: "Anreise prüfen",
         area_modal_close_aria: "Fenster der Umgebung schließen",
@@ -553,7 +613,7 @@
         area_score_modal_title: "Ruhige Umgebung",
         area_score_modal_text: "Die Lagebewertung 4,6 unterstreicht den ruhigen Charakter von Grzybowo und die günstige Lage des Dom Latarnika. Das Haus liegt in einem stillen Teil des Ortes, nah am Strand sowie an Spazier- und Radwegen und zugleich mit bequemer Verbindung nach Kołobrzeg.",
         area_score_point1: "ruhiger Teil von Grzybowo,",
-        area_score_point2: "etwa 500 m bis zum Strand,",
+        area_score_point2: "nah am Strand,",
         area_score_point3: "Spazier- und Radwege in der Umgebung,",
         area_score_point4: "bequeme Verbindung nach Kołobrzeg,",
         area_score_point5: "gute Lage für Familienerholung.",
@@ -567,40 +627,102 @@
         area_beach_card2_subtitle: "ruhige Wege am Strand",
         area_beach_card3_title: "Kołobrzeg und Umgebung",
         area_beach_card3_subtitle: "Attraktionen nur wenige Minuten entfernt",
-        area_cycling_modal_aria: "Radwege",
-        area_cycling_modal_title: "Radwege",
-        area_cycling_modal_text: "Die Umgebung von Grzybowo eignet sich ideal für ruhige Radtouren — von kurzen Familienfahrten bis zu längeren landschaftlichen Strecken.",
-        area_cycling_modal_note_title: "Fahrräder vor Ort verfügbar",
-        area_cycling_modal_note_text: "Planen Sie Ihre Route bequem und starten Sie direkt am Dom Latarnika.",
-        area_route_button: "Route prüfen",
-        area_route1_title: "Velo Baltica (R10)",
-        area_route1_text: "Der Küstenweg führt durch Grzybowo. Nach Osten fahren Sie bis Kołobrzeg, nach Westen bis Dźwirzyno und Rogowo. Die Strecke ist sicher, befestigt und verläuft teilweise durch Wälder.",
-        area_route1_tag1: "Küste",
-        area_route1_tag2: "befestigt",
-        area_route1_tag3: "familienfreundlich",
-        area_route2_title: "Route „Ku Słońcu”",
-        area_route2_text: "Eine rund 30 km lange Runde: Kołobrzeg – Grzybowo – Dźwirzyno – Karcino – Sarbia – Drzonowo – Nowogardek – Stary Borek – Kołobrzeg. Eine gute Wahl für eine längere, landschaftlich reizvolle Fahrradtour.",
-        area_route2_tag1: "ca. 30 km",
-        area_route2_tag2: "Rundweg",
-        area_route2_tag3: "landschaftlich",
-        area_route3_title: "Kołobrzeg – Grzybowo – Dźwirzyno",
-        area_route3_text: "Ein beliebter, befestigter Abschnitt entlang der Woiwodschaftsstraße 102. Er bietet eine schnelle und bequeme Verbindung zwischen den Orten und eignet sich auch für eine kürzere Familienfahrt.",
-        area_route3_tag1: "beliebt",
-        area_route3_tag2: "befestigt",
-        area_route3_tag3: "schnelle Verbindung",
-        rooms_kicker: "Zimmer und Studios",
-        rooms_title: "Innenräume für ruhige Erholung geschaffen",
-        rooms_text: "Helle, gemütliche Zimmer und Studios im Küstenstil — ideal für einen komfortablen Aufenthalt zu zweit, mit der Familie oder für einen längeren Urlaub.",
-        room1_title: "Doppelzimmer",
-        room1_text: "Ein gemütlicher Raum für zwei Personen, gestaltet für ruhige Erholung in Meeresnähe.",
-        room2_title: "Maritimes Zimmer",
-        room2_text: "Ein heller Raum mit feinem Küstencharakter, praktischem Grundriss und ruhiger Atmosphäre.",
-        room3_title: "Familienstudio",
-        room3_text: "Mehr Platz und mehr Freiheit — eine gute Lösung für Familien und für Gäste mit längerem Aufenthalt.",
-        breakfast_kicker: "Frühstück",
-        breakfast_title: "Ein guter Start in den Tag",
-        breakfast_text1: "Das Frühstück wird direkt vor Ort in einer angenehmen Form serviert — mit Platten am Tisch und zusätzlichen Angeboten als Buffet.",
-        breakfast_text2: "An sonnigen Morgen können Gäste auch die Terrasse vor dem Gebäude nutzen.",
+        rooms_kicker: "Zimmer",
+        rooms_title: "Finden Sie Ihr Lieblingszimmer",
+        rooms_text: "Unsere Zimmer haben wir in einige Kategorien mit Charakter gruppiert — vom privaten Rückzugsort über Zimmer im Dachgeschoss bis zum verbundenen „Bliźniak” und dem Apartment. Klicken Sie auf eine Kategorie, um Fotos und Ausstattung zu sehen.",
+        rooms_note: "Verfügbarkeit und aktuelle Preise aller Zimmer finden Sie auf Booking.com.",
+        rooms_note_button: "Verfügbarkeit ansehen",
+        room_details: "Details",
+        room_equipment: "Ausstattung",
+        gallery_section_aria: "Fotogalerie des Objekts",
+        room_modal_aria: "Zimmerdetails",
+        room_modal_close_aria: "Zimmerfenster schließen",
+        room_photos_soon: "Fotos folgen in Kürze",
+        room_names_label: "Zimmer in dieser Kategorie",
+        rg_priv_tag: "Privat · 1 Person",
+        rg_priv_title: "Zimmer „0” — privater Rückzugsort",
+        rg_priv_desc: "Ein komplett privates Zimmer, getrennt vom Rest des Hauses, für eine Person. Maximale Ruhe und Unabhängigkeit.",
+        rg_stairs_tag: "2 Zimmer · ein paar Stufen",
+        rg_stairs_title: "Zimmer „DO” und „DU”",
+        rg_stairs_desc: "Zu diesen beiden Zimmern gelangt man ein paar (5) Stufen höher — das gibt ein angenehmes Gefühl der Abgeschiedenheit.",
+        rg_std_tag: "6 Zimmer",
+        rg_std_title: "Zimmer 1h–6h",
+        rg_std_desc: "Bequeme, helle Zimmer mit eigenem Bad — ideal für Paare und Familien. Sechs Nummern zur Auswahl.",
+        rg_attic_tag: "2 Zimmer · Dachgeschoss",
+        rg_attic_title: "Im Dachgeschoss — 7h und 8h",
+        rg_attic_desc: "Gemütliche Zimmer unter Dachschrägen — mit heimeligem Urlaubsflair.",
+        rg_join_tag: "Verbunden · Bliźniak",
+        rg_join_title: "„R”, „Piętrus” und „Bliźniak”",
+        rg_join_desc: "„R” ist das Lieblingszimmer des Gastgebers — nach dem Grund fragen Sie am besten vor Ort 😉. Zusammen mit „Piętrus” bilden sie „Bliźniak”: zwei separate Zimmer, zu einem verbunden — ideal für größere Familien.",
+        rg_apart_tag: "Apartment",
+        rg_apart_title: "Apartment",
+        rg_apart_desc: "Am meisten Platz: separate Schlafzimmer, Wohnzimmer mit Küchenzeile und eigener Eingang.",
+        feat_bath: "Eigenes Bad (Dusche, WC)",
+        feat_tv: "Fernseher",
+        feat_fridge: "Kühlschrank",
+        feat_kettle: "Wasserkocher",
+        feat_safe: "Schrank mit Safe",
+        feat_wifi: "Kostenloses WLAN",
+        feat_kitchenette: "Küchenzeile",
+        feat_balcony: "Balkon",
+        feat_premium: "Gehobener Standard",
+        feat_two_bedrooms: "Zwei Schlafzimmer",
+        feat_kitchen_full: "Voll ausgestattete Küchenzeile",
+        feat_living: "Separates Wohnzimmer",
+        feat_private_entrance: "Separater Eingang",
+        amenities_kicker: "Ausstattung",
+        amenities_title: "Komfort im Preis inbegriffen",
+        amenities_bath: "In jedem Zimmer ein eigenes Bad",
+        spaces_kicker: "Gemeinschaftsbereiche",
+        spaces_title: "Orte, die Gäste verbinden",
+        spaces_text: "Neben dem eigenen Zimmer warten Gemeinschaftsbereiche auf Sie — zum Kochen, gemeinsamen Spielen und Entspannen an der frischen Luft.",
+        shared_media_soon: "Fotos und Videos folgen in Kürze",
+        shared_kitchen_title: "Gemeinschaftsküche",
+        shared_kitchen_text: "Voll ausgestattete zusätzliche Küche für Gäste — besonders praktisch bei längeren Aufenthalten.",
+        shared_kitchen_tag: "Für Gäste verfügbar",
+        shared_salon_title: "Wohnzimmer mit Spielen",
+        shared_salon_text: "Gemütliches Wohnzimmer mit zusätzlichem Fernseher und einer großen Auswahl an Brettspielen — ideal für Abende mit Familie und Freunden.",
+        shared_salon_tag: "TV und Brettspiele",
+        shared_terrace_title: "Gemeinsame Terrasse",
+        shared_terrace_text: "Ruhige Terrasse am Haus — ein guter Platz für den Morgenkaffee und die Entspannung am Abend nach einem Tag am Strand.",
+        shared_terrace_tag: "Entspannungsbereich",
+        am_wifi: "Kostenloses WLAN",
+        am_parking: "Abgeschlossener Parkplatz",
+        am_monitoring: "24-Stunden-Überwachung",
+        am_bikes: "Fahrradverleih",
+        am_beach_gear: "Strandausrüstung",
+        am_laundry: "Waschraum",
+        am_grill: "Grill- und Lagerfeuerplatz",
+        am_kitchenette: "Küchennutzung",
+        am_terrace: "Terrasse",
+        am_playground: "Grünfläche für Kinder",
+        am_linen: "Bettwäsche und Handtücher",
+        am_safe: "Safe im Zimmer",
+        news_kicker: "Aktuelles",
+        news_title: "Neues aus dem Dom Latarnika",
+        news_text: "Die neuesten Fotos, freien Termine und Angebote veröffentlichen wir auf unserem Facebook. Schauen Sie vorbei und bleiben Sie vor der Saison auf dem Laufenden.",
+        news_tag_photo: "Fotos",
+        news_tag_offer: "Termine",
+        news_card1_title: "Neue Fotos aus der Saison",
+        news_card1_text: "Schauen Sie in unsere Facebook-Galerie — wir fügen Fotos von Zimmern, Strand und Umgebung hinzu.",
+        news_card2_title: "Freie Termine und Angebote",
+        news_card2_text: "Über die letzten freien Termine und Sonderangebote informieren wir laufend in den sozialen Medien.",
+        news_card3_title: "Folgen Sie uns auf Facebook",
+        news_card3_text: "Tägliche Neuigkeiten, Fotos und schneller Kontakt über Messenger.",
+        news_card3_button: "Profil besuchen",
+        fb_embed_title: "Facebook-Pinnwand",
+        fb_embed_text: "Um unsere Facebook-Pinnwand direkt auf der Seite anzuzeigen, akzeptieren Sie bitte die Social-Media-Cookies.",
+        fb_embed_load: "Pinnwand anzeigen",
+        fb_embed_open: "In neuem Tab öffnen",
+        nav_spaces: "Bereiche",
+        nav_amenities: "Ausstattung",
+        nav_news: "Aktuelles",
+        hero_rooms_btn: "Zimmer ansehen",
+        hero_scroll_aria: "Nach unten scrollen",
+        privacy: "Datenschutz",
+        cookie_text: "Wir verwenden Cookies zur Verkehrsanalyse und für Social-Media-Inhalte (z. B. Facebook-Pinnwand).",
+        cookie_decline: "Ablehnen",
+        cookie_accept: "Akzeptieren",
         reviews_kicker: "Bewertungen",
         reviews_title: "Bewertungen, die Vertrauen schaffen",
         reviews_text: "Die hohen Bewertungen bei Booking.com und die guten Google-Meinungen bestätigen den ruhigen Charakter des Aufenthalts und die Qualität des Service.",
@@ -651,7 +773,7 @@
       },
       en: {
         title: "Dom Latarnika - peaceful seaside stay in Grzybowo",
-        description: "Dom Latarnika in Grzybowo - comfortable rooms and studios, breakfast on site, a peaceful location near the sea and convenient online booking.",
+        description: "Dom Latarnika in Grzybowo – comfortable rooms, studios and an apartment, a shared kitchen, lounge and terrace, a peaceful location near the sea and convenient online booking.",
         skip: "Skip to content",
         a11y_btn_aria: "Accessibility options",
         a11y_panel_aria: "Accessibility tools",
@@ -670,8 +792,7 @@
         a11y_contrast_off: "Higher contrast disabled.",
         nav_offer: "About the property",
         nav_rooms: "Rooms",
-        nav_breakfast: "Breakfast",
-        nav_area: "Grzybowo and surroundings",
+        nav_area: "Area",
         nav_reviews: "Reviews",
         nav_contact: "Contact",
         hero_section_aria: "Guesthouse photos",
@@ -709,17 +830,17 @@
         booking: "Booking.com",
         check_availability: "Check availability",
         navigate: "Navigate",
-        hero_kicker: "Dom Latarnika Guesthouse",
+        hero_kicker: "Dom Latarnika Guesthouse · Grzybowo",
         hero_title: "A relaxing holiday by the Baltic Sea",
-        hero_text: "A peaceful stay in Grzybowo, close to the sea, with comfortable rooms, breakfast and convenient online booking.",
+        hero_text: "A peaceful stay in Grzybowo, close to the sea, with comfortable rooms, studios and an apartment, and convenient online booking.",
         panel_title: "Key information",
         panel_text: "The most important details in one place before planning your stay.",
         panel_location_label: "Location",
         panel_location_value: "Grzybowo, ul. Nadmorska 65A",
         panel_sea_label: "Distance to the sea",
-        panel_sea_value: "Approx. 500 metres from the beach.",
-        panel_breakfast_label: "Breakfast",
-        panel_breakfast_value: "breakfast served on site",
+        panel_sea_value: "A few minutes' walk to the beach.",
+        panel_parking_label: "Parking",
+        panel_parking_value: "free, on site",
         panel_booking_label: "Booking",
         panel_booking_value: "online or by phone",
         usp_kicker: "Why choose us",
@@ -733,12 +854,12 @@
         usp3_text: "The nearby beach and seaside atmosphere create ideal conditions for rest.",
         offer_kicker: "About the property",
         offer_title: "Comfortable, peaceful, close to the sea",
-        offer_text1: "A cosy property in a peaceful part of Grzybowo, around 500 metres from the beach and close to the main promenade.",
-        offer_text2: "Guests can choose rooms and studios with private bathrooms, practical equipment and amenities useful during longer stays.",
-        offer_item1: "500 m from the beach",
-        offer_item2: "Rooms and studios with private bathrooms",
-        offer_item3: "Kitchen, deckchairs, windbreaks and washing machine",
-        offer_item4: "Quiet area close to the centre of Grzybowo",
+        offer_text1: "A cosy property in a peaceful part of Grzybowo, close to the beach and walking paths yet away from the bustle.",
+        offer_text2: "Guests can choose rooms, studios and an apartment with private bathrooms, practical equipment and amenities useful during longer stays.",
+        offer_item1: "A few minutes' walk to the beach",
+        offer_item2: "Rooms, studios and apartment with bathrooms",
+        offer_item3: "Kitchenette, beach gear, bikes and laundry",
+        offer_item4: "Gated, monitored parking on site",
         area_kicker: "Surroundings",
         area_title: "Grzybowo and access",
         area_text: "Grzybowo is a peaceful seaside village, ideal for beach time, walks and family cycling trips. Dom Latarnika is close to the beach and the area makes it easy to relax and explore the coast at a calm pace.",
@@ -752,7 +873,7 @@
         area_item2_title: "Cycling routes",
         area_item2_text: "Family rides and scenic routes towards Kołobrzeg and Dźwirzyno.",
         area_item2_button: "See routes",
-        area_item3_title: "Transport",
+        area_item3_title: "Transport & directions",
         area_item3_text: "Check the route to Dom Latarnika and plan your arrival with ease.",
         area_item3_button: "Check directions",
         area_modal_close_aria: "Close surroundings dialog",
@@ -760,7 +881,7 @@
         area_score_modal_title: "Peaceful area",
         area_score_modal_text: "The location score of 4.6 highlights the peaceful character of Grzybowo and the convenient setting of Dom Latarnika. The property is in a quiet part of the village, close to the beach, walking and cycling routes, while still offering easy access to Kołobrzeg.",
         area_score_point1: "quiet part of Grzybowo,",
-        area_score_point2: "around 500 m to the beach,",
+        area_score_point2: "close to the beach,",
         area_score_point3: "walking and cycling routes nearby,",
         area_score_point4: "easy access to Kołobrzeg,",
         area_score_point5: "a good location for a family stay.",
@@ -774,40 +895,102 @@
         area_beach_card2_subtitle: "peaceful routes by the beach",
         area_beach_card3_title: "Kołobrzeg and nearby area",
         area_beach_card3_subtitle: "attractions just minutes away",
-        area_cycling_modal_aria: "Cycling routes",
-        area_cycling_modal_title: "Cycling routes",
-        area_cycling_modal_text: "The Grzybowo area is ideal for calm cycling trips — from short family rides to longer scenic routes.",
-        area_cycling_modal_note_title: "Bikes available on site",
-        area_cycling_modal_note_text: "Plan your route comfortably and set off straight from Dom Latarnika.",
-        area_route_button: "Check route",
-        area_route1_title: "Velo Baltica (R10)",
-        area_route1_text: "A coastal route running through Grzybowo. Head east towards Kołobrzeg or west towards Dźwirzyno and Rogowo. The route is safe, paved and partly leads through forest areas.",
-        area_route1_tag1: "coastal",
-        area_route1_tag2: "paved",
-        area_route1_tag3: "family-friendly",
-        area_route2_title: "Ku Słońcu route",
-        area_route2_text: "A loop of around 30 km: Kołobrzeg – Grzybowo – Dźwirzyno – Karcino – Sarbia – Drzonowo – Nowogardek – Stary Borek – Kołobrzeg. A good choice for a longer scenic cycling trip.",
-        area_route2_tag1: "around 30 km",
-        area_route2_tag2: "loop",
-        area_route2_tag3: "scenic",
-        area_route3_title: "Kołobrzeg – Grzybowo – Dźwirzyno",
-        area_route3_text: "A popular paved section along regional road 102. It offers a quick and convenient connection between the towns and also works well for a shorter family ride.",
-        area_route3_tag1: "popular",
-        area_route3_tag2: "paved",
-        area_route3_tag3: "quick link",
-        rooms_kicker: "Rooms and studios",
-        rooms_title: "Interiors created for peaceful rest",
-        rooms_text: "Bright, cosy rooms and studios with a seaside feel — ideal for a comfortable stay for two, with family or for a longer holiday.",
-        room1_title: "Double room",
-        room1_text: "A cosy space for two, arranged with peaceful relaxation near the sea in mind.",
-        room2_title: "Marine-style room",
-        room2_text: "A bright interior with a subtle seaside character, a comfortable layout and a calm atmosphere.",
-        room3_title: "Family studio",
-        room3_text: "More space and more freedom — a practical choice for families and for guests planning a longer stay.",
-        breakfast_kicker: "Breakfast",
-        breakfast_title: "A good start to the day",
-        breakfast_text1: "Breakfast is served on site in a convenient format — platters brought to the table with additional items offered as a buffet.",
-        breakfast_text2: "On sunny mornings guests can also use the terrace in front of the building.",
+        rooms_kicker: "Rooms",
+        rooms_title: "Find your favourite room",
+        rooms_text: "We've grouped our rooms into a few categories with character — from a private retreat, through attic rooms, to the connected “Bliźniak” and the apartment. Click a category to see photos and amenities.",
+        rooms_note: "Availability and current prices for all rooms are on Booking.com.",
+        rooms_note_button: "See availability",
+        room_details: "Details",
+        room_equipment: "Amenities",
+        gallery_section_aria: "Property photo gallery",
+        room_modal_aria: "Room details",
+        room_modal_close_aria: "Close room dialog",
+        room_photos_soon: "Photos coming soon",
+        room_names_label: "Rooms in this category",
+        rg_priv_tag: "Private · 1 person",
+        rg_priv_title: "Room “0” — a private retreat",
+        rg_priv_desc: "A fully private room, separated from the rest of the house, designed for one person. Maximum peace and independence.",
+        rg_stairs_tag: "2 rooms · a few steps",
+        rg_stairs_title: "Rooms “DO” and “DU”",
+        rg_stairs_desc: "These two rooms are reached a few (5) steps up — which gives a pleasant sense of seclusion.",
+        rg_std_tag: "6 rooms",
+        rg_std_title: "Rooms 1h–6h",
+        rg_std_desc: "Comfortable, bright rooms with a private bathroom — great for couples and families. Six numbers to choose from.",
+        rg_attic_tag: "2 rooms · attic",
+        rg_attic_title: "In the attic — 7h and 8h",
+        rg_attic_desc: "Cosy rooms under sloped ceilings, in the attic — with a warm, holiday feel.",
+        rg_join_tag: "Connected · Bliźniak",
+        rg_join_title: "“R”, “Piętrus” and “Bliźniak”",
+        rg_join_desc: "“R” is the owner's favourite room — ask why in person 😉. Together with “Piętrus” they form “Bliźniak”: two separate rooms joined into one, ideal for a larger family.",
+        rg_apart_tag: "Apartment",
+        rg_apart_title: "Apartment",
+        rg_apart_desc: "The most space: separate bedrooms, a living room with a kitchenette and a private entrance.",
+        feat_bath: "Private bathroom (shower, WC)",
+        feat_tv: "TV",
+        feat_fridge: "Refrigerator",
+        feat_kettle: "Kettle",
+        feat_safe: "Wardrobe with safe",
+        feat_wifi: "Free WiFi",
+        feat_kitchenette: "Kitchenette",
+        feat_balcony: "Balcony",
+        feat_premium: "Higher standard",
+        feat_two_bedrooms: "Two bedrooms",
+        feat_kitchen_full: "Fully equipped kitchenette",
+        feat_living: "Separate living room",
+        feat_private_entrance: "Private entrance",
+        amenities_kicker: "Amenities",
+        amenities_title: "Comforts included in your stay",
+        amenities_bath: "A private bathroom in every room",
+        spaces_kicker: "Shared spaces",
+        spaces_title: "Places that bring guests together",
+        spaces_text: "Beyond your own room, shared spaces await — for cooking, playing together and relaxing in the fresh air.",
+        shared_media_soon: "Photos and videos coming soon",
+        shared_kitchen_title: "Shared kitchen",
+        shared_kitchen_text: "A fully equipped extra kitchen available to guests — especially handy for longer stays.",
+        shared_kitchen_tag: "Available to guests",
+        shared_salon_title: "Lounge with games",
+        shared_salon_text: "A cosy lounge with an extra TV and a large choice of board games — perfect for evenings with family and friends.",
+        shared_salon_tag: "TV and board games",
+        shared_terrace_title: "Shared terrace",
+        shared_terrace_text: "A quiet terrace by the building — a great spot for morning coffee and evening relaxation after a day at the beach.",
+        shared_terrace_tag: "Relaxation area",
+        am_wifi: "Free WiFi",
+        am_parking: "Gated parking",
+        am_monitoring: "24-hour monitoring",
+        am_bikes: "Bike rental",
+        am_beach_gear: "Beach equipment",
+        am_laundry: "Laundry",
+        am_grill: "Grill and fire pit",
+        am_kitchenette: "Kitchen access",
+        am_terrace: "Terrace",
+        am_playground: "Green area for children",
+        am_linen: "Bed linen and towels",
+        am_safe: "In-room safe",
+        news_kicker: "News",
+        news_title: "What's happening at Dom Latarnika",
+        news_text: "We post the latest photos, free dates and special offers on our Facebook. Take a look and stay up to date before the season.",
+        news_tag_photo: "Photos",
+        news_tag_offer: "Dates",
+        news_card1_title: "New photos from the season",
+        news_card1_text: "Browse our Facebook gallery — we keep adding photos of the rooms, beach and surroundings.",
+        news_card2_title: "Free dates and offers",
+        news_card2_text: "We share last-minute availability and special offers on our social media.",
+        news_card3_title: "Follow us on Facebook",
+        news_card3_text: "Daily updates, photos and quick contact via Messenger.",
+        news_card3_button: "Visit profile",
+        fb_embed_title: "Facebook feed",
+        fb_embed_text: "To show our Facebook feed directly on the page, please accept social media cookies.",
+        fb_embed_load: "Show feed",
+        fb_embed_open: "Open in a new tab",
+        nav_spaces: "Spaces",
+        nav_amenities: "Amenities",
+        nav_news: "News",
+        hero_rooms_btn: "See rooms",
+        hero_scroll_aria: "Scroll down",
+        privacy: "Privacy policy",
+        cookie_text: "We use cookies for traffic analysis and social media content (e.g. the Facebook feed).",
+        cookie_decline: "Decline",
+        cookie_accept: "Accept",
         reviews_kicker: "Reviews",
         reviews_title: "Reviews that build confidence",
         reviews_text: "High Booking.com scores and positive Google reviews confirm the peaceful character of the stay and the quality of the service.",
@@ -864,10 +1047,10 @@
         titleKey: "area_beach_card1_title",
         subtitleKey: "area_beach_card1_subtitle",
         images: [
-          "img/morzeIMG_5793.jpeg",
-          "img/morzeIMG_5792.jpeg",
-          "img/morzeIMG_5791.jpeg",
-          "img/morzeIMG_5787.jpeg"
+          "img/beach/beach-07.webp",
+          "img/beach/beach-06.webp",
+          "img/beach/beach-05.webp",
+          "img/beach/beach-01.webp"
         ]
       },
       {
@@ -875,9 +1058,9 @@
         titleKey: "area_beach_card2_title",
         subtitleKey: "area_beach_card2_subtitle",
         images: [
-          "img/morzeIMG_5788.jpeg",
-          "img/morzeIMG_5790.jpeg",
-          "img/morzeIMG_5794.jpeg"
+          "img/beach/beach-02.webp",
+          "img/beach/beach-04.webp",
+          "img/beach/beach-08.webp"
         ]
       },
       {
@@ -885,36 +1068,117 @@
         titleKey: "area_beach_card3_title",
         subtitleKey: "area_beach_card3_subtitle",
         images: [
-          "img/morzeIMG_5789.jpeg",
-          "img/morzeIMG_5794.jpeg",
-          "img/morzeIMG_5790.jpeg"
+          "img/beach/beach-03.webp",
+          "img/beach/beach-08.webp",
+          "img/beach/beach-04.webp"
         ]
       }
     ];
 
-    const cyclingRoutes = [
+    // Kolekcje pokoi — pogrupowane, aby nie zasypywać gościa listą kilkunastu pokoi.
+    // Każda grupa: nazwy pokoi (names), zdjęcia (images — puste = placeholder), wyposażenie.
+    // Aby dodać zdjęcia: wrzuć pliki do img/rooms/ i wpisz ich ścieżki w "images".
+    const roomGroups = [
       {
-        image: "img/local-area/cycling/coastal-route.svg",
-        titleKey: "area_route1_title",
-        textKey: "area_route1_text",
-        tagKeys: ["area_route1_tag1", "area_route1_tag2", "area_route1_tag3"],
-        mapUrl: "https://www.google.com/maps/search/Velo+Baltica+R10+Grzybowo+Ko%C5%82obrzeg+D%C5%BAwirzyno"
+        id: "prywatny",
+        images: ["img/rooms/room-geometric.webp"],
+        names: ["0"],
+        tagKey: "rg_priv_tag",
+        titleKey: "rg_priv_title",
+        descKey: "rg_priv_desc",
+        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_wifi"]
       },
       {
-        image: "img/local-area/cycling/municipality-routes.svg",
-        titleKey: "area_route2_title",
-        textKey: "area_route2_text",
-        tagKeys: ["area_route2_tag1", "area_route2_tag2", "area_route2_tag3"],
-        mapUrl: "https://www.google.com/maps/search/Trasa+rowerowa+Ku+S%C5%82o%C5%84cu+Ko%C5%82obrzeg+Grzybowo+D%C5%BAwirzyno"
+        id: "schodki",
+        images: ["img/rooms/double-striped.webp", "img/rooms/marine.webp"],
+        names: ["DO", "DU"],
+        tagKey: "rg_stairs_tag",
+        titleKey: "rg_stairs_title",
+        descKey: "rg_stairs_desc",
+        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
       },
       {
-        image: "img/local-area/cycling/route-dzwirzyno.svg",
-        titleKey: "area_route3_title",
-        textKey: "area_route3_text",
-        tagKeys: ["area_route3_tag1", "area_route3_tag2", "area_route3_tag3"],
-        mapUrl: "https://www.google.com/maps/search/%C5%9Bcie%C5%BCka+rowerowa+Ko%C5%82obrzeg+Grzybowo+D%C5%BAwirzyno+DW+102"
+        id: "standard",
+        images: ["img/rooms/room-3h-01.webp", "img/rooms/room-3h-02.webp", "img/rooms/room-3h-03.webp", "img/rooms/room-3h-04.webp", "img/rooms/room-palm-01.webp", "img/rooms/room-palm-02.webp", "img/rooms/room-palm-03.webp", "img/rooms/room-palm-04.webp", "img/rooms/room-blue-attic.webp"],
+        names: ["1h", "2h", "3h", "4h", "5h", "6h"],
+        tagKey: "rg_std_tag",
+        titleKey: "rg_std_title",
+        descKey: "rg_std_desc",
+        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_safe", "feat_wifi"]
+      },
+      {
+        id: "poddasze",
+        images: ["img/rooms/attic-skylight.webp", "img/rooms/attic-studio-dining.webp", "img/rooms/attic-studio.webp"],
+        names: ["7h", "8h"],
+        tagKey: "rg_attic_tag",
+        titleKey: "rg_attic_title",
+        descKey: "rg_attic_desc",
+        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
+      },
+      {
+        id: "laczone",
+        images: ["img/rooms/blizniak-01.webp", "img/rooms/blizniak-02.webp", "img/rooms/blizniak-03.webp", "img/rooms/studio-balcony-01.webp", "img/rooms/studio-balcony-02.webp"],
+        names: ["R", "Piętrus", "Bliźniak"],
+        tagKey: "rg_join_tag",
+        titleKey: "rg_join_title",
+        descKey: "rg_join_desc",
+        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_balcony", "feat_wifi"]
+      },
+      {
+        id: "apartament",
+        images: ["img/rooms/apartment-living-01.webp", "img/rooms/apartment-living-02.webp"],
+        names: ["Apartament"],
+        tagKey: "rg_apart_tag",
+        titleKey: "rg_apart_title",
+        descKey: "rg_apart_desc",
+        featureKeys: ["feat_two_bedrooms", "feat_kitchen_full", "feat_living", "feat_private_entrance", "feat_bath", "feat_wifi"]
       }
     ];
+
+    const roomTypes = roomGroups.map((group) => ({
+      ...group,
+      cover: group.images[0] || ""
+    }));
+
+    // Wspólne przestrzenie. Zdjęcia dodasz w img/shared/ (pole image), nagrania w polu video
+    // (np. wideo o nazwie kuchnia.mp4 w katalogu img/shared). Pusta wartość = placeholder „Zdjęcia i nagrania wkrótce".
+    const sharedSpaces = [
+      { id: "kitchen", icon: "kitchen",  image: "img/shared/kuchnia-01.webp", video: "",                     titleKey: "shared_kitchen_title", textKey: "shared_kitchen_text", tagKey: "shared_kitchen_tag" },
+      { id: "salon",   icon: "games",    image: "img/shared/salon-01.webp",   video: "img/shared/salon.mp4", titleKey: "shared_salon_title",   textKey: "shared_salon_text",   tagKey: "shared_salon_tag" },
+      { id: "terrace", icon: "terrace",  image: "img/shared/taras.webp",      video: "",                     titleKey: "shared_terrace_title", textKey: "shared_terrace_text", tagKey: "shared_terrace_tag" }
+    ];
+
+    const amenityItems = [
+      { icon: "wifi", labelKey: "am_wifi" },
+      { icon: "parking", labelKey: "am_parking" },
+      { icon: "shield", labelKey: "am_monitoring" },
+      { icon: "bike", labelKey: "am_bikes" },
+      { icon: "beach", labelKey: "am_beach_gear" },
+      { icon: "wash", labelKey: "am_laundry" },
+      { icon: "grill", labelKey: "am_grill" },
+      { icon: "kitchen", labelKey: "am_kitchenette" },
+      { icon: "terrace", labelKey: "am_terrace" },
+      { icon: "play", labelKey: "am_playground" },
+      { icon: "bed", labelKey: "am_linen" },
+      { icon: "safe", labelKey: "am_safe" }
+    ];
+
+    const amenityIcons = {
+      wifi: '<path d="M5 12.5a10 10 0 0 1 14 0"/><path d="M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.5" r="1.2" fill="currentColor" stroke="none"/><path d="M2 9a15 15 0 0 1 20 0"/>',
+      parking: '<rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 16V8h3.5a2.5 2.5 0 0 1 0 5H9"/>',
+      shield: '<path d="M12 3l7 3v5c0 4.5-3 7.6-7 9-4-1.4-7-4.5-7-9V6z"/><path d="m9 12 2 2 4-4"/>',
+      bike: '<circle cx="6" cy="17" r="3.2"/><circle cx="18" cy="17" r="3.2"/><path d="M6 17l4-7h4l3 7M10 10h5M13.5 7h3"/>',
+      beach: '<path d="M12 21V9"/><path d="M4 21h16"/><path d="M12 9a7 7 0 0 1 8 4H12z"/><path d="M12 9a7 7 0 0 0-8 4"/>',
+      wash: '<rect x="5" y="3" width="14" height="18" rx="2"/><circle cx="12" cy="13" r="4"/><path d="M8 6h.01M11 6h.01"/>',
+      grill: '<circle cx="12" cy="10" r="6"/><path d="M9 16l-1.5 4M15 16l1.5 4M8 10h8"/>',
+      kitchen: '<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 9h16M8 5v1M8 13v4"/>',
+      terrace: '<path d="M3 20h18"/><path d="M5 20v-7h14v7"/><path d="M5 13l7-6 7 6"/>',
+      play: '<circle cx="12" cy="5" r="2"/><path d="M12 7v6M8 21l4-8 4 8M6 12h12"/>',
+      bed: '<path d="M3 18v-6h18v6M3 18v2M21 18v2"/><path d="M3 12V8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4"/><path d="M7 12v-2h4v2"/>',
+      safe: '<rect x="4" y="4" width="16" height="16" rx="2"/><circle cx="12" cy="12" r="3.2"/><path d="M12 4v16"/>',
+      games: '<rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8.5" cy="8.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.2" fill="currentColor" stroke="none"/>',
+      tv: '<rect x="3" y="5" width="18" height="12" rx="2"/><path d="M8 21h8M12 17v4"/>'
+    };
 
     const menuToggle = document.getElementById("menu-toggle");
     const mainNav = document.getElementById("main-nav");
@@ -1204,38 +1468,6 @@
       }).join("");
     }
 
-    function renderAreaCyclingRoutes(dict) {
-      const bikeIcon = `
-        <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
-          <circle cx="15.5" cy="31.5" r="6.5" stroke="currentColor" stroke-width="1.8"/>
-          <circle cx="32.5" cy="31.5" r="6.5" stroke="currentColor" stroke-width="1.8"/>
-          <path d="M15.5 31.5L23 18H28.5L32.5 31.5M23 18L30 31.5M19.5 18H12.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M29.5 13.5H34.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-        </svg>
-      `;
-      return cyclingRoutes.map((route) => {
-        const title = dict[route.titleKey] || "";
-        const text = dict[route.textKey] || "";
-        const tags = route.tagKeys.map((key) => `<li>${dict[key] || ""}</li>`).join("");
-        return `
-          <article class="area-route-card area-modal-item">
-            <div class="area-route-visual">
-              <img src="${route.image}" alt="${title}">
-              <span class="area-route-icon">${bikeIcon}</span>
-            </div>
-            <div class="area-route-body">
-              <strong>${title}</strong>
-              <p>${text}</p>
-              <ul class="area-route-tags">${tags}</ul>
-              <div class="area-route-actions">
-                <a class="button button-secondary" href="${route.mapUrl}" target="_blank" rel="noopener noreferrer">${dict.area_route_button || ""}</a>
-              </div>
-            </div>
-          </article>
-        `;
-      }).join("");
-    }
-
     function stopAttractionRotators() {
       document.querySelectorAll("[data-attraction-card]").forEach((card) => {
         if (card._rotationTimer) {
@@ -1290,9 +1522,7 @@
     function renderAreaGalleries(lang) {
       const dict = translations[lang] || translations.pl;
       const beachGrid = document.querySelector('[data-area-grid="beach"]');
-      const cyclingGrid = document.querySelector('[data-area-grid="cycling"]');
       if (beachGrid) beachGrid.innerHTML = renderAreaAttractions(dict);
-      if (cyclingGrid) cyclingGrid.innerHTML = renderAreaCyclingRoutes(dict);
       if (activeAreaModal === areaModalMap.beach) {
         startAttractionRotators();
       } else {
@@ -1300,9 +1530,215 @@
       }
     }
 
+    const BOOKING_URL = "https://www.booking.com/hotel/pl/pensjonat-dom-latarnika.pl.html";
+
+    const revealItems = document.querySelectorAll("[data-reveal]");
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    function roomNamesChips(group) {
+      return group.names.map((n) => `<span class="room-name-chip">${n}</span>`).join("");
+    }
+
+    function renderRooms(lang) {
+      const grid = document.getElementById("rooms-grid");
+      if (!grid) return;
+      const dict = translations[lang] || translations.pl;
+      grid.innerHTML = roomTypes.map((group, index) => {
+        const title = dict[group.titleKey] || "";
+        const desc = dict[group.descKey] || "";
+        const tag = dict[group.tagKey] || "";
+        const media = group.cover
+          ? `<img src="${group.cover}" alt="${title}" loading="lazy">`
+          : `<div class="room-card-placeholder"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 44V20l4-6 4 6v24"/><path d="M20 26h8M20 32h8M20 38h8"/><path d="M14 22l-4 3M34 22l4 3M16 44H8M40 44h-8"/></svg><span>${dict.room_photos_soon || "Zdjęcia wkrótce"}</span></div>`;
+        return `
+          <article class="card room-card${group.cover ? "" : " room-card--placeholder"}" data-room-index="${index}" data-reveal>
+            <div class="room-card-media">
+              ${media}
+              <span class="room-card-badge">${tag}</span>
+            </div>
+            <div class="room-body">
+              <h3>${title}</h3>
+              <p>${desc}</p>
+              <div class="room-names" aria-label="${dict.room_names_label || "Pokoje w tej kategorii"}">${roomNamesChips(group)}</div>
+              <div class="room-card-actions">
+                <button class="button button-secondary" type="button" data-room-open="${index}">${dict.room_details || "Szczegóły"}</button>
+                <a class="button button-primary" href="${BOOKING_URL}" target="_blank" rel="noopener">${dict.book_online || "Rezerwuj"}</a>
+              </div>
+            </div>
+          </article>
+        `;
+      }).join("");
+      grid.querySelectorAll("[data-reveal]").forEach((item) => revealObserver.observe(item));
+    }
+
+    function renderAmenities(lang) {
+      const grid = document.getElementById("amenities-grid");
+      if (!grid) return;
+      const dict = translations[lang] || translations.pl;
+      grid.innerHTML = amenityItems.map((item) => `
+        <span class="amenity-chip">
+          <span class="amenity-chip-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${amenityIcons[item.icon] || ""}</svg>
+          </span>
+          ${dict[item.labelKey] || ""}
+        </span>
+      `).join("");
+    }
+
+    function renderSharedSpaces(lang) {
+      const grid = document.getElementById("shared-grid");
+      if (!grid) return;
+      const dict = translations[lang] || translations.pl;
+      grid.innerHTML = sharedSpaces.map((space) => {
+        const title = dict[space.titleKey] || "";
+        const text = dict[space.textKey] || "";
+        const tag = dict[space.tagKey] || "";
+        let media;
+        if (space.video) {
+          media = `<video class="shared-media-el" controls preload="metadata"${space.image ? ` poster="${space.image}"` : ""}>
+              <source src="${space.video}" type="video/mp4">
+            </video>`;
+        } else if (space.image) {
+          media = `<img class="shared-media-el" src="${space.image}" alt="${title}" loading="lazy">`;
+        } else {
+          media = `<div class="shared-media-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${amenityIcons[space.icon] || ""}</svg>
+              <span>${dict.shared_media_soon || "Zdjęcia i nagrania wkrótce"}</span>
+            </div>`;
+        }
+        return `
+          <article class="shared-card">
+            <div class="shared-media${space.video ? " has-video" : ""}${space.image || space.video ? "" : " is-empty"}">
+              ${media}
+              <span class="shared-tag">${tag}</span>
+            </div>
+            <div class="shared-body">
+              <span class="shared-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${amenityIcons[space.icon] || ""}</svg>
+              </span>
+              <div>
+                <h3>${title}</h3>
+                <p>${text}</p>
+              </div>
+            </div>
+          </article>
+        `;
+      }).join("");
+    }
+
+    // ---- Modal pojedynczego pokoju ----
+    const roomModal = document.getElementById("room-modal");
+    const roomModalBody = document.getElementById("room-modal-body");
+    let lastRoomTrigger = null;
+    let roomModalIndex = 0;
+
+    function buildRoomModalContent(group, lang) {
+      const dict = translations[lang] || translations.pl;
+      const title = dict[group.titleKey] || "";
+      const desc = dict[group.descKey] || "";
+      const tag = dict[group.tagKey] || "";
+      const hasImages = group.images.length > 0;
+      const thumbs = group.images.map((src, i) => `
+        <button type="button" class="room-modal-thumb${i === 0 ? " is-active" : ""}" data-room-thumb="${i}" aria-label="${dict.gallery_image_fallback || "Zdjęcie"} ${i + 1}">
+          <img src="${src}" alt="" loading="lazy">
+        </button>
+      `).join("");
+      const features = group.featureKeys.map((key) => `
+        <li><span class="room-modal-check" aria-hidden="true">✓</span>${dict[key] || ""}</li>
+      `).join("");
+      const nameChips = group.names.map((n) => `<span class="room-name-chip">${n}</span>`).join("");
+      const stage = hasImages
+        ? `<img id="room-modal-stage-img" src="${group.images[0]}" alt="${title}">`
+        : `<div class="room-modal-placeholder">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 44V20l4-6 4 6v24"/><path d="M20 26h8M20 32h8M20 38h8"/><path d="M14 22l-4 3M34 22l4 3M16 44H8M40 44h-8"/></svg>
+            <span>${dict.room_photos_soon || "Zdjęcia wkrótce"}</span>
+          </div>`;
+      return `
+        <div class="room-modal-gallery">
+          <div class="room-modal-stage${hasImages ? "" : " is-empty"}">
+            ${stage}
+            <span class="room-modal-badge">${tag}</span>
+          </div>
+          <div class="room-modal-thumbs">${thumbs}</div>
+        </div>
+        <div class="room-modal-info">
+          <span class="section-kicker">${dict.rooms_kicker || ""}</span>
+          <h3 id="room-modal-title">${title}</h3>
+          <p class="room-modal-desc">${desc}</p>
+          <strong class="room-modal-subtitle">${dict.room_names_label || "Pokoje w tej kategorii"}</strong>
+          <div class="room-modal-names">${nameChips}</div>
+          <strong class="room-modal-subtitle">${dict.room_equipment || "Wyposażenie"}</strong>
+          <ul class="room-modal-features">${features}</ul>
+          <div class="room-modal-actions">
+            <a class="button button-primary" href="${BOOKING_URL}" target="_blank" rel="noopener">${dict.check_availability || "Sprawdź dostępność"}</a>
+            <a class="button button-secondary phone-label" href="${phoneByLang[lang] || phoneByLang.pl}">${dict.call || "Zadzwoń"}</a>
+          </div>
+        </div>
+      `;
+    }
+
+    function bindRoomModalThumbs(room) {
+      const stageImg = document.getElementById("room-modal-stage-img");
+      roomModalBody.querySelectorAll("[data-room-thumb]").forEach((thumb) => {
+        thumb.addEventListener("click", () => {
+          const idx = Number(thumb.dataset.roomThumb);
+          if (stageImg) stageImg.src = room.images[idx];
+          roomModalBody.querySelectorAll("[data-room-thumb]").forEach((t) => t.classList.remove("is-active"));
+          thumb.classList.add("is-active");
+        });
+      });
+    }
+
+    function openRoomModal(index, trigger) {
+      const room = roomTypes[index];
+      if (!room || !roomModal) return;
+      roomModalIndex = index;
+      lastRoomTrigger = trigger || document.activeElement;
+      roomModalBody.innerHTML = buildRoomModalContent(room, document.documentElement.lang || "pl");
+      bindRoomModalThumbs(room);
+      roomModal.hidden = false;
+      document.body.style.overflow = "hidden";
+      roomModal.querySelector("[data-room-modal-close]")?.focus();
+    }
+
+    function closeRoomModal() {
+      if (!roomModal || roomModal.hidden) return;
+      roomModal.hidden = true;
+      document.body.style.overflow = "";
+      if (lastRoomTrigger instanceof HTMLElement) lastRoomTrigger.focus();
+    }
+
+    if (roomModal) {
+      document.addEventListener("click", (event) => {
+        const opener = event.target.closest("[data-room-open]");
+        if (opener) {
+          openRoomModal(Number(opener.dataset.roomOpen), opener);
+        }
+      });
+      roomModal.querySelector("[data-room-modal-close]")?.addEventListener("click", closeRoomModal);
+      roomModal.addEventListener("click", (event) => {
+        if (event.target === roomModal) closeRoomModal();
+      });
+      document.addEventListener("keydown", (event) => {
+        if (roomModal.hidden) return;
+        if (event.key === "Escape") {
+          closeRoomModal();
+          return;
+        }
+        const dialog = roomModal.querySelector(".room-modal-dialog");
+        if (event.key === "Tab" && dialog) trapFocusIn(dialog, event);
+      });
+    }
+
     const areaModalMap = {
       beach: document.getElementById("area-beach-modal"),
-      cycling: document.getElementById("area-cycling-modal"),
       score: document.getElementById("area-score-modal")
     };
     const areaModalOpeners = Array.from(document.querySelectorAll("[data-area-modal-open]"));
@@ -1510,6 +1946,16 @@
         if (typeof gallery._restartAutoMotion === "function") gallery._restartAutoMotion();
       });
       renderAreaGalleries(lang);
+      renderRooms(lang);
+      renderAmenities(lang);
+      renderSharedSpaces(lang);
+      if (roomModal && !roomModal.hidden) {
+        const room = roomTypes[roomModalIndex];
+        if (room) {
+          roomModalBody.innerHTML = buildRoomModalContent(room, lang);
+          bindRoomModalThumbs(room);
+        }
+      }
       updateExternalLinkLabels(dict);
       updateMenuToggleLabel(lang);
       heroStatus.textContent = formatMessage(dict.hero_slide_status, {
@@ -1525,16 +1971,7 @@
       button.addEventListener("click", () => setLanguage(button.dataset.lang));
     });
 
-    const revealItems = document.querySelectorAll("[data-reveal]");
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("is-visible");
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.18 });
-    revealItems.forEach((item) => observer.observe(item));
+    revealItems.forEach((item) => revealObserver.observe(item));
 
     loadA11yPrefs();
     document.querySelectorAll(".gallery-clean").forEach(initCleanGallery);
@@ -1616,6 +2053,67 @@
           isVisible = false;
         }
       }, { passive: true });
+    }
+
+    // ---- Nagłówek: kurczenie przy przewijaniu ----
+    const siteHeader = document.getElementById("site-header");
+    if (siteHeader) {
+      const onScrollHeader = () => {
+        siteHeader.classList.toggle("is-scrolled", window.scrollY > 24);
+      };
+      window.addEventListener("scroll", onScrollHeader, { passive: true });
+      onScrollHeader();
+    }
+
+    // ---- Tablica Facebooka: ładowana dopiero po zgodzie (RODO) ----
+    const fbEmbed = document.getElementById("fb-embed");
+    if (fbEmbed) {
+      let fbLoaded = false;
+
+      function socialConsentGranted() {
+        try {
+          const consent = JSON.parse(localStorage.getItem("domLatarnika_cookieConsent") || "null");
+          return Boolean(consent && (consent.social || consent.analytics));
+        } catch {
+          return false;
+        }
+      }
+
+      function loadFacebookEmbed() {
+        if (fbLoaded) return;
+        fbLoaded = true;
+        fbEmbed.classList.add("is-loaded");
+        const pageUrl = fbEmbed.dataset.fbPage || "https://www.facebook.com/DomLatarnika";
+        const src = "https://www.facebook.com/plugins/page.php?href=" +
+          encodeURIComponent(pageUrl) +
+          "&tabs=timeline&width=380&height=560&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true";
+        const iframe = document.createElement("iframe");
+        iframe.src = src;
+        iframe.title = "Facebook Dom Latarnika";
+        iframe.width = "100%";
+        iframe.height = "560";
+        iframe.loading = "lazy";
+        iframe.style.border = "0";
+        iframe.setAttribute("scrolling", "no");
+        iframe.setAttribute("frameborder", "0");
+        iframe.allow = "encrypted-media";
+        const placeholder = document.getElementById("fb-embed-placeholder");
+        fbEmbed.innerHTML = "";
+        fbEmbed.appendChild(iframe);
+      }
+
+      const fbLoadBtn = document.getElementById("fb-embed-load");
+      if (fbLoadBtn) {
+        fbLoadBtn.addEventListener("click", () => {
+          if (window.CookieConsent && typeof window.CookieConsent.grantSocial === "function") {
+            window.CookieConsent.grantSocial();
+          }
+          loadFacebookEmbed();
+        });
+      }
+
+      if (socialConsentGranted()) loadFacebookEmbed();
+      window.addEventListener("dl:social-consent", loadFacebookEmbed);
     }
 
     initTestimonialCarousel();
