@@ -3336,7 +3336,6 @@
     .fb-embed-fb-icon svg{width:32px;height:32px;fill:#fff}
     .fb-embed-placeholder strong{color:var(--navy-strong);font-size:1.15rem}
     .fb-embed-placeholder p{margin:0;color:var(--muted);max-width:46ch;line-height:1.55}
-    .fb-embed-actions{margin-top:4px}
     /* Nagłówek feedu */
     .fb-feed-head{
       display:flex;align-items:center;gap:10px;
