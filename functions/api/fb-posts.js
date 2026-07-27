@@ -7,7 +7,7 @@
  *
  * Token jest SEKRETEM — trzymamy go w zmiennych środowiskowych
  * Cloudflare Pages, NIGDY w kodzie strony. Ustaw w panelu Cloudflare:
- *   Settings → Environment variables (Production i Preview):
+ *   Settings → Variables and Secrets (Production i Preview):
  *     FB_PAGE_ID     – numeryczne ID Strony (np. 1181172...), albo vanity „DomLatarnika”
  *     FB_PAGE_TOKEN  – długoterminowy token Strony (Page Access Token)
  *   Opcjonalnie:

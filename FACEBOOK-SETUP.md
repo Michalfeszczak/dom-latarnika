@@ -6,8 +6,8 @@ niezawodnie, bez wtyczki FB i bez zależności od ciasteczek w przeglądarce go�
 Posty pobiera funkcja serwerowa **`functions/api/fb-posts.js`** (endpoint `/api/fb-posts`)
 na Cloudflare Pages. Token trzymany jest jako **sekret** po stronie serwera — nigdy w kodzie strony.
 
-Dopóki nie ustawisz tokenu, sekcja pokazuje ładny kafelek „Zajrzyj na nasz Facebook"
-z przyciskiem do profilu (nic się nie psuje).
+Dopóki nie ustawisz tokenu, sekcja pokazuje spokojny kafelek „Zajrzyj na nasz Facebook"
+bez dodatkowego przycisku (nic się nie psuje).
 
 ---
 
@@ -25,7 +25,7 @@ z przyciskiem do profilu (nic się nie psuje).
    (https://developers.facebook.com/tools/debug/accesstoken/) → **Extend Access Token**.
 
 ### 3. Wklej dane w Cloudflare Pages
-Projekt Pages → **Settings → Environment variables** (Production i Preview):
+Projekt Pages → **Settings → Variables and Secrets** (Production i Preview):
 
 | Nazwa | Wartość |
 |---|---|
@@ -49,4 +49,4 @@ Opcjonalnie: `FB_EDGE` (`posts`/`feed`), `FB_LIMIT` (domyślnie `6`). Zapisz i z
   Jeśli chcesz to wyeliminować, można dodatkowo proxyować obrazki przez tę samą funkcję (do ustalenia).
 
 ## Gdy tokenu nie ma
-- `/api/fb-posts` zwraca pustą listę, a strona pokazuje kafelek „Zajrzyj na nasz Facebook" z linkiem do profilu.
+- `/api/fb-posts` zwraca pustą listę, a strona pokazuje spokojny kafelek „Zajrzyj na nasz Facebook" bez dodatkowego przycisku.
