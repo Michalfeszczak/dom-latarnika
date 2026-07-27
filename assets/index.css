@@ -2711,6 +2711,25 @@
     .news-card-body{padding:0 20px 20px;display:flex;flex-direction:column;justify-content:center}
     .news-card-body h3{margin:0 0 8px;color:var(--navy-strong);font-size:1.12rem}
     .news-card-body p{margin:0;color:var(--muted);line-height:1.55;font-size:.95rem}
+    .news-facebook-cta{
+      display:flex;
+      justify-content:center;
+      margin-top:22px;
+    }
+    .button-facebook{
+      background:#1877f2;
+      color:#fff;
+      box-shadow:0 12px 24px rgba(24,119,242,.22);
+    }
+    .button-facebook:hover{background:#0f66d0}
+    .button-facebook-icon{
+      display:grid;
+      place-items:center;
+      width:18px;
+      height:18px;
+      flex:0 0 18px;
+    }
+    .button-facebook-icon svg{width:18px;height:18px;fill:currentColor}
     @media (max-width:960px){
       .news-cards{grid-template-columns:1fr}
     }
