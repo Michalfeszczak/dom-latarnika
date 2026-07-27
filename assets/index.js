@@ -497,12 +497,6 @@
         news_card2_title: "Wolne terminy i promocje",
         news_card2_text: "O ostatnie wolne terminy i oferty specjalne najlepiej zapytać nas bezpośrednio.",
         news_card2_more: "Zapytaj o termin →",
-        fb_embed_title: "Zajrzyj na nasz Facebook",
-        fb_embed_text: "Najnowsze zdjęcia, wolne terminy i wydarzenia publikujemy na bieżąco na naszym profilu.",
-        fb_embed_open: "Odwiedź profil",
-        fb_feed_title: "Najnowsze na Facebooku",
-        fb_feed_follow: "Obserwuj",
-        fb_post_cta: "Zobacz na Facebooku",
         news_card2_aria: "Wolne terminy — zapytaj o pobyt",
         season_modal_aria: "Zdjęcia z sezonu",
         season_photo_alt: "Zdjęcie z sezonu",
@@ -844,12 +838,6 @@
         news_card2_title: "Freie Termine und Angebote",
         news_card2_text: "Nach freien Terminen und Sonderangeboten fragen Sie uns am besten direkt.",
         news_card2_more: "Termin anfragen →",
-        fb_embed_title: "Besuchen Sie unser Facebook",
-        fb_embed_text: "Aktuelle Fotos, freie Termine und Veranstaltungen posten wir laufend auf unserem Profil.",
-        fb_embed_open: "Profil besuchen",
-        fb_feed_title: "Neu auf Facebook",
-        fb_feed_follow: "Folgen",
-        fb_post_cta: "Auf Facebook ansehen",
         news_card2_aria: "Freie Termine — Aufenthalt anfragen",
         season_modal_aria: "Fotos aus der Saison",
         season_photo_alt: "Foto aus der Saison",
@@ -1191,12 +1179,6 @@
         news_card2_title: "Free dates and offers",
         news_card2_text: "For last-minute availability and special offers, it is best to ask us directly.",
         news_card2_more: "Ask about dates →",
-        fb_embed_title: "Visit our Facebook",
-        fb_embed_text: "We post the latest photos, free dates and events on our profile.",
-        fb_embed_open: "Visit profile",
-        fb_feed_title: "Latest on Facebook",
-        fb_feed_follow: "Follow",
-        fb_post_cta: "See on Facebook",
         news_card2_aria: "Free dates — ask about a stay",
         season_modal_aria: "Photos from the season",
         season_photo_alt: "Season photo",
@@ -2590,71 +2572,6 @@
       };
       window.addEventListener("scroll", onScrollHeader, { passive: true });
       onScrollHeader();
-    }
-
-    // ---- Aktualności z Facebooka przez Graph API (własne kafelki) ----
-    // Posty pobiera funkcja serwerowa /api/fb-posts (token po stronie serwera).
-    // Gdy token nie jest ustawiony lub brak sieci — zostaje elegancki fallback (CTA w HTML).
-    const fbEmbed = document.getElementById("fb-embed");
-    if (fbEmbed) {
-      const fbPageUrl = fbEmbed.dataset.fbPage || "https://www.facebook.com/DomLatarnika";
-      const fbEndpoint = fbEmbed.dataset.fbEndpoint || "/api/fb-posts";
-
-      const fbEscape = (str) => String(str).replace(/[&<>"']/g, (c) => (
-        { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]
-      ));
-
-      const fbFormatDate = (iso, lang) => {
-        if (!iso) return "";
-        const d = new Date(iso);
-        if (isNaN(d)) return "";
-        const locale = lang === "de" ? "de-DE" : lang === "en" ? "en-GB" : "pl-PL";
-        return d.toLocaleDateString(locale, { day: "numeric", month: "long", year: "numeric" });
-      };
-
-      function renderFbPosts(posts) {
-        const lang = document.documentElement.lang || "pl";
-        const dict = translations[lang] || translations.pl;
-        const items = posts.map((p) => {
-          const text = (p.text || "").trim();
-          const short = text.length > 150 ? text.slice(0, 150).replace(/\s+\S*$/, "") + "…" : text;
-          const media = p.image
-            ? `<span class="fb-post-media"><img src="${fbEscape(p.image)}" alt="" loading="lazy"></span>`
-            : "";
-          const date = fbFormatDate(p.date, lang);
-          return `
-            <a class="fb-post" href="${fbEscape(p.url)}" target="_blank" rel="noopener">
-              ${media}
-              <span class="fb-post-body">
-                ${date ? `<span class="fb-post-date">${date}</span>` : ""}
-                ${short ? `<span class="fb-post-text">${fbEscape(short)}</span>` : ""}
-                <span class="fb-post-cta">${dict.fb_post_cta || "Zobacz na Facebooku"} →</span>
-              </span>
-            </a>`;
-        }).join("");
-        fbEmbed.classList.add("is-loaded");
-        fbEmbed.innerHTML = `
-          <div class="fb-feed-head">
-            <span class="fb-feed-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.6 1.6-1.6H17V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3h2.8v8h3.2z"/></svg></span>
-            <strong>${dict.fb_feed_title || "Najnowsze na Facebooku"}</strong>
-            <a href="${fbEscape(fbPageUrl)}/?locale=pl_PL" target="_blank" rel="noopener">${dict.fb_feed_follow || "Obserwuj"}</a>
-          </div>
-          <div class="fb-feed-list">${items}</div>`;
-      }
-
-      function loadFacebookPosts() {
-        fetch(fbEndpoint, { headers: { "Accept": "application/json" } })
-          .then((r) => (r.ok ? r.json() : null))
-          .then((data) => {
-            if (data && Array.isArray(data.posts) && data.posts.length) {
-              renderFbPosts(data.posts);
-            }
-            // brak postów / brak konfiguracji → zostaje placeholder CTA z HTML
-          })
-          .catch(() => { /* offline / brak funkcji — zostaje placeholder CTA */ });
-      }
-
-      loadFacebookPosts();
     }
 
     // ---- Galeria „Zdjęcia z tego sezonu” (kafelek w Aktualnościach) ----
