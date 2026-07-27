@@ -1,6 +1,6 @@
 /**
  * Cookie Consent Manager - RODO/GDPR compliant
- * Obsługuje zgodę użytkownika na cookies analityczne i społecznościowe (np. tablica Facebooka).
+ * Obsługuje zgodę użytkownika na cookies analityczne.
  *
  * Jak dołączyć analitykę (np. Google Analytics) po starcie:
  *   1) uzupełnij loadAnalytics() swoim ID/skryptem,
@@ -16,7 +16,6 @@ const CookieConsent = {
       this.show();
     } else {
       if (existing.analytics) this.loadAnalytics();
-      if (existing.social) this.notifySocial();
     }
   },
 
@@ -34,11 +33,9 @@ const CookieConsent = {
     this.setConsent({
       necessary: true,
       analytics: true,
-      social: true,
       timestamp: new Date().toISOString()
     });
     this.loadAnalytics();
-    this.notifySocial();
     this.hide();
   },
 
@@ -46,24 +43,9 @@ const CookieConsent = {
     this.setConsent({
       necessary: true,
       analytics: false,
-      social: false,
       timestamp: new Date().toISOString()
     });
     this.hide();
-  },
-
-  // Zgoda tylko na treści społecznościowe (np. gdy użytkownik kliknie „Pokaż tablicę")
-  grantSocial() {
-    const current = this.getConsent() || { necessary: true, analytics: false };
-    current.social = true;
-    current.timestamp = new Date().toISOString();
-    this.setConsent(current);
-    this.notifySocial();
-    this.hide();
-  },
-
-  notifySocial() {
-    window.dispatchEvent(new CustomEvent('dl:social-consent'));
   },
 
   setConsent(consent) {
@@ -107,7 +89,7 @@ const CookieConsent = {
   }
 };
 
-// Udostępnij globalnie (używane przez tablicę Facebooka w index.js)
+// Udostępnij globalnie dla panelu ustawień cookies.
 window.CookieConsent = CookieConsent;
 
 function initCookieConsent() {

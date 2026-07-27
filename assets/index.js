@@ -487,7 +487,7 @@
         am_safe: "Sejf w pokoju",
         news_kicker: "Aktualności",
         news_title: "Co słychać w Domu Latarnika",
-        news_text: "Najnowsze zdjęcia, wolne terminy i promocje publikujemy na naszym Facebooku. Zajrzyj i bądź na bieżąco przed sezonem.",
+        news_text: "Najnowsze zdjęcia, wolne terminy i promocje znajdziesz w aktualnościach oraz bezpośrednio u nas. Zajrzyj i bądź na bieżąco przed sezonem.",
         news_tag_photo: "Zdjęcia",
         news_tag_offer: "Terminy",
         news_card1_title: "Zdjęcia z tego sezonu",
@@ -495,20 +495,11 @@
         news_card1_more: "Przeglądaj galerię →",
         news_card1_aria: "Zobacz zdjęcia z tego sezonu",
         news_card2_title: "Wolne terminy i promocje",
-        news_card2_text: "O ostatnich wolnych terminach i ofertach specjalnych informujemy na bieżąco na Facebooku.",
-        news_card2_more: "Sprawdź na Facebooku →",
-        news_card2_aria: "Wolne terminy — sprawdź na Facebooku",
+        news_card2_text: "O ostatnie wolne terminy i oferty specjalne najlepiej zapytać nas bezpośrednio.",
+        news_card2_more: "Zapytaj o termin →",
+        news_card2_aria: "Wolne terminy — zapytaj o pobyt",
         season_modal_aria: "Zdjęcia z sezonu",
         season_photo_alt: "Zdjęcie z sezonu",
-        fb_embed_title: "Zajrzyj na nasz Facebook",
-        fb_embed_text: "Najnowsze zdjęcia, wolne terminy i wydarzenia publikujemy na bieżąco na naszym profilu.",
-        fb_feed_title: "Najnowsze na Facebooku",
-        fb_feed_follow: "Obserwuj",
-        fb_post_cta: "Zobacz na Facebooku",
-        fb_embed_load: "Pokaż tablicę",
-        fb_embed_open: "Otwórz w nowej karcie",
-        fb_embed_fallback: "Nie widać tablicy? Otwórz nasz profil na Facebooku",
-        fb_embed_blocked: "Twoja przeglądarka lub rozszerzenie zablokowały osadzoną tablicę. Otwórz nasz profil bezpośrednio na Facebooku.",
         nav_spaces: "Przestrzenie",
         nav_amenities: "Udogodnienia",
         nav_news: "Aktualności",
@@ -519,7 +510,7 @@
         stats_beach_num: "5 min",
         stats_beach: "do plaży",
         privacy: "Polityka prywatności",
-        cookie_text: "Używamy cookies do analizy ruchu i treści społecznościowych (np. tablica Facebooka).",
+        cookie_text: "Używamy cookies do analizy ruchu oraz poprawnego działania strony.",
         cookie_decline: "Odrzuć",
         cookie_accept: "Zaakceptuj",
         reviews_kicker: "Opinie",
@@ -837,7 +828,7 @@
         am_safe: "Safe im Zimmer",
         news_kicker: "Aktuelles",
         news_title: "Neues aus dem Dom Latarnika",
-        news_text: "Die neuesten Fotos, freien Termine und Angebote veröffentlichen wir auf unserem Facebook. Schauen Sie vorbei und bleiben Sie vor der Saison auf dem Laufenden.",
+        news_text: "Die neuesten Fotos, freien Termine und Angebote finden Sie in unseren Neuigkeiten und direkt bei uns. Schauen Sie vorbei und bleiben Sie vor der Saison auf dem Laufenden.",
         news_tag_photo: "Fotos",
         news_tag_offer: "Termine",
         news_card1_title: "Fotos aus dieser Saison",
@@ -845,20 +836,11 @@
         news_card1_more: "Galerie ansehen →",
         news_card1_aria: "Fotos aus dieser Saison ansehen",
         news_card2_title: "Freie Termine und Angebote",
-        news_card2_text: "Über die letzten freien Termine und Sonderangebote informieren wir laufend auf Facebook.",
-        news_card2_more: "Auf Facebook ansehen →",
-        news_card2_aria: "Freie Termine — auf Facebook ansehen",
+        news_card2_text: "Nach freien Terminen und Sonderangeboten fragen Sie uns am besten direkt.",
+        news_card2_more: "Termin anfragen →",
+        news_card2_aria: "Freie Termine — Aufenthalt anfragen",
         season_modal_aria: "Fotos aus der Saison",
         season_photo_alt: "Foto aus der Saison",
-        fb_embed_title: "Besuchen Sie unser Facebook",
-        fb_embed_text: "Aktuelle Fotos, freie Termine und Veranstaltungen posten wir laufend auf unserem Profil.",
-        fb_feed_title: "Neu auf Facebook",
-        fb_feed_follow: "Folgen",
-        fb_post_cta: "Auf Facebook ansehen",
-        fb_embed_load: "Pinnwand anzeigen",
-        fb_embed_open: "In neuem Tab öffnen",
-        fb_embed_fallback: "Pinnwand nicht sichtbar? Öffnen Sie unser Facebook-Profil",
-        fb_embed_blocked: "Ihr Browser oder eine Erweiterung hat die eingebettete Pinnwand blockiert. Öffnen Sie unser Profil direkt auf Facebook.",
         nav_spaces: "Bereiche",
         nav_amenities: "Ausstattung",
         nav_news: "Aktuelles",
@@ -869,7 +851,7 @@
         stats_beach_num: "5 Min.",
         stats_beach: "zum Strand",
         privacy: "Datenschutz",
-        cookie_text: "Wir verwenden Cookies zur Verkehrsanalyse und für Social-Media-Inhalte (z. B. Facebook-Pinnwand).",
+        cookie_text: "Wir verwenden Cookies zur Verkehrsanalyse und für den ordnungsgemäßen Betrieb der Website.",
         cookie_decline: "Ablehnen",
         cookie_accept: "Akzeptieren",
         reviews_kicker: "Bewertungen",
@@ -1187,7 +1169,7 @@
         am_safe: "In-room safe",
         news_kicker: "News",
         news_title: "What's happening at Dom Latarnika",
-        news_text: "We post the latest photos, free dates and special offers on our Facebook. Take a look and stay up to date before the season.",
+        news_text: "You can find the latest photos, free dates and special offers in our news and directly from us. Take a look and stay up to date before the season.",
         news_tag_photo: "Photos",
         news_tag_offer: "Dates",
         news_card1_title: "Photos from this season",
@@ -1195,20 +1177,11 @@
         news_card1_more: "Browse the gallery →",
         news_card1_aria: "See photos from this season",
         news_card2_title: "Free dates and offers",
-        news_card2_text: "We share last-minute availability and special offers on our Facebook.",
-        news_card2_more: "Check on Facebook →",
-        news_card2_aria: "Free dates — check on Facebook",
+        news_card2_text: "For last-minute availability and special offers, it is best to ask us directly.",
+        news_card2_more: "Ask about dates →",
+        news_card2_aria: "Free dates — ask about a stay",
         season_modal_aria: "Photos from the season",
         season_photo_alt: "Season photo",
-        fb_embed_title: "Visit our Facebook",
-        fb_embed_text: "We post the latest photos, free dates and events on our profile.",
-        fb_feed_title: "Latest on Facebook",
-        fb_feed_follow: "Follow",
-        fb_post_cta: "See on Facebook",
-        fb_embed_load: "Show feed",
-        fb_embed_open: "Open in a new tab",
-        fb_embed_fallback: "Can't see the feed? Open our Facebook profile",
-        fb_embed_blocked: "Your browser or an extension blocked the embedded feed. Open our profile directly on Facebook.",
         nav_spaces: "Spaces",
         nav_amenities: "Amenities",
         nav_news: "News",
@@ -1219,7 +1192,7 @@
         stats_beach_num: "5 min",
         stats_beach: "to the beach",
         privacy: "Privacy policy",
-        cookie_text: "We use cookies for traffic analysis and social media content (e.g. the Facebook feed).",
+        cookie_text: "We use cookies for traffic analysis and for the proper operation of the website.",
         cookie_decline: "Decline",
         cookie_accept: "Accept",
         reviews_kicker: "Reviews",
@@ -2347,7 +2320,10 @@
     }
 
     bookingModalOpeners.forEach((button) => {
-      button.addEventListener("click", () => openBookingModal(button));
+      button.addEventListener("click", (event) => {
+        event.preventDefault();
+        openBookingModal(button);
+      });
     });
 
     bookingModalClosers.forEach((button) => {
@@ -2596,74 +2572,6 @@
       };
       window.addEventListener("scroll", onScrollHeader, { passive: true });
       onScrollHeader();
-    }
-
-    // ---- Tablica Facebooka: ładowana dopiero po zgodzie (RODO) ----
-    // ---- Aktualności z Facebooka przez Graph API (własne kafelki) ----
-    // Posty pobiera funkcja serwerowa /api/fb-posts (token jest po stronie serwera).
-    // Gdy token nie jest jeszcze ustawiony lub brak sieci — zostaje elegancki fallback (CTA).
-    const fbEmbed = document.getElementById("fb-embed");
-    if (fbEmbed) {
-      const pageUrl = fbEmbed.dataset.fbPage || "https://www.facebook.com/DomLatarnika";
-      const endpoint = fbEmbed.dataset.fbEndpoint || "/api/fb-posts";
-
-      function fbEscape(str) {
-        return String(str).replace(/[&<>"']/g, (c) => (
-          { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]
-        ));
-      }
-
-      function fbFormatDate(iso, lang) {
-        if (!iso) return "";
-        const d = new Date(iso);
-        if (isNaN(d)) return "";
-        const locale = lang === "de" ? "de-DE" : lang === "en" ? "en-GB" : "pl-PL";
-        return d.toLocaleDateString(locale, { day: "numeric", month: "long", year: "numeric" });
-      }
-
-      function renderFbPosts(posts) {
-        const lang = document.documentElement.lang || "pl";
-        const dict = translations[lang] || translations.pl;
-        const items = posts.map((p) => {
-          const text = (p.text || "").trim();
-          const short = text.length > 150 ? text.slice(0, 150).replace(/\s+\S*$/, "") + "…" : text;
-          const media = p.image
-            ? `<span class="fb-post-media"><img src="${fbEscape(p.image)}" alt="" loading="lazy"></span>`
-            : "";
-          const date = fbFormatDate(p.date, lang);
-          return `
-            <a class="fb-post" href="${fbEscape(p.url)}" target="_blank" rel="noopener">
-              ${media}
-              <span class="fb-post-body">
-                ${date ? `<span class="fb-post-date">${date}</span>` : ""}
-                ${short ? `<span class="fb-post-text">${fbEscape(short)}</span>` : ""}
-                <span class="fb-post-cta">${dict.fb_post_cta || "Zobacz na Facebooku"} →</span>
-              </span>
-            </a>`;
-        }).join("");
-        fbEmbed.classList.add("is-loaded");
-        fbEmbed.innerHTML = `
-          <div class="fb-feed-head">
-            <span class="fb-feed-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.6 1.6-1.6H17V4.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V11H7.5v3h2.8v8h3.2z"/></svg></span>
-            <strong>${dict.fb_feed_title || "Najnowsze na Facebooku"}</strong>
-            <a href="${fbEscape(pageUrl)}/?locale=pl_PL" target="_blank" rel="noopener">${dict.fb_feed_follow || "Obserwuj"}</a>
-          </div>
-          <div class="fb-feed-list">${items}</div>`;
-      }
-
-      function loadFacebookPosts() {
-        fetch(endpoint, { headers: { "Accept": "application/json" } })
-          .then((r) => (r.ok ? r.json() : null))
-          .then((data) => {
-            if (data && Array.isArray(data.posts) && data.posts.length) {
-              renderFbPosts(data.posts);
-            }
-            // brak postów / brak konfiguracji → zostaje placeholder CTA z HTML
-          })
-          .catch(() => { /* offline / brak funkcji — zostaje placeholder CTA */ });
-      }
-
-      loadFacebookPosts();
     }
 
     // ---- Galeria „Zdjęcia z tego sezonu” (kafelek w Aktualnościach) ----

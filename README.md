@@ -10,8 +10,8 @@ Strona statyczna (HTML/CSS/JS) – bez procesu budowania, gotowa do wrzucenia na
 - ♿ **Dostępna** – panel ułatwień (kontrast, większy tekst, mniej ruchu), obsługa klawiatury
 - 🌍 **Wielojęzyczna** – polski, niemiecki, angielski (przełącznik PL/DE/EN)
 - 🛏️ **Indywidualne pokoje** – 5 typów pokoi/studiów/apartament z modalem zdjęć i wyposażenia
-- 📣 **Aktualności + Facebook** – sekcja aktualności i osadzona tablica FB (po zgodzie RODO)
-- 🔒 **RODO** – baner cookies, treści społecznościowe ładowane dopiero po zgodzie
+- 📣 **Aktualności** – sekcja z galerią sezonu i szybkim zapytaniem o wolne terminy
+- 🔒 **RODO** – baner cookies dla zgody analitycznej
 - 📊 **SEO** – Open Graph, JSON-LD (BedAndBreakfast), sitemap, robots, strona 404
 
 ## 📁 Struktura projektu
@@ -94,12 +94,10 @@ w `assets/index.js`:
   (jeśli podasz też `image`, posłuży jako miniatura/poster odtwarzacza).
 - Puste `image` i `video` = placeholder „Zdjęcia i nagrania wkrótce".
 
-## 📣 Sekcja Aktualności i Facebook
+## 📣 Sekcja Aktualności
 
-- Profil FB: **https://www.facebook.com/DomLatarnika**
-- Trzy edytowalne karty aktualności w `index.html` (`#aktualnosci`) – podmieniaj tytuły, teksty i zdjęcia.
-- Osadzona **tablica Facebooka** ładuje się dopiero po zgodzie użytkownika (RODO). Adres profilu
-  ustawia atrybut `data-fb-page` na elemencie `#fb-embed` w `index.html`.
+- Dwie edytowalne karty aktualności w `index.html` (`#aktualnosci`) – galeria sezonu oraz zapytanie o wolny termin.
+- Zdjęcia sezonowe edytujesz w tablicy `seasonPhotos` w `assets/index.js`.
 
 ## 🚀 Uruchomienie lokalne
 
