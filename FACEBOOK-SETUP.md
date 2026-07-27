@@ -3,8 +3,10 @@
 Strona pokazuje najnowsze posty z Waszego fanpage jako **własne kafelki** —
 niezawodnie, bez wtyczki FB i bez zależności od ciasteczek w przeglądarce gościa.
 
-Posty pobiera funkcja serwerowa **`functions/api/fb-posts.js`** (endpoint `/api/fb-posts`)
-na Cloudflare Pages. Token trzymany jest jako **sekret** po stronie serwera — nigdy w kodzie strony.
+Posty pobiera Worker **`worker/index.js`** przez endpoint `/api/fb-posts`.
+Wspólny handler jest w **`worker/fb-posts.js`**, a `functions/api/fb-posts.js`
+zostaje jako kompatybilny wrapper dla trybu Pages Functions. Token trzymany jest
+jako **sekret** po stronie Cloudflare — nigdy w kodzie strony.
 
 Dopóki nie ustawisz tokenu, sekcja pokazuje spokojny kafelek „Zajrzyj na nasz Facebook"
 bez dodatkowego przycisku (nic się nie psuje).
@@ -24,8 +26,8 @@ bez dodatkowego przycisku (nic się nie psuje).
 4. Zamień na **długoterminowy** w **Access Token Debugger**
    (https://developers.facebook.com/tools/debug/accesstoken/) → **Extend Access Token**.
 
-### 3. Wklej dane w Cloudflare Pages
-Projekt Pages → **Settings → Variables and Secrets** (Production i Preview):
+### 3. Wklej dane w Cloudflare
+Projekt `dom-latarnika` → **Settings → Variables and Secrets**:
 
 | Nazwa | Wartość |
 |---|---|
@@ -33,6 +35,8 @@ Projekt Pages → **Settings → Variables and Secrets** (Production i Preview):
 | `FB_PAGE_TOKEN` | długoterminowy Page Access Token (krok 2) |
 
 Opcjonalnie: `FB_EDGE` (`posts`/`feed`), `FB_LIMIT` (domyślnie `6`). Zapisz i zrób **redeploy**.
+
+Nie dodawaj D1, KV, R2 ani innych Bindings — to są tylko zmienne/sekrety tekstowe.
 
 ### 4. Sprawdź
 - `https://dom-latarnika.pl/api/fb-posts` → JSON z `"posts": [...]`.

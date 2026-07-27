@@ -24,6 +24,9 @@ dom-latarnika/
 ├── 404.html                # Strona błędu 404
 ├── robots.txt · sitemap.xml · favicon.svg
 ├── _redirects · _headers   # Konfiguracja Cloudflare Pages
+├── wrangler.jsonc          # Konfiguracja Workers Static Assets / deploy command
+├── worker/                 # Worker API dla /api/fb-posts
+├── functions/              # Wrapper kompatybilny z Pages Functions
 ├── assets/
 │   ├── index.css           # Style strony głównej
 │   ├── index.js            # Logika: pokoje, galeria, modale, i18n, Facebook

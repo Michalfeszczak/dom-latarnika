@@ -1,0 +1,10 @@
+.git
+.DS_Store
+.claude
+.assetsignore
+.gitignore
+worker/
+functions/
+wrangler.jsonc
+*.md
+content_choices.md
