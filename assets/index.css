@@ -3333,3 +3333,21 @@
     .faq-item summary:focus-visible{outline:3px solid #f6c667;outline-offset:-3px;border-radius:16px}
     .faq-a{padding:0 20px 20px;color:var(--muted);line-height:1.6}
     .faq-a p{margin:0;max-width:68ch}
+
+    /* ---- Oznaczenia treści AI (EU AI Act art. 50) ---- */
+    .ai-badge{
+      position:absolute;
+      top:14px;left:14px;z-index:3;
+      display:inline-flex;align-items:center;gap:5px;
+      padding:5px 10px;border-radius:999px;
+      background:rgba(14,40,64,.62);color:#fff;
+      font-size:.7rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;
+      backdrop-filter:blur(4px);
+      pointer-events:none;
+    }
+    .ai-badge::before{content:"✦";font-size:.72rem;line-height:1}
+    .ai-disclosure{
+      margin:10px 0 0;
+      color:rgba(255,255,255,.45);
+      font-size:.76rem;line-height:1.5;max-width:78ch;
+    }
