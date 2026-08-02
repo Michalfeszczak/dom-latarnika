@@ -1350,7 +1350,7 @@
       },
       {
         id: "pokoj-6",
-        images: ["img/rooms/room-6-03.webp", "img/rooms/room-6-01.webp", "img/rooms/room-6-02.webp", "img/rooms/room-6-04.webp", "img/rooms/room-6-05.webp"],
+        images: ["img/rooms/room-6-03.webp", "img/rooms/room-6-01.webp", "img/rooms/room-6-02.webp", "img/rooms/room-6-04.webp", "img/rooms/room-6-05.webp", "img/rooms/room-geometric.webp"],
         names: ["6"],
         tag: { pl: "Pokój 6 · balkon", de: "Zimmer 6 · Balkon", en: "Room 6 · balcony" },
         title: { pl: "Pokój 6 z balkonem", de: "Zimmer 6 mit Balkon", en: "Room 6 with balcony" },
@@ -1445,7 +1445,7 @@
       },
       {
         id: "pokoj-7",
-        images: ["img/rooms/room-geometric.webp", "img/rooms/room-7-01.webp", "img/rooms/room-7-02.webp", "img/rooms/room-7-03.webp", "img/rooms/room-7-04.webp"],
+        images: ["img/rooms/room-7-02.webp", "img/rooms/room-7-01.webp", "img/rooms/room-7-03.webp", "img/rooms/room-7-04.webp"],
         names: ["7"],
         tag: { pl: "Pokój 7 · poddasze", de: "Zimmer 7 · Dachgeschoss", en: "Room 7 · attic" },
         title: { pl: "Pokój 7 na poddaszu", de: "Zimmer 7 im Dachgeschoss", en: "Room 7 in the attic" },
@@ -1535,7 +1535,7 @@
         floorKey: "room_floor_upper",
         layoutKey: "room_layout_basic",
         bestForKey: "room_best_bigger",
-        filterTags: ["larger"],
+        filterTags: ["two"],
         featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
       },
       {
@@ -1554,7 +1554,7 @@
         floorKey: "room_floor_main",
         layoutKey: "room_layout_basic",
         bestForKey: "room_best_bigger",
-        filterTags: ["larger"],
+        filterTags: ["two"],
         featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
       },
       {
@@ -1573,7 +1573,7 @@
         floorKey: "room_floor_connected",
         layoutKey: "room_layout_basic",
         bestForKey: "room_best_twin",
-        filterTags: ["twin"],
+        filterTags: ["larger"],
         featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
       },
       {
@@ -2589,11 +2589,21 @@
     // ---- Galeria „Zdjęcia z tego sezonu” (kafelek w Aktualnościach) ----
     // Do 5 zdjęć — podmień/dodaj ścieżki poniżej (pliki w img/).
     const seasonPhotos = [
-      "img/beach/beach-01.webp",
-      "img/beach/beach-03.webp",
-      "img/shared/shared-terrace-01.webp",
-      "img/rooms/room-5-01.webp",
-      "img/shared/shared-exterior-01.webp"
+      "img/season/season-01.webp",
+      "img/season/season-02.webp",
+      "img/season/season-03.webp",
+      "img/season/season-04.webp",
+      "img/season/season-05.webp",
+      "img/season/season-06.webp",
+      "img/season/season-07.webp",
+      "img/season/season-08.webp",
+      "img/season/season-09.webp",
+      "img/season/season-10.webp",
+      "img/season/season-11.webp",
+      "img/season/season-12.webp",
+      "img/season/season-13.webp",
+      "img/season/season-14.webp",
+      "img/season/season-15.webp"
     ];
     const seasonModal = document.getElementById("season-modal");
     if (seasonModal) {
