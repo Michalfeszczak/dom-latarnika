@@ -299,15 +299,16 @@
         <div class="section-head" data-reveal>
           <span class="section-kicker" data-i18n="rooms_kicker">Pokoje</span>
           <h2 class="section-title" data-i18n="rooms_title">Znajdź swój ulubiony pokój</h2>
-          <p class="section-text" data-i18n="rooms_text">Wybierz kategorię pokoju: apartament, pokoje 2-osobowe, balkonowe, poddasze, większe pokoje lub Bliźniak. Więcej informacji znajdziesz po kliknięciu „Szczegóły”.</p>
+          <p class="section-text" data-i18n="rooms_text">Wybierz pokój, studio lub apartament. Więcej informacji o liczbie osób, łóżkach, łazience i wyposażeniu znajdziesz po kliknięciu „Szczegóły”.</p>
         </div>
 
         <div class="room-filters" id="room-filters" role="group" aria-label="Filtry pokoi" data-i18n-aria-label="room_filters_aria" data-reveal>
-          <button class="room-filter is-active" type="button" data-room-filter="apartment" aria-pressed="true" data-i18n="room_filter_apartment">Apartament</button>
+          <button class="room-filter is-active" type="button" data-room-filter="all" aria-pressed="true" data-i18n="room_filter_all">Wszystkie</button>
           <button class="room-filter" type="button" data-room-filter="two" aria-pressed="false" data-i18n="room_filter_two">2-osobowe</button>
           <button class="room-filter" type="button" data-room-filter="balcony" aria-pressed="false" data-i18n="room_filter_balcony">Z balkonem</button>
           <button class="room-filter" type="button" data-room-filter="attic" aria-pressed="false" data-i18n="room_filter_attic">Poddasze</button>
           <button class="room-filter" type="button" data-room-filter="larger" aria-pressed="false" data-i18n="room_filter_larger">Większe</button>
+          <button class="room-filter" type="button" data-room-filter="apartment" aria-pressed="false" data-i18n="room_filter_apartment">Apartament</button>
           <button class="room-filter" type="button" data-room-filter="solo" aria-pressed="false" data-i18n="room_filter_solo">1-osobowy</button>
         </div>
 
@@ -664,7 +665,7 @@
           </details>
           <details class="faq-item">
             <summary data-i18n="faq_q5">Jak zarezerwować pobyt?</summary>
-            <div class="faq-a"><p data-i18n="faq_a5">Najwygodniej online przez Booking.com lub telefonicznie. Przy rezerwacji bezpośredniej pobieramy zadatek w wysokości 30% wartości pobytu.</p></div>
+            <div class="faq-a"><p data-i18n="faq_a5">Najwygodniej online przez Booking.com lub telefonicznie. Przy rezerwacji bezpośredniej pobieramy bezzwrotny zadatek w wysokości 30% wartości pobytu.</p></div>
           </details>
         </div>
       </div>
@@ -692,7 +693,7 @@
             <h3 data-i18n="contact_payment_title">Pobyt i płatności</h3>
             <div class="payment-summary">
               <p data-i18n="payment_line1">Doba hotelowa trwa od 15:00 do 10:00.</p>
-              <p data-i18n="payment_line2">Przy rezerwacji bezpośredniej pobierany jest zadatek w wysokości 30% wartości pobytu.</p>
+              <p data-i18n="payment_line2">Przy rezerwacji bezpośredniej pobierany jest bezzwrotny zadatek w wysokości 30% wartości pobytu.</p>
               <p data-i18n="payment_line3">Opłata klimatyczna nie jest wliczona w cenę pobytu.</p>
             </div>
             <p class="info-card-action">
@@ -762,7 +763,9 @@
       <button class="payment-modal-close" type="button" aria-label="Zamknij okno z danymi do przelewu" data-payment-modal-close data-i18n-aria-label="payment_modal_close_aria">×</button>
       <p class="payment-box-title" data-i18n="payment_modal_title">Dane do przelewu</p>
       <div class="payment-box" id="payment-modal-copy">
-        <p><strong data-i18n="payment_recipient_label">Odbiorca:</strong> <span data-i18n="payment_recipient_value">Dom Latarnika</span></p>
+        <p><strong data-i18n="payment_company_label">Firma:</strong> <span data-i18n="payment_company_value">Brączyk Marek Brączyk</span></p>
+        <p><strong data-i18n="payment_tax_label">NIP:</strong> <span>6711020431</span></p>
+        <p><strong data-i18n="payment_recipient_label">Odbiorca:</strong> <span data-i18n="payment_recipient_value">Marek Brączyk / Dom Latarnika</span></p>
         <p><strong data-i18n="payment_bank_label">Bank:</strong> <span>PKO BP</span></p>
         <p><strong data-i18n="payment_account_label">Numer rachunku:</strong> <span class="payment-account">31 1020 2821 0000 1102 0002 0081</span></p>
         <p><strong data-i18n="payment_transfer_label">Tytuł przelewu:</strong> <span data-i18n="payment_transfer_value">Zadatek — imię i nazwisko, termin pobytu</span></p>
@@ -886,7 +889,7 @@
       { "@type": "Question", "name": "Czy na miejscu jest parking?", "acceptedAnswer": { "@type": "Answer", "text": "Tak. Do dyspozycji gości jest bezpłatny, ogrodzony i monitorowany parking na terenie obiektu." } },
       { "@type": "Question", "name": "W jakich godzinach jest zameldowanie i wymeldowanie?", "acceptedAnswer": { "@type": "Answer", "text": "Zameldowanie od godziny 15:00, wymeldowanie do 10:00. Inne godziny prosimy wcześniej uzgodnić z właścicielem." } },
       { "@type": "Question", "name": "Co jest do dyspozycji gości?", "acceptedAnswer": { "@type": "Answer", "text": "Wspólna kuchnia, salon z telewizorem i grami planszowymi, taras, rowery i sprzęt plażowy oraz teren zielony dla dzieci." } },
-      { "@type": "Question", "name": "Jak zarezerwować pobyt?", "acceptedAnswer": { "@type": "Answer", "text": "Najwygodniej online przez Booking.com lub telefonicznie. Przy rezerwacji bezpośredniej pobieramy zadatek w wysokości 30% wartości pobytu." } }
+      { "@type": "Question", "name": "Jak zarezerwować pobyt?", "acceptedAnswer": { "@type": "Answer", "text": "Najwygodniej online przez Booking.com lub telefonicznie. Przy rezerwacji bezpośredniej pobieramy bezzwrotny zadatek w wysokości 30% wartości pobytu." } }
     ]
   }
   </script>

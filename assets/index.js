@@ -361,7 +361,7 @@
         area_beach_card3_subtitle: "atrakcje kilka minut dalej",
         rooms_kicker: "Pokoje",
         rooms_title: "Znajdź swój ulubiony pokój",
-        rooms_text: "Wybierz kategorię pokoju: apartament, pokoje 2-osobowe, balkonowe, poddasze, większe pokoje lub Bliźniak. Więcej informacji znajdziesz po kliknięciu „Szczegóły”.",
+        rooms_text: "Wybierz pokój, studio lub apartament. Więcej informacji o liczbie osób, łóżkach, łazience i wyposażeniu znajdziesz po kliknięciu „Szczegóły”.",
         rooms_note: "Dostępność i aktualne ceny wszystkich pokoi znajdziesz na Booking.com.",
         rooms_note_button: "Zobacz dostępność",
         room_details: "Szczegóły",
@@ -372,6 +372,7 @@
         room_photos_soon: "Zdjęcia wkrótce",
         room_names_label: "Pokoje w tej kategorii",
         room_filters_aria: "Filtry pokoi",
+        room_filter_all: "Wszystkie",
         room_filter_apartment: "Apartament",
         room_filter_two: "2-osobowe",
         room_filter_family: "Rodzina",
@@ -389,43 +390,59 @@
         room_meta_best_for: "Najlepiej dla",
         room_capacity_solo: "1 osoba",
         room_capacity_one_two: "1-2 osoby",
+        room_capacity_up_to_two: "do 2 osób",
         room_capacity_two_four: "2-4 osoby",
+        room_capacity_two_six: "2-6 osób",
         room_capacity_two: "2 osoby",
         room_capacity_two_three: "2-3 osoby",
         room_capacity_three_five: "3-5 osób",
         room_capacity_four: "4 osoby",
         room_capacity_four_six: "4-6 osób",
         room_beds_single: "pojedyncze łóżko",
+        room_beds_sofa: "rozkładana kanapa",
         room_beds_double: "łóżko podwójne",
+        room_beds_two_singles: "dwa łóżka pojedyncze",
+        room_beds_single_sofa: "łóżko pojedyncze i rozkładana kanapa",
         room_beds_double_sofa: "łóżko 2-osobowe i kanapa",
+        room_beds_blizniak: "dwa łóżka pojedyncze i duża kanapa",
+        room_beds_apartment: "łóżko małżeńskie, dwa pojedyncze i duża kanapa",
         room_beds_flexible: "układ zależny od pokoju",
         room_beds_two_rooms: "dwa oddzielne pokoje",
         room_beds_two_bedrooms: "dwie sypialnie + salon",
         room_floor_separate: "osobna, spokojna część",
         room_floor_few_steps: "kilka schodków wyżej",
         room_floor_main: "główna część obiektu",
+        room_floor_ground: "dolny poziom",
         room_floor_attic: "poddasze",
         room_floor_ground_garden: "dół od ogrodu",
         room_floor_ground_street: "dół od ulicy",
         room_floor_upper: "piętro",
         room_floor_connected: "część łączona",
         room_floor_private: "osobne wejście",
+        room_floor_private_building: "oddzielny budynek",
+        room_floor_upper_main: "piętro / główna część",
         room_layout_basic: "bez aneksu i balkonu",
         room_layout_balcony: "balkon",
+        room_layout_shared_balcony_kitchenette: "wspólny balkon i aneks",
+        room_layout_ground_side: "strona ogrodu lub ulicy",
         room_layout_garden_side: "strona ogrodu",
         room_layout_street_side: "strona ulicy",
         room_layout_kitchenette: "aneks kuchenny",
         room_layout_full_kitchen: "salon z aneksem",
+        room_layout_full_kitchen_terrace: "pełna kuchnia i taras",
         room_best_solo: "solo i spokojnego pobytu",
         room_best_couples: "par i krótszych pobytów",
         room_best_couples_family: "par i rodzin",
         room_best_attic: "par lub spokojnego wypoczynku",
         room_best_two_person: "pobytu we dwoje",
+        room_best_high_room: "osób lubiących wysokie wnętrza",
+        room_best_separate_beds: "osób śpiących oddzielnie",
         room_best_balcony: "par szukających balkonu",
         room_best_bigger: "gości szukających większego pokoju",
         room_best_large_family: "większej rodziny",
         room_best_twin: "4 osób lub rodziny",
         room_best_long_family: "rodzin i dłuższych pobytów",
+        room_best_apartment: "rodzin, grup i dłuższych pobytów",
         rg_priv_tag: "Prywatny · 1 osoba",
         rg_priv_title: "Pokój „0” — prywatne zacisze",
         rg_priv_desc: "W pełni prywatny pokój, oddzielony od reszty obiektu, z myślą o jednej osobie. Maksimum spokoju i niezależności.",
@@ -452,9 +469,26 @@
         feat_wifi: "Bezpłatne WiFi",
         feat_kitchenette: "Aneks kuchenny",
         feat_balcony: "Balkon",
+        feat_shared_balcony: "Balkon współdzielony",
         feat_premium: "Podwyższony standard",
+        feat_two_rooms: "Dwa oddzielne pokoje",
+        feat_two_tvs: "Dwa telewizory",
         feat_two_bedrooms: "Dwie sypialnie",
         feat_kitchen_full: "Pełny aneks kuchenny z AGD",
+        feat_dishes: "Zestaw naczyń",
+        feat_dishwasher: "Zmywarka",
+        feat_microwave: "Mikrofalówka",
+        feat_hotel_carpet: "Wygłuszająca wykładzina hotelowa",
+        feat_scandi_style: "Jasny styl skandynawski",
+        feat_area_70: "Powierzchnia 70 m²",
+        feat_private_building: "Oddzielny budynek",
+        feat_terrace: "Prywatny taras",
+        feat_driveway: "Własny podjazd",
+        feat_two_levels: "Dwa poziomy",
+        feat_bath_large: "Duża prywatna łazienka",
+        feat_washer: "Pralka",
+        feat_ac: "Klimatyzacja",
+        feat_work_corner: "Kącik do pracy",
         feat_living: "Oddzielny salon",
         feat_private_entrance: "Osobne wejście",
         amenities_kicker: "Udogodnienia",
@@ -549,11 +583,14 @@
         payment_modal_aria: "Dane do przelewu",
         payment_modal_close_aria: "Zamknij okno z danymi do przelewu",
         payment_line1: "Doba hotelowa trwa od 15:00 do 10:00.",
-        payment_line2: "Przy rezerwacji bezpośredniej pobierany jest zadatek w wysokości 30% wartości pobytu.",
+        payment_line2: "Przy rezerwacji bezpośredniej pobierany jest bezzwrotny zadatek w wysokości 30% wartości pobytu.",
         payment_line3: "Opłata klimatyczna nie jest wliczona w cenę pobytu.",
         payment_bank_title: "Dane do przelewu",
+        payment_company_label: "Firma:",
+        payment_company_value: "Brączyk Marek Brączyk",
+        payment_tax_label: "NIP:",
         payment_recipient_label: "Odbiorca:",
-        payment_recipient_value: "Dom Latarnika",
+        payment_recipient_value: "Marek Brączyk / Dom Latarnika",
         payment_account_label: "Numer rachunku:",
         payment_transfer_label: "Tytuł przelewu:",
         payment_transfer_value: "Zadatek — imię i nazwisko, termin pobytu",
@@ -577,7 +614,7 @@
         faq_q4: "Co jest do dyspozycji gości?",
         faq_a4: "Wspólna kuchnia, salon z telewizorem i grami planszowymi, taras, rowery i sprzęt plażowy oraz teren zielony dla dzieci.",
         faq_q5: "Jak zarezerwować pobyt?",
-        faq_a5: "Najwygodniej online przez Booking.com lub telefonicznie. Przy rezerwacji bezpośredniej pobieramy zadatek w wysokości 30% wartości pobytu.",
+        faq_a5: "Najwygodniej online przez Booking.com lub telefonicznie. Przy rezerwacji bezpośredniej pobieramy bezzwrotny zadatek w wysokości 30% wartości pobytu.",
         rules: "Regulamin"
       },
       de: {
@@ -706,7 +743,7 @@
         area_beach_card3_subtitle: "Attraktionen nur wenige Minuten entfernt",
         rooms_kicker: "Zimmer",
         rooms_title: "Finden Sie Ihr Lieblingszimmer",
-        rooms_text: "Wählen Sie eine Zimmerkategorie: Apartment, 2-Personen-Zimmer, Zimmer mit Balkon, Dachgeschoss, größere Zimmer oder Bliźniak. Weitere Informationen finden Sie unter „Details”.",
+        rooms_text: "Wählen Sie ein Zimmer, Studio oder Apartment. Weitere Informationen zu Personenzahl, Betten, Bad und Ausstattung finden Sie unter „Details”.",
         rooms_note: "Verfügbarkeit und aktuelle Preise aller Zimmer finden Sie auf Booking.com.",
         rooms_note_button: "Verfügbarkeit ansehen",
         room_details: "Details",
@@ -717,6 +754,7 @@
         room_photos_soon: "Fotos folgen in Kürze",
         room_names_label: "Zimmer in dieser Kategorie",
         room_filters_aria: "Zimmerfilter",
+        room_filter_all: "Alle",
         room_filter_apartment: "Apartment",
         room_filter_two: "2-Personen-Zimmer",
         room_filter_family: "Familie",
@@ -734,43 +772,59 @@
         room_meta_best_for: "Am besten für",
         room_capacity_solo: "1 Person",
         room_capacity_one_two: "1-2 Personen",
+        room_capacity_up_to_two: "bis 2 Personen",
         room_capacity_two_four: "2-4 Personen",
+        room_capacity_two_six: "2-6 Personen",
         room_capacity_two: "2 Personen",
         room_capacity_two_three: "2-3 Personen",
         room_capacity_three_five: "3-5 Personen",
         room_capacity_four: "4 Personen",
         room_capacity_four_six: "4-6 Personen",
         room_beds_single: "Einzelbett",
+        room_beds_sofa: "Schlafsofa",
         room_beds_double: "Doppelbett",
+        room_beds_two_singles: "zwei Einzelbetten",
+        room_beds_single_sofa: "Einzelbett und Schlafsofa",
         room_beds_double_sofa: "Doppelbett und Sofa",
+        room_beds_blizniak: "zwei Einzelbetten und großes Schlafsofa",
+        room_beds_apartment: "Doppelbett, zwei Einzelbetten und großes Schlafsofa",
         room_beds_flexible: "je nach Zimmer",
         room_beds_two_rooms: "zwei separate Zimmer",
         room_beds_two_bedrooms: "zwei Schlafzimmer + Wohnzimmer",
         room_floor_separate: "separater ruhiger Bereich",
         room_floor_few_steps: "ein paar Stufen höher",
         room_floor_main: "Hauptteil des Hauses",
+        room_floor_ground: "untere Ebene",
         room_floor_attic: "Dachgeschoss",
         room_floor_ground_garden: "Erdgeschoss zur Gartenseite",
         room_floor_ground_street: "Erdgeschoss zur Straßenseite",
         room_floor_upper: "Obergeschoss",
         room_floor_connected: "verbundener Bereich",
         room_floor_private: "separater Eingang",
+        room_floor_private_building: "separates Gebäude",
+        room_floor_upper_main: "Obergeschoss / Hauptteil",
         room_layout_basic: "ohne Küchenzeile und Balkon",
         room_layout_balcony: "Balkon",
+        room_layout_shared_balcony_kitchenette: "gemeinsamer Balkon und Küchenzeile",
+        room_layout_ground_side: "Garten- oder Straßenseite",
         room_layout_garden_side: "Gartenseite",
         room_layout_street_side: "Straßenseite",
         room_layout_kitchenette: "Küchenzeile",
         room_layout_full_kitchen: "Wohnzimmer mit Küchenzeile",
+        room_layout_full_kitchen_terrace: "volle Küche und Terrasse",
         room_best_solo: "Alleinreisende und ruhige Aufenthalte",
         room_best_couples: "Paare und kurze Aufenthalte",
         room_best_couples_family: "Paare und Familien",
         room_best_attic: "Paare oder ruhige Erholung",
         room_best_two_person: "Aufenthalte zu zweit",
+        room_best_high_room: "Gäste, die hohe Räume mögen",
+        room_best_separate_beds: "Gäste mit getrennten Schlafplätzen",
         room_best_balcony: "Paare, die einen Balkon wünschen",
         room_best_bigger: "Gäste, die mehr Platz suchen",
         room_best_large_family: "größere Familien",
         room_best_twin: "4 Personen oder Familien",
         room_best_long_family: "Familien und längere Aufenthalte",
+        room_best_apartment: "Familien, Gruppen und längere Aufenthalte",
         rg_priv_tag: "Privat · 1 Person",
         rg_priv_title: "Zimmer „0” — privater Rückzugsort",
         rg_priv_desc: "Ein komplett privates Zimmer, getrennt vom Rest des Hauses, für eine Person. Maximale Ruhe und Unabhängigkeit.",
@@ -797,9 +851,26 @@
         feat_wifi: "Kostenloses WLAN",
         feat_kitchenette: "Küchenzeile",
         feat_balcony: "Balkon",
+        feat_shared_balcony: "Gemeinsamer Balkon",
         feat_premium: "Gehobener Standard",
+        feat_two_rooms: "Zwei separate Zimmer",
+        feat_two_tvs: "Zwei Fernseher",
         feat_two_bedrooms: "Zwei Schlafzimmer",
         feat_kitchen_full: "Voll ausgestattete Küchenzeile",
+        feat_dishes: "Geschirrset",
+        feat_dishwasher: "Geschirrspüler",
+        feat_microwave: "Mikrowelle",
+        feat_hotel_carpet: "Schalldämpfender Hotelteppich",
+        feat_scandi_style: "Heller skandinavischer Stil",
+        feat_area_70: "70 m² Fläche",
+        feat_private_building: "Separates Gebäude",
+        feat_terrace: "Private Terrasse",
+        feat_driveway: "Eigene Zufahrt",
+        feat_two_levels: "Zwei Ebenen",
+        feat_bath_large: "Großes eigenes Bad",
+        feat_washer: "Waschmaschine",
+        feat_ac: "Klimaanlage",
+        feat_work_corner: "Arbeitsbereich",
         feat_living: "Separates Wohnzimmer",
         feat_private_entrance: "Separater Eingang",
         amenities_kicker: "Ausstattung",
@@ -894,11 +965,14 @@
         payment_modal_aria: "Überweisungsdaten",
         payment_modal_close_aria: "Fenster mit Überweisungsdaten schließen",
         payment_line1: "Die Hotelzeit dauert von 15:00 bis 10:00 Uhr.",
-        payment_line2: "Bei einer Direktbuchung wird eine Anzahlung in Höhe von 30% des Aufenthaltswertes erhoben.",
+        payment_line2: "Bei einer Direktbuchung wird eine nicht erstattungsfähige Anzahlung in Höhe von 30% des Aufenthaltswertes erhoben.",
         payment_line3: "Die Kurtaxe ist nicht im Aufenthaltspreis enthalten.",
         payment_bank_title: "Überweisungsdaten",
+        payment_company_label: "Firma:",
+        payment_company_value: "Brączyk Marek Brączyk",
+        payment_tax_label: "NIP:",
         payment_recipient_label: "Empfänger:",
-        payment_recipient_value: "Dom Latarnika",
+        payment_recipient_value: "Marek Brączyk / Dom Latarnika",
         payment_account_label: "Kontonummer:",
         payment_transfer_label: "Verwendungszweck:",
         payment_transfer_value: "Anzahlung — Vorname und Nachname, Aufenthaltsdatum",
@@ -922,7 +996,7 @@
         faq_q4: "Was steht den Gästen zur Verfügung?",
         faq_a4: "Gemeinschaftsküche, Wohnzimmer mit Fernseher und Brettspielen, Terrasse, Fahrräder und Strandausrüstung sowie eine Grünfläche für Kinder.",
         faq_q5: "Wie kann ich buchen?",
-        faq_a5: "Am bequemsten online über Booking.com oder telefonisch. Bei einer Direktbuchung erheben wir eine Anzahlung in Höhe von 30 % des Aufenthaltswertes.",
+        faq_a5: "Am bequemsten online über Booking.com oder telefonisch. Bei einer Direktbuchung erheben wir eine nicht erstattungsfähige Anzahlung in Höhe von 30 % des Aufenthaltswertes.",
         rules: "Hausordnung"
       },
       en: {
@@ -1051,7 +1125,7 @@
         area_beach_card3_subtitle: "attractions just minutes away",
         rooms_kicker: "Rooms",
         rooms_title: "Find your favourite room",
-        rooms_text: "Choose a room category: apartment, 2-person rooms, balcony rooms, attic rooms, larger rooms, or Bliźniak. More information is available under Details.",
+        rooms_text: "Choose a room, studio or apartment. More information about capacity, beds, bathroom and amenities is available under Details.",
         rooms_note: "Availability and current prices for all rooms are on Booking.com.",
         rooms_note_button: "See availability",
         room_details: "Details",
@@ -1062,6 +1136,7 @@
         room_photos_soon: "Photos coming soon",
         room_names_label: "Rooms in this category",
         room_filters_aria: "Room filters",
+        room_filter_all: "All",
         room_filter_apartment: "Apartment",
         room_filter_two: "2-person rooms",
         room_filter_family: "Family",
@@ -1079,43 +1154,59 @@
         room_meta_best_for: "Best for",
         room_capacity_solo: "1 person",
         room_capacity_one_two: "1-2 people",
+        room_capacity_up_to_two: "up to 2 people",
         room_capacity_two_four: "2-4 people",
+        room_capacity_two_six: "2-6 people",
         room_capacity_two: "2 people",
         room_capacity_two_three: "2-3 people",
         room_capacity_three_five: "3-5 people",
         room_capacity_four: "4 people",
         room_capacity_four_six: "4-6 people",
         room_beds_single: "single bed",
+        room_beds_sofa: "sofa bed",
         room_beds_double: "double bed",
+        room_beds_two_singles: "two single beds",
+        room_beds_single_sofa: "single bed and sofa bed",
         room_beds_double_sofa: "double bed and sofa",
+        room_beds_blizniak: "two single beds and a large sofa bed",
+        room_beds_apartment: "double bed, two single beds and large sofa bed",
         room_beds_flexible: "layout depends on the room",
         room_beds_two_rooms: "two separate rooms",
         room_beds_two_bedrooms: "two bedrooms + living room",
         room_floor_separate: "separate quiet area",
         room_floor_few_steps: "a few steps up",
         room_floor_main: "main part of the house",
+        room_floor_ground: "lower level",
         room_floor_attic: "attic",
         room_floor_ground_garden: "ground floor, garden side",
         room_floor_ground_street: "ground floor, street side",
         room_floor_upper: "upper floor",
         room_floor_connected: "connected section",
         room_floor_private: "private entrance",
+        room_floor_private_building: "separate building",
+        room_floor_upper_main: "upper floor / main part",
         room_layout_basic: "no kitchenette or balcony",
         room_layout_balcony: "balcony",
+        room_layout_shared_balcony_kitchenette: "shared balcony and kitchenette",
+        room_layout_ground_side: "garden or street side",
         room_layout_garden_side: "garden side",
         room_layout_street_side: "street side",
         room_layout_kitchenette: "kitchenette",
         room_layout_full_kitchen: "living room with kitchenette",
+        room_layout_full_kitchen_terrace: "full kitchen and terrace",
         room_best_solo: "solo and quiet stays",
         room_best_couples: "couples and shorter stays",
         room_best_couples_family: "couples and families",
         room_best_attic: "couples or quiet breaks",
         room_best_two_person: "stays for two",
+        room_best_high_room: "guests who prefer high interiors",
+        room_best_separate_beds: "guests sleeping separately",
         room_best_balcony: "couples who want a balcony",
         room_best_bigger: "guests wanting more room",
         room_best_large_family: "larger families",
         room_best_twin: "4 people or a family",
         room_best_long_family: "families and longer stays",
+        room_best_apartment: "families, groups and longer stays",
         rg_priv_tag: "Private · 1 person",
         rg_priv_title: "Room “0” — a private retreat",
         rg_priv_desc: "A fully private room, separated from the rest of the house, designed for one person. Maximum peace and independence.",
@@ -1142,9 +1233,26 @@
         feat_wifi: "Free WiFi",
         feat_kitchenette: "Kitchenette",
         feat_balcony: "Balcony",
+        feat_shared_balcony: "Shared balcony",
         feat_premium: "Higher standard",
+        feat_two_rooms: "Two separate rooms",
+        feat_two_tvs: "Two TVs",
         feat_two_bedrooms: "Two bedrooms",
         feat_kitchen_full: "Fully equipped kitchenette",
+        feat_dishes: "Dish set",
+        feat_dishwasher: "Dishwasher",
+        feat_microwave: "Microwave",
+        feat_hotel_carpet: "Sound-softening hotel carpet",
+        feat_scandi_style: "Bright Scandinavian style",
+        feat_area_70: "70 m² area",
+        feat_private_building: "Separate building",
+        feat_terrace: "Private terrace",
+        feat_driveway: "Private driveway",
+        feat_two_levels: "Two levels",
+        feat_bath_large: "Large private bathroom",
+        feat_washer: "Washing machine",
+        feat_ac: "Air conditioning",
+        feat_work_corner: "Work corner",
         feat_living: "Separate living room",
         feat_private_entrance: "Private entrance",
         amenities_kicker: "Amenities",
@@ -1239,11 +1347,14 @@
         payment_modal_aria: "Bank transfer details",
         payment_modal_close_aria: "Close bank transfer details dialog",
         payment_line1: "Check-in hours are from 15:00 to 10:00.",
-        payment_line2: "For direct bookings, a deposit of 30% of the stay value is required.",
+        payment_line2: "For direct bookings, a non-refundable deposit of 30% of the stay value is required.",
         payment_line3: "The local tourist tax is not included in the stay price.",
         payment_bank_title: "Bank transfer details",
+        payment_company_label: "Company:",
+        payment_company_value: "Brączyk Marek Brączyk",
+        payment_tax_label: "Tax ID:",
         payment_recipient_label: "Recipient:",
-        payment_recipient_value: "Dom Latarnika",
+        payment_recipient_value: "Marek Brączyk / Dom Latarnika",
         payment_account_label: "Account number:",
         payment_transfer_label: "Transfer title:",
         payment_transfer_value: "Deposit — first and last name, stay dates",
@@ -1267,7 +1378,7 @@
         faq_q4: "What can guests use?",
         faq_a4: "A shared kitchen, a lounge with a TV and board games, a terrace, bikes and beach equipment, and a green area for children.",
         faq_q5: "How do I book a stay?",
-        faq_a5: "Most easily online via Booking.com or by phone. For direct bookings we take a deposit of 30% of the stay value.",
+        faq_a5: "Most easily online via Booking.com or by phone. For direct bookings we take a non-refundable deposit of 30% of the stay value.",
         rules: "Rules"
       }
     };
@@ -1311,289 +1422,307 @@
     // Aby dodać zdjęcia: wrzuć pliki do img/rooms/ i wpisz ich ścieżki w "images".
     const roomGroups = [
       {
-        id: "apartament",
-        images: ["img/rooms/apartment-11.webp", "img/rooms/apartment-10.webp", "img/rooms/apartment-01.webp", "img/rooms/apartment-02.webp", "img/rooms/apartment-03.webp", "img/rooms/apartment-04.webp", "img/rooms/apartment-05.webp", "img/rooms/apartment-06.webp", "img/rooms/apartment-07.webp", "img/rooms/apartment-08.webp", "img/rooms/apartment-09.webp"],
-        names: ["Apartament"],
-        tag: { pl: "Apartament", de: "Apartment", en: "Apartment" },
-        title: { pl: "Apartament", de: "Apartment", en: "Apartment" },
+        id: "pokoj-0h",
+        images: ["img/rooms/room-0-01.webp", "img/rooms/room-0-02.webp", "img/rooms/room-0-03.webp", "img/rooms/room-0-04.webp"],
+        names: ["0H"],
+        tag: { pl: "Pokój 0H · wysoki", de: "Zimmer 0H · hoch", en: "Room 0H · high ceiling" },
+        title: { pl: "Pokój nr 0H", de: "Zimmer 0H", en: "Room 0H" },
         desc: {
-          pl: "Największa opcja z osobnym wejściem, salonem z aneksem i układem wygodnym na dłuższy pobyt.",
-          de: "Die größte Option mit separatem Eingang, Wohnbereich mit Küchenzeile und einem komfortablen Grundriss für längere Aufenthalte.",
-          en: "The largest option, with a private entrance, living area with kitchenette, and a comfortable layout for longer stays."
+          pl: "Wyjątkowo wysoki pokój do 2 osób z rozkładaną kanapą, prywatną łazienką, telewizorem i lodówką.",
+          de: "Ein besonders hohes Zimmer für bis zu 2 Personen mit Schlafsofa, eigenem Bad, TV und Kühlschrank.",
+          en: "An unusually high room for up to 2 guests, with a sofa bed, private bathroom, TV and refrigerator."
         },
-        capacityKey: "room_capacity_four_six",
-        bedsKey: "room_beds_two_bedrooms",
-        floorKey: "room_floor_private",
-        layoutKey: "room_layout_full_kitchen",
-        bestForKey: "room_best_long_family",
-        filterTags: ["apartment"],
-        featureKeys: ["feat_two_bedrooms", "feat_kitchen_full", "feat_living", "feat_private_entrance", "feat_bath", "feat_wifi"]
-      },
-      {
-        id: "pokoj-5",
-        images: ["img/rooms/room-5-01.webp", "img/rooms/room-5-02.webp", "img/rooms/room-5-03.webp", "img/rooms/room-5-04.webp", "img/rooms/studio-balcony-01.webp", "img/rooms/studio-balcony-02.webp"],
-        names: ["5"],
-        tag: { pl: "Pokój 5 · balkon", de: "Zimmer 5 · Balkon", en: "Room 5 · balcony" },
-        title: { pl: "Pokój 5 z balkonem", de: "Zimmer 5 mit Balkon", en: "Room 5 with balcony" },
-        desc: {
-          pl: "Pokój z balkonem, łóżkiem 2-osobowym i kanapą, dobry dla gości, którzy chcą trochę więcej miejsca.",
-          de: "Zimmer mit Balkon, Doppelbett und Sofa, gut für Gäste, die etwas mehr Platz wünschen.",
-          en: "A balcony room with a double bed and sofa, ideal for guests who want a little more space."
+        details: {
+          pl: [
+            "Pokój nr 0H wyróżnia się wyjątkowo wysokim wnętrzem, które zapewnia poczucie przestrzeni, swobody i większego komfortu. Z tego względu jest szczególnie polecany osobom wysokim oraz Gościom, którzy nie lubią niskich lub ograniczonych pomieszczeń.",
+            "W pokoju znajduje się wygodna rozkładana kanapa przeznaczona do spania, telewizor oraz lodówka. Do dyspozycji Gości pozostaje również prywatna łazienka z prysznicem."
+          ]
         },
-        capacityKey: "room_capacity_two_three",
-        bedsKey: "room_beds_double_sofa",
-        floorKey: "room_floor_main",
-        layoutKey: "room_layout_balcony",
-        bestForKey: "room_best_balcony",
-        filterTags: ["balcony"],
-        featureKeys: ["feat_balcony", "feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
-      },
-      {
-        id: "pokoj-6",
-        images: ["img/rooms/room-6-03.webp", "img/rooms/room-6-01.webp", "img/rooms/room-6-02.webp", "img/rooms/room-6-04.webp", "img/rooms/room-6-05.webp", "img/rooms/room-geometric.webp"],
-        names: ["6"],
-        tag: { pl: "Pokój 6 · balkon", de: "Zimmer 6 · Balkon", en: "Room 6 · balcony" },
-        title: { pl: "Pokój 6 z balkonem", de: "Zimmer 6 mit Balkon", en: "Room 6 with balcony" },
-        desc: {
-          pl: "Pokój z balkonem, łóżkiem 2-osobowym i kanapą, wygodny na pobyt we dwoje z dodatkową przestrzenią.",
-          de: "Zimmer mit Balkon, Doppelbett und Sofa, bequem für zwei Personen mit zusätzlichem Platz.",
-          en: "A balcony room with a double bed and sofa, comfortable for two guests with extra space."
-        },
-        capacityKey: "room_capacity_two_three",
-        bedsKey: "room_beds_double_sofa",
-        floorKey: "room_floor_main",
-        layoutKey: "room_layout_balcony",
-        bestForKey: "room_best_balcony",
-        filterTags: ["balcony"],
-        featureKeys: ["feat_balcony", "feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
-      },
-      {
-        id: "pokoj-1",
-        images: ["img/rooms/room-1-04.webp", "img/rooms/room-1-01.webp", "img/rooms/room-1-02.webp", "img/rooms/room-1-03.webp"],
-        names: ["1"],
-        tag: { pl: "Pokój 1 · 2-osobowy", de: "Zimmer 1 · 2 Personen", en: "Room 1 · 2-person" },
-        title: { pl: "Pokój 1", de: "Zimmer 1", en: "Room 1" },
-        desc: {
-          pl: "Klasyczny pokój 2-osobowy, prosty i wygodny na spokojny pobyt nad morzem.",
-          de: "Klassisches Zimmer für 2 Personen, schlicht und bequem für einen ruhigen Aufenthalt am Meer.",
-          en: "A classic 2-person room, simple and comfortable for a quiet seaside stay."
-        },
-        capacityKey: "room_capacity_two",
-        bedsKey: "room_beds_double",
+        capacityKey: "room_capacity_up_to_two",
+        bedsKey: "room_beds_sofa",
         floorKey: "room_floor_main",
         layoutKey: "room_layout_basic",
-        bestForKey: "room_best_two_person",
-        filterTags: ["two"],
-        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
+        bestForKey: "room_best_high_room",
+        filterTags: ["two", "solo"],
+        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_wifi"]
       },
       {
         id: "pokoj-2",
         images: ["img/rooms/room-2-01.webp", "img/rooms/room-2-02.webp", "img/rooms/room-2-03.webp", "img/rooms/room-2-04.webp"],
-        names: ["2"],
-        tag: { pl: "Pokój 2 · 2-osobowy", de: "Zimmer 2 · 2 Personen", en: "Room 2 · 2-person" },
-        title: { pl: "Pokój 2", de: "Zimmer 2", en: "Room 2" },
+        names: ["1", "2"],
+        tag: { pl: "Pokoje 1 i 2 · małżeńskie", de: "Zimmer 1 und 2 · Doppelbett", en: "Rooms 1 and 2 · double bed" },
+        title: { pl: "Pokoje nr 1 i 2", de: "Zimmer 1 und 2", en: "Rooms 1 and 2" },
         desc: {
-          pl: "Pokój 2-osobowy dla pary lub dwóch osób, z najważniejszym wyposażeniem pod ręką.",
-          de: "2-Personen-Zimmer für ein Paar oder zwei Gäste, mit der wichtigsten Ausstattung.",
-          en: "A 2-person room for a couple or two guests, with the key amenities close at hand."
+          pl: "Przytulne pokoje 2-osobowe z dużym łóżkiem małżeńskim, prywatną łazienką, lodówką i aneksem kuchennym.",
+          de: "Gemütliche 2-Personen-Zimmer mit großem Doppelbett, eigenem Bad, Kühlschrank und Küchenzeile.",
+          en: "Cosy 2-person rooms with a large double bed, private bathroom, refrigerator and kitchenette."
+        },
+        details: {
+          pl: [
+            "Pokoje nr 1 i 2 to przytulne i funkcjonalne pokoje przeznaczone dla dwóch osób. Ich najważniejszym elementem jest duże, wygodne łóżko małżeńskie.",
+            "Każdy pokój posiada prywatną łazienkę z prysznicem, telewizor oraz lodówkę. Do dyspozycji Gości znajduje się również niewielki aneks kuchenny wyposażony w zestaw naczyń, pozwalający na przygotowanie prostych posiłków i napojów."
+          ]
         },
         capacityKey: "room_capacity_two",
         bedsKey: "room_beds_double",
         floorKey: "room_floor_main",
-        layoutKey: "room_layout_basic",
+        layoutKey: "room_layout_kitchenette",
         bestForKey: "room_best_two_person",
         filterTags: ["two"],
-        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
+        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kitchenette", "feat_dishes", "feat_wifi"]
       },
       {
         id: "pokoj-3",
         images: ["img/rooms/room-3-02.webp", "img/rooms/room-3-01.webp", "img/rooms/room-3-03.webp", "img/rooms/room-3-04.webp"],
         names: ["3"],
-        tag: { pl: "Pokój 3 · 2-osobowy", de: "Zimmer 3 · 2 Personen", en: "Room 3 · 2-person" },
-        title: { pl: "Pokój 3", de: "Zimmer 3", en: "Room 3" },
+        tag: { pl: "Pokój 3 · dwa łóżka", de: "Zimmer 3 · zwei Betten", en: "Room 3 · twin beds" },
+        title: { pl: "Pokój nr 3", de: "Zimmer 3", en: "Room 3" },
         desc: {
-          pl: "Pokój 2-osobowy w spokojnym układzie, dobry na krótki i dłuższy pobyt.",
-          de: "2-Personen-Zimmer in ruhiger Aufteilung, gut für kurze und längere Aufenthalte.",
-          en: "A 2-person room with a calm layout, suitable for short and longer stays."
+          pl: "Pokój 2-osobowy z dwoma oddzielnymi łóżkami, prywatną łazienką, lodówką i aneksem kuchennym.",
+          de: "2-Personen-Zimmer mit zwei getrennten Betten, eigenem Bad, Kühlschrank und Küchenzeile.",
+          en: "A 2-person room with two separate beds, private bathroom, refrigerator and kitchenette."
+        },
+        details: {
+          pl: [
+            "Pokój nr 3 został przygotowany dla dwóch osób i wyposażony w dwa wygodne, oddzielne łóżka pojedyncze. Taki układ sprawdzi się dla znajomych, członków rodziny, współpracowników lub osób preferujących osobne miejsca do spania.",
+            "Do pokoju przynależy prywatna łazienka z prysznicem. Goście mają również do dyspozycji telewizor, lodówkę oraz praktyczny aneks kuchenny z zestawem naczyń."
+          ]
         },
         capacityKey: "room_capacity_two",
-        bedsKey: "room_beds_double",
+        bedsKey: "room_beds_two_singles",
         floorKey: "room_floor_main",
-        layoutKey: "room_layout_basic",
-        bestForKey: "room_best_two_person",
+        layoutKey: "room_layout_kitchenette",
+        bestForKey: "room_best_separate_beds",
         filterTags: ["two"],
-        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
+        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kitchenette", "feat_dishes", "feat_wifi"]
       },
       {
         id: "pokoj-4",
         images: ["img/rooms/room-4-01.webp", "img/rooms/room-4-02.webp", "img/rooms/room-4-03.webp", "img/rooms/room-4-04.webp"],
         names: ["4"],
-        tag: { pl: "Pokój 4 · 2-osobowy", de: "Zimmer 4 · 2 Personen", en: "Room 4 · 2-person" },
-        title: { pl: "Pokój 4", de: "Zimmer 4", en: "Room 4" },
+        tag: { pl: "Pokój 4 · łóżko + kanapa", de: "Zimmer 4 · Bett + Sofa", en: "Room 4 · bed + sofa" },
+        title: { pl: "Pokój nr 4", de: "Zimmer 4", en: "Room 4" },
         desc: {
-          pl: "Pokój 2-osobowy z jasnym charakterem, przygotowany dla gości wybierających prosty, wygodny pobyt.",
-          de: "Helles 2-Personen-Zimmer für Gäste, die einen einfachen und bequemen Aufenthalt wählen.",
-          en: "A bright 2-person room for guests choosing a simple, comfortable stay."
+          pl: "Pokój 2-osobowy z łóżkiem pojedynczym, rozkładaną kanapą, prywatną łazienką i aneksem kuchennym.",
+          de: "2-Personen-Zimmer mit Einzelbett, Schlafsofa, eigenem Bad und Küchenzeile.",
+          en: "A 2-person room with a single bed, sofa bed, private bathroom and kitchenette."
+        },
+        details: {
+          pl: [
+            "Pokój nr 4 to wygodna i funkcjonalna przestrzeń przeznaczona dla dwóch osób. W pokoju znajduje się jedno łóżko pojedyncze oraz rozkładana kanapa zapewniająca drugie miejsce do spania.",
+            "Taki układ pozwala na wygodny pobyt osobom, które chcą spać oddzielnie. Pokój posiada prywatną łazienkę z prysznicem, telewizor, lodówkę oraz aneks kuchenny z zestawem naczyń."
+          ]
+        },
+        capacityKey: "room_capacity_two",
+        bedsKey: "room_beds_single_sofa",
+        floorKey: "room_floor_main",
+        layoutKey: "room_layout_kitchenette",
+        bestForKey: "room_best_separate_beds",
+        filterTags: ["two"],
+        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kitchenette", "feat_dishes", "feat_wifi"]
+      },
+      {
+        id: "pokoje-dol",
+        images: ["img/rooms/dol-ogrod-01.webp", "img/rooms/dol-ogrod-02.webp", "img/rooms/dol-ogrod-03.webp", "img/rooms/dol-ulica-01.webp", "img/rooms/dol-ulica-02.webp", "img/rooms/dol-ulica-03.webp", "img/rooms/dol-ulica-04.webp"],
+        names: ["Dół ogród", "Dół ulica"],
+        tag: { pl: "Dół · 2-osobowe", de: "Unten · 2 Personen", en: "Ground floor · 2-person" },
+        title: { pl: "Pokoje na dole", de: "Zimmer im Erdgeschoss", en: "Ground-floor rooms" },
+        desc: {
+          pl: "Dwa pokoje 2-osobowe na dolnym poziomie: jeden od strony ogrodu, drugi od strony ulicy.",
+          de: "Zwei 2-Personen-Zimmer im Erdgeschoss: eines zur Gartenseite, eines zur Straßenseite.",
+          en: "Two 2-person rooms on the lower level: one on the garden side and one on the street side."
+        },
+        details: {
+          pl: [
+            "Pokoje „Dół ogród” i „Dół ulica” to dwie osobne propozycje na dolnym poziomie obiektu. Sprawdzą się dla Gości, którzy wolą niższą kondygnację i prosty, wygodny układ pobytu.",
+            "Każdy pokój posiada prywatną łazienkę z prysznicem oraz praktyczne wyposażenie potrzebne podczas krótkiego lub dłuższego wypoczynku."
+          ]
         },
         capacityKey: "room_capacity_two",
         bedsKey: "room_beds_double",
-        floorKey: "room_floor_main",
-        layoutKey: "room_layout_basic",
+        floorKey: "room_floor_ground",
+        layoutKey: "room_layout_ground_side",
         bestForKey: "room_best_two_person",
         filterTags: ["two"],
-        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
+        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_wifi"]
       },
       {
-        id: "pokoj-7",
+        id: "pokoj-5h",
+        images: ["img/rooms/room-5-01.webp", "img/rooms/room-5-02.webp", "img/rooms/room-5-03.webp", "img/rooms/room-5-04.webp", "img/rooms/studio-balcony-01.webp", "img/rooms/studio-balcony-02.webp"],
+        names: ["5H"],
+        tag: { pl: "5H · studio z balkonem", de: "5H · Studio mit Balkon", en: "5H · balcony studio" },
+        title: { pl: "Pokój nr 5H", de: "Zimmer 5H", en: "Room 5H" },
+        desc: {
+          pl: "Dwupokojowe studio dla 2-4 osób ze wspólnym balkonem, aneksem kuchennym, dwoma TV i wygłuszającą wykładziną hotelową.",
+          de: "Zweizimmer-Studio für 2-4 Personen mit gemeinsamem Balkon, Küchenzeile, zwei TVs und schalldämpfendem Hotelteppich.",
+          en: "A two-room studio for 2-4 guests with a shared balcony, kitchenette, two TVs and sound-softening hotel carpet."
+        },
+        details: {
+          pl: [
+            "Pokój nr 5H to przestronne, dwupokojowe studio przeznaczone dla dwóch, trzech lub czterech osób. Studio składa się z dwóch oddzielnych pomieszczeń, dzięki czemu zapewnia więcej przestrzeni i prywatności niż standardowy pokój.",
+            "W jednym pokoju znajduje się duże łóżko małżeńskie, natomiast w drugim wygodna rozkładana kanapa. Do dyspozycji Gości są dwa telewizory, lodówka, aneks kuchenny z zestawem naczyń oraz prywatna łazienka z prysznicem.",
+            "Pokój posiada dostęp do balkonu współdzielonego z pokojem nr 6H. Wyróżnia się też specjalną, niebieską wykładziną hotelową, która nadaje wnętrzu przytulny charakter i pomaga ograniczyć odgłosy."
+          ]
+        },
+        capacityKey: "room_capacity_two_four",
+        bedsKey: "room_beds_double_sofa",
+        floorKey: "room_floor_main",
+        layoutKey: "room_layout_shared_balcony_kitchenette",
+        bestForKey: "room_best_couples_family",
+        filterTags: ["balcony", "larger"],
+        featureKeys: ["feat_two_rooms", "feat_shared_balcony", "feat_bath", "feat_two_tvs", "feat_fridge", "feat_kitchenette", "feat_dishes", "feat_hotel_carpet", "feat_wifi"]
+      },
+      {
+        id: "pokoj-6h",
+        images: ["img/rooms/room-6-03.webp", "img/rooms/room-6-01.webp", "img/rooms/room-6-02.webp", "img/rooms/room-6-04.webp", "img/rooms/room-6-05.webp", "img/rooms/room-geometric.webp"],
+        names: ["6H"],
+        tag: { pl: "6H · studio z balkonem", de: "6H · Studio mit Balkon", en: "6H · balcony studio" },
+        title: { pl: "Pokój nr 6H", de: "Zimmer 6H", en: "Room 6H" },
+        desc: {
+          pl: "Dwupokojowe studio dla 2-4 osób ze wspólnym balkonem, dużym łóżkiem, rozkładaną kanapą i aneksem kuchennym.",
+          de: "Zweizimmer-Studio für 2-4 Personen mit gemeinsamem Balkon, Doppelbett, Schlafsofa und Küchenzeile.",
+          en: "A two-room studio for 2-4 guests with a shared balcony, double bed, sofa bed and kitchenette."
+        },
+        details: {
+          pl: [
+            "Pokój nr 6H to komfortowe, dwupokojowe studio przygotowane dla dwóch, trzech lub czterech osób. Składa się z dwóch oddzielnych pomieszczeń, zapewniających Gościom większą swobodę podczas pobytu.",
+            "W jednym pokoju znajduje się duże łóżko małżeńskie, natomiast w drugim rozkładana kanapa. Studio wyposażone jest w dwa telewizory, lodówkę, aneks kuchenny z zestawem naczyń oraz prywatną łazienkę z prysznicem.",
+            "Pokój posiada dostęp do balkonu współdzielonego z pokojem nr 5H. To dobry wybór dla par, rodzin z dziećmi oraz grup znajomych szukających przestronnego noclegu."
+          ]
+        },
+        capacityKey: "room_capacity_two_four",
+        bedsKey: "room_beds_double_sofa",
+        floorKey: "room_floor_main",
+        layoutKey: "room_layout_shared_balcony_kitchenette",
+        bestForKey: "room_best_couples_family",
+        filterTags: ["balcony", "larger"],
+        featureKeys: ["feat_two_rooms", "feat_shared_balcony", "feat_bath", "feat_two_tvs", "feat_fridge", "feat_kitchenette", "feat_dishes", "feat_wifi"]
+      },
+      {
+        id: "pokoj-7h",
         images: ["img/rooms/room-7-02.webp", "img/rooms/room-7-01.webp", "img/rooms/room-7-03.webp", "img/rooms/room-7-04.webp"],
-        names: ["7"],
-        tag: { pl: "Pokój 7 · poddasze", de: "Zimmer 7 · Dachgeschoss", en: "Room 7 · attic" },
-        title: { pl: "Pokój 7 na poddaszu", de: "Zimmer 7 im Dachgeschoss", en: "Room 7 in the attic" },
+        names: ["7H"],
+        tag: { pl: "7H · poddasze", de: "7H · Dachgeschoss", en: "7H · attic" },
+        title: { pl: "Pokój nr 7H", de: "Zimmer 7H", en: "Room 7H" },
         desc: {
-          pl: "Pokój na poddaszu z łóżkiem 2-osobowym i kanapą, przytulny wybór pod skosami.",
-          de: "Dachgeschosszimmer mit Doppelbett und Sofa, eine gemütliche Wahl unter den Schrägen.",
-          en: "An attic room with a double bed and sofa, a cozy choice under the roofline."
+          pl: "Przestronny pokój na najwyższej kondygnacji, w jasnym stylu skandynawskim, dla 2-4 osób.",
+          de: "Geräumiges Zimmer im obersten Geschoss, hell im skandinavischen Stil, für 2-4 Personen.",
+          en: "A spacious top-floor room in a bright Scandinavian style, for 2-4 guests."
         },
-        capacityKey: "room_capacity_two_three",
+        details: {
+          pl: [
+            "Pokój nr 7H to jasna i przytulna przestrzeń urządzona w stylu skandynawskim. Spokojna kolorystyka i lekkie wykończenie wnętrza tworzą przyjemną atmosferę sprzyjającą wypoczynkowi.",
+            "W pokoju znajduje się duże łóżko małżeńskie oraz rozkładana kanapa, dlatego może on pomieścić od dwóch do czterech osób. Goście mają do dyspozycji prywatną łazienkę z prysznicem, telewizor, lodówkę oraz niewielki aneks kuchenny."
+          ]
+        },
+        capacityKey: "room_capacity_two_four",
         bedsKey: "room_beds_double_sofa",
         floorKey: "room_floor_attic",
-        layoutKey: "room_layout_basic",
+        layoutKey: "room_layout_kitchenette",
         bestForKey: "room_best_attic",
-        filterTags: ["attic"],
-        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
+        filterTags: ["attic", "larger"],
+        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kitchenette", "feat_scandi_style", "feat_wifi"]
       },
       {
-        id: "pokoj-8",
+        id: "pokoj-8h",
         images: ["img/rooms/room-8-01.webp", "img/rooms/room-8-02.webp", "img/rooms/room-8-03.webp"],
-        names: ["8"],
-        tag: { pl: "Pokój 8 · poddasze", de: "Zimmer 8 · Dachgeschoss", en: "Room 8 · attic" },
-        title: { pl: "Pokój 8 na poddaszu", de: "Zimmer 8 im Dachgeschoss", en: "Room 8 in the attic" },
+        names: ["8H"],
+        tag: { pl: "8H · studio na poddaszu", de: "8H · Dachstudio", en: "8H · attic studio" },
+        title: { pl: "Pokój nr 8H", de: "Zimmer 8H", en: "Room 8H" },
         desc: {
-          pl: "Pokój na poddaszu z łóżkiem 2-osobowym i kanapą, dobry dla osób lubiących spokojniejszą część domu.",
-          de: "Dachgeschosszimmer mit Doppelbett und Sofa, gut für Gäste, die den ruhigeren Teil des Hauses mögen.",
-          en: "An attic room with a double bed and sofa, ideal for guests who enjoy a quieter part of the house."
+          pl: "Dwupokojowe studio na najwyższej kondygnacji, w jasnym stylu skandynawskim, dla 2-4 osób.",
+          de: "Zweizimmer-Studio im obersten Geschoss, hell im skandinavischen Stil, für 2-4 Personen.",
+          en: "A two-room attic studio in a bright Scandinavian style, for 2-4 guests."
         },
-        capacityKey: "room_capacity_two_three",
+        details: {
+          pl: [
+            "Pokój nr 8H to przestronne, dwupokojowe studio urządzone w jasnym stylu skandynawskim. Naturalna, spokojna kolorystyka oraz funkcjonalne rozplanowanie pomieszczeń tworzą komfortowe warunki do wypoczynku.",
+            "Studio składa się z dwóch oddzielnych pokoi. W jednym znajduje się duże łóżko małżeńskie, natomiast w drugim rozkładana kanapa zapewniająca dodatkowe miejsca do spania. Oddzielne pomieszczenia zapewniają większą prywatność."
+          ]
+        },
+        capacityKey: "room_capacity_two_four",
         bedsKey: "room_beds_double_sofa",
         floorKey: "room_floor_attic",
-        layoutKey: "room_layout_basic",
-        bestForKey: "room_best_attic",
-        filterTags: ["attic"],
-        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
+        layoutKey: "room_layout_kitchenette",
+        bestForKey: "room_best_couples_family",
+        filterTags: ["attic", "larger"],
+        featureKeys: ["feat_two_rooms", "feat_bath", "feat_tv", "feat_fridge", "feat_kitchenette", "feat_scandi_style", "feat_wifi"]
       },
       {
-        id: "dol-ogrod",
-        images: ["img/rooms/dol-ogrod-01.webp", "img/rooms/dol-ogrod-02.webp", "img/rooms/dol-ogrod-03.webp", "img/rooms/room-palm-01.webp"],
-        names: ["Dół ogród"],
-        tag: { pl: "Dół ogród · 2-osobowy", de: "Unten Garten · 2 Personen", en: "Ground garden · 2-person" },
-        title: { pl: "Dół ogród", de: "Unten Gartenseite", en: "Ground floor garden side" },
+        id: "pietrus-rka",
+        images: ["img/rooms/pietrus-01.webp", "img/rooms/pietrus-02.webp", "img/rooms/pietrus-03.webp", "img/rooms/r-ka-01.webp", "img/rooms/r-ka-02.webp"],
+        names: ["Piętrus", "R-ka"],
+        tag: { pl: "Piętrus i R-ka · większe", de: "Piętrus und R-ka · größer", en: "Pietrus and R-ka · larger" },
+        title: { pl: "Piętrus i R-ka", de: "Piętrus und R-ka", en: "Pietrus and R-ka" },
         desc: {
-          pl: "Pokój 2-osobowy na dole od strony ogrodu, wygodny dla gości, którzy wolą niższy poziom domu.",
-          de: "2-Personen-Zimmer unten zur Gartenseite, bequem für Gäste, die die untere Ebene bevorzugen.",
-          en: "A 2-person room on the ground floor, garden side, convenient for guests who prefer the lower level."
+          pl: "Dwa większe pokoje dla Gości, którzy potrzebują więcej przestrzeni niż w klasycznym pokoju 2-osobowym.",
+          de: "Zwei größere Zimmer für Gäste, die mehr Platz als in einem klassischen 2-Personen-Zimmer brauchen.",
+          en: "Two larger rooms for guests who need more space than in a classic 2-person room."
         },
-        capacityKey: "room_capacity_two",
-        bedsKey: "room_beds_double",
-        floorKey: "room_floor_ground_garden",
-        layoutKey: "room_layout_garden_side",
-        bestForKey: "room_best_two_person",
-        filterTags: ["two"],
-        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
-      },
-      {
-        id: "dol-ulica",
-        images: ["img/rooms/room-palm-02.webp", "img/rooms/dol-ulica-01.webp", "img/rooms/dol-ulica-02.webp", "img/rooms/dol-ulica-03.webp", "img/rooms/dol-ulica-04.webp"],
-        names: ["Dół ulica"],
-        tag: { pl: "Dół ulica · 2-osobowy", de: "Unten Straße · 2 Personen", en: "Ground street · 2-person" },
-        title: { pl: "Dół ulica", de: "Unten Straßenseite", en: "Ground floor street side" },
-        desc: {
-          pl: "Pokój 2-osobowy na dole od strony ulicy, oddzielony jako osobna propozycja w katalogu.",
-          de: "2-Personen-Zimmer unten zur Straßenseite, als eigene Option im Katalog geführt.",
-          en: "A 2-person room on the ground floor, street side, listed as its own option in the catalogue."
-        },
-        capacityKey: "room_capacity_two",
-        bedsKey: "room_beds_double",
-        floorKey: "room_floor_ground_street",
-        layoutKey: "room_layout_street_side",
-        bestForKey: "room_best_two_person",
-        filterTags: ["two"],
-        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
-      },
-      {
-        id: "pietrus",
-        images: ["img/rooms/pietrus-01.webp", "img/rooms/pietrus-02.webp", "img/rooms/pietrus-03.webp"],
-        names: ["Piętrus"],
-        tag: { pl: "Piętrus · większy pokój", de: "Piętrus · größeres Zimmer", en: "Pietrus · larger room" },
-        title: { pl: "Piętrus", de: "Piętrus", en: "Pietrus" },
-        desc: {
-          pl: "Większy pokój dla gości, którzy potrzebują więcej przestrzeni niż w klasycznym pokoju 2-osobowym.",
-          de: "Größeres Zimmer für Gäste, die mehr Platz als in einem klassischen 2-Personen-Zimmer brauchen.",
-          en: "A larger room for guests who need more space than in a classic 2-person room."
+        details: {
+          pl: [
+            "Piętrus i R-ka to większe pokoje przeznaczone dla Gości, którzy chcą mieć do dyspozycji bardziej przestronny układ niż w standardowym pokoju 2-osobowym.",
+            "To wygodna propozycja dla rodzin, znajomych lub osób planujących dłuższy pobyt i potrzebujących większej swobody w pokoju."
+          ]
         },
         capacityKey: "room_capacity_three_five",
         bedsKey: "room_beds_two_rooms",
-        floorKey: "room_floor_upper",
+        floorKey: "room_floor_upper_main",
         layoutKey: "room_layout_basic",
         bestForKey: "room_best_bigger",
-        filterTags: ["two"],
-        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
-      },
-      {
-        id: "r-ka",
-        images: ["img/rooms/r-ka-01.webp", "img/rooms/r-ka-02.webp"],
-        names: ["R-ka"],
-        tag: { pl: "R-ka · większy pokój", de: "R-ka · größeres Zimmer", en: "R-ka · larger room" },
-        title: { pl: "R-ka", de: "R-ka", en: "R-ka" },
-        desc: {
-          pl: "Większy pokój z bardziej przestronnym układem, dobry dla gości wybierających większy metraż.",
-          de: "Größeres Zimmer mit großzügigerer Aufteilung, gut für Gäste, die mehr Fläche wünschen.",
-          en: "A larger room with a more spacious layout, good for guests choosing extra room."
-        },
-        capacityKey: "room_capacity_three_five",
-        bedsKey: "room_beds_two_rooms",
-        floorKey: "room_floor_main",
-        layoutKey: "room_layout_basic",
-        bestForKey: "room_best_bigger",
-        filterTags: ["two"],
-        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
+        filterTags: ["larger"],
+        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_wifi"]
       },
       {
         id: "blizniak",
         images: ["img/rooms/blizniak-01.webp", "img/rooms/blizniak-02.webp", "img/rooms/blizniak-03.webp", "img/rooms/blizniak-04.webp", "img/rooms/blizniak-05.webp"],
         names: ["Bliźniak"],
-        tag: { pl: "Bliźniak · 4-osobowy", de: "Bliźniak · 4 Personen", en: "Blizniak · 4-person" },
+        tag: { pl: "Bliźniak · pełna kuchnia", de: "Bliźniak · volle Küche", en: "Blizniak · full kitchen" },
         title: { pl: "Bliźniak", de: "Bliźniak", en: "Blizniak" },
         desc: {
-          pl: "Pokój 4-osobowy dla rodziny lub grupy, wyraźnie oddzielony od większych pokoi Piętrus i R-ka.",
-          de: "4-Personen-Zimmer für eine Familie oder Gruppe, klar getrennt von den größeren Zimmern Piętrus und R-ka.",
-          en: "A 4-person room for a family or group, clearly separated from the larger Pietrus and R-ka rooms."
+          pl: "Przestronne studio 2-pokojowe dla 2-4 osób z w pełni wyposażoną kuchnią, zmywarką i mikrofalówką.",
+          de: "Geräumiges Zweizimmer-Studio für 2-4 Personen mit voll ausgestatteter Küche, Geschirrspüler und Mikrowelle.",
+          en: "A spacious two-room studio for 2-4 guests with a fully equipped kitchen, dishwasher and microwave."
         },
-        capacityKey: "room_capacity_four",
-        bedsKey: "room_beds_two_rooms",
+        details: {
+          pl: [
+            "Bliźniak to przestronne, dwupokojowe studio przeznaczone standardowo dla dwóch, trzech lub czterech osób. W jednym pokoju znajdują się dwa oddzielne łóżka pojedyncze, a w drugim duża rozkładana kanapa.",
+            "Studio posiada dwa telewizory, prywatną łazienkę z prysznicem oraz w pełni wyposażoną kuchnię. Znajdują się w niej między innymi lodówka, zmywarka, mikrofalówka, komplet naczyń, sztućców oraz wyposażenie potrzebne do przygotowywania i podawania posiłków."
+          ]
+        },
+        capacityKey: "room_capacity_two_four",
+        bedsKey: "room_beds_blizniak",
         floorKey: "room_floor_connected",
-        layoutKey: "room_layout_basic",
+        layoutKey: "room_layout_full_kitchen",
         bestForKey: "room_best_twin",
         filterTags: ["larger"],
-        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kettle", "feat_wifi"]
+        featureKeys: ["feat_two_rooms", "feat_bath", "feat_two_tvs", "feat_kitchen_full", "feat_fridge", "feat_dishwasher", "feat_microwave", "feat_dishes", "feat_wifi"]
       },
       {
-        id: "pokoj-0",
-        images: ["img/rooms/room-0-01.webp", "img/rooms/room-0-02.webp", "img/rooms/room-0-03.webp", "img/rooms/room-0-04.webp"],
-        names: ["0"],
-        tag: { pl: "Pokój 0 · 1-osobowy", de: "Zimmer 0 · 1 Person", en: "Room 0 · single" },
-        title: { pl: "Pokój 0", de: "Zimmer 0", en: "Room 0" },
+        id: "apartament",
+        images: ["img/rooms/apartment-11.webp", "img/rooms/apartment-10.webp", "img/rooms/apartment-01.webp", "img/rooms/apartment-02.webp", "img/rooms/apartment-03.webp", "img/rooms/apartment-04.webp", "img/rooms/apartment-05.webp", "img/rooms/apartment-06.webp", "img/rooms/apartment-07.webp", "img/rooms/apartment-08.webp", "img/rooms/apartment-09.webp"],
+        names: ["Apartament 70 m²"],
+        tag: { pl: "Apartament · 70 m²", de: "Apartment · 70 m²", en: "Apartment · 70 m²" },
+        title: { pl: "Apartament 70 m²", de: "Apartment 70 m²", en: "Apartment 70 m²" },
         desc: {
-          pl: "W pełni prywatny pokój dla jednej osoby, oddzielony od reszty obiektu i nastawiony na spokój.",
-          de: "Ein komplett privates Zimmer für eine Person, getrennt vom Rest des Hauses und auf Ruhe ausgerichtet.",
-          en: "A fully private room for one person, separated from the rest of the house and focused on quiet."
+          pl: "Niezależny, dwupoziomowy apartament dla 2-6 osób z prywatnym tarasem, własnym podjazdem, pełną kuchnią, pralką i klimatyzacją.",
+          de: "Unabhängiges Apartment auf zwei Ebenen für 2-6 Personen mit privater Terrasse, eigener Zufahrt, kompletter Küche, Waschmaschine und Klimaanlage.",
+          en: "An independent two-level apartment for 2-6 guests with a private terrace, own driveway, full kitchen, washing machine and air conditioning."
         },
-        capacityKey: "room_capacity_solo",
-        bedsKey: "room_beds_single",
-        floorKey: "room_floor_separate",
-        layoutKey: "room_layout_basic",
-        bestForKey: "room_best_solo",
-        filterTags: ["solo"],
-        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_wifi"]
+        details: {
+          pl: [
+            "Apartament o powierzchni 70 m² znajduje się w całkowicie oddzielnym, niezależnym budynku. Posiada własny podjazd oraz prywatny taras, dzięki czemu zapewnia Gościom dużą swobodę i prywatność.",
+            "Na parterze znajduje się zamykana sypialnia z dużym łóżkiem małżeńskim, bardzo duża łazienka z prysznicem oraz otwarta strefa dzienna połączona z w pełni wyposażoną kuchnią. W części dziennej znajduje się duża kanapa z funkcją spania oraz kącik do pracy.",
+            "Na pierwszym piętrze znajduje się antresola z dwoma oddzielnymi łóżkami pojedynczymi. Apartament wyposażony jest również w pralkę i klimatyzację z indywidualnym sterowaniem."
+          ]
+        },
+        capacityKey: "room_capacity_two_six",
+        bedsKey: "room_beds_apartment",
+        floorKey: "room_floor_private_building",
+        layoutKey: "room_layout_full_kitchen_terrace",
+        bestForKey: "room_best_apartment",
+        filterTags: ["apartment"],
+        featureKeys: ["feat_area_70", "feat_private_building", "feat_terrace", "feat_driveway", "feat_two_levels", "feat_bath_large", "feat_kitchen_full", "feat_dishwasher", "feat_microwave", "feat_washer", "feat_ac", "feat_work_corner", "feat_wifi"]
       }
     ];
 
@@ -2015,7 +2144,28 @@
       return key ? dict[key] || "" : "";
     }
 
-    let activeRoomFilter = "apartment";
+    function localizedRoomDetails(group, lang) {
+      const value = group.details;
+      if (!value) return [];
+      if (Array.isArray(value)) return value;
+      if (typeof value === "object") {
+        const details = value[lang] || value.pl || Object.values(value)[0] || [];
+        return Array.isArray(details) ? details : [String(details)];
+      }
+      return [String(value)];
+    }
+
+    function roomNamesMarkup(group, dict, className) {
+      if (!Array.isArray(group.names) || !group.names.length) return "";
+      return `
+        <div class="room-names ${className || ""}">
+          <span>${dict.room_names_label || "Pokoje w tej kategorii"}</span>
+          <strong>${group.names.join(", ")}</strong>
+        </div>
+      `;
+    }
+
+    let activeRoomFilter = "all";
 
     function roomMetaItems(group, dict) {
       return [
@@ -2041,6 +2191,7 @@
     }
 
     function roomMatchesFilter(group) {
+      if (activeRoomFilter === "all") return true;
       return (group.filterTags || []).includes(activeRoomFilter);
     }
 
@@ -2079,6 +2230,7 @@
             </div>
             <div class="room-body">
               <h3>${title}</h3>
+              ${roomNamesMarkup(group, dict, "room-card-names")}
               <p>${desc}</p>
               <div class="room-card-actions">
                 <button class="button button-secondary" type="button" data-room-open="${group.index}">${dict.room_details || "Szczegóły"}</button>
@@ -2164,6 +2316,7 @@
       const title = localizedRoomText(group, "title", lang, dict);
       const desc = localizedRoomText(group, "desc", lang, dict);
       const tag = localizedRoomText(group, "tag", lang, dict);
+      const details = localizedRoomDetails(group, lang).map((paragraph) => `<p class="room-modal-detail">${paragraph}</p>`).join("");
       const hasImages = group.images.length > 0;
       const thumbs = group.images.map((src, i) => `
         <button type="button" class="room-modal-thumb${i === 0 ? " is-active" : ""}" data-room-thumb="${i}" aria-label="${dict.gallery_image_fallback || "Zdjęcie"} ${i + 1}">
@@ -2190,7 +2343,9 @@
         <div class="room-modal-info">
           <span class="section-kicker">${dict.rooms_kicker || ""}</span>
           <h3 id="room-modal-title">${title}</h3>
+          ${roomNamesMarkup(group, dict, "room-modal-names")}
           <p class="room-modal-desc">${desc}</p>
+          ${details ? `<div class="room-modal-details">${details}</div>` : ""}
           ${roomMetaMarkup(group, dict, "room-modal-meta")}
           <strong class="room-modal-subtitle">${dict.room_equipment || "Wyposażenie"}</strong>
           <ul class="room-modal-features">${features}</ul>

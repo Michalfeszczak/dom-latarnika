@@ -2352,6 +2352,43 @@
       grid-template-columns:repeat(2,minmax(0,1fr));
       gap:8px;
     }
+    .room-names{
+      display:flex;
+      flex-wrap:wrap;
+      align-items:center;
+      gap:6px 8px;
+      margin:0 0 12px;
+      color:var(--muted);
+      font-size:.78rem;
+      font-weight:800;
+      text-transform:uppercase;
+      letter-spacing:.06em;
+    }
+    .room-names strong{
+      display:inline-flex;
+      align-items:center;
+      min-height:28px;
+      padding:4px 9px;
+      border:1px solid rgba(183,110,83,.28);
+      border-radius:999px;
+      background:#fff8f4;
+      color:var(--accent-dark);
+      font-size:.8rem;
+      line-height:1.2;
+      letter-spacing:0;
+      text-transform:none;
+    }
+    .room-modal-names{margin-bottom:14px}
+    .room-modal-details{
+      margin:0 0 20px;
+      display:grid;
+      gap:10px;
+    }
+    .room-modal-detail{
+      margin:0;
+      color:var(--text);
+      line-height:1.65;
+    }
     .room-meta-item{
       min-width:0;
       padding:9px 10px;

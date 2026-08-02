@@ -12,7 +12,7 @@ Strona statyczna (HTML/CSS/JS) – bez procesu budowania, gotowa do wrzucenia na
 - 🛏️ **Indywidualne pokoje** – 5 typów pokoi/studiów/apartament z modalem zdjęć i wyposażenia
 - 📣 **Aktualności** – sekcja z galerią sezonu i szybkim zapytaniem o wolne terminy
 - 🔒 **RODO** – baner cookies dla zgody analitycznej
-- 📊 **SEO** – Open Graph, JSON-LD (BedAndBreakfast), sitemap, robots, strona 404
+- 📊 **SEO** – Open Graph, JSON-LD (LodgingBusiness), sitemap, robots, strona 404
 
 ## 📁 Struktura projektu
 
