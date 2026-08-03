@@ -1699,19 +1699,44 @@
         featureKeys: ["feat_two_rooms", "feat_bath", "feat_tv", "feat_fridge", "feat_kitchenette", "feat_scandi_style", "feat_wifi"]
       },
       {
-        id: "pietrus-rka",
-        images: ["img/rooms/pietrus-01.webp", "img/rooms/pietrus-02.webp", "img/rooms/pietrus-03.webp", "img/rooms/r-ka-01.webp", "img/rooms/r-ka-02.webp"],
-        names: ["Piętrus", "R-ka"],
-        tag: { pl: "Piętrus i R-ka · większe", de: "Piętrus und R-ka · größer", en: "Pietrus and R-ka · larger" },
-        title: { pl: "Piętrus i R-ka", de: "Piętrus und R-ka", en: "Pietrus and R-ka" },
+        id: "pietrus",
+        images: ["img/rooms/pietrus-01.webp", "img/rooms/pietrus-02.webp", "img/rooms/pietrus-03.webp"],
+        names: ["Piętrus"],
+        tag: { pl: "Piętrus · większy", de: "Piętrus · größer", en: "Pietrus · larger" },
+        title: { pl: "Piętrus", de: "Piętrus", en: "Pietrus" },
         desc: {
-          pl: "Dwa większe pokoje dla Gości, którzy potrzebują więcej przestrzeni niż w klasycznym pokoju 2-osobowym.",
-          de: "Zwei größere Zimmer für Gäste, die mehr Platz als in einem klassischen 2-Personen-Zimmer brauchen.",
-          en: "Two larger rooms for guests who need more space than in a classic 2-person room."
+          pl: "Większy pokój dla Gości, którzy potrzebują więcej przestrzeni niż w klasycznym pokoju 2-osobowym.",
+          de: "Größeres Zimmer für Gäste, die mehr Platz als in einem klassischen 2-Personen-Zimmer brauchen.",
+          en: "A larger room for guests who need more space than in a classic 2-person room."
         },
         details: {
           pl: [
-            "Piętrus i R-ka to większe pokoje przeznaczone dla Gości, którzy chcą mieć do dyspozycji bardziej przestronny układ niż w standardowym pokoju 2-osobowym.",
+            "Piętrus to większy pokój przeznaczony dla Gości, którzy chcą mieć do dyspozycji bardziej przestronny układ niż w standardowym pokoju 2-osobowym.",
+            "To wygodna propozycja dla rodzin, znajomych lub osób planujących dłuższy pobyt i potrzebujących większej swobody w pokoju."
+          ]
+        },
+        capacityKey: "room_capacity_three_five",
+        bedsKey: "room_beds_two_rooms",
+        floorKey: "room_floor_upper_main",
+        layoutKey: "room_layout_basic",
+        bestForKey: "room_best_bigger",
+        filterTags: ["larger"],
+        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_wifi"]
+      },
+      {
+        id: "r-ka",
+        images: ["img/rooms/r-ka-01.webp", "img/rooms/r-ka-02.webp"],
+        names: ["R-ka"],
+        tag: { pl: "R-ka · większy", de: "R-ka · größer", en: "R-ka · larger" },
+        title: { pl: "R-ka", de: "R-ka", en: "R-ka" },
+        desc: {
+          pl: "Większy pokój dla Gości, którzy potrzebują więcej przestrzeni niż w klasycznym pokoju 2-osobowym.",
+          de: "Größeres Zimmer für Gäste, die mehr Platz als in einem klassischen 2-Personen-Zimmer brauchen.",
+          en: "A larger room for guests who need more space than in a classic 2-person room."
+        },
+        details: {
+          pl: [
+            "R-ka to większy pokój przeznaczony dla Gości, którzy chcą mieć do dyspozycji bardziej przestronny układ niż w standardowym pokoju 2-osobowym.",
             "To wygodna propozycja dla rodzin, znajomych lub osób planujących dłuższy pobyt i potrzebujących większej swobody w pokoju."
           ]
         },
