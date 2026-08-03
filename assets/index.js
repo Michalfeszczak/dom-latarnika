@@ -1448,7 +1448,7 @@
       },
       {
         id: "pokoj-1",
-        images: ["img/rooms/room-2-03.webp", "img/rooms/room-2-04.webp"],
+        images: ["img/rooms/room-1-01.webp", "img/rooms/room-1-02.webp", "img/rooms/room-1-03.webp", "img/rooms/room-1-04.webp"],
         names: ["1"],
         tag: { pl: "Pokój 1 · małżeńskie", de: "Zimmer 1 · Doppelbett", en: "Room 1 · double bed" },
         title: { pl: "Pokój nr 1", de: "Zimmer 1", en: "Room 1" },
@@ -1473,7 +1473,7 @@
       },
       {
         id: "pokoj-2",
-        images: ["img/rooms/room-2-01.webp", "img/rooms/room-2-02.webp"],
+        images: ["img/rooms/room-2-01.webp", "img/rooms/room-2-02.webp", "img/rooms/room-2-03.webp", "img/rooms/room-2-04.webp"],
         names: ["2"],
         tag: { pl: "Pokój 2 · małżeńskie", de: "Zimmer 2 · Doppelbett", en: "Room 2 · double bed" },
         title: { pl: "Pokój nr 2", de: "Zimmer 2", en: "Room 2" },
