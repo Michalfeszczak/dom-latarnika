@@ -236,8 +236,8 @@
 
     const translations = {
       pl: {
-        title: "Dom Latarnika – pensjonat nad morzem w Grzybowie",
-        description: "Pensjonat Dom Latarnika w Grzybowie – wakacje nad morzem koło Kołobrzegu. Komfortowe pokoje, studia i apartament nad Bałtykiem, wspólna kuchnia, salon i taras, spokojna lokalizacja blisko plaży i wygodna rezerwacja online.",
+        title: "Dom Latarnika - pensjonat nad morzem w Grzybowie",
+        description: "Pensjonat Dom Latarnika w Grzybowie - wakacje nad morzem koło Kołobrzegu. Komfortowe pokoje, studia i apartament nad Bałtykiem, wspólna kuchnia, salon i taras, spokojna lokalizacja blisko plaży i wygodna rezerwacja online.",
         skip: "Przejdź do treści",
         a11y_btn_aria: "Ułatwienia dostępności",
         a11y_panel_aria: "Ułatwienia dostępności",
@@ -304,7 +304,7 @@
         panel_sea_label: "Odległość od morza",
         panel_sea_value: "Kilka minut spacerem do plaży.",
         panel_parking_label: "Parking",
-        panel_parking_value: "bezpłatny, na miejscu",
+        panel_parking_value: "na miejscu",
         panel_booking_label: "Rezerwacja",
         panel_booking_value: "online lub telefonicznie",
         usp_kicker: "Dlaczego warto",
@@ -351,7 +351,7 @@
         area_score_point5: "dobra lokalizacja na rodzinny wypoczynek.",
         area_beach_modal_aria: "Plaża i atrakcje",
         area_beach_modal_title: "Plaża i atrakcje",
-        area_beach_modal_text: "Plaża, spacery i atrakcje w okolicy — wszystko blisko Domu Latarnika.",
+        area_beach_modal_text: "Plaża, spacery i atrakcje w okolicy - wszystko blisko Domu Latarnika.",
         area_beach_modal_button: "Pokaż na mapie",
         area_beach_card1_title: "Plaża w Grzybowie",
         area_beach_card1_subtitle: "około 500 m od obiektu",
@@ -444,20 +444,20 @@
         room_best_long_family: "rodzin i dłuższych pobytów",
         room_best_apartment: "rodzin, grup i dłuższych pobytów",
         rg_priv_tag: "Prywatny · 1 osoba",
-        rg_priv_title: "Pokój „0” — prywatne zacisze",
+        rg_priv_title: "Pokój „0” - prywatne zacisze",
         rg_priv_desc: "W pełni prywatny pokój, oddzielony od reszty obiektu, z myślą o jednej osobie. Maksimum spokoju i niezależności.",
         rg_stairs_tag: "2 pokoje · kilka schodków",
         rg_stairs_title: "Pokoje „DO” i „DU”",
-        rg_stairs_desc: "Do tych dwóch pokoi wchodzi się kilka (5) schodków wyżej — dzięki temu dają miłe poczucie odosobnienia.",
+        rg_stairs_desc: "Do tych dwóch pokoi wchodzi się kilka (5) schodków wyżej - dzięki temu dają miłe poczucie odosobnienia.",
         rg_std_tag: "6 pokoi",
-        rg_std_title: "Pokoje 1h–6h",
-        rg_std_desc: "Wygodne, jasne pokoje z własną łazienką — sprawdzą się dla par i rodzin. Do wyboru sześć numerów.",
+        rg_std_title: "Pokoje 1h-6h",
+        rg_std_desc: "Wygodne, jasne pokoje z własną łazienką - sprawdzą się dla par i rodzin. Do wyboru sześć numerów.",
         rg_attic_tag: "2 pokoje · poddasze",
-        rg_attic_title: "Na poddaszu — 7h i 8h",
-        rg_attic_desc: "Kameralne pokoje pod skosami, na poddaszu — z przytulnym, wakacyjnym klimatem.",
+        rg_attic_title: "Na poddaszu - 7h i 8h",
+        rg_attic_desc: "Kameralne pokoje pod skosami, na poddaszu - z przytulnym, wakacyjnym klimatem.",
         rg_join_tag: "Łączone · Bliźniak",
         rg_join_title: "„R”, „Piętrus” i „Bliźniak”",
-        rg_join_desc: "„R” to ulubiony pokój właściciela — o powód dopytaj na miejscu 😉. Razem z „Piętrusem” tworzą „Bliźniaka”: dwa oddzielne pokoje połączone w jeden, idealne dla większej rodziny.",
+        rg_join_desc: "„R” to ulubiony pokój właściciela - o powód dopytaj na miejscu 😉. Razem z „Piętrusem” tworzą „Bliźniaka”: dwa oddzielne pokoje połączone w jeden, idealne dla większej rodziny.",
         rg_apart_tag: "Apartament",
         rg_apart_title: "Apartament",
         rg_apart_desc: "Najwięcej przestrzeni: osobne sypialnie, salon z aneksem kuchennym i własne wejście.",
@@ -496,16 +496,16 @@
         amenities_bath: "W każdym pokoju własna łazienka",
         spaces_kicker: "Wspólne przestrzenie",
         spaces_title: "Miejsca, które łączą gości",
-        spaces_text: "Poza własnym pokojem czekają na Ciebie wspólne przestrzenie — do gotowania, wspólnej gry i odpoczynku na świeżym powietrzu.",
+        spaces_text: "Poza własnym pokojem czekają na Ciebie wspólne przestrzenie - do gotowania, wspólnej gry i odpoczynku na świeżym powietrzu.",
         shared_media_soon: "Zdjęcia i nagrania wkrótce",
         shared_kitchen_title: "Wspólna kuchnia",
-        shared_kitchen_text: "W pełni wyposażona, dodatkowa kuchnia dostępna dla gości — wygodna zwłaszcza przy dłuższych pobytach.",
+        shared_kitchen_text: "W pełni wyposażona, dodatkowa kuchnia dostępna dla gości - wygodna zwłaszcza przy dłuższych pobytach.",
         shared_kitchen_tag: "Do dyspozycji gości",
         shared_salon_title: "Salon z grami",
-        shared_salon_text: "Przytulny salon z dodatkowym telewizorem i pokaźnym wyborem gier planszowych — idealny na wieczory z rodziną i znajomymi.",
+        shared_salon_text: "Przytulny salon z dodatkowym telewizorem i pokaźnym wyborem gier planszowych - idealny na wieczory z rodziną i znajomymi.",
         shared_salon_tag: "TV i gry planszowe",
         shared_terrace_title: "Wspólny taras",
-        shared_terrace_text: "Zaciszny taras przy budynku — dobre miejsce na poranną kawę i wieczorny relaks po dniu na plaży.",
+        shared_terrace_text: "Zaciszny taras przy budynku - dobre miejsce na poranną kawę i wieczorny relaks po dniu na plaży.",
         shared_terrace_tag: "Strefa relaksu",
         am_wifi: "Bezpłatne WiFi",
         am_parking: "Zamknięty parking",
@@ -531,7 +531,7 @@
         news_card2_title: "Wolne terminy i promocje",
         news_card2_text: "O ostatnie wolne terminy i oferty specjalne najlepiej zapytać nas bezpośrednio.",
         news_card2_more: "Zapytaj o termin →",
-        news_card2_aria: "Wolne terminy — zapytaj o pobyt",
+        news_card2_aria: "Wolne terminy - zapytaj o pobyt",
         news_facebook_button: "Zobacz nas na Facebooku",
         news_facebook_aria: "Zobacz nas na Facebooku",
         season_modal_aria: "Zdjęcia z sezonu",
@@ -593,12 +593,12 @@
         payment_recipient_value: "Marek Brączyk / Dom Latarnika",
         payment_account_label: "Numer rachunku:",
         payment_transfer_label: "Tytuł przelewu:",
-        payment_transfer_value: "Zadatek — imię i nazwisko, termin pobytu",
+        payment_transfer_value: "Zadatek - imię i nazwisko, termin pobytu",
         payment_example_label: "Przykład:",
-        payment_example_value: "Zadatek — Anna Kowalska, 12–18.07.2026",
+        payment_example_value: "Zadatek - Anna Kowalska, 12-18.07.2026",
         footer_title: "Dom Latarnika",
         footer_text: "Grzybowo · ul. Nadmorska 65A",
-        footer_seo: "Wakacje nad morzem w Grzybowie – noclegi nad polskim morzem blisko Kołobrzegu, Dźwirzyna i Bałtyku.",
+        footer_seo: "Wakacje nad morzem w Grzybowie - noclegi nad polskim morzem blisko Kołobrzegu, Dźwirzyna i Bałtyku.",
         ai_badge: "Ilustracja AI",
         ai_disclosure: "Część grafik na stronie (poglądowa mapa okolicy oraz ikony w sekcji atutów) została wygenerowana z użyciem sztucznej inteligencji. Zdjęcia obiektu, pokoi i okolicy są prawdziwe.",
         faq: "FAQ",
@@ -606,9 +606,9 @@
         faq_title: "Najczęstsze pytania",
         faq_text: "Krótkie odpowiedzi na pytania, które goście zadają najczęściej przed przyjazdem.",
         faq_q1: "Jak daleko jest do plaży?",
-        faq_a1: "Do plaży dojdziesz spacerem w kilka minut — obiekt leży w spokojnej części Grzybowa, blisko morza.",
+        faq_a1: "Do plaży dojdziesz spacerem w kilka minut - obiekt leży w spokojnej części Grzybowa, blisko morza.",
         faq_q2: "Czy na miejscu jest parking?",
-        faq_a2: "Tak. Do dyspozycji gości jest bezpłatny, ogrodzony i monitorowany parking na terenie obiektu.",
+        faq_a2: "Tak. Do dyspozycji gości jest ogrodzony i monitorowany parking na terenie obiektu.",
         faq_q3: "W jakich godzinach jest zameldowanie i wymeldowanie?",
         faq_a3: "Zameldowanie od godziny 15:00, wymeldowanie do 10:00. Inne godziny prosimy wcześniej uzgodnić z właścicielem.",
         faq_q4: "Co jest do dyspozycji gości?",
@@ -619,7 +619,7 @@
       },
       de: {
         title: "Dom Latarnika - ruhiger Aufenthalt am Meer in Grzybowo",
-        description: "Dom Latarnika in Grzybowo – Urlaub an der Ostsee nahe Kolberg (Kołobrzeg). Komfortable Zimmer, Studios und Apartment, Gemeinschaftsküche, Wohnzimmer und Terrasse, ruhige Lage nahe am Meer und bequeme Online-Buchung.",
+        description: "Dom Latarnika in Grzybowo - Urlaub an der Ostsee nahe Kolberg (Kołobrzeg). Komfortable Zimmer, Studios und Apartment, Gemeinschaftsküche, Wohnzimmer und Terrasse, ruhige Lage nahe am Meer und bequeme Online-Buchung.",
         skip: "Zum Inhalt",
         a11y_btn_aria: "Barrierefreiheit",
         a11y_panel_aria: "Barrierefreiheitshilfen",
@@ -686,7 +686,7 @@
         panel_sea_label: "Entfernung zum Meer",
         panel_sea_value: "Wenige Gehminuten zum Strand.",
         panel_parking_label: "Parkplatz",
-        panel_parking_value: "kostenlos, vor Ort",
+        panel_parking_value: "vor Ort",
         panel_booking_label: "Buchung",
         panel_booking_value: "online oder telefonisch",
         usp_kicker: "Warum es sich lohnt",
@@ -733,7 +733,7 @@
         area_score_point5: "gute Lage für Familienerholung.",
         area_beach_modal_aria: "Strand und Attraktionen",
         area_beach_modal_title: "Strand und Attraktionen",
-        area_beach_modal_text: "Strand, Spaziergänge und Attraktionen in der Umgebung — alles nah am Dom Latarnika.",
+        area_beach_modal_text: "Strand, Spaziergänge und Attraktionen in der Umgebung - alles nah am Dom Latarnika.",
         area_beach_modal_button: "Auf der Karte zeigen",
         area_beach_card1_title: "Strand in Grzybowo",
         area_beach_card1_subtitle: "etwa 500 m vom Haus entfernt",
@@ -826,20 +826,20 @@
         room_best_long_family: "Familien und längere Aufenthalte",
         room_best_apartment: "Familien, Gruppen und längere Aufenthalte",
         rg_priv_tag: "Privat · 1 Person",
-        rg_priv_title: "Zimmer „0” — privater Rückzugsort",
+        rg_priv_title: "Zimmer „0” - privater Rückzugsort",
         rg_priv_desc: "Ein komplett privates Zimmer, getrennt vom Rest des Hauses, für eine Person. Maximale Ruhe und Unabhängigkeit.",
         rg_stairs_tag: "2 Zimmer · ein paar Stufen",
         rg_stairs_title: "Zimmer „DO” und „DU”",
-        rg_stairs_desc: "Zu diesen beiden Zimmern gelangt man ein paar (5) Stufen höher — das gibt ein angenehmes Gefühl der Abgeschiedenheit.",
+        rg_stairs_desc: "Zu diesen beiden Zimmern gelangt man ein paar (5) Stufen höher - das gibt ein angenehmes Gefühl der Abgeschiedenheit.",
         rg_std_tag: "6 Zimmer",
-        rg_std_title: "Zimmer 1h–6h",
-        rg_std_desc: "Bequeme, helle Zimmer mit eigenem Bad — ideal für Paare und Familien. Sechs Nummern zur Auswahl.",
+        rg_std_title: "Zimmer 1h-6h",
+        rg_std_desc: "Bequeme, helle Zimmer mit eigenem Bad - ideal für Paare und Familien. Sechs Nummern zur Auswahl.",
         rg_attic_tag: "2 Zimmer · Dachgeschoss",
-        rg_attic_title: "Im Dachgeschoss — 7h und 8h",
-        rg_attic_desc: "Gemütliche Zimmer unter Dachschrägen — mit heimeligem Urlaubsflair.",
+        rg_attic_title: "Im Dachgeschoss - 7h und 8h",
+        rg_attic_desc: "Gemütliche Zimmer unter Dachschrägen - mit heimeligem Urlaubsflair.",
         rg_join_tag: "Verbunden · Bliźniak",
         rg_join_title: "„R”, „Piętrus” und „Bliźniak”",
-        rg_join_desc: "„R” ist das Lieblingszimmer des Gastgebers — nach dem Grund fragen Sie am besten vor Ort 😉. Zusammen mit „Piętrus” bilden sie „Bliźniak”: zwei separate Zimmer, zu einem verbunden — ideal für größere Familien.",
+        rg_join_desc: "„R” ist das Lieblingszimmer des Gastgebers - nach dem Grund fragen Sie am besten vor Ort 😉. Zusammen mit „Piętrus” bilden sie „Bliźniak”: zwei separate Zimmer, zu einem verbunden - ideal für größere Familien.",
         rg_apart_tag: "Apartment",
         rg_apart_title: "Apartment",
         rg_apart_desc: "Am meisten Platz: separate Schlafzimmer, Wohnzimmer mit Küchenzeile und eigener Eingang.",
@@ -878,16 +878,16 @@
         amenities_bath: "In jedem Zimmer ein eigenes Bad",
         spaces_kicker: "Gemeinschaftsbereiche",
         spaces_title: "Orte, die Gäste verbinden",
-        spaces_text: "Neben dem eigenen Zimmer warten Gemeinschaftsbereiche auf Sie — zum Kochen, gemeinsamen Spielen und Entspannen an der frischen Luft.",
+        spaces_text: "Neben dem eigenen Zimmer warten Gemeinschaftsbereiche auf Sie - zum Kochen, gemeinsamen Spielen und Entspannen an der frischen Luft.",
         shared_media_soon: "Fotos und Videos folgen in Kürze",
         shared_kitchen_title: "Gemeinschaftsküche",
-        shared_kitchen_text: "Voll ausgestattete zusätzliche Küche für Gäste — besonders praktisch bei längeren Aufenthalten.",
+        shared_kitchen_text: "Voll ausgestattete zusätzliche Küche für Gäste - besonders praktisch bei längeren Aufenthalten.",
         shared_kitchen_tag: "Für Gäste verfügbar",
         shared_salon_title: "Wohnzimmer mit Spielen",
-        shared_salon_text: "Gemütliches Wohnzimmer mit zusätzlichem Fernseher und einer großen Auswahl an Brettspielen — ideal für Abende mit Familie und Freunden.",
+        shared_salon_text: "Gemütliches Wohnzimmer mit zusätzlichem Fernseher und einer großen Auswahl an Brettspielen - ideal für Abende mit Familie und Freunden.",
         shared_salon_tag: "TV und Brettspiele",
         shared_terrace_title: "Gemeinsame Terrasse",
-        shared_terrace_text: "Ruhige Terrasse am Haus — ein guter Platz für den Morgenkaffee und die Entspannung am Abend nach einem Tag am Strand.",
+        shared_terrace_text: "Ruhige Terrasse am Haus - ein guter Platz für den Morgenkaffee und die Entspannung am Abend nach einem Tag am Strand.",
         shared_terrace_tag: "Entspannungsbereich",
         am_wifi: "Kostenloses WLAN",
         am_parking: "Abgeschlossener Parkplatz",
@@ -913,7 +913,7 @@
         news_card2_title: "Freie Termine und Angebote",
         news_card2_text: "Nach freien Terminen und Sonderangeboten fragen Sie uns am besten direkt.",
         news_card2_more: "Termin anfragen →",
-        news_card2_aria: "Freie Termine — Aufenthalt anfragen",
+        news_card2_aria: "Freie Termine - Aufenthalt anfragen",
         news_facebook_button: "Auf Facebook ansehen",
         news_facebook_aria: "Dom Latarnika auf Facebook ansehen",
         season_modal_aria: "Fotos aus der Saison",
@@ -975,12 +975,12 @@
         payment_recipient_value: "Marek Brączyk / Dom Latarnika",
         payment_account_label: "Kontonummer:",
         payment_transfer_label: "Verwendungszweck:",
-        payment_transfer_value: "Anzahlung — Vorname und Nachname, Aufenthaltsdatum",
+        payment_transfer_value: "Anzahlung - Vorname und Nachname, Aufenthaltsdatum",
         payment_example_label: "Beispiel:",
-        payment_example_value: "Anzahlung — Anna Kowalska, 12.–18.07.2026",
+        payment_example_value: "Anzahlung - Anna Kowalska, 12.-18.07.2026",
         footer_title: "Dom Latarnika",
         footer_text: "Grzybowo · ul. Nadmorska 65A",
-        footer_seo: "Urlaub an der Ostsee in Grzybowo – Unterkünfte am polnischen Meer nahe Kolberg (Kołobrzeg), Dźwirzyno und der Ostsee.",
+        footer_seo: "Urlaub an der Ostsee in Grzybowo - Unterkünfte am polnischen Meer nahe Kolberg (Kołobrzeg), Dźwirzyno und der Ostsee.",
         ai_badge: "KI-Illustration",
         ai_disclosure: "Einige Grafiken auf der Website (die schematische Umgebungskarte und die Icons im Vorteile-Bereich) wurden mithilfe künstlicher Intelligenz erstellt. Die Fotos des Hauses, der Zimmer und der Umgebung sind echt.",
         faq: "FAQ",
@@ -988,9 +988,9 @@
         faq_title: "Häufige Fragen",
         faq_text: "Kurze Antworten auf Fragen, die Gäste vor der Anreise am häufigsten stellen.",
         faq_q1: "Wie weit ist es zum Strand?",
-        faq_a1: "Zum Strand sind es nur wenige Gehminuten — das Haus liegt in einem ruhigen Teil von Grzybowo, nahe am Meer.",
+        faq_a1: "Zum Strand sind es nur wenige Gehminuten - das Haus liegt in einem ruhigen Teil von Grzybowo, nahe am Meer.",
         faq_q2: "Gibt es Parkplätze vor Ort?",
-        faq_a2: "Ja. Den Gästen steht ein kostenloser, eingezäunter und videoüberwachter Parkplatz auf dem Gelände zur Verfügung.",
+        faq_a2: "Ja. Den Gästen steht ein eingezäunter und videoüberwachter Parkplatz auf dem Gelände zur Verfügung.",
         faq_q3: "Wann sind Check-in und Check-out?",
         faq_a3: "Check-in ab 15:00 Uhr, Check-out bis 10:00 Uhr. Andere Zeiten bitte vorab mit dem Gastgeber abstimmen.",
         faq_q4: "Was steht den Gästen zur Verfügung?",
@@ -1001,7 +1001,7 @@
       },
       en: {
         title: "Dom Latarnika - peaceful seaside stay in Grzybowo",
-        description: "Dom Latarnika in Grzybowo – seaside holidays on the Polish Baltic coast near Kołobrzeg. Comfortable rooms, studios and an apartment, a shared kitchen, lounge and terrace, a peaceful location near the sea and convenient online booking.",
+        description: "Dom Latarnika in Grzybowo - seaside holidays on the Polish Baltic coast near Kołobrzeg. Comfortable rooms, studios and an apartment, a shared kitchen, lounge and terrace, a peaceful location near the sea and convenient online booking.",
         skip: "Skip to content",
         a11y_btn_aria: "Accessibility options",
         a11y_panel_aria: "Accessibility tools",
@@ -1068,7 +1068,7 @@
         panel_sea_label: "Distance to the sea",
         panel_sea_value: "A few minutes' walk to the beach.",
         panel_parking_label: "Parking",
-        panel_parking_value: "free, on site",
+        panel_parking_value: "on site",
         panel_booking_label: "Booking",
         panel_booking_value: "online or by phone",
         usp_kicker: "Why choose us",
@@ -1115,7 +1115,7 @@
         area_score_point5: "a good location for a family stay.",
         area_beach_modal_aria: "Beach and attractions",
         area_beach_modal_title: "Beach and attractions",
-        area_beach_modal_text: "Beach, walks and local attractions — all close to Dom Latarnika.",
+        area_beach_modal_text: "Beach, walks and local attractions - all close to Dom Latarnika.",
         area_beach_modal_button: "Show on map",
         area_beach_card1_title: "Beach in Grzybowo",
         area_beach_card1_subtitle: "around 500 m from the property",
@@ -1208,20 +1208,20 @@
         room_best_long_family: "families and longer stays",
         room_best_apartment: "families, groups and longer stays",
         rg_priv_tag: "Private · 1 person",
-        rg_priv_title: "Room “0” — a private retreat",
+        rg_priv_title: "Room “0” - a private retreat",
         rg_priv_desc: "A fully private room, separated from the rest of the house, designed for one person. Maximum peace and independence.",
         rg_stairs_tag: "2 rooms · a few steps",
         rg_stairs_title: "Rooms “DO” and “DU”",
-        rg_stairs_desc: "These two rooms are reached a few (5) steps up — which gives a pleasant sense of seclusion.",
+        rg_stairs_desc: "These two rooms are reached a few (5) steps up - which gives a pleasant sense of seclusion.",
         rg_std_tag: "6 rooms",
-        rg_std_title: "Rooms 1h–6h",
-        rg_std_desc: "Comfortable, bright rooms with a private bathroom — great for couples and families. Six numbers to choose from.",
+        rg_std_title: "Rooms 1h-6h",
+        rg_std_desc: "Comfortable, bright rooms with a private bathroom - great for couples and families. Six numbers to choose from.",
         rg_attic_tag: "2 rooms · attic",
-        rg_attic_title: "In the attic — 7h and 8h",
-        rg_attic_desc: "Cosy rooms under sloped ceilings, in the attic — with a warm, holiday feel.",
+        rg_attic_title: "In the attic - 7h and 8h",
+        rg_attic_desc: "Cosy rooms under sloped ceilings, in the attic - with a warm, holiday feel.",
         rg_join_tag: "Connected · Bliźniak",
         rg_join_title: "“R”, “Piętrus” and “Bliźniak”",
-        rg_join_desc: "“R” is the owner's favourite room — ask why in person 😉. Together with “Piętrus” they form “Bliźniak”: two separate rooms joined into one, ideal for a larger family.",
+        rg_join_desc: "“R” is the owner's favourite room - ask why in person 😉. Together with “Piętrus” they form “Bliźniak”: two separate rooms joined into one, ideal for a larger family.",
         rg_apart_tag: "Apartment",
         rg_apart_title: "Apartment",
         rg_apart_desc: "The most space: separate bedrooms, a living room with a kitchenette and a private entrance.",
@@ -1260,16 +1260,16 @@
         amenities_bath: "A private bathroom in every room",
         spaces_kicker: "Shared spaces",
         spaces_title: "Places that bring guests together",
-        spaces_text: "Beyond your own room, shared spaces await — for cooking, playing together and relaxing in the fresh air.",
+        spaces_text: "Beyond your own room, shared spaces await - for cooking, playing together and relaxing in the fresh air.",
         shared_media_soon: "Photos and videos coming soon",
         shared_kitchen_title: "Shared kitchen",
-        shared_kitchen_text: "A fully equipped extra kitchen available to guests — especially handy for longer stays.",
+        shared_kitchen_text: "A fully equipped extra kitchen available to guests - especially handy for longer stays.",
         shared_kitchen_tag: "Available to guests",
         shared_salon_title: "Lounge with games",
-        shared_salon_text: "A cosy lounge with an extra TV and a large choice of board games — perfect for evenings with family and friends.",
+        shared_salon_text: "A cosy lounge with an extra TV and a large choice of board games - perfect for evenings with family and friends.",
         shared_salon_tag: "TV and board games",
         shared_terrace_title: "Shared terrace",
-        shared_terrace_text: "A quiet terrace by the building — a great spot for morning coffee and evening relaxation after a day at the beach.",
+        shared_terrace_text: "A quiet terrace by the building - a great spot for morning coffee and evening relaxation after a day at the beach.",
         shared_terrace_tag: "Relaxation area",
         am_wifi: "Free WiFi",
         am_parking: "Gated parking",
@@ -1295,7 +1295,7 @@
         news_card2_title: "Free dates and offers",
         news_card2_text: "For last-minute availability and special offers, it is best to ask us directly.",
         news_card2_more: "Ask about dates →",
-        news_card2_aria: "Free dates — ask about a stay",
+        news_card2_aria: "Free dates - ask about a stay",
         news_facebook_button: "See us on Facebook",
         news_facebook_aria: "See Dom Latarnika on Facebook",
         season_modal_aria: "Photos from the season",
@@ -1357,12 +1357,12 @@
         payment_recipient_value: "Marek Brączyk / Dom Latarnika",
         payment_account_label: "Account number:",
         payment_transfer_label: "Transfer title:",
-        payment_transfer_value: "Deposit — first and last name, stay dates",
+        payment_transfer_value: "Deposit - first and last name, stay dates",
         payment_example_label: "Example:",
-        payment_example_value: "Deposit — Anna Kowalska, 12–18.07.2026",
+        payment_example_value: "Deposit - Anna Kowalska, 12-18.07.2026",
         footer_title: "Dom Latarnika",
         footer_text: "Grzybowo · ul. Nadmorska 65A",
-        footer_seo: "Seaside holidays in Grzybowo – accommodation on the Polish Baltic coast near Kołobrzeg, Dźwirzyno and the Baltic Sea.",
+        footer_seo: "Seaside holidays in Grzybowo - accommodation on the Polish Baltic coast near Kołobrzeg, Dźwirzyno and the Baltic Sea.",
         ai_badge: "AI illustration",
         ai_disclosure: "Some graphics on this site (the schematic area map and the icons in the highlights section) were generated using artificial intelligence. Photos of the property, rooms and surroundings are real.",
         faq: "FAQ",
@@ -1370,9 +1370,9 @@
         faq_title: "Frequently asked questions",
         faq_text: "Short answers to the questions guests ask most often before arrival.",
         faq_q1: "How far is the beach?",
-        faq_a1: "The beach is just a few minutes' walk away — the property sits in a quiet part of Grzybowo, close to the sea.",
+        faq_a1: "The beach is just a few minutes' walk away - the property sits in a quiet part of Grzybowo, close to the sea.",
         faq_q2: "Is there parking on site?",
-        faq_a2: "Yes. Guests can use free, fenced and monitored parking on the property.",
+        faq_a2: "Yes. Guests can use fenced and monitored parking on the property.",
         faq_q3: "What are the check-in and check-out times?",
         faq_a3: "Check-in from 15:00, check-out by 10:00. Other times can be arranged with the owner in advance.",
         faq_q4: "What can guests use?",
@@ -1417,7 +1417,7 @@
       }
     ];
 
-    // Kolekcje pokoi — osobne pozycje pod wybór użytkownika.
+    // Kolekcje pokoi - osobne pozycje pod wybór użytkownika.
     // Każda pozycja: nazwy pokoi (names), zdjęcia, metadane decyzyjne i wyposażenie.
     // Aby dodać zdjęcia: wrzuć pliki do img/rooms/ i wpisz ich ścieżki w "images".
     const roomGroups = [
@@ -1811,7 +1811,7 @@
     // (np. wideo o nazwie kuchnia.mp4 w katalogu img/shared). Pusta wartość = placeholder „Zdjęcia i nagrania wkrótce".
     const sharedSpaces = [
       { id: "kitchen", icon: "kitchen", image: "img/shared/shared-kitchen-01.webp", video: "", titleKey: "shared_kitchen_title", textKey: "shared_kitchen_text", tagKey: "shared_kitchen_tag" },
-      { id: "salon", icon: "games", image: "img/shared/shared-salon-01.webp", video: "", titleKey: "shared_salon_title", textKey: "shared_salon_text", tagKey: "shared_salon_tag" },
+      { id: "salon", icon: "games", image: "img/shared/shared-salon-01.webp", video: "img/shared/salon.mp4", titleKey: "shared_salon_title", textKey: "shared_salon_text", tagKey: "shared_salon_tag" },
       { id: "terrace", icon: "terrace", image: "img/shared/shared-terrace-01.webp", video: "", titleKey: "shared_terrace_title", textKey: "shared_terrace_text", tagKey: "shared_terrace_tag" }
     ];
 
@@ -2119,7 +2119,7 @@
       return attractionCards.map((card) => {
         const title = dict[card.titleKey] || "";
         const subtitle = dict[card.subtitleKey] || "";
-        const alt = subtitle ? `${title} — ${subtitle}` : title;
+        const alt = subtitle ? `${title} - ${subtitle}` : title;
         const encodedImages = JSON.stringify(card.images).replace(/"/g, "&quot;");
         return `
           <article class="area-attraction-card" data-attraction-card data-images="${encodedImages}" data-alt="${alt}">
@@ -2230,14 +2230,8 @@
       return [String(value)];
     }
 
-    function roomNamesMarkup(group, dict, className) {
-      if (!Array.isArray(group.names) || !group.names.length) return "";
-      return `
-        <div class="room-names ${className || ""}">
-          <span>${dict.room_names_label || "Pokoje w tej kategorii"}</span>
-          <strong>${group.names.join(", ")}</strong>
-        </div>
-      `;
+    function roomNamesMarkup() {
+      return "";
     }
 
     let activeRoomFilter = "apartment";
@@ -2301,7 +2295,6 @@
           <article class="card room-card${group.cover ? "" : " room-card--placeholder"}" data-room-index="${group.index}" data-reveal>
             <div class="room-card-media">
               ${media}
-              <span class="room-card-badge">${tag}</span>
             </div>
             <div class="room-body">
               <h3>${title}</h3>
@@ -2367,7 +2360,6 @@
           <article class="shared-card">
             <div class="shared-media${space.video ? " has-video" : ""}${space.image || space.video ? "" : " is-empty"}">
               ${media}
-              <span class="shared-tag">${tag}</span>
             </div>
             <div class="shared-body">
               <div>
@@ -2817,7 +2809,7 @@
     }
 
     // ---- Galeria „Zdjęcia z tego sezonu” (kafelek w Aktualnościach) ----
-    // Do 5 zdjęć — podmień/dodaj ścieżki poniżej (pliki w img/).
+    // Do 5 zdjęć - podmień/dodaj ścieżki poniżej (pliki w img/).
     const seasonPhotos = [
       "img/season/season-02.webp",
       "img/season/season-03.webp",
