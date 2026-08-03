@@ -381,7 +381,7 @@
         room_filter_kitchenette: "Aneks",
         room_filter_larger: "Większe",
         room_filter_twin: "Bliźniak",
-        room_filter_solo: "1-osobowy",
+        room_filter_solo: "1-osobowe",
         room_no_results: "Brak pokoi dla wybranego filtra.",
         room_meta_capacity: "Liczba osób",
         room_meta_beds: "Łóżka",
@@ -1447,20 +1447,45 @@
         featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_wifi"]
       },
       {
-        id: "pokoj-2",
-        images: ["img/rooms/room-2-01.webp", "img/rooms/room-2-02.webp", "img/rooms/room-2-03.webp", "img/rooms/room-2-04.webp"],
-        names: ["1", "2"],
-        tag: { pl: "Pokoje 1 i 2 · małżeńskie", de: "Zimmer 1 und 2 · Doppelbett", en: "Rooms 1 and 2 · double bed" },
-        title: { pl: "Pokoje nr 1 i 2", de: "Zimmer 1 und 2", en: "Rooms 1 and 2" },
+        id: "pokoj-1",
+        images: ["img/rooms/room-2-01.webp", "img/rooms/room-2-02.webp"],
+        names: ["1"],
+        tag: { pl: "Pokój 1 · małżeńskie", de: "Zimmer 1 · Doppelbett", en: "Room 1 · double bed" },
+        title: { pl: "Pokój nr 1", de: "Zimmer 1", en: "Room 1" },
         desc: {
-          pl: "Przytulne pokoje 2-osobowe z dużym łóżkiem małżeńskim, prywatną łazienką, lodówką i aneksem kuchennym.",
-          de: "Gemütliche 2-Personen-Zimmer mit großem Doppelbett, eigenem Bad, Kühlschrank und Küchenzeile.",
-          en: "Cosy 2-person rooms with a large double bed, private bathroom, refrigerator and kitchenette."
+          pl: "Przytulny pokój 2-osobowy z dużym łóżkiem małżeńskim, prywatną łazienką, lodówką i aneksem kuchennym.",
+          de: "Gemütliches 2-Personen-Zimmer mit großem Doppelbett, eigenem Bad, Kühlschrank und Küchenzeile.",
+          en: "A cosy 2-person room with a large double bed, private bathroom, refrigerator and kitchenette."
         },
         details: {
           pl: [
-            "Pokoje nr 1 i 2 to przytulne i funkcjonalne pokoje przeznaczone dla dwóch osób. Ich najważniejszym elementem jest duże, wygodne łóżko małżeńskie.",
-            "Każdy pokój posiada prywatną łazienkę z prysznicem, telewizor oraz lodówkę. Do dyspozycji Gości znajduje się również niewielki aneks kuchenny wyposażony w zestaw naczyń, pozwalający na przygotowanie prostych posiłków i napojów."
+            "Pokój nr 1 to przytulny i funkcjonalny pokój przeznaczony dla dwóch osób. Jego najważniejszym elementem jest duże, wygodne łóżko małżeńskie.",
+            "Pokój posiada prywatną łazienkę z prysznicem, telewizor oraz lodówkę. Do dyspozycji Gości znajduje się również niewielki aneks kuchenny wyposażony w zestaw naczyń, pozwalający na przygotowanie prostych posiłków i napojów."
+          ]
+        },
+        capacityKey: "room_capacity_two",
+        bedsKey: "room_beds_double",
+        floorKey: "room_floor_main",
+        layoutKey: "room_layout_kitchenette",
+        bestForKey: "room_best_two_person",
+        filterTags: ["two"],
+        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kitchenette", "feat_dishes", "feat_wifi"]
+      },
+      {
+        id: "pokoj-2",
+        images: ["img/rooms/room-2-03.webp", "img/rooms/room-2-04.webp"],
+        names: ["2"],
+        tag: { pl: "Pokój 2 · małżeńskie", de: "Zimmer 2 · Doppelbett", en: "Room 2 · double bed" },
+        title: { pl: "Pokój nr 2", de: "Zimmer 2", en: "Room 2" },
+        desc: {
+          pl: "Przytulny pokój 2-osobowy z dużym łóżkiem małżeńskim, prywatną łazienką, lodówką i aneksem kuchennym.",
+          de: "Gemütliches 2-Personen-Zimmer mit großem Doppelbett, eigenem Bad, Kühlschrank und Küchenzeile.",
+          en: "A cosy 2-person room with a large double bed, private bathroom, refrigerator and kitchenette."
+        },
+        details: {
+          pl: [
+            "Pokój nr 2 to przytulny i funkcjonalny pokój przeznaczony dla dwóch osób. Jego najważniejszym elementem jest duże, wygodne łóżko małżeńskie.",
+            "Pokój posiada prywatną łazienkę z prysznicem, telewizor oraz lodówkę. Do dyspozycji Gości znajduje się również niewielki aneks kuchenny wyposażony w zestaw naczyń, pozwalający na przygotowanie prostych posiłków i napojów."
           ]
         },
         capacityKey: "room_capacity_two",
@@ -2165,7 +2190,7 @@
       `;
     }
 
-    let activeRoomFilter = "all";
+    let activeRoomFilter = "apartment";
 
     function roomMetaItems(group, dict) {
       return [
@@ -2744,7 +2769,6 @@
     // ---- Galeria „Zdjęcia z tego sezonu” (kafelek w Aktualnościach) ----
     // Do 5 zdjęć — podmień/dodaj ścieżki poniżej (pliki w img/).
     const seasonPhotos = [
-      "img/season/season-01.webp",
       "img/season/season-02.webp",
       "img/season/season-03.webp",
       "img/season/season-04.webp",
