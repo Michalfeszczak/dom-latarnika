@@ -1443,7 +1443,7 @@
         floorKey: "room_floor_main",
         layoutKey: "room_layout_basic",
         bestForKey: "room_best_high_room",
-        filterTags: ["two", "solo"],
+        filterTags: ["two"],
         featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_wifi"]
       },
       {
@@ -1547,20 +1547,45 @@
         featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_kitchenette", "feat_dishes", "feat_wifi"]
       },
       {
-        id: "pokoje-dol",
-        images: ["img/rooms/dol-ogrod-01.webp", "img/rooms/dol-ogrod-02.webp", "img/rooms/dol-ogrod-03.webp", "img/rooms/dol-ulica-01.webp", "img/rooms/dol-ulica-02.webp", "img/rooms/dol-ulica-03.webp", "img/rooms/dol-ulica-04.webp"],
-        names: ["Dół ogród", "Dół ulica"],
-        tag: { pl: "Dół · 2-osobowe", de: "Unten · 2 Personen", en: "Ground floor · 2-person" },
-        title: { pl: "Pokoje na dole", de: "Zimmer im Erdgeschoss", en: "Ground-floor rooms" },
+        id: "dol-ogrod",
+        images: ["img/rooms/dol-ogrod-01.webp", "img/rooms/dol-ogrod-02.webp", "img/rooms/dol-ogrod-03.webp"],
+        names: ["Dół ogród"],
+        tag: { pl: "Dół ogród · 2-osobowy", de: "Unten Garten · 2 Personen", en: "Ground floor garden · 2-person" },
+        title: { pl: "Pokój Dół ogród", de: "Zimmer „Dół ogród”", en: "Ground-floor garden room" },
         desc: {
-          pl: "Dwa pokoje 2-osobowe na dolnym poziomie: jeden od strony ogrodu, drugi od strony ulicy.",
-          de: "Zwei 2-Personen-Zimmer im Erdgeschoss: eines zur Gartenseite, eines zur Straßenseite.",
-          en: "Two 2-person rooms on the lower level: one on the garden side and one on the street side."
+          pl: "Pokój 2-osobowy na dolnym poziomie od strony ogrodu, z prywatną łazienką i praktycznym wyposażeniem.",
+          de: "2-Personen-Zimmer im Erdgeschoss zur Gartenseite, mit eigenem Bad und praktischer Ausstattung.",
+          en: "A 2-person lower-level room on the garden side, with a private bathroom and practical amenities."
         },
         details: {
           pl: [
-            "Pokoje „Dół ogród” i „Dół ulica” to dwie osobne propozycje na dolnym poziomie obiektu. Sprawdzą się dla Gości, którzy wolą niższą kondygnację i prosty, wygodny układ pobytu.",
-            "Każdy pokój posiada prywatną łazienkę z prysznicem oraz praktyczne wyposażenie potrzebne podczas krótkiego lub dłuższego wypoczynku."
+            "Pokój „Dół ogród” znajduje się na dolnym poziomie obiektu, od strony ogrodu. Sprawdzi się dla Gości, którzy wolą niższą kondygnację i spokojne otoczenie zieleni.",
+            "Pokój posiada prywatną łazienkę z prysznicem oraz praktyczne wyposażenie potrzebne podczas krótkiego lub dłuższego wypoczynku."
+          ]
+        },
+        capacityKey: "room_capacity_two",
+        bedsKey: "room_beds_double",
+        floorKey: "room_floor_ground",
+        layoutKey: "room_layout_ground_side",
+        bestForKey: "room_best_two_person",
+        filterTags: ["two"],
+        featureKeys: ["feat_bath", "feat_tv", "feat_fridge", "feat_wifi"]
+      },
+      {
+        id: "dol-ulica",
+        images: ["img/rooms/dol-ulica-01.webp", "img/rooms/dol-ulica-02.webp", "img/rooms/dol-ulica-03.webp", "img/rooms/dol-ulica-04.webp"],
+        names: ["Dół ulica"],
+        tag: { pl: "Dół ulica · 2-osobowy", de: "Unten Straße · 2 Personen", en: "Ground floor street · 2-person" },
+        title: { pl: "Pokój Dół ulica", de: "Zimmer „Dół ulica”", en: "Ground-floor street room" },
+        desc: {
+          pl: "Pokój 2-osobowy na dolnym poziomie od strony ulicy, z prywatną łazienką i praktycznym wyposażeniem.",
+          de: "2-Personen-Zimmer im Erdgeschoss zur Straßenseite, mit eigenem Bad und praktischer Ausstattung.",
+          en: "A 2-person lower-level room on the street side, with a private bathroom and practical amenities."
+        },
+        details: {
+          pl: [
+            "Pokój „Dół ulica” znajduje się na dolnym poziomie obiektu, od strony ulicy. To wygodna propozycja dla Gości, którzy wolą niższą kondygnację i prosty, funkcjonalny układ pobytu.",
+            "Pokój posiada prywatną łazienkę z prysznicem oraz praktyczne wyposażenie potrzebne podczas krótkiego lub dłuższego wypoczynku."
           ]
         },
         capacityKey: "room_capacity_two",
