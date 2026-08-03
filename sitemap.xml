@@ -3,12 +3,12 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://dom-latarnika.pl/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://dom-latarnika.pl/img/og-image.webp</image:loc>
-      <image:title>Dom Latarnika – pensjonat w Grzybowie</image:title>
+      <image:title>Dom Latarnika - pensjonat w Grzybowie</image:title>
     </image:image>
   </url>
   <url>

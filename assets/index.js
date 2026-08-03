@@ -237,7 +237,7 @@
     const translations = {
       pl: {
         title: "Dom Latarnika - pensjonat nad morzem w Grzybowie",
-        description: "Pensjonat Dom Latarnika w Grzybowie - wakacje nad morzem koło Kołobrzegu. Komfortowe pokoje, studia i apartament nad Bałtykiem, wspólna kuchnia, salon i taras, spokojna lokalizacja blisko plaży i wygodna rezerwacja online.",
+        description: "Pensjonat Dom Latarnika w Grzybowie - wakacje nad morzem koło Kołobrzegu. Komfortowe pokoje, studia i apartament nad Bałtykiem, blisko plaży.",
         skip: "Przejdź do treści",
         a11y_btn_aria: "Ułatwienia dostępności",
         a11y_panel_aria: "Ułatwienia dostępności",
@@ -295,7 +295,7 @@
         check_availability: "Sprawdź dostępność",
         navigate: "Nawiguj",
         hero_kicker: "Pensjonat Dom Latarnika · Grzybowo",
-        hero_title: "Udane wakacje nad Bałtykiem",
+        hero_title: "Udane wakacje nad Bałtykiem w Grzybowie",
         hero_text: "Spokojny wypoczynek w Grzybowie, blisko morza, z komfortowymi pokojami, studiami i apartamentem oraz wygodną rezerwacją online.",
         panel_title: "Najważniejsze informacje",
         panel_text: "Najważniejsze rzeczy w jednym miejscu, przed planowaniem pobytu.",
@@ -619,7 +619,7 @@
       },
       de: {
         title: "Dom Latarnika - ruhiger Aufenthalt am Meer in Grzybowo",
-        description: "Dom Latarnika in Grzybowo - Urlaub an der Ostsee nahe Kolberg (Kołobrzeg). Komfortable Zimmer, Studios und Apartment, Gemeinschaftsküche, Wohnzimmer und Terrasse, ruhige Lage nahe am Meer und bequeme Online-Buchung.",
+        description: "Pension Dom Latarnika in Grzybowo - Urlaub an der Ostsee nahe Kolberg. Komfortable Zimmer, Studios und Apartment, ruhige Lage nah am Meer.",
         skip: "Zum Inhalt",
         a11y_btn_aria: "Barrierefreiheit",
         a11y_panel_aria: "Barrierefreiheitshilfen",
@@ -677,7 +677,7 @@
         check_availability: "Verfügbarkeit prüfen",
         navigate: "Navigation",
         hero_kicker: "Pension Dom Latarnika · Grzybowo",
-        hero_title: "Gelungener Urlaub an der Ostsee",
+        hero_title: "Gelungener Urlaub an der Ostsee in Grzybowo",
         hero_text: "Erholsame Tage in Grzybowo, nahe am Meer, mit komfortablen Zimmern, Studios und einem Apartment sowie bequemer Online-Buchung.",
         panel_title: "Wichtige Informationen",
         panel_text: "Die wichtigsten Punkte an einem Ort, noch vor der Planung des Aufenthalts.",
@@ -1001,7 +1001,7 @@
       },
       en: {
         title: "Dom Latarnika - peaceful seaside stay in Grzybowo",
-        description: "Dom Latarnika in Grzybowo - seaside holidays on the Polish Baltic coast near Kołobrzeg. Comfortable rooms, studios and an apartment, a shared kitchen, lounge and terrace, a peaceful location near the sea and convenient online booking.",
+        description: "Dom Latarnika guesthouse in Grzybowo - seaside holidays on the Polish Baltic near Kołobrzeg. Comfortable rooms, studios and an apartment near the beach.",
         skip: "Skip to content",
         a11y_btn_aria: "Accessibility options",
         a11y_panel_aria: "Accessibility tools",
@@ -1059,7 +1059,7 @@
         check_availability: "Check availability",
         navigate: "Navigate",
         hero_kicker: "Dom Latarnika Guesthouse · Grzybowo",
-        hero_title: "A relaxing holiday by the Baltic Sea",
+        hero_title: "A relaxing holiday by the Baltic Sea in Grzybowo",
         hero_text: "A peaceful stay in Grzybowo, close to the sea, with comfortable rooms, studios and an apartment, and convenient online booking.",
         panel_title: "Key information",
         panel_text: "The most important details in one place before planning your stay.",
